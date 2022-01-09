@@ -1,0 +1,417 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   My Dashboard
+{% endblock %}
+
+{% block main %}
+    <!-- Error message -->
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <h2 class='h2'>{{ loc_classes['print'] }}</h2>
+
+    <div class="container">
+        <form class="form-inline" action="/home" method="post">
+            <input autocomplete="off" class="form-control mb-2 mr-sm-2 col-sm-6"
+                autofocus name="destination" placeholder="Country or City"
+                type="text">
+            <select class="form-control mb-2 mr-sm-2 col-sm-2"
+                    autofocus name="language">
+                {% for option in options %}
+                    <option value="{{ option }}">{{ option }}</option>
+                {% endfor %}
+            </select>
+
+            <div>
+                <button class="btn btn-primary mb-2"
+                        type="submit">GO</button>
+            </div>
+        </form>
+    </div>
+    <br>
+
+    <div class="container-fluid" style="margin-top:30px">
+
+        <div class="row">
+
+        <!-- Info Box -->
+        <div class="col-sm-3">
+            {% if info %}
+            <div class="container-fluid info_box">
+                <div class="info_title">Info box</div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-map-marked-alt fa-lg"></i></div>
+                    <div class="col info_p">{{ info["country"] }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-archway fa-lg"></i></div>
+                    <div class="col info_p">{{ info["capital"].title() }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-history fa-lg"></i></div>
+                    <div class="col info_p">GMT {{ info["time_zone"] }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-phone-square fa-lg"></i></div>
+                    <div class="col info_p">{{ info["phone"] }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-network-wired"></i></div>
+                    <div class="col info_p">{{ info["internet"] }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-users fa-lg"></i></div>
+                    <div class="col info_p">{{ info["pop"] }} Mil. </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-wallet fa-lg"></i></div>
+                    <div class="col info_p">{{ info["gdp"] }} {{ info["gdp_cur"]}} </div>
+                    <div class="col"></div>
+                </div>
+            <br>
+            </div>
+            <br>
+            {% endif %}
+
+
+        <!-- FX rate widget (part of of info box) -->
+            {% if info["cur_name"] == "Euro" %}
+            <div class="container-fluid info_box">
+                <div class="info_title">{{ info["title_euro"] }}</div>
+                <div class="row row-cols-2">
+                    <div class="col"><i class="fas fa-euro-sign fa-lg"></i>
+                        <i class="fas fa-exchange-alt fa-lg"></i>
+                        <i class="fas fa-dollar-sign fa-lg"></i>
+                    </div>
+                    <div class="col info_p">{{ info["eur_usd"] }}
+                        <i class="fas fa-dollar-sign fa-lg"></i></div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col">100 <i class="fas fa-dollar-sign fa-lg"></i></div>
+                    <div class="col info_p">{{ info["100_usd"] }}
+                        <i class="fas fa-euro-sign fa-lg"></i></div>
+                </div>
+            <br>
+            </div>
+            {% endif %}
+            {% if info["cur_eur"] %}
+            <div class="container-fluid info_box">
+                <div class="info_title">{{ info["title"] }}</div>
+                <div class="row row-cols-2">
+                    <div class="col"><i class="fas fa-euro-sign fa-lg"></i>
+                        <i class="fas fa-exchange-alt fa-lg"></i>
+                        {{ info["cur_name"] }}
+                    </div>
+                    <div class="col info_p">{{ info["cur_eur"] }}
+                        {{ info["cur_name"] }}</div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col"><i class="fas fa-dollar-sign fa-lg"></i>
+                        <i class="fas fa-exchange-alt fa-lg"></i>
+                        {{ info["cur_name"] }}
+                    </div>
+                    <div class="col info_p">{{ info["cur_usd"] }}
+                        {{ info["cur_name"] }}</div>
+                </div>
+                <div class="row row-cols-2">
+                    <div class="col">{{ info["feeling_factor"] }}
+                        {{ info["cur_name"] }}</div>
+                    <div class="col info_p">{{ info["feeling_cur"] }}
+                        <i class="fas fa-euro-sign fa-lg"></i></div>
+                </div>
+            <br>
+            </div>
+            {% endif %}
+            <br>
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <i class="button_icon fas fa-info-circle fa-2x"></i>
+                    <a href="{{ links_dic['wiki'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Wikipedia</a>
+                    <br>
+
+                    <!-- Power Adapter -->
+                    {% if links_dic['power_de'] %}
+                        <i class="button_icon fas fa-plug fa-2x"></i>
+                        <a href="{{ links_dic['power_de'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Steckdosen Adapter</a>
+                    {% endif %}
+                    {% if links_dic['power_en'] %}
+                        <i class="button_icon fas fa-plug fa-2x"></i>
+                        <a href="{{ links_dic['power_en'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Power Adapter</a>
+                    {% endif %}
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+        <div class="col-sm-4">
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <i class="button_icon fas fa-atlas fa-2x"></i>
+                    <a href="{{ links_dic['lp'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Lonely Planet</a>
+                    <br>
+                    <i class="button_icon fas fa-utensils fa-2x"></i>
+                    <a href="{{ links_dic['michelin'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Michelin Guide</a>
+                </div>
+            </div>
+            <br>
+            {% if weather %}
+            <!-- Weather Widget -->
+            <div class="container-fluid weather_box">
+                <div class="row row-cols-3">
+                    <div class="col"><br><p class="weather_title">{{ weather[0]["feels_like"] }}°C</p><p style="text-align: center">{{ weather[0]["feels_title"] }}</p></div>
+                    <div class="col"><br><img class="weather_icon"
+                        src="http://openweathermap.org/img/w/{{ weather[0]['icon'] }}.png"
+                        alt="weather_icon"><p>{{ weather[0]["description"] }}</p></div>
+                    <div class="col"><br><p>{{ weather[0]["sunrise_title"] }}: {{ weather[0]["sunrise"] }}</p>
+                                        <p>{{ weather[0]["sunset_title"] }}: {{ weather[0]["sunset"] }}</p></div>
+                </div>
+                <br>
+
+                <div class="row row-cols-4">
+                    <div class="col"><p class="weather_subtitle">{{ weather[0]["day"] }}</p></div>
+                    <div class="col"><p class="weather_p">{{ weather[0]["temp"] }}°C</p></div>
+                    <div class="col"><p class="weather_p">{{ weather[0]["humidity"] }}%</p></div>
+                    <div class="col"><p class="weather_p">{{ weather[0]["wind"] }} m/s</p></div>
+                </div>
+                {% for i in range(1, 3) %}
+                <div class="row row-cols-4">
+                    <div class="col"><p class="weather_subtitle">{{ weather[i]["day"] }}</p></div>
+                    <div class="col"><p class="weather_p">{{ weather[i]["temp_max"] }} - {{ weather[i]["temp_min"] }}°C</p></div>
+                    <div class="col"><p class="weather_p">{{ weather[i]["humi_max"] }} - {{ weather[i]["humi_min"] }}%</p></div>
+                    <div class="col"><p class="weather_p">{{ weather[i]["wind_max"] }} - {{ weather[i]["wind_min"] }} m/s</p></div>
+                </div>
+                {% endfor %}
+            </div>
+            <br>
+            {% endif %}
+
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <!-- Climate -->
+                    <i class="button_icon fas fa-cloud-sun-rain fa-2x"></i>
+                    {% if links_dic['reise_klima'] %}
+                        <a href="{{ links_dic['reise_klima'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Klima</a>
+                    {% endif %}
+                    {% if links_dic['reisezeit'] %}
+                        <a href="{{ links_dic['reisezeit'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Klima</a>
+                    {% endif %}
+                    {% if links_dic['climate'] %}
+                        <a href="{{ links_dic['climate'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Climate</a>
+                    {% endif %}
+                    {% if links_dic['google_clima'] %}
+                        <a href="{{ links_dic['google_clima'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Google Climate</a>
+                    {% endif %}
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+        <!-- Covid19 Graph Widget -->
+        <div class="col-sm-5">
+            {% if covid %}
+            <div class="covid">
+              <canvas id="covid_chart" width="12vw" height="9vh"></canvas>
+
+              <script>
+                  var ctx = document.getElementById("covid_chart").getContext("2d");
+                  var chart = new Chart(ctx, {
+                      // Line graph
+                      type: "line",
+
+                      //Data to plot
+                      data: {
+                          labels: [{% for item in covid["dates"] %}
+                                      "{{ item }}",
+                                    {% endfor %}] ,
+                          datasets: [{
+                              label: "Cases/day",
+                              borderColor: "#000000",
+                              data: {{ covid["cases"] }},
+                              yAxisID: "cases",
+                          },
+                          {
+                              label: "Deaths/day",
+                              borderColor: "#DC143C",
+                              data: {{ covid["deaths"] }},
+                              yAxisID: "deaths"
+                          }]
+                      },
+
+                      // Configuration of options
+                      options: {
+                          legend: {
+                              align: "center",
+                              labels: {
+                                  fontSize: 14,
+                              },
+                          },
+                          elements: {
+                              line: {
+                                  tension: 1
+                              },
+                              point: {
+                                  radius: 0
+                              }
+                          },
+                          title: {
+            					display: true,
+            					text: "COVID-19 {{ loc_classes['country_en'].title() }} (2 week moving average)",
+                              fontSize: 18,
+                          },
+                          scales: {
+                              yAxes: [{
+                                  type: "linear",
+                                  display: "true",
+                                  position: "left",
+                                  id: "cases",
+                                  ticks: {
+                                      beginAtZero: "true",
+                                      min: 0,
+                                  },
+                                  gridlines: {
+                                      drawOnChartArea: "false",
+                                  },
+                              }, {
+                                  type: "linear",
+                                  display: "true",
+                                  position: "right",
+                                  id: "deaths",
+                                  ticks: {
+                                      beginAtZero: "true",
+                                      min: 0,
+                                  },
+                                  gridlines: {
+                                      drawOnChartArea: "false",
+                                  },
+                              }],
+                          }
+                      }
+                  });
+
+              </script>
+            </div>
+            <br>
+            {% endif %}
+
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <!-- Government travel advisory -->
+                    {% if links_dic['gov_de'] %}
+                        <i class="button_icon fas fa-passport fa-2x"></i>
+                        <a href="{{ links_dic['gov_de'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Auswärtiges Amt</a>
+                        <br>
+                    {% endif %}
+                    {% if links_dic['gov_en'] %}
+                        <i class="button_icon fas fa-passport fa-2x"></i>
+                        <a href="{{ links_dic['gov_en'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Gov Travel Advisory</a>
+                        <br>
+                    {% endif %}
+
+                    <!-- Medicine / Health Care-->
+                    {% if links_dic['medi_de'] %}
+                        <i class="button_icon fas fa-notes-medical fa-2x"></i>
+                        <a href="{{ links_dic['medi_de'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Gesundheit</a>
+                    {% endif %}
+                    {% if links_dic['medi_en'] %}
+                        <i class="button_icon fas fa-notes-medical fa-2x"></i>
+                        <a href="{{ links_dic['medi_en'] }}" type="button"
+                            class="btn btn-primary" target="_blank">Health Care</a>
+                    {% endif %}
+                </div>
+            </div>
+            <br>
+        </div>
+
+
+        <!--Embedded Google Maps destination country-->
+        <div class="col-sm-5">
+            <iframe src="{{ links_dic['maps'] }}" class="map" name="google_maps"
+                    allowfullscreen></iframe>
+            <br><br>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <i class="button_icon fas fa-bed fa-2x"></i>
+                    <a href="{{ links_dic['booking'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Booking</a>
+                    <a href="{{ links_dic['airbnb'] }}" type="button" class="btn btn-primary"
+                        target="_blank">AirBnB</a>
+                </div>
+            </div>
+            <br>
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <i class="button_icon fas fa-plane-departure fa-2x"></i>
+                    <a href="{{ links_dic['kayak'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Kayak</a>
+                    <a href="{{ links_dic['lh'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Lufthansa</a>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <!-- National holidays widget -->
+        {% if holidays %}
+        <div class="col-sm-3">
+            <div class="container-fluid info_box">
+                <div class="info_title">{{ holidays[1]["title"] }}
+                    <i class="fas fa-glass-cheers"></i></div>
+                {% if holidays[1]["flag"] == 1 %}
+                <div><i class="fas fa-exclamation-triangle"></i>
+                    {{ holidays[1]["area"] }}</div>
+                <br>
+                {% endif %}
+                {% for holiday in holidays[0] %}
+                <div class="row row-cols-2">
+                    <div class="col info_p">{{ holiday["date"] }}</div>
+                    <div class="col info_p">{{ holiday["name"] }}
+                        {% if holiday["area"] == 1 %}
+                        <i class="fas fa-exclamation-triangle"></i>
+                        {% else %}
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+                <br>
+            </div>
+            <br>
+        </div>
+        {% endif %}
+
+      </div>
+    </div>
+    <br><br>
+    <footer class="small text-center text-muted">
+        <p class="source_footer">Data for free by: Weather by openweathermap.org,
+            FX-rates by exchangesrateapi,
+            Main infos by World Bank,
+            COVID19 data by covid19api</p>
+    </footer>
+{% endblock %}

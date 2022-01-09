@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Create a new Travel Secret
+{% endblock %}
+
+{% block main %}
+<h2 class='h2'>Your new Travel Secret</h2>
+<form action="/blog/create" method="post">
+    <div class="form-group">
+        <label>Title</label>
+          <div class="form-group">
+              <input autocomplete="off" autofocus class="form-control"
+                name="title" placeholder="Title" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+          <label>Why? 1st Reason</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="why1" placeholder="1. Reason" type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Why? 2nd Reason</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="why2" placeholder="2. Reason" type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Why? 3rd Reason</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="why3" placeholder="3. Reason" type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Text</label>
+            <div class="form-group">
+                <textarea autocomplete="off" autofocus class="form-control"
+                  name="text" placeholder="Description" type="text"
+                  rows="4"></textarea>
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Search Keyword</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="link" placeholder="Search Keyword" type="text">
+            </div>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">POST</button>
+    </div>
+</form>
+<br><br>
+{% endblock %}

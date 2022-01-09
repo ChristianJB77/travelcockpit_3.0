@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Edit Travel Secret
+{% endblock %}
+
+{% block main %}
+<h2 class='h2'>Your new Travel Secret</h2>
+<form id="blog-form" data-id="{{ blog.id }}">
+    <div class="form-group">
+        <label>Title</label>
+          <div class="form-group">
+              <input id="title" autocomplete="off" autofocus class="form-control"
+                name="title" placeholder="Title" type="text"
+                value="{{ blog.title }}">
+          </div>
+    </div>
+    <div class="form-group">
+        <label>Why? 1st Reason</label>
+            <div class="form-group">
+                <input id="why1" autocomplete="off" autofocus class="form-control"
+                  name="why1" placeholder="1. Reason" type="text"
+                  value = "{{ blog.why1 }}">
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Why? 2nd Reason</label>
+            <div class="form-group">
+                <input id="why2" autocomplete="off" autofocus class="form-control"
+                  name="why2" placeholder="2. Reason" type="text"
+                  value = "{{ blog.why2 }}">
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Why? 3rd Reason</label>
+            <div class="form-group">
+                <input id="why3" autocomplete="off" autofocus class="form-control"
+                  name="why3" placeholder="3. Reason" type="text"
+                  value = "{{ blog.why3 }}">
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Text</label>
+            <div class="form-group">
+                <textarea id="text" autocomplete="off" autofocus class="form-control"
+                  name="text" placeholder="Description" type="text"
+                  rows="4">{{ blog.text }}</textarea>
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Search Keyword</label>
+            <div class="form-group">
+                <input id="link" autocomplete="off" autofocus class="form-control"
+                  name="link" placeholder="Search Keyword" type="text"
+                  value = "{{ blog.link }}">
+            </div>
+    </div>
+
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">EDIT</button>
+    </div>
+</form>
+<div class="form-group">
+    <a class="back" href="/blog">Back</a>
+</div>
+<br><br>
+
+<script type="text/javascript">
+    // Edit log post (travel secret)
+    const title_input = document.getElementById('title');
+    const why1_input = document.getElementById('why1');
+    const why2_input = document.getElementById('why2');
+    const why3_input = document.getElementById('why3');
+    const text_input = document.getElementById('text');
+    const link_input = document.getElementById('link');
+    document.getElementById('blog-form').onsubmit = function(e) {
+        e.preventDefault;
+        console.log('edit blog', e);
+        const blog_id = e.target.dataset['id'];
+        const title = title_input.value;
+        const why1 = why1_input.value;
+        const why2 = why2_input.value;
+        const why3 = why3_input.value;
+        const text = text_input.value;
+        const link = link_input.value;
+        fetch('/blog/' + blog_id + '/edit/submission', {
+            method: 'PATCH',
+            body: JSON.stringify({
+                'title': title,
+                'why1': why1,
+                'why2': why2,
+                'why3': why3,
+                'text': text,
+                'link': link
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(jsonResponse => {
+            console.log('response', jsonResponse);
+            window.location.reload(true);
+        })
+        .catch(function(e) {
+            console.error(e);
+        })
+    }
+
+
+</script>
+{% endblock %}

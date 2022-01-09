@@ -1,0 +1,250 @@
+country_name,official_name_english,iso3166_1_alpha_2,iso316_1_alpha_3,dial,iso4217_currency_aplhabetic_code,iso4217_currency_country_name,ISO4217_currency_name,capital,continent,tld
+Afghanistan,Afghanistan,AF,AFG,93,AFN,AFGHANISTAN,Afghani,Kabul,AS,.af
+Albania,Albania,AL,ALB,355,ALL,ALBANIA,Lek,Tirana,EU,.al
+Algeria,Algeria,DZ,DZA,213,DZD,ALGERIA,Algerian Dinar,Algiers,AF,.dz
+American Samoa,American Samoa,AS,ASM,1-684,USD,AMERICAN SAMOA,US Dollar,Pago Pago,OC,.as
+Andorra,Andorra,AD,AND,376,EUR,ANDORRA,Euro,Andorra la Vella,EU,.ad
+Angola,Angola,AO,AGO,244,AOA,ANGOLA,Kwanza,Luanda,AF,.ao
+Anguilla,Anguilla,AI,AIA,1-264,XCD,ANGUILLA,East Caribbean Dollar,The Valley,NA,.ai
+Antarctica,,AQ,ATA,672,,,,,AN,.aq
+Antigua & Barbuda,Antigua and Barbuda,AG,ATG,1-268,XCD,ANTIGUA AND BARBUDA,East Caribbean Dollar,St. John's,NA,.ag
+Argentina,Argentina,AR,ARG,54,ARS,ARGENTINA,Argentine Peso,Buenos Aires,SA,.ar
+Armenia,Armenia,AM,ARM,374,AMD,ARMENIA,Armenian Dram,Yerevan,AS,.am
+Aruba,Aruba,AW,ABW,297,AWG,ARUBA,Aruban Florin,Oranjestad,NA,.aw
+Australia,Australia,AU,AUS,61,AUD,AUSTRALIA,Australian Dollar,Canberra,OC,.au
+Austria,Austria,AT,AUT,43,EUR,AUSTRIA,Euro,Vienna,EU,.at
+Azerbaijan,Azerbaijan,AZ,AZE,994,AZN,AZERBAIJAN,Azerbaijanian Manat,Baku,AS,.az
+Bahamas,Bahamas,BS,BHS,1-242,BSD,BAHAMAS,Bahamian Dollar,Nassau,NA,.bs
+Bahrain,Bahrain,BH,BHR,973,BHD,BAHRAIN,Bahraini Dinar,Manama,AS,.bh
+Bangladesh,Bangladesh,BD,BGD,880,BDT,BANGLADESH,Taka,Dhaka,AS,.bd
+Barbados,Barbados,BB,BRB,1-246,BBD,BARBADOS,Barbados Dollar,Bridgetown,NA,.bb
+Belarus,Belarus,BY,BLR,375,BYR,BELARUS,Belarussian Ruble,Minsk,EU,.by
+Belgium,Belgium,BE,BEL,32,EUR,BELGIUM,Euro,Brussels,EU,.be
+Belize,Belize,BZ,BLZ,501,BZD,BELIZE,Belize Dollar,Belmopan,NA,.bz
+Benin,Benin,BJ,BEN,229,XOF,BENIN,CFA Franc BCEAO,Porto-Novo,AF,.bj
+Bermuda,Bermuda,BM,BMU,1-441,BMD,BERMUDA,Bermudian Dollar,Hamilton,NA,.bm
+Bhutan,Bhutan,BT,BTN,975,INR,BHUTAN,Indian Rupee,Thimphu,AS,.bt
+Bolivia,Bolivia (Plurinational State of),BO,BOL,591,BOB,"BOLIVIA, PLURINATIONAL STATE OF",Boliviano,Sucre,SA,.bo
+Bosnia,Bosnia and Herzegovina,BA,BIH,387,BAM,BOSNIA AND HERZEGOVINA,Convertible Mark,Sarajevo,EU,.ba
+Botswana,Botswana,BW,BWA,267,BWP,BOTSWANA,Pula,Gaborone,AF,.bw
+Bouvet Island,,BV,BVT,47,,,,,AN,.bv
+Brazil,Brazil,BR,BRA,55,BRL,BRAZIL,Brazilian Real,Brasilia,SA,.br
+British Indian Ocean Territory,,IO,IOT,246,,,,Diego Garcia,AS,.io
+British Virgin Islands,British Virgin Islands,VG,VGB,1-284,USD,VIRGIN ISLANDS (BRITISH),US Dollar,Road Town,NA,.vg
+Brunei,Brunei Darussalam,BN,BRN,673,BND,BRUNEI DARUSSALAM,Brunei Dollar,Bandar Seri Begawan,AS,.bn
+Bulgaria,Bulgaria,BG,BGR,359,BGN,BULGARIA,Bulgarian Lev,Sofia,EU,.bg
+Burkina Faso,Burkina Faso,BF,BFA,226,XOF,BURKINA FASO,CFA Franc BCEAO,Ouagadougou,AF,.bf
+Burundi,Burundi,BI,BDI,257,BIF,BURUNDI,Burundi Franc,Bujumbura,AF,.bi
+Cambodia,Cambodia,KH,KHM,855,KHR,CAMBODIA,Riel,Phnom Penh,AS,.kh
+Cameroon,Cameroon,CM,CMR,237,XAF,CAMEROON,CFA Franc BEAC,Yaounde,AF,.cm
+Canada,Canada,CA,CAN,1,CAD,CANADA,Canadian Dollar,Ottawa,NA,.ca
+Cape Verde,Cabo Verde,CV,CPV,238,CVE,CABO VERDE,Cabo Verde Escudo,Praia,AF,.cv
+Caribbean Netherlands,"Bonaire, Sint Eustatius and Saba",BQ,BES,599,USD,"BONAIRE, SINT EUSTATIUS AND SABA",US Dollar,,NA,.bq
+Cayman Islands,Cayman Islands,KY,CYM,1-345,KYD,CAYMAN ISLANDS,Cayman Islands Dollar,George Town,NA,.ky
+Central African Republic,Central African Republic,CF,CAF,236,XAF,CENTRAL AFRICAN REPUBLIC,CFA Franc BEAC,Bangui,AF,.cf
+Chad,Chad,TD,TCD,235,XAF,CHAD,CFA Franc BEAC,N'Djamena,AF,.td
+Chile,Chile,CL,CHL,56,CLP,CHILE,Chilean Peso,Santiago,SA,.cl
+China,China,CN,CHN,86,CNY,CHINA,Yuan Renminbi,Beijing,AS,.cn
+Christmas Island,,CX,CXR,61,,,,Flying Fish Cove,AS,.cx
+Cocos (Keeling) Islands,,CC,CCK,61,,,,West Island,AS,.cc
+Colombia,Colombia,CO,COL,57,COP,COLOMBIA,Colombian Peso,Bogota,SA,.co
+Comoros,Comoros,KM,COM,269,KMF,COMOROS,Comoro Franc,Moroni,AF,.km
+Congo - Brazzaville,Congo,CG,COG,242,XAF,CONGO,CFA Franc BEAC,Brazzaville,AF,.cg
+Congo - Kinshasa,Democratic Republic of the Congo,CD,COD,243,,,,Kinshasa,AF,.cd
+Cook Islands,Cook Islands,CK,COK,682,NZD,COOK ISLANDS,New Zealand Dollar,Avarua,OC,.ck
+Costa Rica,Costa Rica,CR,CRI,506,CRC,COSTA RICA,Costa Rican Colon,San Jose,NA,.cr
+Croatia,Croatia,HR,HRV,385,HRK,CROATIA,Croatian Kuna,Zagreb,EU,.hr
+Cuba,Cuba,CU,CUB,53,CUP,CUBA,Cuban Peso,Havana,NA,.cu
+CuraÃ§ao,CuraÃ§ao,CW,CUW,599,ANG,CURAÃ‡AO,Netherlands Antillean Guilder,Willemstad,NA,.cw
+Cyprus,Cyprus,CY,CYP,357,EUR,CYPRUS,Euro,Nicosia,EU,.cy
+Czech Republic,Czechia,CZ,CZE,420,EUR,,,Prague,EU,.cz
+CÃ´te d'Ivoire,CÃ´te d'Ivoire,CI,CIV,225,XOF,CÃ”TE D'IVOIRE,CFA Franc BCEAO,Yamoussoukro,AF,.ci
+Denmark,Denmark,DK,DNK,45,DKK,DENMARK,Danish Krone,Copenhagen,EU,.dk
+Djibouti,Djibouti,DJ,DJI,253,DJF,DJIBOUTI,Djibouti Franc,Djibouti,AF,.dj
+Dominica,Dominica,DM,DMA,1-767,XCD,DOMINICA,East Caribbean Dollar,Roseau,NA,.dm
+Dominican Republic,Dominican Republic,DO,DOM,"1-809,1-829,1-849",DOP,DOMINICAN REPUBLIC,Dominican Peso,Santo Domingo,NA,.do
+Ecuador,Ecuador,EC,ECU,593,USD,ECUADOR,US Dollar,Quito,SA,.ec
+Egypt,Egypt,EG,EGY,20,EGP,EGYPT,Egyptian Pound,Cairo,AF,.eg
+El Salvador,El Salvador,SV,SLV,503,USD,EL SALVADOR,US Dollar,San Salvador,NA,.sv
+Equatorial Guinea,Equatorial Guinea,GQ,GNQ,240,XAF,EQUATORIAL GUINEA,CFA Franc BEAC,Malabo,AF,.gq
+Eritrea,Eritrea,ER,ERI,291,ERN,ERITREA,Nakfa,Asmara,AF,.er
+Estonia,Estonia,EE,EST,372,EUR,ESTONIA,Euro,Tallinn,EU,.ee
+Ethiopia,Ethiopia,ET,ETH,251,ETB,ETHIOPIA,Ethiopian Birr,Addis Ababa,AF,.et
+Falkland Islands,Falkland Islands (Malvinas),FK,FLK,500,FKP,FALKLAND ISLANDS (MALVINAS),Falkland Islands Pound,Stanley,SA,.fk
+Faroe Islands,Faeroe Islands,FO,FRO,298,,,,Torshavn,EU,.fo
+Fiji,Fiji,FJ,FJI,679,FJD,FIJI,Fiji Dollar,Suva,OC,.fj
+Finland,Finland,FI,FIN,358,EUR,FINLAND,Euro,Helsinki,EU,.fi
+France,France,FR,FRA,33,EUR,FRANCE,Euro,Paris,EU,.fr
+French Guiana,French Guiana,GF,GUF,594,EUR,FRENCH GUIANA,Euro,Cayenne,SA,.gf
+French Polynesia,French Polynesia,PF,PYF,689,XPF,FRENCH POLYNESIA,CFP Franc,Papeete,OC,.pf
+French Southern Territories,,TF,ATF,262,,,,Port-aux-Francais,AN,.tf
+Gabon,Gabon,GA,GAB,241,XAF,GABON,CFA Franc BEAC,Libreville,AF,.ga
+Gambia,Gambia,GM,GMB,220,GMD,GAMBIA,Dalasi,Banjul,AF,.gm
+Georgia,Georgia,GE,GEO,995,GEL,GEORGIA,Lari,Tbilisi,AS,.ge
+Germany,Germany,DE,DEU,49,EUR,GERMANY,Euro,Berlin,EU,.de
+Ghana,Ghana,GH,GHA,233,GHS,GHANA,Ghana Cedi,Accra,AF,.gh
+Gibraltar,Gibraltar,GI,GIB,350,GIP,GIBRALTAR,Gibraltar Pound,Gibraltar,EU,.gi
+Greece,Greece,GR,GRC,30,EUR,GREECE,Euro,Athens,EU,.gr
+Greenland,Greenland,GL,GRL,299,DKK,GREENLAND,Danish Krone,Nuuk,NA,.gl
+Grenada,Grenada,GD,GRD,1-473,XCD,GRENADA,East Caribbean Dollar,St. George's,NA,.gd
+Guadeloupe,Guadeloupe,GP,GLP,590,EUR,GUADELOUPE,Euro,Basse-Terre,NA,.gp
+Guam,Guam,GU,GUM,1-671,USD,GUAM,US Dollar,Hagatna,OC,.gu
+Guatemala,Guatemala,GT,GTM,502,GTQ,GUATEMALA,Quetzal,Guatemala City,NA,.gt
+Guernsey,Guernsey,GG,GGY,44,GBP,GUERNSEY,Pound Sterling,St Peter Port,EU,.gg
+Guinea,Guinea,GN,GIN,224,GNF,GUINEA,Guinea Franc,Conakry,AF,.gn
+Guinea-Bissau,Guinea-Bissau,GW,GNB,245,XOF,GUINEA-BISSAU,CFA Franc BCEAO,Bissau,AF,.gw
+Guyana,Guyana,GY,GUY,592,GYD,GUYANA,Guyana Dollar,Georgetown,SA,.gy
+Haiti,Haiti,HT,HTI,509,USD,HAITI,US Dollar,Port-au-Prince,NA,.ht
+Heard & McDonald Islands,,HM,HMD,672,,,,,AN,.hm
+Honduras,Honduras,HN,HND,504,HNL,HONDURAS,Lempira,Tegucigalpa,NA,.hn
+Hong Kong,"China, Hong Kong Special Administrative Region",HK,HKG,852,,,,Hong Kong,AS,.hk
+Hungary,Hungary,HU,HUN,36,HUF,HUNGARY,Forint,Budapest,EU,.hu
+Iceland,Iceland,IS,ISL,354,ISK,ICELAND,Iceland Krona,Reykjavik,EU,.is
+India,India,IN,IND,91,INR,INDIA,Indian Rupee,New Delhi,AS,.in
+Indonesia,Indonesia,ID,IDN,62,IDR,INDONESIA,Rupiah,Jakarta,AS,.id
+Iran,Iran (Islamic Republic of),IR,IRN,98,IRR,"IRAN, ISLAMIC REPUBLIC OF",Iranian Rial,Tehran,AS,.ir
+Iraq,Iraq,IQ,IRQ,964,IQD,IRAQ,Iraqi Dinar,Baghdad,AS,.iq
+Ireland,Ireland,IE,IRL,353,EUR,IRELAND,Euro,Dublin,EU,.ie
+Isle of Man,Isle of Man,IM,IMN,44,GBP,ISLE OF MAN,Pound Sterling,Douglas,EU,.im
+Israel,Israel,IL,ISR,972,ILS,ISRAEL,New Israeli Sheqel,Jerusalem,AS,.il
+Italy,Italy,IT,ITA,39,EUR,ITALY,Euro,Rome,EU,.it
+Jamaica,Jamaica,JM,JAM,1-876,JMD,JAMAICA,Jamaican Dollar,Kingston,NA,.jm
+Japan,Japan,JP,JPN,81,JPY,JAPAN,Yen,Tokyo,AS,.jp
+Jersey,Jersey,JE,JEY,44,GBP,JERSEY,Pound Sterling,Saint Helier,EU,.je
+Jordan,Jordan,JO,JOR,962,JOD,JORDAN,Jordanian Dinar,Amman,AS,.jo
+Kazakhstan,Kazakhstan,KZ,KAZ,7,KZT,KAZAKHSTAN,Tenge,Astana,AS,.kz
+Kenya,Kenya,KE,KEN,254,KES,KENYA,Kenyan Shilling,Nairobi,AF,.ke
+Kiribati,Kiribati,KI,KIR,686,AUD,KIRIBATI,Australian Dollar,Tarawa,OC,.ki
+Kuwait,Kuwait,KW,KWT,965,KWD,KUWAIT,Kuwaiti Dinar,Kuwait City,AS,.kw
+Kyrgyzstan,Kyrgyzstan,KG,KGZ,996,KGS,KYRGYZSTAN,Som,Bishkek,AS,.kg
+Laos,Lao People's Democratic Republic,LA,LAO,856,LAK,LAO PEOPLEÃ¢â‚¬â„¢S DEMOCRATIC REPUBLIC,Kip,Vientiane,AS,.la
+Latvia,Latvia,LV,LVA,371,EUR,LATVIA,Euro,Riga,EU,.lv
+Lebanon,Lebanon,LB,LBN,961,LBP,LEBANON,Lebanese Pound,Beirut,AS,.lb
+Lesotho,Lesotho,LS,LSO,266,ZAR,LESOTHO,Rand,Maseru,AF,.ls
+Liberia,Liberia,LR,LBR,231,LRD,LIBERIA,Liberian Dollar,Monrovia,AF,.lr
+Libya,Libya,LY,LBY,218,LYD,LIBYA,Libyan Dinar,Tripoli,AF,.ly
+Liechtenstein,Liechtenstein,LI,LIE,423,CHF,LIECHTENSTEIN,Swiss Franc,Vaduz,EU,.li
+Lithuania,Lithuania,LT,LTU,370,EUR,LITHUANIA,Euro,Vilnius,EU,.lt
+Luxembourg,Luxembourg,LU,LUX,352,EUR,LUXEMBOURG,Euro,Luxembourg,EU,.lu
+Macau,"China, Macao Special Administrative Region",MO,MAC,853,MOP,MACAO,Pataca,Macao,AS,.mo
+Macedonia,The former Yugoslav Republic of Macedonia,MK,MKD,389,MKD,"MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF",Denar,Skopje,EU,.mk
+Madagascar,Madagascar,MG,MDG,261,MGA,MADAGASCAR,Malagasy Ariary,Antananarivo,AF,.mg
+Malawi,Malawi,MW,MWI,265,MWK,MALAWI,Kwacha,Lilongwe,AF,.mw
+Malaysia,Malaysia,MY,MYS,60,MYR,MALAYSIA,Malaysian Ringgit,Kuala Lumpur,AS,.my
+Maldives,Maldives,MV,MDV,960,MVR,MALDIVES,Rufiyaa,Male,AS,.mv
+Mali,Mali,ML,MLI,223,XOF,MALI,CFA Franc BCEAO,Bamako,AF,.ml
+Malta,Malta,MT,MLT,356,EUR,MALTA,Euro,Valletta,EU,.mt
+Marshall Islands,Marshall Islands,MH,MHL,692,USD,MARSHALL ISLANDS,US Dollar,Majuro,OC,.mh
+Martinique,Martinique,MQ,MTQ,596,EUR,MARTINIQUE,Euro,Fort-de-France,NA,.mq
+Mauritania,Mauritania,MR,MRT,222,MRO,MAURITANIA,Ouguiya,Nouakchott,AF,.mr
+Mauritius,Mauritius,MU,MUS,230,MUR,MAURITIUS,Mauritius Rupee,Port Louis,AF,.mu
+Mayotte,Mayotte,YT,MYT,262,EUR,MAYOTTE,Euro,Mamoudzou,AF,.yt
+Mexico,Mexico,MX,MEX,52,MXN,MEXICO,Mexican Peso,Mexico City,NA,.mx
+Micronesia,Micronesia (Federated States of),FM,FSM,691,USD,"MICRONESIA, FEDERATED STATES OF",US Dollar,Palikir,OC,.fm
+Moldova,Republic of Moldova,MD,MDA,373,MDL,"MOLDOVA, REPUBLIC OF",Moldovan Leu,Chisinau,EU,.md
+Monaco,Monaco,MC,MCO,377,EUR,MONACO,Euro,Monaco,EU,.mc
+Mongolia,Mongolia,MN,MNG,976,MNT,MONGOLIA,Tugrik,Ulan Bator,AS,.mn
+Montenegro,Montenegro,ME,MNE,382,EUR,MONTENEGRO,Euro,Podgorica,EU,.me
+Montserrat,Montserrat,MS,MSR,1-664,XCD,MONTSERRAT,East Caribbean Dollar,Plymouth,NA,.ms
+Morocco,Morocco,MA,MAR,212,MAD,MOROCCO,Moroccan Dirham,Rabat,AF,.ma
+Mozambique,Mozambique,MZ,MOZ,258,MZN,MOZAMBIQUE,Mozambique Metical,Maputo,AF,.mz
+Myanmar,Myanmar,MM,MMR,95,MMK,MYANMAR,Kyat,Nay Pyi Taw,AS,.mm
+Namibia,Namibia,NA,NAM,264,ZAR,NAMIBIA,Rand,Windhoek,AF,.na
+Nauru,Nauru,NR,NRU,674,AUD,NAURU,Australian Dollar,Yaren,OC,.nr
+Nepal,Nepal,NP,NPL,977,NPR,NEPAL,Nepalese Rupee,Kathmandu,AS,.np
+Netherlands,Netherlands,NL,NLD,31,EUR,NETHERLANDS,Euro,Amsterdam,EU,.nl
+New Caledonia,New Caledonia,NC,NCL,687,XPF,NEW CALEDONIA,CFP Franc,Noumea,OC,.nc
+New Zealand,New Zealand,NZ,NZL,64,NZD,NEW ZEALAND,New Zealand Dollar,Wellington,OC,.nz
+Nicaragua,Nicaragua,NI,NIC,505,NIO,NICARAGUA,Cordoba Oro,Managua,NA,.ni
+Niger,Niger,NE,NER,227,XOF,NIGER,CFA Franc BCEAO,Niamey,AF,.ne
+Nigeria,Nigeria,NG,NGA,234,NGN,NIGERIA,Naira,Abuja,AF,.ng
+Niue,Niue,NU,NIU,683,NZD,NIUE,New Zealand Dollar,Alofi,OC,.nu
+Norfolk Island,Norfolk Island,NF,NFK,672,AUD,NORFOLK ISLAND,Australian Dollar,Kingston,OC,.nf
+North Korea,Democratic People's Republic of Korea,KP,PRK,850,KPW,"KOREA, DEMOCRATIC PEOPLEÃ¢â‚¬â„¢S REPUBLIC OF",North Korean Won,Pyongyang,AS,.kp
+Northern Mariana Islands,Northern Mariana Islands,MP,MNP,1-670,USD,NORTHERN MARIANA ISLANDS,US Dollar,Saipan,OC,.mp
+Norway,Norway,NO,NOR,47,NOK,NORWAY,Norwegian Krone,Oslo,EU,.no
+Oman,Oman,OM,OMN,968,OMR,OMAN,Rial Omani,Muscat,AS,.om
+Pakistan,Pakistan,PK,PAK,92,PKR,PAKISTAN,Pakistan Rupee,Islamabad,AS,.pk
+Palau,Palau,PW,PLW,680,USD,PALAU,US Dollar,Melekeok,OC,.pw
+Palestine,State of Palestine,PS,PSE,970,,"PALESTINE, STATE OF",No universal currency,East Jerusalem,AS,.ps
+Panama,Panama,PA,PAN,507,USD,PANAMA,US Dollar,Panama City,NA,.pa
+Papua New Guinea,Papua New Guinea,PG,PNG,675,PGK,PAPUA NEW GUINEA,Kina,Port Moresby,OC,.pg
+Paraguay,Paraguay,PY,PRY,595,PYG,PARAGUAY,Guarani,Asuncion,SA,.py
+Peru,Peru,PE,PER,51,PEN,PERU,Nuevo Sol,Lima,SA,.pe
+Philippines,Philippines,PH,PHL,63,PHP,PHILIPPINES,Philippine Peso,Manila,AS,.ph
+Pitcairn Islands,Pitcairn,PN,PCN,870,NZD,PITCAIRN,New Zealand Dollar,Adamstown,OC,.pn
+Poland,Poland,PL,POL,48,PLN,POLAND,Zloty,Warsaw,EU,.pl
+Portugal,Portugal,PT,PRT,351,EUR,PORTUGAL,Euro,Lisbon,EU,.pt
+Puerto Rico,Puerto Rico,PR,PRI,1,USD,PUERTO RICO,US Dollar,San Juan,NA,.pr
+Qatar,Qatar,QA,QAT,974,QAR,QATAR,Qatari Rial,Doha,AS,.qa
+Romania,Romania,RO,ROU,40,RON,ROMANIA,New Romanian Leu,Bucharest,EU,.ro
+Russia,Russian Federation,RU,RUS,7,RUB,RUSSIAN FEDERATION,Russian Ruble,Moscow,EU,.ru
+Rwanda,Rwanda,RW,RWA,250,RWF,RWANDA,Rwanda Franc,Kigali,AF,.rw
+RÃ©union,RÃ©union,RE,REU,262,EUR,RÃ‰UNION,Euro,Saint-Denis,AF,.re
+Samoa,Samoa,WS,WSM,685,WST,SAMOA,Tala,Apia,OC,.ws
+San Marino,San Marino,SM,SMR,378,EUR,SAN MARINO,Euro,San Marino,EU,.sm
+Saudi Arabia,Saudi Arabia,SA,SAU,966,SAR,SAUDI ARABIA,Saudi Riyal,Riyadh,AS,.sa
+Senegal,Senegal,SN,SEN,221,XOF,SENEGAL,CFA Franc BCEAO,Dakar,AF,.sn
+Serbia,Serbia,RS,SRB,381 p,RSD,SERBIA,Serbian Dinar,Belgrade,EU,.rs
+Seychelles,Seychelles,SC,SYC,248,SCR,SEYCHELLES,Seychelles Rupee,Victoria,AF,.sc
+Sierra Leone,Sierra Leone,SL,SLE,232,SLL,SIERRA LEONE,Leone,Freetown,AF,.sl
+Singapore,Singapore,SG,SGP,65,SGD,SINGAPORE,Singapore Dollar,Singapore,AS,.sg
+Sint Maarten,Sint Maarten (Dutch part),SX,SXM,1-721,ANG,SINT MAARTEN (DUTCH PART),Netherlands Antillean Guilder,Philipsburg,NA,.sx
+Slovakia,Slovakia,SK,SVK,421,EUR,SLOVAKIA,Euro,Bratislava,EU,.sk
+Slovenia,Slovenia,SI,SVN,386,EUR,SLOVENIA,Euro,Ljubljana,EU,.si
+Solomon Islands,Solomon Islands,SB,SLB,677,SBD,SOLOMON ISLANDS,Solomon Islands Dollar,Honiara,OC,.sb
+Somalia,Somalia,SO,SOM,252,SOS,SOMALIA,Somali Shilling,Mogadishu,AF,.so
+South Africa,South Africa,ZA,ZAF,27,ZAR,SOUTH AFRICA,Rand,Pretoria,AF,.za
+South Georgia & South Sandwich Islands,,GS,SGS,500,,,,Grytviken,AN,.gs
+South Korea,Republic of Korea,KR,KOR,82,KRW,"KOREA, REPUBLIC OF",Won,Seoul,AS,.kr
+South Sudan,South Sudan,SS,SSD,211,SSP,SOUTH SUDAN,South Sudanese Pound,Juba,AF,
+Spain,Spain,ES,ESP,34,EUR,SPAIN,Euro,Madrid,EU,.es
+Sri Lanka,Sri Lanka,LK,LKA,94,LKR,SRI LANKA,Sri Lanka Rupee,Colombo,AS,.lk
+Saint BarthÃ©lemy,Saint BarthÃ©lemy,BL,BLM,590,EUR,SAINT BARTHÃƒâ€°LEMY,Euro,Gustavia,NA,.gp
+St. Helena,Saint Helena,SH,SHN,290 n,SHP,"SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA",Saint Helena Pound,Jamestown,AF,.sh
+St. Kitts & Nevis,Saint Kitts and Nevis,KN,KNA,1-869,XCD,SAINT KITTS AND NEVIS,East Caribbean Dollar,Basseterre,NA,.kn
+St. Lucia,Saint Lucia,LC,LCA,1-758,XCD,SAINT LUCIA,East Caribbean Dollar,Castries,NA,.lc
+St. Martin,Saint Martin (French part),MF,MAF,590,EUR,SAINT MARTIN (FRENCH PART),Euro,Marigot,NA,.gp
+St. Pierre & Miquelon,Saint Pierre and Miquelon,PM,SPM,508,EUR,SAINT PIERRE AND MIQUELON,Euro,Saint-Pierre,NA,.pm
+St. Vincent & Grenadines,Saint Vincent and the Grenadines,VC,VCT,1-784,XCD,SAINT VINCENT AND THE GRENADINES,East Caribbean Dollar,Kingstown,NA,.vc
+Sudan,Sudan,SD,SDN,249,SDG,SUDAN,Sudanese Pound,Khartoum,AF,.sd
+Suriname,Suriname,SR,SUR,597,SRD,SURINAME,Surinam Dollar,Paramaribo,SA,.sr
+Svalbard & Jan Mayen,Svalbard and Jan Mayen Islands,SJ,SJM,47,NOK,SVALBARD AND JAN MAYEN,Norwegian Krone,Longyearbyen,EU,.sj
+Swaziland,Swaziland,SZ,SWZ,268,SZL,SWAZILAND,Lilangeni,Mbabane,AF,.sz
+Sweden,Sweden,SE,SWE,46,SEK,SWEDEN,Swedish Krona,Stockholm,EU,.se
+Switzerland,Switzerland,CH,CHE,41,CHF,SWITZERLAND,Swiss Franc,Bern,EU,.ch
+Syria,Syrian Arab Republic,SY,SYR,963,SYP,SYRIAN ARAB REPUBLIC,Syrian Pound,Damascus,AS,.sy
+Sao Tome and Principe,Sao Tome and Principe,ST,STP,239,STD,SAO TOME AND PRINCIPE,Dobra,Sao Tome,AF,.st
+Taiwan,,TW,TWN,886,,,,Taipei,AS,.tw
+Tajikistan,Tajikistan,TJ,TJK,992,TJS,TAJIKISTAN,Somoni,Dushanbe,AS,.tj
+Tanzania,United Republic of Tanzania,TZ,TZA,255,TZS,"TANZANIA, UNITED REPUBLIC OF",Tanzanian Shilling,Dodoma,AF,.tz
+Thailand,Thailand,TH,THA,66,THB,THAILAND,Baht,Bangkok,AS,.th
+Timor-Leste,Timor-Leste,TL,TLS,670,USD,TIMOR-LESTE,US Dollar,Dili,OC,.tl
+Togo,Togo,TG,TGO,228,XOF,TOGO,CFA Franc BCEAO,Lome,AF,.tg
+Tokelau,Tokelau,TK,TKL,690,NZD,TOKELAU,New Zealand Dollar,,OC,.tk
+Tonga,Tonga,TO,TON,676,TOP,TONGA,PaÃ¢â‚¬â„¢anga,Nuku'alofa,OC,.to
+Trinidad & Tobago,Trinidad and Tobago,TT,TTO,1-868,TTD,TRINIDAD AND TOBAGO,Trinidad and Tobago Dollar,Port of Spain,NA,.tt
+Tunisia,Tunisia,TN,TUN,216,TND,TUNISIA,Tunisian Dinar,Tunis,AF,.tn
+Turkey,Turkey,TR,TUR,90,TRY,TURKEY,Turkish Lira,Ankara,AS,.tr
+Turkmenistan,Turkmenistan,TM,TKM,993,TMT,TURKMENISTAN,Turkmenistan New Manat,Ashgabat,AS,.tm
+Turks & Caicos Islands,Turks and Caicos Islands,TC,TCA,1-649,USD,TURKS AND CAICOS ISLANDS,US Dollar,Cockburn Town,NA,.tc
+Tuvalu,Tuvalu,TV,TUV,688,AUD,TUVALU,Australian Dollar,Funafuti,OC,.tv
+U.S. Outlying Islands,,UM,UMI,,,,,,OC,.um
+U.S. Virgin Islands,United States Virgin Islands,VI,VIR,1-340,USD,VIRGIN ISLANDS (U.S.),US Dollar,Charlotte Amalie,NA,.vi
+UK,United Kingdom of Great Britain and Northern Ireland,GB,GBR,44,GBP,UNITED KINGDOM,Pound Sterling,London,EU,.uk
+US,United States of America,US,USA,1,USD,UNITED STATES,US Dollar,Washington,NA,.us
+Uganda,Uganda,UG,UGA,256,UGX,UGANDA,Uganda Shilling,Kampala,AF,.ug
+Ukraine,Ukraine,UA,UKR,380,UAH,UKRAINE,Hryvnia,Kiev,EU,.ua
+United Arab Emirates,United Arab Emirates,AE,ARE,971,AED,UNITED ARAB EMIRATES,UAE Dirham,Abu Dhabi,AS,.ae
+Uruguay,Uruguay,UY,URY,598,UYU,URUGUAY,Peso Uruguayo,Montevideo,SA,.uy
+Uzbekistan,Uzbekistan,UZ,UZB,998,UZS,UZBEKISTAN,Uzbekistan Sum,Tashkent,AS,.uz
+Vanuatu,Vanuatu,VU,VUT,678,VUV,VANUATU,Vatu,Port Vila,OC,.vu
+Vatican City,Holy See,VA,VAT,39-06,EUR,HOLY SEE (VATICAN CITY STATE),Euro,Vatican City,EU,.va
+Venezuela,Venezuela (Bolivarian Republic of),VE,VEN,58,VEF,"VENEZUELA, BOLIVARIAN REPUBLIC OF",Bolivar,Caracas,SA,.ve
+Vietnam,Viet Nam,VN,VNM,84,VND,VIET NAM,Dong,Hanoi,AS,.vn
+Wallis & Futuna,Wallis and Futuna Islands,WF,WLF,681,XPF,WALLIS AND FUTUNA,CFP Franc,Mata Utu,OC,.wf
+Western Sahara,Western Sahara,EH,ESH,212,MAD,WESTERN SAHARA,Moroccan Dirham,El-Aaiun,AF,.eh
+Yemen,Yemen,YE,YEM,967,YER,YEMEN,Yemeni Rial,Sanaa,AS,.ye
+Zambia,Zambia,ZM,ZMB,260,ZMW,ZAMBIA,Zambian Kwacha,Lusaka,AF,.zm
+Zimbabwe,Zimbabwe,ZW,ZWE,263,ZWL,ZIMBABWE,Zimbabwe Dollar,Harare,AF,.zw
+Ãƒland Islands,Ãƒland Islands,AX,ALA,358,EUR,ÃƒLAND ISLANDS,Euro,Mariehamn,EU,.ax

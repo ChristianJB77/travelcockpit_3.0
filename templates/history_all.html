@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    All User History
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <table class="table table-hover" style="background-color: white">
+        <thead>
+            <tr>
+                <th>Destination</th>
+                <th>Number of searches</th>
+                <th>User</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for d in data %}
+                <tr>
+                    <td>{{ d.destination.title() }}</td>
+                    <td>{{ d.amount }}</td>
+                    <td>{{ d.names }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<br><br>
+{% endblock %}

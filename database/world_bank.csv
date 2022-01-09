@@ -1,0 +1,1585 @@
+CountryName,CountryCode,SeriesName,SeriesCode,year2019
+Argentina,ARG,population_total,SP.POP.TOTL,44938712
+Argentina,ARG,GDP per capita (current US$),NY.GDP.PCAP.CD,10006.1489736082
+Argentina,ARG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,35.5
+Argentina,ARG,Consumer price index (2010 = 100),FP.CPI.TOTL,232.751091666667
+Argentina,ARG,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Argentina,ARG,Real interest rate (%),FR.INR.RINR,10.3938146726266
+Australia,AUS,population_total,SP.POP.TOTL,25364307
+Australia,AUS,GDP per capita (current US$),NY.GDP.PCAP.CD,54907.1019101424
+Australia,AUS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Australia,AUS,Consumer price index (2010 = 100),FP.CPI.TOTL,119.797086368366
+Australia,AUS,Real effective exchange rate index (2010 = 100),PX.REX.REER,85.9423756872264
+Australia,AUS,Real interest rate (%),FR.INR.RINR,1.73965018749557
+Brazil,BRA,population_total,SP.POP.TOTL,211049527
+Brazil,BRA,GDP per capita (current US$),NY.GDP.PCAP.CD,8717.18627810819
+Brazil,BRA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Brazil,BRA,Consumer price index (2010 = 100),FP.CPI.TOTL,167.397860280061
+Brazil,BRA,Real effective exchange rate index (2010 = 100),PX.REX.REER,69.6288383059484
+Brazil,BRA,Real interest rate (%),FR.INR.RINR,31.9917025996146
+China,CHN,population_total,SP.POP.TOTL,1397715000
+China,CHN,GDP per capita (current US$),NY.GDP.PCAP.CD,10261.6791283744
+China,CHN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,0.6
+China,CHN,Consumer price index (2010 = 100),FP.CPI.TOTL,125.083155733959
+China,CHN,Real effective exchange rate index (2010 = 100),PX.REX.REER,120.730442428116
+China,CHN,Real interest rate (%),FR.INR.RINR,2.72512442471957
+France,FRA,population_total,SP.POP.TOTL,67059887
+France,FRA,GDP per capita (current US$),NY.GDP.PCAP.CD,40493.9285720456
+France,FRA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+France,FRA,Consumer price index (2010 = 100),FP.CPI.TOTL,110.04856675289
+France,FRA,Real effective exchange rate index (2010 = 100),PX.REX.REER,93.7202249206775
+France,FRA,Real interest rate (%),FR.INR.RINR,..
+Germany,DEU,population_total,SP.POP.TOTL,83132799
+Germany,DEU,GDP per capita (current US$),NY.GDP.PCAP.CD,46258.8782897052
+Germany,DEU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Germany,DEU,Consumer price index (2010 = 100),FP.CPI.TOTL,112.854887342124
+Germany,DEU,Real effective exchange rate index (2010 = 100),PX.REX.REER,95.368763583125
+Germany,DEU,Real interest rate (%),FR.INR.RINR,..
+India,IND,population_total,SP.POP.TOTL,1366417754
+India,IND,GDP per capita (current US$),NY.GDP.PCAP.CD,2104.14590003333
+India,IND,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+India,IND,Consumer price index (2010 = 100),FP.CPI.TOTL,180.43581241118
+India,IND,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+India,IND,Real interest rate (%),FR.INR.RINR,6.99373242447807
+Indonesia,IDN,population_total,SP.POP.TOTL,270625568
+Indonesia,IDN,GDP per capita (current US$),NY.GDP.PCAP.CD,4135.56926281554
+Indonesia,IDN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Indonesia,IDN,Consumer price index (2010 = 100),FP.CPI.TOTL,151.176675071352
+Indonesia,IDN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Indonesia,IDN,Real interest rate (%),FR.INR.RINR,8.62293924920878
+Italy,ITA,population_total,SP.POP.TOTL,60297396
+Italy,ITA,GDP per capita (current US$),NY.GDP.PCAP.CD,33189.5657988542
+Italy,ITA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Italy,ITA,Consumer price index (2010 = 100),FP.CPI.TOTL,110.623595648239
+Italy,ITA,Real effective exchange rate index (2010 = 100),PX.REX.REER,94.4326312011658
+Italy,ITA,Real interest rate (%),FR.INR.RINR,1.67412820431279
+Japan,JPN,population_total,SP.POP.TOTL,126264931
+Japan,JPN,GDP per capita (current US$),NY.GDP.PCAP.CD,40246.8801284164
+Japan,JPN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Japan,JPN,Consumer price index (2010 = 100),FP.CPI.TOTL,105.482172148839
+Japan,JPN,Real effective exchange rate index (2010 = 100),PX.REX.REER,76.4773487687494
+Japan,JPN,Real interest rate (%),FR.INR.RINR,..
+Korea Rep.,KOR,population_total,SP.POP.TOTL,51709098
+Korea Rep.,KOR,GDP per capita (current US$),NY.GDP.PCAP.CD,31761.9776923447
+Korea Rep.,KOR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Korea Rep.,KOR,Consumer price index (2010 = 100),FP.CPI.TOTL,115.15858742558
+Korea Rep.,KOR,Real effective exchange rate index (2010 = 100),PX.REX.REER,146.893684064175
+Korea Rep.,KOR,Real interest rate (%),FR.INR.RINR,4.42037499438298
+Mexico,MEX,population_total,SP.POP.TOTL,127575529
+Mexico,MEX,GDP per capita (current US$),NY.GDP.PCAP.CD,9863.0726988757
+Mexico,MEX,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Mexico,MEX,Consumer price index (2010 = 100),FP.CPI.TOTL,141.542522969974
+Mexico,MEX,Real effective exchange rate index (2010 = 100),PX.REX.REER,83.6587494911874
+Mexico,MEX,Real interest rate (%),FR.INR.RINR,4.9761568584928
+Netherlands,NLD,population_total,SP.POP.TOTL,17332850
+Netherlands,NLD,GDP per capita (current US$),NY.GDP.PCAP.CD,52447.8314391911
+Netherlands,NLD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Netherlands,NLD,Consumer price index (2010 = 100),FP.CPI.TOTL,115.907994941178
+Netherlands,NLD,Real effective exchange rate index (2010 = 100),PX.REX.REER,99.2538750138925
+Netherlands,NLD,Real interest rate (%),FR.INR.RINR,..
+Russian Federation,RUS,population_total,SP.POP.TOTL,144373535
+Russian Federation,RUS,GDP per capita (current US$),NY.GDP.PCAP.CD,11584.9953826104
+Russian Federation,RUS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Russian Federation,RUS,Consumer price index (2010 = 100),FP.CPI.TOTL,180.750263654162
+Russian Federation,RUS,Real effective exchange rate index (2010 = 100),PX.REX.REER,86.6461564599521
+Russian Federation,RUS,Real interest rate (%),FR.INR.RINR,4.78796909989482
+Saudi Arabia,SAU,population_total,SP.POP.TOTL,34268528
+Saudi Arabia,SAU,GDP per capita (current US$),NY.GDP.PCAP.CD,23139.7986561214
+Saudi Arabia,SAU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Saudi Arabia,SAU,Consumer price index (2010 = 100),FP.CPI.TOTL,118.399825471917
+Saudi Arabia,SAU,Real effective exchange rate index (2010 = 100),PX.REX.REER,112.156413744889
+Saudi Arabia,SAU,Real interest rate (%),FR.INR.RINR,..
+Spain,ESP,population_total,SP.POP.TOTL,47076781
+Spain,ESP,GDP per capita (current US$),NY.GDP.PCAP.CD,29613.6711379783
+Spain,ESP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Spain,ESP,Consumer price index (2010 = 100),FP.CPI.TOTL,110.96151904206
+Spain,ESP,Real effective exchange rate index (2010 = 100),PX.REX.REER,95.6207024443826
+Spain,ESP,Real interest rate (%),FR.INR.RINR,..
+Switzerland,CHE,population_total,SP.POP.TOTL,8574832
+Switzerland,CHE,GDP per capita (current US$),NY.GDP.PCAP.CD,81993.7271494202
+Switzerland,CHE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Switzerland,CHE,Consumer price index (2010 = 100),FP.CPI.TOTL,99.5469130202278
+Switzerland,CHE,Real effective exchange rate index (2010 = 100),PX.REX.REER,104.110714346959
+Switzerland,CHE,Real interest rate (%),FR.INR.RINR,2.22812840367735
+Turkey,TUR,population_total,SP.POP.TOTL,83429615
+Turkey,TUR,GDP per capita (current US$),NY.GDP.PCAP.CD,9042.49298288882
+Turkey,TUR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Turkey,TUR,Consumer price index (2010 = 100),FP.CPI.TOTL,234.437126307922
+Turkey,TUR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Turkey,TUR,Real interest rate (%),FR.INR.RINR,..
+United Kingdom,GBR,population_total,SP.POP.TOTL,66834405
+United Kingdom,GBR,GDP per capita (current US$),NY.GDP.PCAP.CD,42300.267125825
+United Kingdom,GBR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+United Kingdom,GBR,Consumer price index (2010 = 100),FP.CPI.TOTL,119.622711300166
+United Kingdom,GBR,Real effective exchange rate index (2010 = 100),PX.REX.REER,98.3465135172114
+United Kingdom,GBR,Real interest rate (%),FR.INR.RINR,..
+United States,USA,population_total,SP.POP.TOTL,328239523
+United States,USA,GDP per capita (current US$),NY.GDP.PCAP.CD,65118.3583328163
+United States,USA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+United States,USA,Consumer price index (2010 = 100),FP.CPI.TOTL,117.244195476228
+United States,USA,Real effective exchange rate index (2010 = 100),PX.REX.REER,116.12102242097
+United States,USA,Real interest rate (%),FR.INR.RINR,3.47819983447355
+Afghanistan,AFG,population_total,SP.POP.TOTL,38041754
+Afghanistan,AFG,GDP per capita (current US$),NY.GDP.PCAP.CD,502.115486913067
+Afghanistan,AFG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Afghanistan,AFG,Consumer price index (2010 = 100),FP.CPI.TOTL,149.895975208032
+Afghanistan,AFG,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Afghanistan,AFG,Real interest rate (%),FR.INR.RINR,..
+Albania,ALB,population_total,SP.POP.TOTL,2854191
+Albania,ALB,GDP per capita (current US$),NY.GDP.PCAP.CD,5352.85741103671
+Albania,ALB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Albania,ALB,Consumer price index (2010 = 100),FP.CPI.TOTL,119.049258384381
+Albania,ALB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Albania,ALB,Real interest rate (%),FR.INR.RINR,5.87191736164405
+Algeria,DZA,population_total,SP.POP.TOTL,43053054
+Algeria,DZA,GDP per capita (current US$),NY.GDP.PCAP.CD,3948.34327892571
+Algeria,DZA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Algeria,DZA,Consumer price index (2010 = 100),FP.CPI.TOTL,151.361667767746
+Algeria,DZA,Real effective exchange rate index (2010 = 100),PX.REX.REER,95.2978203227327
+Algeria,DZA,Real interest rate (%),FR.INR.RINR,8.70731714337822
+American Samoa,ASM,population_total,SP.POP.TOTL,55312
+American Samoa,ASM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+American Samoa,ASM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+American Samoa,ASM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+American Samoa,ASM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+American Samoa,ASM,Real interest rate (%),FR.INR.RINR,..
+Andorra,AND,population_total,SP.POP.TOTL,77142
+Andorra,AND,GDP per capita (current US$),NY.GDP.PCAP.CD,40886.3911648431
+Andorra,AND,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Andorra,AND,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Andorra,AND,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Andorra,AND,Real interest rate (%),FR.INR.RINR,..
+Angola,AGO,population_total,SP.POP.TOTL,31825295
+Angola,AGO,GDP per capita (current US$),NY.GDP.PCAP.CD,2973.59115979868
+Angola,AGO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Angola,AGO,Consumer price index (2010 = 100),FP.CPI.TOTL,261.72720165799
+Angola,AGO,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Angola,AGO,Real interest rate (%),FR.INR.RINR,-12.2186112939945
+Antigua and Barbuda,ATG,population_total,SP.POP.TOTL,97118
+Antigua and Barbuda,ATG,GDP per capita (current US$),NY.GDP.PCAP.CD,17790.309306815
+Antigua and Barbuda,ATG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Antigua and Barbuda,ATG,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Antigua and Barbuda,ATG,Real effective exchange rate index (2010 = 100),PX.REX.REER,110.643413571634
+Antigua and Barbuda,ATG,Real interest rate (%),FR.INR.RINR,5.95306024516671
+Armenia,ARM,population_total,SP.POP.TOTL,2957731
+Armenia,ARM,GDP per capita (current US$),NY.GDP.PCAP.CD,4622.73349328671
+Armenia,ARM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Armenia,ARM,Consumer price index (2010 = 100),FP.CPI.TOTL,129.176007326748
+Armenia,ARM,Real effective exchange rate index (2010 = 100),PX.REX.REER,102.996917665106
+Armenia,ARM,Real interest rate (%),FR.INR.RINR,10.5253197083267
+Aruba,ABW,population_total,SP.POP.TOTL,106314
+Aruba,ABW,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Aruba,ABW,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Aruba,ABW,Consumer price index (2010 = 100),FP.CPI.TOTL,109.534355432857
+Aruba,ABW,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Aruba,ABW,Real interest rate (%),FR.INR.RINR,..
+Austria,AUT,population_total,SP.POP.TOTL,8877067
+Austria,AUT,GDP per capita (current US$),NY.GDP.PCAP.CD,50277.2750874213
+Austria,AUT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Austria,AUT,Consumer price index (2010 = 100),FP.CPI.TOTL,118.057979804947
+Austria,AUT,Real effective exchange rate index (2010 = 100),PX.REX.REER,101.628447239898
+Austria,AUT,Real interest rate (%),FR.INR.RINR,..
+Azerbaijan,AZE,population_total,SP.POP.TOTL,10023318
+Azerbaijan,AZE,GDP per capita (current US$),NY.GDP.PCAP.CD,4793.58701966989
+Azerbaijan,AZE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Azerbaijan,AZE,Consumer price index (2010 = 100),FP.CPI.TOTL,156.891408364002
+Azerbaijan,AZE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Azerbaijan,AZE,Real interest rate (%),FR.INR.RINR,17.5511605887881
+Bahamas The,BHS,population_total,SP.POP.TOTL,389482
+Bahamas The,BHS,GDP per capita (current US$),NY.GDP.PCAP.CD,32933.4860147581
+Bahamas The,BHS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bahamas The,BHS,Consumer price index (2010 = 100),FP.CPI.TOTL,116.218911182281
+Bahamas The,BHS,Real effective exchange rate index (2010 = 100),PX.REX.REER,101.786763886418
+Bahamas The,BHS,Real interest rate (%),FR.INR.RINR,2.7955919276082
+Bahrain,BHR,population_total,SP.POP.TOTL,1641172
+Bahrain,BHR,GDP per capita (current US$),NY.GDP.PCAP.CD,23503.977126673
+Bahrain,BHR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bahrain,BHR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Bahrain,BHR,Real effective exchange rate index (2010 = 100),PX.REX.REER,111.785970147746
+Bahrain,BHR,Real interest rate (%),FR.INR.RINR,..
+Bangladesh,BGD,population_total,SP.POP.TOTL,163046161
+Bangladesh,BGD,GDP per capita (current US$),NY.GDP.PCAP.CD,1855.73982408046
+Bangladesh,BGD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bangladesh,BGD,Consumer price index (2010 = 100),FP.CPI.TOTL,179.679821747048
+Bangladesh,BGD,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Bangladesh,BGD,Real interest rate (%),FR.INR.RINR,4.8793157691253
+Barbados,BRB,population_total,SP.POP.TOTL,287025
+Barbados,BRB,GDP per capita (current US$),NY.GDP.PCAP.CD,18148.2449264001
+Barbados,BRB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Barbados,BRB,Consumer price index (2010 = 100),FP.CPI.TOTL,134.091174070188
+Barbados,BRB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Barbados,BRB,Real interest rate (%),FR.INR.RINR,..
+Belarus,BLR,population_total,SP.POP.TOTL,9466856
+Belarus,BLR,GDP per capita (current US$),NY.GDP.PCAP.CD,6663.29529282582
+Belarus,BLR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Belarus,BLR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Belarus,BLR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Belarus,BLR,Real interest rate (%),FR.INR.RINR,2.30013394195092
+Belgium,BEL,population_total,SP.POP.TOTL,11484055
+Belgium,BEL,GDP per capita (current US$),NY.GDP.PCAP.CD,46116.69923368
+Belgium,BEL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Belgium,BEL,Consumer price index (2010 = 100),FP.CPI.TOTL,117.110457187971
+Belgium,BEL,Real effective exchange rate index (2010 = 100),PX.REX.REER,99.9357683809877
+Belgium,BEL,Real interest rate (%),FR.INR.RINR,..
+Belize,BLZ,population_total,SP.POP.TOTL,390353
+Belize,BLZ,GDP per capita (current US$),NY.GDP.PCAP.CD,4815.1637107951
+Belize,BLZ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Belize,BLZ,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Belize,BLZ,Real effective exchange rate index (2010 = 100),PX.REX.REER,99.9588014833856
+Belize,BLZ,Real interest rate (%),FR.INR.RINR,8.8678772520814
+Benin,BEN,population_total,SP.POP.TOTL,11801151
+Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1219.43267185875
+Benin,BEN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,38.5
+Benin,BEN,Consumer price index (2010 = 100),FP.CPI.TOTL,110.709095484763
+Benin,BEN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Benin,BEN,Real interest rate (%),FR.INR.RINR,..
+Bermuda,BMU,population_total,SP.POP.TOTL,63918
+Bermuda,BMU,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Bermuda,BMU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bermuda,BMU,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Bermuda,BMU,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Bermuda,BMU,Real interest rate (%),FR.INR.RINR,..
+Bhutan,BTN,population_total,SP.POP.TOTL,763092
+Bhutan,BTN,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Bhutan,BTN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bhutan,BTN,Consumer price index (2010 = 100),FP.CPI.TOTL,167.182458685409
+Bhutan,BTN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Bhutan,BTN,Real interest rate (%),FR.INR.RINR,..
+Bolivia,BOL,population_total,SP.POP.TOTL,11513100
+Bolivia,BOL,GDP per capita (current US$),NY.GDP.PCAP.CD,3552.0687621416
+Bolivia,BOL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bolivia,BOL,Consumer price index (2010 = 100),FP.CPI.TOTL,148.317518475358
+Bolivia,BOL,Real effective exchange rate index (2010 = 100),PX.REX.REER,149.72430320738
+Bolivia,BOL,Real interest rate (%),FR.INR.RINR,9.15598770969847
+Bosnia and Herzegovina,BIH,population_total,SP.POP.TOTL,3301000
+Bosnia and Herzegovina,BIH,GDP per capita (current US$),NY.GDP.PCAP.CD,6073.26520283208
+Bosnia and Herzegovina,BIH,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bosnia and Herzegovina,BIH,Consumer price index (2010 = 100),FP.CPI.TOTL,104.896137350469
+Bosnia and Herzegovina,BIH,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Bosnia and Herzegovina,BIH,Real interest rate (%),FR.INR.RINR,1.17049145811906
+Botswana,BWA,population_total,SP.POP.TOTL,2303697
+Botswana,BWA,GDP per capita (current US$),NY.GDP.PCAP.CD,7961.33814014048
+Botswana,BWA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Botswana,BWA,Consumer price index (2010 = 100),FP.CPI.TOTL,149.753698758867
+Botswana,BWA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Botswana,BWA,Real interest rate (%),FR.INR.RINR,5.71792747510228
+British Virgin Islands,VGB,population_total,SP.POP.TOTL,30030
+British Virgin Islands,VGB,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+British Virgin Islands,VGB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+British Virgin Islands,VGB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+British Virgin Islands,VGB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+British Virgin Islands,VGB,Real interest rate (%),FR.INR.RINR,..
+Brunei Darussalam,BRN,population_total,SP.POP.TOTL,433285
+Brunei Darussalam,BRN,GDP per capita (current US$),NY.GDP.PCAP.CD,31086.7510792939
+Brunei Darussalam,BRN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Brunei Darussalam,BRN,Consumer price index (2010 = 100),FP.CPI.TOTL,99.0268165721066
+Brunei Darussalam,BRN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Brunei Darussalam,BRN,Real interest rate (%),FR.INR.RINR,9.14067991978536
+Bulgaria,BGR,population_total,SP.POP.TOTL,6975761
+Bulgaria,BGR,GDP per capita (current US$),NY.GDP.PCAP.CD,9737.60135083347
+Bulgaria,BGR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Bulgaria,BGR,Consumer price index (2010 = 100),FP.CPI.TOTL,114.418393160353
+Bulgaria,BGR,Real effective exchange rate index (2010 = 100),PX.REX.REER,101.761471529954
+Bulgaria,BGR,Real interest rate (%),FR.INR.RINR,-0.0985885295970158
+Burkina Faso,BFA,population_total,SP.POP.TOTL,20321378
+Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,774.8396902346
+Burkina Faso,BFA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Burkina Faso,BFA,Consumer price index (2010 = 100),FP.CPI.TOTL,108.359022934413
+Burkina Faso,BFA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Burkina Faso,BFA,Real interest rate (%),FR.INR.RINR,..
+Burundi,BDI,population_total,SP.POP.TOTL,11530580
+Burundi,BDI,GDP per capita (current US$),NY.GDP.PCAP.CD,261.247472515742
+Burundi,BDI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Burundi,BDI,Consumer price index (2010 = 100),FP.CPI.TOTL,182.112339994344
+Burundi,BDI,Real effective exchange rate index (2010 = 100),PX.REX.REER,114.116716659845
+Burundi,BDI,Real interest rate (%),FR.INR.RINR,13.5992667416563
+Cabo Verde,CPV,population_total,SP.POP.TOTL,549935
+Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3603.7817936777
+Cabo Verde,CPV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cabo Verde,CPV,Consumer price index (2010 = 100),FP.CPI.TOTL,110.501606321391
+Cabo Verde,CPV,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Cabo Verde,CPV,Real interest rate (%),FR.INR.RINR,8.52983285809956
+Cambodia,KHM,population_total,SP.POP.TOTL,16486542
+Cambodia,KHM,GDP per capita (current US$),NY.GDP.PCAP.CD,1643.12138876475
+Cambodia,KHM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cambodia,KHM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Cambodia,KHM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Cambodia,KHM,Real interest rate (%),FR.INR.RINR,..
+Cameroon,CMR,population_total,SP.POP.TOTL,25876380
+Cameroon,CMR,GDP per capita (current US$),NY.GDP.PCAP.CD,1497.90917560296
+Cameroon,CMR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cameroon,CMR,Consumer price index (2010 = 100),FP.CPI.TOTL,118.648588290011
+Cameroon,CMR,Real effective exchange rate index (2010 = 100),PX.REX.REER,96.6726467634736
+Cameroon,CMR,Real interest rate (%),FR.INR.RINR,..
+Canada,CAN,population_total,SP.POP.TOTL,37589262
+Canada,CAN,GDP per capita (current US$),NY.GDP.PCAP.CD,46194.7252255167
+Canada,CAN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Canada,CAN,Consumer price index (2010 = 100),FP.CPI.TOTL,116.75729822553
+Canada,CAN,Real effective exchange rate index (2010 = 100),PX.REX.REER,81.4786739509755
+Canada,CAN,Real interest rate (%),FR.INR.RINR,..
+Cayman Islands,CYM,population_total,SP.POP.TOTL,64948
+Cayman Islands,CYM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Cayman Islands,CYM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cayman Islands,CYM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Cayman Islands,CYM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Cayman Islands,CYM,Real interest rate (%),FR.INR.RINR,..
+Central African Republic,CAF,population_total,SP.POP.TOTL,4745185
+Central African Republic,CAF,GDP per capita (current US$),NY.GDP.PCAP.CD,467.907440636335
+Central African Republic,CAF,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Central African Republic,CAF,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Central African Republic,CAF,Real effective exchange rate index (2010 = 100),PX.REX.REER,127.258499234565
+Central African Republic,CAF,Real interest rate (%),FR.INR.RINR,..
+Chad,TCD,population_total,SP.POP.TOTL,15946876
+Chad,TCD,GDP per capita (current US$),NY.GDP.PCAP.CD,709.540310138533
+Chad,TCD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Chad,TCD,Consumer price index (2010 = 100),FP.CPI.TOTL,117.698204738763
+Chad,TCD,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Chad,TCD,Real interest rate (%),FR.INR.RINR,..
+Channel Islands,CHI,population_total,SP.POP.TOTL,172259
+Channel Islands,CHI,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Channel Islands,CHI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Channel Islands,CHI,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Channel Islands,CHI,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Channel Islands,CHI,Real interest rate (%),FR.INR.RINR,..
+Chile,CHL,population_total,SP.POP.TOTL,18952038
+Chile,CHL,GDP per capita (current US$),NY.GDP.PCAP.CD,14896.4538665789
+Chile,CHL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Chile,CHL,Consumer price index (2010 = 100),FP.CPI.TOTL,131.913566974844
+Chile,CHL,Real effective exchange rate index (2010 = 100),PX.REX.REER,92.4469265293475
+Chile,CHL,Real interest rate (%),FR.INR.RINR,..
+Colombia,COL,population_total,SP.POP.TOTL,50339443
+Colombia,COL,GDP per capita (current US$),NY.GDP.PCAP.CD,6432.38758339551
+Colombia,COL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Colombia,COL,Consumer price index (2010 = 100),FP.CPI.TOTL,140.950373942025
+Colombia,COL,Real effective exchange rate index (2010 = 100),PX.REX.REER,72.6453940255607
+Colombia,COL,Real interest rate (%),FR.INR.RINR,7.17593620813133
+Comoros,COM,population_total,SP.POP.TOTL,850886
+Comoros,COM,GDP per capita (current US$),NY.GDP.PCAP.CD,1393.52237156461
+Comoros,COM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Comoros,COM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Comoros,COM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Comoros,COM,Real interest rate (%),FR.INR.RINR,6.93844098800857
+Congo Dem. Rep.,COD,population_total,SP.POP.TOTL,86790567
+Congo Dem. Rep.,COD,GDP per capita (current US$),NY.GDP.PCAP.CD,545.216212311342
+Congo Dem. Rep.,COD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Congo Dem. Rep.,COD,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Congo Dem. Rep.,COD,Real effective exchange rate index (2010 = 100),PX.REX.REER,141.263752941632
+Congo Dem. Rep.,COD,Real interest rate (%),FR.INR.RINR,28.9349702039857
+Congo,Rep.,COG,population_total,SP.POP.TOTL
+Congo,Rep.,COG,GDP per capita (current US$),NY.GDP.PCAP.CD
+Congo,Rep.,COG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC
+Congo,Rep.,COG,Consumer price index (2010 = 100),FP.CPI.TOTL
+Congo,Rep.,COG,Real effective exchange rate index (2010 = 100),PX.REX.REER
+Congo,Rep.,COG,Real interest rate (%),FR.INR.RINR
+Costa Rica,CRI,population_total,SP.POP.TOTL,5047561
+Costa Rica,CRI,GDP per capita (current US$),NY.GDP.PCAP.CD,12238.3749643984
+Costa Rica,CRI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,21
+Costa Rica,CRI,Consumer price index (2010 = 100),FP.CPI.TOTL,128.845869400021
+Costa Rica,CRI,Real effective exchange rate index (2010 = 100),PX.REX.REER,106.350365802053
+Costa Rica,CRI,Real interest rate (%),FR.INR.RINR,6.90718061735525
+Cote d'Ivoire,CIV,population_total,SP.POP.TOTL,25716544
+Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2286.162776855
+Cote d'Ivoire,CIV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cote d'Ivoire,CIV,Consumer price index (2010 = 100),FP.CPI.TOTL,111.606977877028
+Cote d'Ivoire,CIV,Real effective exchange rate index (2010 = 100),PX.REX.REER,93.1548514231622
+Cote d'Ivoire,CIV,Real interest rate (%),FR.INR.RINR,..
+Croatia,HRV,population_total,SP.POP.TOTL,4067500
+Croatia,HRV,GDP per capita (current US$),NY.GDP.PCAP.CD,14853.2398374635
+Croatia,HRV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Croatia,HRV,Consumer price index (2010 = 100),FP.CPI.TOTL,109.815676449535
+Croatia,HRV,Real effective exchange rate index (2010 = 100),PX.REX.REER,93.9686654837043
+Croatia,HRV,Real interest rate (%),FR.INR.RINR,..
+Cuba,CUB,population_total,SP.POP.TOTL,11333483
+Cuba,CUB,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Cuba,CUB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cuba,CUB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Cuba,CUB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Cuba,CUB,Real interest rate (%),FR.INR.RINR,..
+Curacao,CUW,population_total,SP.POP.TOTL,157538
+Curacao,CUW,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Curacao,CUW,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Curacao,CUW,Consumer price index (2010 = 100),FP.CPI.TOTL,115.533202128435
+Curacao,CUW,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Curacao,CUW,Real interest rate (%),FR.INR.RINR,..
+Cyprus,CYP,population_total,SP.POP.TOTL,1198575
+Cyprus,CYP,GDP per capita (current US$),NY.GDP.PCAP.CD,27858.3709958327
+Cyprus,CYP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Cyprus,CYP,Consumer price index (2010 = 100),FP.CPI.TOTL,102.510991917283
+Cyprus,CYP,Real effective exchange rate index (2010 = 100),PX.REX.REER,87.8732214375239
+Cyprus,CYP,Real interest rate (%),FR.INR.RINR,..
+Czech Republic,CZE,population_total,SP.POP.TOTL,10669709
+Czech Republic,CZE,GDP per capita (current US$),NY.GDP.PCAP.CD,23101.7777049854
+Czech Republic,CZE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Czech Republic,CZE,Consumer price index (2010 = 100),FP.CPI.TOTL,116.47554201756
+Czech Republic,CZE,Real effective exchange rate index (2010 = 100),PX.REX.REER,99.3978058452735
+Czech Republic,CZE,Real interest rate (%),FR.INR.RINR,0.156828654494886
+Denmark,DNK,population_total,SP.POP.TOTL,5818553
+Denmark,DNK,GDP per capita (current US$),NY.GDP.PCAP.CD,59822.0929608968
+Denmark,DNK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Denmark,DNK,Consumer price index (2010 = 100),FP.CPI.TOTL,110.347290420498
+Denmark,DNK,Real effective exchange rate index (2010 = 100),PX.REX.REER,95.4260453940553
+Denmark,DNK,Real interest rate (%),FR.INR.RINR,..
+Djibouti,DJI,population_total,SP.POP.TOTL,973560
+Djibouti,DJI,GDP per capita (current US$),NY.GDP.PCAP.CD,3408.84625440838
+Djibouti,DJI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Djibouti,DJI,Consumer price index (2010 = 100),FP.CPI.TOTL,120.250922373372
+Djibouti,DJI,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Djibouti,DJI,Real interest rate (%),FR.INR.RINR,..
+Dominica,DMA,population_total,SP.POP.TOTL,71808
+Dominica,DMA,GDP per capita (current US$),NY.GDP.PCAP.CD,8300.37507427213
+Dominica,DMA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Dominica,DMA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Dominica,DMA,Real effective exchange rate index (2010 = 100),PX.REX.REER,102.857223121051
+Dominica,DMA,Real interest rate (%),FR.INR.RINR,5.02483076516777
+Dominican Republic,DOM,population_total,SP.POP.TOTL,10738958
+Dominican Republic,DOM,GDP per capita (current US$),NY.GDP.PCAP.CD,8282.1162218645
+Dominican Republic,DOM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,21
+Dominican Republic,DOM,Consumer price index (2010 = 100),FP.CPI.TOTL,135.498691386966
+Dominican Republic,DOM,Real effective exchange rate index (2010 = 100),PX.REX.REER,88.9786798176361
+Dominican Republic,DOM,Real interest rate (%),FR.INR.RINR,..
+Ecuador,ECU,population_total,SP.POP.TOTL,17373662
+Ecuador,ECU,GDP per capita (current US$),NY.GDP.PCAP.CD,6183.82382482173
+Ecuador,ECU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,25
+Ecuador,ECU,Consumer price index (2010 = 100),FP.CPI.TOTL,124.142674729473
+Ecuador,ECU,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Ecuador,ECU,Real interest rate (%),FR.INR.RINR,..
+Egypt Arab Rep.,EGY,population_total,SP.POP.TOTL,100388073
+Egypt Arab Rep.,EGY,GDP per capita (current US$),NY.GDP.PCAP.CD,3020.03134971543
+Egypt Arab Rep.,EGY,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Egypt Arab Rep.,EGY,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Egypt Arab Rep.,EGY,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Egypt Arab Rep.,EGY,Real interest rate (%),FR.INR.RINR,2.19123343904227
+El Salvador,SLV,population_total,SP.POP.TOTL,6453553
+El Salvador,SLV,GDP per capita (current US$),NY.GDP.PCAP.CD,4187.2500311069
+El Salvador,SLV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,22.8
+El Salvador,SLV,Consumer price index (2010 = 100),FP.CPI.TOTL,111.228352310936
+El Salvador,SLV,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+El Salvador,SLV,Real interest rate (%),FR.INR.RINR,..
+Equatorial Guinea,GNQ,population_total,SP.POP.TOTL,1355986
+Equatorial Guinea,GNQ,GDP per capita (current US$),NY.GDP.PCAP.CD,8131.92388810912
+Equatorial Guinea,GNQ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Equatorial Guinea,GNQ,Consumer price index (2010 = 100),FP.CPI.TOTL,124.346722780622
+Equatorial Guinea,GNQ,Real effective exchange rate index (2010 = 100),PX.REX.REER,102.008883577546
+Equatorial Guinea,GNQ,Real interest rate (%),FR.INR.RINR,..
+Eritrea,ERI,population_total,SP.POP.TOTL,..
+Eritrea,ERI,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Eritrea,ERI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Eritrea,ERI,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Eritrea,ERI,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Eritrea,ERI,Real interest rate (%),FR.INR.RINR,..
+Estonia,EST,population_total,SP.POP.TOTL,1326590
+Estonia,EST,GDP per capita (current US$),NY.GDP.PCAP.CD,23659.8722900339
+Estonia,EST,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Estonia,EST,Consumer price index (2010 = 100),FP.CPI.TOTL,122.14231282149
+Estonia,EST,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Estonia,EST,Real interest rate (%),FR.INR.RINR,..
+Eswatini,SWZ,population_total,SP.POP.TOTL,1148130
+Eswatini,SWZ,GDP per capita (current US$),NY.GDP.PCAP.CD,3837.02699384472
+Eswatini,SWZ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Eswatini,SWZ,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Eswatini,SWZ,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Eswatini,SWZ,Real interest rate (%),FR.INR.RINR,8.20255919124985
+Ethiopia,ETH,population_total,SP.POP.TOTL,112078730
+Ethiopia,ETH,GDP per capita (current US$),NY.GDP.PCAP.CD,857.501351042922
+Ethiopia,ETH,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Ethiopia,ETH,Consumer price index (2010 = 100),FP.CPI.TOTL,143.855086169159
+Ethiopia,ETH,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Ethiopia,ETH,Real interest rate (%),FR.INR.RINR,..
+Faroe Islands,FRO,population_total,SP.POP.TOTL,48678
+Faroe Islands,FRO,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Faroe Islands,FRO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Faroe Islands,FRO,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Faroe Islands,FRO,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Faroe Islands,FRO,Real interest rate (%),FR.INR.RINR,..
+Fiji,FJI,population_total,SP.POP.TOTL,889953
+Fiji,FJI,GDP per capita (current US$),NY.GDP.PCAP.CD,6220.04642089247
+Fiji,FJI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Fiji,FJI,Consumer price index (2010 = 100),FP.CPI.TOTL,132.297245600612
+Fiji,FJI,Real effective exchange rate index (2010 = 100),PX.REX.REER,113.256596182803
+Fiji,FJI,Real interest rate (%),FR.INR.RINR,..
+Finland,FIN,population_total,SP.POP.TOTL,5520314
+Finland,FIN,GDP per capita (current US$),NY.GDP.PCAP.CD,48685.8539866945
+Finland,FIN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Finland,FIN,Consumer price index (2010 = 100),FP.CPI.TOTL,112.331712088838
+Finland,FIN,Real effective exchange rate index (2010 = 100),PX.REX.REER,96.9605058920119
+Finland,FIN,Real interest rate (%),FR.INR.RINR,..
+French Polynesia,PYF,population_total,SP.POP.TOTL,279287
+French Polynesia,PYF,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+French Polynesia,PYF,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+French Polynesia,PYF,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+French Polynesia,PYF,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+French Polynesia,PYF,Real interest rate (%),FR.INR.RINR,..
+Gabon,GAB,population_total,SP.POP.TOTL,2172579
+Gabon,GAB,GDP per capita (current US$),NY.GDP.PCAP.CD,7667.36686126914
+Gabon,GAB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Gabon,GAB,Consumer price index (2010 = 100),FP.CPI.TOTL,122.627926286455
+Gabon,GAB,Real effective exchange rate index (2010 = 100),PX.REX.REER,102.461591117958
+Gabon,GAB,Real interest rate (%),FR.INR.RINR,..
+Gambia The,GMB,population_total,SP.POP.TOTL,2347706
+Gambia The,GMB,GDP per capita (current US$),NY.GDP.PCAP.CD,751.294688388742
+Gambia The,GMB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Gambia The,GMB,Consumer price index (2010 = 100),FP.CPI.TOTL,172.730435584882
+Gambia The,GMB,Real effective exchange rate index (2010 = 100),PX.REX.REER,93.1222486517583
+Gambia The,GMB,Real interest rate (%),FR.INR.RINR,..
+Georgia,GEO,population_total,SP.POP.TOTL,3720382
+Georgia,GEO,GDP per capita (current US$),NY.GDP.PCAP.CD,4769.18654326351
+Georgia,GEO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,19.5
+Georgia,GEO,Consumer price index (2010 = 100),FP.CPI.TOTL,133.612466666667
+Georgia,GEO,Real effective exchange rate index (2010 = 100),PX.REX.REER,93.366912037846
+Georgia,GEO,Real interest rate (%),FR.INR.RINR,3.92011497750792
+Ghana,GHA,population_total,SP.POP.TOTL,30417856
+Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2202.11556738065
+Ghana,GHA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Ghana,GHA,Consumer price index (2010 = 100),FP.CPI.TOTL,268.360848004366
+Ghana,GHA,Real effective exchange rate index (2010 = 100),PX.REX.REER,71.9610388268718
+Ghana,GHA,Real interest rate (%),FR.INR.RINR,..
+Gibraltar,GIB,population_total,SP.POP.TOTL,33701
+Gibraltar,GIB,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Gibraltar,GIB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Gibraltar,GIB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Gibraltar,GIB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Gibraltar,GIB,Real interest rate (%),FR.INR.RINR,..
+Greece,GRC,population_total,SP.POP.TOTL,10716322
+Greece,GRC,GDP per capita (current US$),NY.GDP.PCAP.CD,19582.5360108329
+Greece,GRC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Greece,GRC,Consumer price index (2010 = 100),FP.CPI.TOTL,101.949392140007
+Greece,GRC,Real effective exchange rate index (2010 = 100),PX.REX.REER,88.81812394608
+Greece,GRC,Real interest rate (%),FR.INR.RINR,..
+Greenland,GRL,population_total,SP.POP.TOTL,56225
+Greenland,GRL,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Greenland,GRL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Greenland,GRL,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Greenland,GRL,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Greenland,GRL,Real interest rate (%),FR.INR.RINR,..
+Grenada,GRD,population_total,SP.POP.TOTL,112003
+Grenada,GRD,GDP per capita (current US$),NY.GDP.PCAP.CD,10965.5131592044
+Grenada,GRD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Grenada,GRD,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Grenada,GRD,Real effective exchange rate index (2010 = 100),PX.REX.REER,96.0124527176961
+Grenada,GRD,Real interest rate (%),FR.INR.RINR,5.56206525699267
+Guam,GUM,population_total,SP.POP.TOTL,167294
+Guam,GUM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Guam,GUM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Guam,GUM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Guam,GUM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Guam,GUM,Real interest rate (%),FR.INR.RINR,..
+Guatemala,GTM,population_total,SP.POP.TOTL,16604026
+Guatemala,GTM,GDP per capita (current US$),NY.GDP.PCAP.CD,4619.98709708493
+Guatemala,GTM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Guatemala,GTM,Consumer price index (2010 = 100),FP.CPI.TOTL,142.921394880398
+Guatemala,GTM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Guatemala,GTM,Real interest rate (%),FR.INR.RINR,9.02073260159272
+Guinea,GIN,population_total,SP.POP.TOTL,12771246
+Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,1064.13123736656
+Guinea,GIN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Guinea,GIN,Consumer price index (2010 = 100),FP.CPI.TOTL,262.949692139783
+Guinea,GIN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Guinea,GIN,Real interest rate (%),FR.INR.RINR,..
+Guinea-Bissau,GNB,population_total,SP.POP.TOTL,1920922
+Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,697.784402885715
+Guinea-Bissau,GNB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Guinea-Bissau,GNB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Guinea-Bissau,GNB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Guinea-Bissau,GNB,Real interest rate (%),FR.INR.RINR,..
+Guyana,GUY,population_total,SP.POP.TOTL,782766
+Guyana,GUY,GDP per capita (current US$),NY.GDP.PCAP.CD,5468.35662903592
+Guyana,GUY,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Guyana,GUY,Consumer price index (2010 = 100),FP.CPI.TOTL,116.191475510903
+Guyana,GUY,Real effective exchange rate index (2010 = 100),PX.REX.REER,107.94734422101
+Guyana,GUY,Real interest rate (%),FR.INR.RINR,4.41637364776253
+Haiti,HTI,population_total,SP.POP.TOTL,11263077
+Haiti,HTI,GDP per capita (current US$),NY.GDP.PCAP.CD,754.58791774842
+Haiti,HTI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Haiti,HTI,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Haiti,HTI,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Haiti,HTI,Real interest rate (%),FR.INR.RINR,-0.383468011987909
+Honduras,HND,population_total,SP.POP.TOTL,9746117
+Honduras,HND,GDP per capita (current US$),NY.GDP.PCAP.CD,2574.91219067443
+Honduras,HND,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Honduras,HND,Consumer price index (2010 = 100),FP.CPI.TOTL,150.34435782941
+Honduras,HND,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Honduras,HND,Real interest rate (%),FR.INR.RINR,12.4601268621784
+Hong Kong SAR China,HKG,population_total,SP.POP.TOTL,7507400
+Hong Kong SAR China,HKG,GDP per capita (current US$),NY.GDP.PCAP.CD,48755.8350791287
+Hong Kong SAR China,HKG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Hong Kong SAR China,HKG,Consumer price index (2010 = 100),FP.CPI.TOTL,134.593052867475
+Hong Kong SAR China,HKG,Real effective exchange rate index (2010 = 100),PX.REX.REER,127.153651252042
+Hong Kong SAR China,HKG,Real interest rate (%),FR.INR.RINR,..
+Hungary,HUN,population_total,SP.POP.TOTL,9769949
+Hungary,HUN,GDP per capita (current US$),NY.GDP.PCAP.CD,16475.7418389402
+Hungary,HUN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Hungary,HUN,Consumer price index (2010 = 100),FP.CPI.TOTL,121.64204740639
+Hungary,HUN,Real effective exchange rate index (2010 = 100),PX.REX.REER,88.8790654563747
+Hungary,HUN,Real interest rate (%),FR.INR.RINR,-2.60812758230893
+Iceland,ISL,population_total,SP.POP.TOTL,361313
+Iceland,ISL,GDP per capita (current US$),NY.GDP.PCAP.CD,66944.8255080349
+Iceland,ISL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Iceland,ISL,Consumer price index (2010 = 100),FP.CPI.TOTL,129.003331214359
+Iceland,ISL,Real effective exchange rate index (2010 = 100),PX.REX.REER,130.505180840357
+Iceland,ISL,Real interest rate (%),FR.INR.RINR,2.45109748269512
+Iran Islamic Rep.,IRN,population_total,SP.POP.TOTL,82913906
+Iran Islamic Rep.,IRN,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Iran Islamic Rep.,IRN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Iran Islamic Rep.,IRN,Consumer price index (2010 = 100),FP.CPI.TOTL,550.929425291206
+Iran Islamic Rep.,IRN,Real effective exchange rate index (2010 = 100),PX.REX.REER,126.220810417357
+Iran Islamic Rep.,IRN,Real interest rate (%),FR.INR.RINR,..
+Iraq,IRQ,population_total,SP.POP.TOTL,39309783
+Iraq,IRQ,GDP per capita (current US$),NY.GDP.PCAP.CD,5955.10901036816
+Iraq,IRQ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Iraq,IRQ,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Iraq,IRQ,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Iraq,IRQ,Real interest rate (%),FR.INR.RINR,..
+Ireland,IRL,population_total,SP.POP.TOTL,4941444
+Ireland,IRL,GDP per capita (current US$),NY.GDP.PCAP.CD,78660.9564629603
+Ireland,IRL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Ireland,IRL,Consumer price index (2010 = 100),FP.CPI.TOTL,106.584326346003
+Ireland,IRL,Real effective exchange rate index (2010 = 100),PX.REX.REER,88.2148425624476
+Ireland,IRL,Real interest rate (%),FR.INR.RINR,..
+Isle of Man,IMN,population_total,SP.POP.TOTL,84584
+Isle of Man,IMN,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Isle of Man,IMN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Isle of Man,IMN,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Isle of Man,IMN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Isle of Man,IMN,Real interest rate (%),FR.INR.RINR,..
+Israel,ISR,population_total,SP.POP.TOTL,9053300
+Israel,ISR,GDP per capita (current US$),NY.GDP.PCAP.CD,43641.3977358108
+Israel,ISR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Israel,ISR,Consumer price index (2010 = 100),FP.CPI.TOTL,108.150134048257
+Israel,ISR,Real effective exchange rate index (2010 = 100),PX.REX.REER,108.647117457554
+Israel,ISR,Real interest rate (%),FR.INR.RINR,1.26784769147576
+Jamaica,JAM,population_total,SP.POP.TOTL,2948279
+Jamaica,JAM,GDP per capita (current US$),NY.GDP.PCAP.CD,5582.26377755211
+Jamaica,JAM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Jamaica,JAM,Consumer price index (2010 = 100),FP.CPI.TOTL,162.501816965864
+Jamaica,JAM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Jamaica,JAM,Real interest rate (%),FR.INR.RINR,5.02545853291475
+Jordan,JOR,population_total,SP.POP.TOTL,10101694
+Jordan,JOR,GDP per capita (current US$),NY.GDP.PCAP.CD,4330.32934593257
+Jordan,JOR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Jordan,JOR,Consumer price index (2010 = 100),FP.CPI.TOTL,125.604002606804
+Jordan,JOR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Jordan,JOR,Real interest rate (%),FR.INR.RINR,7.00870730204777
+Kazakhstan,KAZ,population_total,SP.POP.TOTL,18513930
+Kazakhstan,KAZ,GDP per capita (current US$),NY.GDP.PCAP.CD,9731.14520688729
+Kazakhstan,KAZ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Kazakhstan,KAZ,Consumer price index (2010 = 100),FP.CPI.TOTL,182.75
+Kazakhstan,KAZ,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Kazakhstan,KAZ,Real interest rate (%),FR.INR.RINR,..
+Kenya,KEN,population_total,SP.POP.TOTL,52573973
+Kenya,KEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1816.5469164389
+Kenya,KEN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Kenya,KEN,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Kenya,KEN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Kenya,KEN,Real interest rate (%),FR.INR.RINR,..
+Kiribati,KIR,population_total,SP.POP.TOTL,117606
+Kiribati,KIR,GDP per capita (current US$),NY.GDP.PCAP.CD,1655.07883905984
+Kiribati,KIR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Kiribati,KIR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Kiribati,KIR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Kiribati,KIR,Real interest rate (%),FR.INR.RINR,..
+Korea Dem. People’s Rep.,PRK,population_total,SP.POP.TOTL,25666161
+Korea Dem. People’s Rep.,PRK,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Korea Dem. People’s Rep.,PRK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Korea Dem. People’s Rep.,PRK,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Korea Dem. People’s Rep.,PRK,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Korea Dem. People’s Rep.,PRK,Real interest rate (%),FR.INR.RINR,..
+Kosovo,XKX,population_total,SP.POP.TOTL,1794248
+Kosovo,XKX,GDP per capita (current US$),NY.GDP.PCAP.CD,4417.50993975428
+Kosovo,XKX,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Kosovo,XKX,Consumer price index (2010 = 100),FP.CPI.TOTL,118.065646442896
+Kosovo,XKX,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Kosovo,XKX,Real interest rate (%),FR.INR.RINR,..
+Kuwait,KWT,population_total,SP.POP.TOTL,4207083
+Kuwait,KWT,GDP per capita (current US$),NY.GDP.PCAP.CD,32031.9801025988
+Kuwait,KWT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Kuwait,KWT,Consumer price index (2010 = 100),FP.CPI.TOTL,126.601512114574
+Kuwait,KWT,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Kuwait,KWT,Real interest rate (%),FR.INR.RINR,9.25973317604365
+Kyrgyz Republic,KGZ,population_total,SP.POP.TOTL,6456900
+Kyrgyz Republic,KGZ,GDP per capita (current US$),NY.GDP.PCAP.CD,1309.39299165512
+Kyrgyz Republic,KGZ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Kyrgyz Republic,KGZ,Consumer price index (2010 = 100),FP.CPI.TOTL,155.676152413544
+Kyrgyz Republic,KGZ,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Kyrgyz Republic,KGZ,Real interest rate (%),FR.INR.RINR,20.0063786550235
+Lao PDR,LAO,population_total,SP.POP.TOTL,7169455
+Lao PDR,LAO,GDP per capita (current US$),NY.GDP.PCAP.CD,2534.89827724281
+Lao PDR,LAO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Lao PDR,LAO,Consumer price index (2010 = 100),FP.CPI.TOTL,135.866252280139
+Lao PDR,LAO,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Lao PDR,LAO,Real interest rate (%),FR.INR.RINR,..
+Latvia,LVA,population_total,SP.POP.TOTL,1912789
+Latvia,LVA,GDP per capita (current US$),NY.GDP.PCAP.CD,17836.3648865958
+Latvia,LVA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Latvia,LVA,Consumer price index (2010 = 100),FP.CPI.TOTL,116.856984643273
+Latvia,LVA,Real effective exchange rate index (2010 = 100),PX.REX.REER,102.796011354486
+Latvia,LVA,Real interest rate (%),FR.INR.RINR,..
+Lebanon,LBN,population_total,SP.POP.TOTL,6855713
+Lebanon,LBN,GDP per capita (current US$),NY.GDP.PCAP.CD,7784.31685692976
+Lebanon,LBN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Lebanon,LBN,Consumer price index (2010 = 100),FP.CPI.TOTL,130.024611761339
+Lebanon,LBN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Lebanon,LBN,Real interest rate (%),FR.INR.RINR,7.39876903152564
+Lesotho,LSO,population_total,SP.POP.TOTL,2125268
+Lesotho,LSO,GDP per capita (current US$),NY.GDP.PCAP.CD,1157.53516433147
+Lesotho,LSO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Lesotho,LSO,Consumer price index (2010 = 100),FP.CPI.TOTL,155.858195070683
+Lesotho,LSO,Real effective exchange rate index (2010 = 100),PX.REX.REER,78.2492844875882
+Lesotho,LSO,Real interest rate (%),FR.INR.RINR,8.36933155396523
+Liberia,LBR,population_total,SP.POP.TOTL,4937374
+Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,621.892953622715
+Liberia,LBR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Liberia,LBR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Liberia,LBR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Liberia,LBR,Real interest rate (%),FR.INR.RINR,..
+Libya,LBY,population_total,SP.POP.TOTL,6777452
+Libya,LBY,GDP per capita (current US$),NY.GDP.PCAP.CD,7683.75061122959
+Libya,LBY,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Libya,LBY,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Libya,LBY,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Libya,LBY,Real interest rate (%),FR.INR.RINR,..
+Liechtenstein,LIE,population_total,SP.POP.TOTL,38019
+Liechtenstein,LIE,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Liechtenstein,LIE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Liechtenstein,LIE,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Liechtenstein,LIE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Liechtenstein,LIE,Real interest rate (%),FR.INR.RINR,..
+Lithuania,LTU,population_total,SP.POP.TOTL,2786844
+Lithuania,LTU,GDP per capita (current US$),NY.GDP.PCAP.CD,19455.4541266341
+Lithuania,LTU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Lithuania,LTU,Consumer price index (2010 = 100),FP.CPI.TOTL,118.382098321258
+Lithuania,LTU,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Lithuania,LTU,Real interest rate (%),FR.INR.RINR,..
+Luxembourg,LUX,population_total,SP.POP.TOTL,619896
+Luxembourg,LUX,GDP per capita (current US$),NY.GDP.PCAP.CD,114704.594170863
+Luxembourg,LUX,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Luxembourg,LUX,Consumer price index (2010 = 100),FP.CPI.TOTL,115.087815087815
+Luxembourg,LUX,Real effective exchange rate index (2010 = 100),PX.REX.REER,99.5373992087158
+Luxembourg,LUX,Real interest rate (%),FR.INR.RINR,..
+Macao SAR China,MAC,population_total,SP.POP.TOTL,640445
+Macao SAR China,MAC,GDP per capita (current US$),NY.GDP.PCAP.CD,84096.3963112065
+Macao SAR China,MAC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Macao SAR China,MAC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Macao SAR China,MAC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Macao SAR China,MAC,Real interest rate (%),FR.INR.RINR,2.7021673752515
+Madagascar,MDG,population_total,SP.POP.TOTL,26969307
+Madagascar,MDG,GDP per capita (current US$),NY.GDP.PCAP.CD,522.21980923047
+Madagascar,MDG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Madagascar,MDG,Consumer price index (2010 = 100),FP.CPI.TOTL,184.329736417331
+Madagascar,MDG,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Madagascar,MDG,Real interest rate (%),FR.INR.RINR,41.5308640821076
+Malawi,MWI,population_total,SP.POP.TOTL,18628747
+Malawi,MWI,GDP per capita (current US$),NY.GDP.PCAP.CD,411.552340423602
+Malawi,MWI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Malawi,MWI,Consumer price index (2010 = 100),FP.CPI.TOTL,418.344325525805
+Malawi,MWI,Real effective exchange rate index (2010 = 100),PX.REX.REER,86.0690983152765
+Malawi,MWI,Real interest rate (%),FR.INR.RINR,..
+Malaysia,MYS,population_total,SP.POP.TOTL,31949777
+Malaysia,MYS,GDP per capita (current US$),NY.GDP.PCAP.CD,11414.8376618668
+Malaysia,MYS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Malaysia,MYS,Consumer price index (2010 = 100),FP.CPI.TOTL,121.463089485086
+Malaysia,MYS,Real effective exchange rate index (2010 = 100),PX.REX.REER,87.3818900134678
+Malaysia,MYS,Real interest rate (%),FR.INR.RINR,4.79383477889116
+Maldives,MDV,population_total,SP.POP.TOTL,530953
+Maldives,MDV,GDP per capita (current US$),NY.GDP.PCAP.CD,10790.50023682
+Maldives,MDV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Maldives,MDV,Consumer price index (2010 = 100),FP.CPI.TOTL,99.7040268561203
+Maldives,MDV,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Maldives,MDV,Real interest rate (%),FR.INR.RINR,9.17328264016924
+Mali,MLI,population_total,SP.POP.TOTL,19658031
+Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,890.737285506382
+Mali,MLI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,42.1
+Mali,MLI,Consumer price index (2010 = 100),FP.CPI.TOTL,108.726079750895
+Mali,MLI,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Mali,MLI,Real interest rate (%),FR.INR.RINR,..
+Malta,MLT,population_total,SP.POP.TOTL,502653
+Malta,MLT,GDP per capita (current US$),NY.GDP.PCAP.CD,29416.2306070084
+Malta,MLT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Malta,MLT,Consumer price index (2010 = 100),FP.CPI.TOTL,113.452474124359
+Malta,MLT,Real effective exchange rate index (2010 = 100),PX.REX.REER,92.7136728999216
+Malta,MLT,Real interest rate (%),FR.INR.RINR,..
+Marshall Islands,MHL,population_total,SP.POP.TOTL,58791
+Marshall Islands,MHL,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Marshall Islands,MHL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Marshall Islands,MHL,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Marshall Islands,MHL,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Marshall Islands,MHL,Real interest rate (%),FR.INR.RINR,..
+Mauritania,MRT,population_total,SP.POP.TOTL,4525696
+Mauritania,MRT,GDP per capita (current US$),NY.GDP.PCAP.CD,1677.91925268633
+Mauritania,MRT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Mauritania,MRT,Consumer price index (2010 = 100),FP.CPI.TOTL,135.018896797734
+Mauritania,MRT,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Mauritania,MRT,Real interest rate (%),FR.INR.RINR,..
+Mauritius,MUS,population_total,SP.POP.TOTL,1265711
+Mauritius,MUS,GDP per capita (current US$),NY.GDP.PCAP.CD,11203.5405848607
+Mauritius,MUS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Mauritius,MUS,Consumer price index (2010 = 100),FP.CPI.TOTL,129.914034934498
+Mauritius,MUS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Mauritius,MUS,Real interest rate (%),FR.INR.RINR,7.43869083318763
+Micronesia Fed. Sts.,FSM,population_total,SP.POP.TOTL,113815
+Micronesia Fed. Sts.,FSM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Micronesia Fed. Sts.,FSM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Micronesia Fed. Sts.,FSM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Micronesia Fed. Sts.,FSM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Micronesia Fed. Sts.,FSM,Real interest rate (%),FR.INR.RINR,..
+Moldova,MDA,population_total,SP.POP.TOTL,2657637
+Moldova,MDA,GDP per capita (current US$),NY.GDP.PCAP.CD,4498.52085021233
+Moldova,MDA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Moldova,MDA,Consumer price index (2010 = 100),FP.CPI.TOTL,166.196279636921
+Moldova,MDA,Real effective exchange rate index (2010 = 100),PX.REX.REER,124.899640206277
+Moldova,MDA,Real interest rate (%),FR.INR.RINR,2.61506396191776
+Monaco,MCO,population_total,SP.POP.TOTL,38964
+Monaco,MCO,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Monaco,MCO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Monaco,MCO,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Monaco,MCO,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Monaco,MCO,Real interest rate (%),FR.INR.RINR,..
+Mongolia,MNG,population_total,SP.POP.TOTL,3225167
+Mongolia,MNG,GDP per capita (current US$),NY.GDP.PCAP.CD,4295.23502487944
+Mongolia,MNG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Mongolia,MNG,Consumer price index (2010 = 100),FP.CPI.TOTL,195.762902940885
+Mongolia,MNG,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Mongolia,MNG,Real interest rate (%),FR.INR.RINR,7.94334883598666
+Montenegro,MNE,population_total,SP.POP.TOTL,622137
+Montenegro,MNE,GDP per capita (current US$),NY.GDP.PCAP.CD,8832.03683598629
+Montenegro,MNE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Montenegro,MNE,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Montenegro,MNE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Montenegro,MNE,Real interest rate (%),FR.INR.RINR,..
+Morocco,MAR,population_total,SP.POP.TOTL,36471769
+Morocco,MAR,GDP per capita (current US$),NY.GDP.PCAP.CD,3204.09500313298
+Morocco,MAR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Morocco,MAR,Consumer price index (2010 = 100),FP.CPI.TOTL,111.067558219968
+Morocco,MAR,Real effective exchange rate index (2010 = 100),PX.REX.REER,99.8851692103556
+Morocco,MAR,Real interest rate (%),FR.INR.RINR,..
+Mozambique,MOZ,population_total,SP.POP.TOTL,30366036
+Mozambique,MOZ,GDP per capita (current US$),NY.GDP.PCAP.CD,491.804723063735
+Mozambique,MOZ,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Mozambique,MOZ,Consumer price index (2010 = 100),FP.CPI.TOTL,182.314783376391
+Mozambique,MOZ,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Mozambique,MOZ,Real interest rate (%),FR.INR.RINR,15.5362950782722
+Myanmar,MMR,population_total,SP.POP.TOTL,54045420
+Myanmar,MMR,GDP per capita (current US$),NY.GDP.PCAP.CD,1407.81314341043
+Myanmar,MMR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Myanmar,MMR,Consumer price index (2010 = 100),FP.CPI.TOTL,168.182700659367
+Myanmar,MMR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Myanmar,MMR,Real interest rate (%),FR.INR.RINR,7.52865987679398
+Namibia,NAM,population_total,SP.POP.TOTL,2494530
+Namibia,NAM,GDP per capita (current US$),NY.GDP.PCAP.CD,4957.4580058497
+Namibia,NAM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Namibia,NAM,Consumer price index (2010 = 100),FP.CPI.TOTL,157.968367961494
+Namibia,NAM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Namibia,NAM,Real interest rate (%),FR.INR.RINR,8.24984181285587
+Nauru,NRU,population_total,SP.POP.TOTL,12581
+Nauru,NRU,GDP per capita (current US$),NY.GDP.PCAP.CD,9396.98196681072
+Nauru,NRU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Nauru,NRU,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Nauru,NRU,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Nauru,NRU,Real interest rate (%),FR.INR.RINR,..
+Nepal,NPL,population_total,SP.POP.TOTL,28608710
+Nepal,NPL,GDP per capita (current US$),NY.GDP.PCAP.CD,1071.05076056552
+Nepal,NPL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Nepal,NPL,Consumer price index (2010 = 100),FP.CPI.TOTL,188.729977162221
+Nepal,NPL,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Nepal,NPL,Real interest rate (%),FR.INR.RINR,..
+New Caledonia,NCL,population_total,SP.POP.TOTL,287800
+New Caledonia,NCL,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+New Caledonia,NCL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+New Caledonia,NCL,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+New Caledonia,NCL,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+New Caledonia,NCL,Real interest rate (%),FR.INR.RINR,..
+New Zealand,NZL,population_total,SP.POP.TOTL,4917000
+New Zealand,NZL,GDP per capita (current US$),NY.GDP.PCAP.CD,42084.3533748088
+New Zealand,NZL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+New Zealand,NZL,Consumer price index (2010 = 100),FP.CPI.TOTL,114.240911764414
+New Zealand,NZL,Real effective exchange rate index (2010 = 100),PX.REX.REER,101.294874679394
+New Zealand,NZL,Real interest rate (%),FR.INR.RINR,..
+Nicaragua,NIC,population_total,SP.POP.TOTL,6545502
+Nicaragua,NIC,GDP per capita (current US$),NY.GDP.PCAP.CD,1912.90374537869
+Nicaragua,NIC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Nicaragua,NIC,Consumer price index (2010 = 100),FP.CPI.TOTL,162.739607236815
+Nicaragua,NIC,Real effective exchange rate index (2010 = 100),PX.REX.REER,95.4787001577676
+Nicaragua,NIC,Real interest rate (%),FR.INR.RINR,7.44214220911097
+Niger,NER,population_total,SP.POP.TOTL,23310715
+Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,554.600968697425
+Niger,NER,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Niger,NER,Consumer price index (2010 = 100),FP.CPI.TOTL,109.323686827592
+Niger,NER,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Niger,NER,Real interest rate (%),FR.INR.RINR,..
+Nigeria,NGA,population_total,SP.POP.TOTL,200963599
+Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2229.85869624463
+Nigeria,NGA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Nigeria,NGA,Consumer price index (2010 = 100),FP.CPI.TOTL,267.511515134176
+Nigeria,NGA,Real effective exchange rate index (2010 = 100),PX.REX.REER,122.701199913471
+Nigeria,NGA,Real interest rate (%),FR.INR.RINR,4.52218849694503
+North Macedonia,MKD,population_total,SP.POP.TOTL,2083459
+North Macedonia,MKD,GDP per capita (current US$),NY.GDP.PCAP.CD,6093.14769049676
+North Macedonia,MKD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+North Macedonia,MKD,Consumer price index (2010 = 100),FP.CPI.TOTL,113.395833333333
+North Macedonia,MKD,Real effective exchange rate index (2010 = 100),PX.REX.REER,98.2995885777676
+North Macedonia,MKD,Real interest rate (%),FR.INR.RINR,3.16766990097865
+Northern Mariana Islands,MNP,population_total,SP.POP.TOTL,57216
+Northern Mariana Islands,MNP,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Northern Mariana Islands,MNP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Northern Mariana Islands,MNP,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Northern Mariana Islands,MNP,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Northern Mariana Islands,MNP,Real interest rate (%),FR.INR.RINR,..
+Norway,NOR,population_total,SP.POP.TOTL,5347896
+Norway,NOR,GDP per capita (current US$),NY.GDP.PCAP.CD,75419.6348688089
+Norway,NOR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Norway,NOR,Consumer price index (2010 = 100),FP.CPI.TOTL,120.269658854402
+Norway,NOR,Real effective exchange rate index (2010 = 100),PX.REX.REER,83.7025836885954
+Norway,NOR,Real interest rate (%),FR.INR.RINR,..
+Oman,OMN,population_total,SP.POP.TOTL,4974986
+Oman,OMN,GDP per capita (current US$),NY.GDP.PCAP.CD,15474.0324753635
+Oman,OMN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Oman,OMN,Consumer price index (2010 = 100),FP.CPI.TOTL,113.52928579077
+Oman,OMN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Oman,OMN,Real interest rate (%),FR.INR.RINR,..
+Pakistan,PAK,population_total,SP.POP.TOTL,216565318
+Pakistan,PAK,GDP per capita (current US$),NY.GDP.PCAP.CD,1284.70204090039
+Pakistan,PAK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Pakistan,PAK,Consumer price index (2010 = 100),FP.CPI.TOTL,182.320386372692
+Pakistan,PAK,Real effective exchange rate index (2010 = 100),PX.REX.REER,97.0862288494772
+Pakistan,PAK,Real interest rate (%),FR.INR.RINR,3.32556186314953
+Palau,PLW,population_total,SP.POP.TOTL,18008
+Palau,PLW,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Palau,PLW,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Palau,PLW,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Palau,PLW,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Palau,PLW,Real interest rate (%),FR.INR.RINR,..
+Panama,PAN,population_total,SP.POP.TOTL,4246439
+Panama,PAN,GDP per capita (current US$),NY.GDP.PCAP.CD,15731.0160348471
+Panama,PAN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Panama,PAN,Consumer price index (2010 = 100),FP.CPI.TOTL,122.068713378771
+Panama,PAN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Panama,PAN,Real interest rate (%),FR.INR.RINR,..
+Papua New Guinea,PNG,population_total,SP.POP.TOTL,8776109
+Papua New Guinea,PNG,GDP per capita (current US$),NY.GDP.PCAP.CD,2845.18018574842
+Papua New Guinea,PNG,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Papua New Guinea,PNG,Consumer price index (2010 = 100),FP.CPI.TOTL,155.992373115839
+Papua New Guinea,PNG,Real effective exchange rate index (2010 = 100),PX.REX.REER,124.678042397902
+Papua New Guinea,PNG,Real interest rate (%),FR.INR.RINR,4.60379251776701
+Paraguay,PRY,population_total,SP.POP.TOTL,7044636
+Paraguay,PRY,GDP per capita (current US$),NY.GDP.PCAP.CD,5414.79913793258
+Paraguay,PRY,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Paraguay,PRY,Consumer price index (2010 = 100),FP.CPI.TOTL,143.821040974529
+Paraguay,PRY,Real effective exchange rate index (2010 = 100),PX.REX.REER,110.148446294265
+Paraguay,PRY,Real interest rate (%),FR.INR.RINR,..
+Peru,PER,population_total,SP.POP.TOTL,32510453
+Peru,PER,GDP per capita (current US$),NY.GDP.PCAP.CD,6977.69578355382
+Peru,PER,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,20.2
+Peru,PER,Consumer price index (2010 = 100),FP.CPI.TOTL,129.784544342759
+Peru,PER,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Peru,PER,Real interest rate (%),FR.INR.RINR,..
+Philippines,PHL,population_total,SP.POP.TOTL,108116615
+Philippines,PHL,GDP per capita (current US$),NY.GDP.PCAP.CD,3485.08421836621
+Philippines,PHL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Philippines,PHL,Consumer price index (2010 = 100),FP.CPI.TOTL,129.613257249479
+Philippines,PHL,Real effective exchange rate index (2010 = 100),PX.REX.REER,105.325307122002
+Philippines,PHL,Real interest rate (%),FR.INR.RINR,6.31679056512861
+Poland,POL,population_total,SP.POP.TOTL,37970874
+Poland,POL,GDP per capita (current US$),NY.GDP.PCAP.CD,15595.2270334259
+Poland,POL,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Poland,POL,Consumer price index (2010 = 100),FP.CPI.TOTL,114.111779375092
+Poland,POL,Real effective exchange rate index (2010 = 100),PX.REX.REER,92.1371775277195
+Poland,POL,Real interest rate (%),FR.INR.RINR,..
+Portugal,PRT,population_total,SP.POP.TOTL,10269417
+Portugal,PRT,GDP per capita (current US$),NY.GDP.PCAP.CD,23145.0408172828
+Portugal,PRT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Portugal,PRT,Consumer price index (2010 = 100),FP.CPI.TOTL,110.624358614714
+Portugal,PRT,Real effective exchange rate index (2010 = 100),PX.REX.REER,96.1371448557913
+Portugal,PRT,Real interest rate (%),FR.INR.RINR,..
+Puerto Rico,PRI,population_total,SP.POP.TOTL,3193694
+Puerto Rico,PRI,GDP per capita (current US$),NY.GDP.PCAP.CD,32873.7192730424
+Puerto Rico,PRI,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Puerto Rico,PRI,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Puerto Rico,PRI,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Puerto Rico,PRI,Real interest rate (%),FR.INR.RINR,..
+Qatar,QAT,population_total,SP.POP.TOTL,2832067
+Qatar,QAT,GDP per capita (current US$),NY.GDP.PCAP.CD,64781.7331974169
+Qatar,QAT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Qatar,QAT,Consumer price index (2010 = 100),FP.CPI.TOTL,115.380849813981
+Qatar,QAT,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Qatar,QAT,Real interest rate (%),FR.INR.RINR,9.3588096134587
+Romania,ROU,population_total,SP.POP.TOTL,19356544
+Romania,ROU,GDP per capita (current US$),NY.GDP.PCAP.CD,12919.5296441908
+Romania,ROU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Romania,ROU,Consumer price index (2010 = 100),FP.CPI.TOTL,123.780383348878
+Romania,ROU,Real effective exchange rate index (2010 = 100),PX.REX.REER,97.2609506580435
+Romania,ROU,Real interest rate (%),FR.INR.RINR,0.229960523787146
+Rwanda,RWA,population_total,SP.POP.TOTL,12626950
+Rwanda,RWA,GDP per capita (current US$),NY.GDP.PCAP.CD,801.656186978807
+Rwanda,RWA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Rwanda,RWA,Consumer price index (2010 = 100),FP.CPI.TOTL,151.089368569699
+Rwanda,RWA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Rwanda,RWA,Real interest rate (%),FR.INR.RINR,16.0980621564334
+Samoa,WSM,population_total,SP.POP.TOTL,197097
+Samoa,WSM,GDP per capita (current US$),NY.GDP.PCAP.CD,4315.92067469565
+Samoa,WSM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Samoa,WSM,Consumer price index (2010 = 100),FP.CPI.TOTL,117.555522119693
+Samoa,WSM,Real effective exchange rate index (2010 = 100),PX.REX.REER,105.057397038498
+Samoa,WSM,Real interest rate (%),FR.INR.RINR,6.57346702149988
+San Marino,SMR,population_total,SP.POP.TOTL,33860
+San Marino,SMR,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+San Marino,SMR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+San Marino,SMR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+San Marino,SMR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+San Marino,SMR,Real interest rate (%),FR.INR.RINR,..
+Sao Tome and Principe,STP,population_total,SP.POP.TOTL,215056
+Sao Tome and Principe,STP,GDP per capita (current US$),NY.GDP.PCAP.CD,1994.90646719089
+Sao Tome and Principe,STP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sao Tome and Principe,STP,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Sao Tome and Principe,STP,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sao Tome and Principe,STP,Real interest rate (%),FR.INR.RINR,..
+Senegal,SEN,population_total,SP.POP.TOTL,16296364
+Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1446.83096499408
+Senegal,SEN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Senegal,SEN,Consumer price index (2010 = 100),FP.CPI.TOTL,109.251270172291
+Senegal,SEN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Senegal,SEN,Real interest rate (%),FR.INR.RINR,..
+Serbia,SRB,population_total,SP.POP.TOTL,6944975
+Serbia,SRB,GDP per capita (current US$),NY.GDP.PCAP.CD,7402.35455862041
+Serbia,SRB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Serbia,SRB,Consumer price index (2010 = 100),FP.CPI.TOTL,143.997573551714
+Serbia,SRB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Serbia,SRB,Real interest rate (%),FR.INR.RINR,..
+Seychelles,SYC,population_total,SP.POP.TOTL,97625
+Seychelles,SYC,GDP per capita (current US$),NY.GDP.PCAP.CD,17401.7215135612
+Seychelles,SYC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Seychelles,SYC,Consumer price index (2010 = 100),FP.CPI.TOTL,129.958197460152
+Seychelles,SYC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Seychelles,SYC,Real interest rate (%),FR.INR.RINR,9.1179079832144
+Sierra Leone,SLE,population_total,SP.POP.TOTL,7813215
+Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,504.46254336648
+Sierra Leone,SLE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sierra Leone,SLE,Consumer price index (2010 = 100),FP.CPI.TOTL,234.158709490741
+Sierra Leone,SLE,Real effective exchange rate index (2010 = 100),PX.REX.REER,104.792890375351
+Sierra Leone,SLE,Real interest rate (%),FR.INR.RINR,13.5188524373076
+Singapore,SGP,population_total,SP.POP.TOTL,5703569
+Singapore,SGP,GDP per capita (current US$),NY.GDP.PCAP.CD,65233.2824392302
+Singapore,SGP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Singapore,SGP,Consumer price index (2010 = 100),FP.CPI.TOTL,114.405785881945
+Singapore,SGP,Real effective exchange rate index (2010 = 100),PX.REX.REER,106.30777983768
+Singapore,SGP,Real interest rate (%),FR.INR.RINR,5.15024813040919
+Sint Maarten (Dutch part),SXM,population_total,SP.POP.TOTL,40733
+Sint Maarten (Dutch part),SXM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Sint Maarten (Dutch part),SXM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sint Maarten (Dutch part),SXM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Sint Maarten (Dutch part),SXM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sint Maarten (Dutch part),SXM,Real interest rate (%),FR.INR.RINR,..
+Slovak Republic,SVK,population_total,SP.POP.TOTL,5454073
+Slovak Republic,SVK,GDP per capita (current US$),NY.GDP.PCAP.CD,19329.0968007902
+Slovak Republic,SVK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Slovak Republic,SVK,Consumer price index (2010 = 100),FP.CPI.TOTL,115.338987748767
+Slovak Republic,SVK,Real effective exchange rate index (2010 = 100),PX.REX.REER,100.094494769393
+Slovak Republic,SVK,Real interest rate (%),FR.INR.RINR,..
+Slovenia,SVN,population_total,SP.POP.TOTL,2087946
+Slovenia,SVN,GDP per capita (current US$),NY.GDP.PCAP.CD,25739.2478143246
+Slovenia,SVN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Slovenia,SVN,Consumer price index (2010 = 100),FP.CPI.TOTL,111.051074912815
+Slovenia,SVN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Slovenia,SVN,Real interest rate (%),FR.INR.RINR,..
+Solomon Islands,SLB,population_total,SP.POP.TOTL,669823
+Solomon Islands,SLB,GDP per capita (current US$),NY.GDP.PCAP.CD,2127.53850760272
+Solomon Islands,SLB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Solomon Islands,SLB,Consumer price index (2010 = 100),FP.CPI.TOTL,133.062033185591
+Solomon Islands,SLB,Real effective exchange rate index (2010 = 100),PX.REX.REER,127.093334346894
+Solomon Islands,SLB,Real interest rate (%),FR.INR.RINR,..
+Somalia,SOM,population_total,SP.POP.TOTL,15442905
+Somalia,SOM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Somalia,SOM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Somalia,SOM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Somalia,SOM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Somalia,SOM,Real interest rate (%),FR.INR.RINR,..
+South Africa,ZAF,population_total,SP.POP.TOTL,58558270
+South Africa,ZAF,GDP per capita (current US$),NY.GDP.PCAP.CD,6001.40081394888
+South Africa,ZAF,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+South Africa,ZAF,Consumer price index (2010 = 100),FP.CPI.TOTL,158.927937522187
+South Africa,ZAF,Real effective exchange rate index (2010 = 100),PX.REX.REER,77.9430553187579
+South Africa,ZAF,Real interest rate (%),FR.INR.RINR,5.86782125138354
+South Sudan,SSD,population_total,SP.POP.TOTL,11062113
+South Sudan,SSD,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+South Sudan,SSD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+South Sudan,SSD,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+South Sudan,SSD,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+South Sudan,SSD,Real interest rate (%),FR.INR.RINR,..
+Sri Lanka,LKA,population_total,SP.POP.TOTL,21803000
+Sri Lanka,LKA,GDP per capita (current US$),NY.GDP.PCAP.CD,3853.08369288942
+Sri Lanka,LKA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sri Lanka,LKA,Consumer price index (2010 = 100),FP.CPI.TOTL,155.528883036152
+Sri Lanka,LKA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sri Lanka,LKA,Real interest rate (%),FR.INR.RINR,8.85874146592677
+St. Kitts and Nevis,KNA,population_total,SP.POP.TOTL,52823
+St. Kitts and Nevis,KNA,GDP per capita (current US$),NY.GDP.PCAP.CD,19896.4957043824
+St. Kitts and Nevis,KNA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+St. Kitts and Nevis,KNA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+St. Kitts and Nevis,KNA,Real effective exchange rate index (2010 = 100),PX.REX.REER,96.5878852329317
+St. Kitts and Nevis,KNA,Real interest rate (%),FR.INR.RINR,6.98902859889354
+St. Lucia,LCA,population_total,SP.POP.TOTL,182790
+St. Lucia,LCA,GDP per capita (current US$),NY.GDP.PCAP.CD,11611.4154473966
+St. Lucia,LCA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+St. Lucia,LCA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+St. Lucia,LCA,Real effective exchange rate index (2010 = 100),PX.REX.REER,102.899906147934
+St. Lucia,LCA,Real interest rate (%),FR.INR.RINR,6.66375952165755
+St. Martin (French part),MAF,population_total,SP.POP.TOTL,38002
+St. Martin (French part),MAF,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+St. Martin (French part),MAF,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+St. Martin (French part),MAF,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+St. Martin (French part),MAF,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+St. Martin (French part),MAF,Real interest rate (%),FR.INR.RINR,..
+St. Vincent and the Grenadines,VCT,population_total,SP.POP.TOTL,110589
+St. Vincent and the Grenadines,VCT,GDP per capita (current US$),NY.GDP.PCAP.CD,7463.53783093423
+St. Vincent and the Grenadines,VCT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+St. Vincent and the Grenadines,VCT,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+St. Vincent and the Grenadines,VCT,Real effective exchange rate index (2010 = 100),PX.REX.REER,105.825230439897
+St. Vincent and the Grenadines,VCT,Real interest rate (%),FR.INR.RINR,6.86704893738659
+Sudan,SDN,population_total,SP.POP.TOTL,42813238
+Sudan,SDN,GDP per capita (current US$),NY.GDP.PCAP.CD,441.505603374484
+Sudan,SDN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sudan,SDN,Consumer price index (2010 = 100),FP.CPI.TOTL,1344.19276243483
+Sudan,SDN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sudan,SDN,Real interest rate (%),FR.INR.RINR,..
+Suriname,SUR,population_total,SP.POP.TOTL,581372
+Suriname,SUR,GDP per capita (current US$),NY.GDP.PCAP.CD,6854.90656148409
+Suriname,SUR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Suriname,SUR,Consumer price index (2010 = 100),FP.CPI.TOTL,294.664772702354
+Suriname,SUR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Suriname,SUR,Real interest rate (%),FR.INR.RINR,-0.953158721167488
+Sweden,SWE,population_total,SP.POP.TOTL,10285453
+Sweden,SWE,GDP per capita (current US$),NY.GDP.PCAP.CD,51610.0660552202
+Sweden,SWE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sweden,SWE,Consumer price index (2010 = 100),FP.CPI.TOTL,110.509219846432
+Sweden,SWE,Real effective exchange rate index (2010 = 100),PX.REX.REER,85.6043089796983
+Sweden,SWE,Real interest rate (%),FR.INR.RINR,..
+Syrian Arab Republic,SYR,population_total,SP.POP.TOTL,17070135
+Syrian Arab Republic,SYR,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Syrian Arab Republic,SYR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Syrian Arab Republic,SYR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Syrian Arab Republic,SYR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Syrian Arab Republic,SYR,Real interest rate (%),FR.INR.RINR,..
+Tajikistan,TJK,population_total,SP.POP.TOTL,9321018
+Tajikistan,TJK,GDP per capita (current US$),NY.GDP.PCAP.CD,870.787589323223
+Tajikistan,TJK,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,26.3
+Tajikistan,TJK,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Tajikistan,TJK,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Tajikistan,TJK,Real interest rate (%),FR.INR.RINR,..
+Tanzania,TZA,population_total,SP.POP.TOTL,58005463
+Tanzania,TZA,GDP per capita (current US$),NY.GDP.PCAP.CD,1122.12181047515
+Tanzania,TZA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Tanzania,TZA,Consumer price index (2010 = 100),FP.CPI.TOTL,187.430158933386
+Tanzania,TZA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Tanzania,TZA,Real interest rate (%),FR.INR.RINR,11.8407580303374
+Thailand,THA,population_total,SP.POP.TOTL,69625582
+Thailand,THA,GDP per capita (current US$),NY.GDP.PCAP.CD,7808.19291629949
+Thailand,THA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Thailand,THA,Consumer price index (2010 = 100),FP.CPI.TOTL,113.265649996346
+Thailand,THA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Thailand,THA,Real interest rate (%),FR.INR.RINR,3.31160622531902
+Timor-Leste,TLS,population_total,SP.POP.TOTL,1293119
+Timor-Leste,TLS,GDP per capita (current US$),NY.GDP.PCAP.CD,1294.18893388776
+Timor-Leste,TLS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Timor-Leste,TLS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Timor-Leste,TLS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Timor-Leste,TLS,Real interest rate (%),FR.INR.RINR,11.8208622894709
+Togo,TGO,population_total,SP.POP.TOTL,8082366
+Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,675.542213340634
+Togo,TGO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Togo,TGO,Consumer price index (2010 = 100),FP.CPI.TOTL,113.296929295441
+Togo,TGO,Real effective exchange rate index (2010 = 100),PX.REX.REER,93.4130435432593
+Togo,TGO,Real interest rate (%),FR.INR.RINR,..
+Tonga,TON,population_total,SP.POP.TOTL,104494
+Tonga,TON,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Tonga,TON,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Tonga,TON,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Tonga,TON,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Tonga,TON,Real interest rate (%),FR.INR.RINR,..
+Trinidad and Tobago,TTO,population_total,SP.POP.TOTL,1394973
+Trinidad and Tobago,TTO,GDP per capita (current US$),NY.GDP.PCAP.CD,17276.4654468225
+Trinidad and Tobago,TTO,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Trinidad and Tobago,TTO,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Trinidad and Tobago,TTO,Real effective exchange rate index (2010 = 100),PX.REX.REER,128.757476214637
+Trinidad and Tobago,TTO,Real interest rate (%),FR.INR.RINR,8.18714939773339
+Tunisia,TUN,population_total,SP.POP.TOTL,11694719
+Tunisia,TUN,GDP per capita (current US$),NY.GDP.PCAP.CD,3317.54101348345
+Tunisia,TUN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Tunisia,TUN,Consumer price index (2010 = 100),FP.CPI.TOTL,155.325373517033
+Tunisia,TUN,Real effective exchange rate index (2010 = 100),PX.REX.REER,78.3042419519324
+Tunisia,TUN,Real interest rate (%),FR.INR.RINR,..
+Turkmenistan,TKM,population_total,SP.POP.TOTL,5942089
+Turkmenistan,TKM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Turkmenistan,TKM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Turkmenistan,TKM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Turkmenistan,TKM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Turkmenistan,TKM,Real interest rate (%),FR.INR.RINR,..
+Turks and Caicos Islands,TCA,population_total,SP.POP.TOTL,38191
+Turks and Caicos Islands,TCA,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Turks and Caicos Islands,TCA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Turks and Caicos Islands,TCA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Turks and Caicos Islands,TCA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Turks and Caicos Islands,TCA,Real interest rate (%),FR.INR.RINR,..
+Tuvalu,TUV,population_total,SP.POP.TOTL,11646
+Tuvalu,TUV,GDP per capita (current US$),NY.GDP.PCAP.CD,4059.02999569444
+Tuvalu,TUV,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Tuvalu,TUV,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Tuvalu,TUV,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Tuvalu,TUV,Real interest rate (%),FR.INR.RINR,..
+Uganda,UGA,population_total,SP.POP.TOTL,44269594
+Uganda,UGA,GDP per capita (current US$),NY.GDP.PCAP.CD,776.768575885308
+Uganda,UGA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Uganda,UGA,Consumer price index (2010 = 100),FP.CPI.TOTL,173.871268176331
+Uganda,UGA,Real effective exchange rate index (2010 = 100),PX.REX.REER,92.4908958993321
+Uganda,UGA,Real interest rate (%),FR.INR.RINR,..
+Ukraine,UKR,population_total,SP.POP.TOTL,44385155
+Ukraine,UKR,GDP per capita (current US$),NY.GDP.PCAP.CD,3659.03131229487
+Ukraine,UKR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Ukraine,UKR,Consumer price index (2010 = 100),FP.CPI.TOTL,281.658595641646
+Ukraine,UKR,Real effective exchange rate index (2010 = 100),PX.REX.REER,91.5653368997233
+Ukraine,UKR,Real interest rate (%),FR.INR.RINR,10.8126464581943
+United Arab Emirates,ARE,population_total,SP.POP.TOTL,9770529
+United Arab Emirates,ARE,GDP per capita (current US$),NY.GDP.PCAP.CD,43103.3230583165
+United Arab Emirates,ARE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+United Arab Emirates,ARE,Consumer price index (2010 = 100),FP.CPI.TOTL,114.524660532343
+United Arab Emirates,ARE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+United Arab Emirates,ARE,Real interest rate (%),FR.INR.RINR,..
+Uruguay,URY,population_total,SP.POP.TOTL,3461734
+Uruguay,URY,GDP per capita (current US$),NY.GDP.PCAP.CD,16190.1269572827
+Uruguay,URY,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,8.8
+Uruguay,URY,Consumer price index (2010 = 100),FP.CPI.TOTL,202.921983386144
+Uruguay,URY,Real effective exchange rate index (2010 = 100),PX.REX.REER,113.054935207346
+Uruguay,URY,Real interest rate (%),FR.INR.RINR,3.61228184906048
+Uzbekistan,UZB,population_total,SP.POP.TOTL,33580650
+Uzbekistan,UZB,GDP per capita (current US$),NY.GDP.PCAP.CD,1724.8411344137
+Uzbekistan,UZB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Uzbekistan,UZB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Uzbekistan,UZB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Uzbekistan,UZB,Real interest rate (%),FR.INR.RINR,3.66712537892254
+Vanuatu,VUT,population_total,SP.POP.TOTL,299882
+Vanuatu,VUT,GDP per capita (current US$),NY.GDP.PCAP.CD,3058.0656752208
+Vanuatu,VUT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Vanuatu,VUT,Consumer price index (2010 = 100),FP.CPI.TOTL,117.129669269253
+Vanuatu,VUT,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Vanuatu,VUT,Real interest rate (%),FR.INR.RINR,0.00069513281692925
+Venezuela RB,VEN,population_total,SP.POP.TOTL,28515829
+Venezuela RB,VEN,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Venezuela RB,VEN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Venezuela RB,VEN,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Venezuela RB,VEN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Venezuela RB,VEN,Real interest rate (%),FR.INR.RINR,..
+Vietnam,VNM,population_total,SP.POP.TOTL,96462106
+Vietnam,VNM,GDP per capita (current US$),NY.GDP.PCAP.CD,2715.27603640721
+Vietnam,VNM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Vietnam,VNM,Consumer price index (2010 = 100),FP.CPI.TOTL,163.516947912918
+Vietnam,VNM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Vietnam,VNM,Real interest rate (%),FR.INR.RINR,5.81489624545902
+Virgin Islands (U.S.),VIR,population_total,SP.POP.TOTL,106631
+Virgin Islands (U.S.),VIR,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Virgin Islands (U.S.),VIR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Virgin Islands (U.S.),VIR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Virgin Islands (U.S.),VIR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Virgin Islands (U.S.),VIR,Real interest rate (%),FR.INR.RINR,..
+West Bank and Gaza,PSE,population_total,SP.POP.TOTL,4685306
+West Bank and Gaza,PSE,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+West Bank and Gaza,PSE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+West Bank and Gaza,PSE,Consumer price index (2010 = 100),FP.CPI.TOTL,112.516117965437
+West Bank and Gaza,PSE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+West Bank and Gaza,PSE,Real interest rate (%),FR.INR.RINR,..
+Yemen Rep.,YEM,population_total,SP.POP.TOTL,29161922
+Yemen Rep.,YEM,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Yemen Rep.,YEM,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Yemen Rep.,YEM,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Yemen Rep.,YEM,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Yemen Rep.,YEM,Real interest rate (%),FR.INR.RINR,..
+Zambia,ZMB,population_total,SP.POP.TOTL,17861030
+Zambia,ZMB,GDP per capita (current US$),NY.GDP.PCAP.CD,1291.34335737364
+Zambia,ZMB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Zambia,ZMB,Consumer price index (2010 = 100),FP.CPI.TOTL,212.308758955396
+Zambia,ZMB,Real effective exchange rate index (2010 = 100),PX.REX.REER,78.7421995786721
+Zambia,ZMB,Real interest rate (%),FR.INR.RINR,6.56344914215072
+Zimbabwe,ZWE,population_total,SP.POP.TOTL,14645468
+Zimbabwe,ZWE,GDP per capita (current US$),NY.GDP.PCAP.CD,1463.98591018054
+Zimbabwe,ZWE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,38.3
+Zimbabwe,ZWE,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Zimbabwe,ZWE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Zimbabwe,ZWE,Real interest rate (%),FR.INR.RINR,21.0670046560946
+Arab World,ARB,population_total,SP.POP.TOTL,427870270
+Arab World,ARB,GDP per capita (current US$),NY.GDP.PCAP.CD,6580.05625672999
+Arab World,ARB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Arab World,ARB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Arab World,ARB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Arab World,ARB,Real interest rate (%),FR.INR.RINR,..
+Caribbean small states,CSS,population_total,SP.POP.TOTL,7401381
+Caribbean small states,CSS,GDP per capita (current US$),NY.GDP.PCAP.CD,10307.5862807881
+Caribbean small states,CSS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Caribbean small states,CSS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Caribbean small states,CSS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Caribbean small states,CSS,Real interest rate (%),FR.INR.RINR,..
+Central Europe and the Baltics,CEB,population_total,SP.POP.TOTL,102378579
+Central Europe and the Baltics,CEB,GDP per capita (current US$),NY.GDP.PCAP.CD,16184.332008629
+Central Europe and the Baltics,CEB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Central Europe and the Baltics,CEB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Central Europe and the Baltics,CEB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Central Europe and the Baltics,CEB,Real interest rate (%),FR.INR.RINR,..
+Early-demographic dividend,EAR,population_total,SP.POP.TOTL,3290290622
+Early-demographic dividend,EAR,GDP per capita (current US$),NY.GDP.PCAP.CD,3641.49428094104
+Early-demographic dividend,EAR,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Early-demographic dividend,EAR,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Early-demographic dividend,EAR,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Early-demographic dividend,EAR,Real interest rate (%),FR.INR.RINR,..
+East Asia & Pacific,EAS,population_total,SP.POP.TOTL,2340628292
+East Asia & Pacific,EAS,GDP per capita (current US$),NY.GDP.PCAP.CD,11526.7364862403
+East Asia & Pacific,EAS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+East Asia & Pacific,EAS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+East Asia & Pacific,EAS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+East Asia & Pacific,EAS,Real interest rate (%),FR.INR.RINR,..
+East Asia & Pacific (excluding high income),EAP,population_total,SP.POP.TOTL,2093675040
+East Asia & Pacific (excluding high income),EAP,GDP per capita (current US$),NY.GDP.PCAP.CD,8222.07772991917
+East Asia & Pacific (excluding high income),EAP,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+East Asia & Pacific (excluding high income),EAP,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+East Asia & Pacific (excluding high income),EAP,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+East Asia & Pacific (excluding high income),EAP,Real interest rate (%),FR.INR.RINR,..
+East Asia & Pacific (IDA & IBRD countries),TEA,population_total,SP.POP.TOTL,2067984156
+East Asia & Pacific (IDA & IBRD countries),TEA,GDP per capita (current US$),NY.GDP.PCAP.CD,8308.33436297408
+East Asia & Pacific (IDA & IBRD countries),TEA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+East Asia & Pacific (IDA & IBRD countries),TEA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+East Asia & Pacific (IDA & IBRD countries),TEA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+East Asia & Pacific (IDA & IBRD countries),TEA,Real interest rate (%),FR.INR.RINR,..
+Euro area,EMU,population_total,SP.POP.TOTL,342597698
+Euro area,EMU,GDP per capita (current US$),NY.GDP.PCAP.CD,38925.6651077079
+Euro area,EMU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Euro area,EMU,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Euro area,EMU,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Euro area,EMU,Real interest rate (%),FR.INR.RINR,..
+Europe & Central Asia,ECS,population_total,SP.POP.TOTL,921140092
+Europe & Central Asia,ECS,GDP per capita (current US$),NY.GDP.PCAP.CD,24696.3396075804
+Europe & Central Asia,ECS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Europe & Central Asia,ECS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Europe & Central Asia,ECS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Europe & Central Asia,ECS,Real interest rate (%),FR.INR.RINR,..
+Europe & Central Asia (excluding high income),ECA,population_total,SP.POP.TOTL,399404587
+Europe & Central Asia (excluding high income),ECA,GDP per capita (current US$),NY.GDP.PCAP.CD,8110.72144821906
+Europe & Central Asia (excluding high income),ECA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Europe & Central Asia (excluding high income),ECA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Europe & Central Asia (excluding high income),ECA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Europe & Central Asia (excluding high income),ECA,Real interest rate (%),FR.INR.RINR,..
+Europe & Central Asia (IDA & IBRD countries),TEC,population_total,SP.POP.TOTL,460799505
+Europe & Central Asia (IDA & IBRD countries),TEC,GDP per capita (current US$),NY.GDP.PCAP.CD,8988.9280496624
+Europe & Central Asia (IDA & IBRD countries),TEC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Europe & Central Asia (IDA & IBRD countries),TEC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Europe & Central Asia (IDA & IBRD countries),TEC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Europe & Central Asia (IDA & IBRD countries),TEC,Real interest rate (%),FR.INR.RINR,..
+European Union,EUU,population_total,SP.POP.TOTL,447512041
+European Union,EUU,GDP per capita (current US$),NY.GDP.PCAP.CD,34843.297471632
+European Union,EUU,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+European Union,EUU,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+European Union,EUU,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+European Union,EUU,Real interest rate (%),FR.INR.RINR,..
+Fragile and conflict affected situations,FCS,population_total,SP.POP.TOTL,798138587
+Fragile and conflict affected situations,FCS,GDP per capita (current US$),NY.GDP.PCAP.CD,2190.31162605328
+Fragile and conflict affected situations,FCS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Fragile and conflict affected situations,FCS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Fragile and conflict affected situations,FCS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Fragile and conflict affected situations,FCS,Real interest rate (%),FR.INR.RINR,..
+Heavily indebted poor countries (HIPC),HPC,population_total,SP.POP.TOTL,801708035
+Heavily indebted poor countries (HIPC),HPC,GDP per capita (current US$),NY.GDP.PCAP.CD,947.061233586925
+Heavily indebted poor countries (HIPC),HPC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Heavily indebted poor countries (HIPC),HPC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Heavily indebted poor countries (HIPC),HPC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Heavily indebted poor countries (HIPC),HPC,Real interest rate (%),FR.INR.RINR,..
+High income,HIC,population_total,SP.POP.TOTL,1235852827
+High income,HIC,GDP per capita (current US$),NY.GDP.PCAP.CD,44540.3940855154
+High income,HIC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+High income,HIC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+High income,HIC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+High income,HIC,Real interest rate (%),FR.INR.RINR,..
+IBRD only,IBD,population_total,SP.POP.TOTL,4816235951
+IBRD only,IBD,GDP per capita (current US$),NY.GDP.PCAP.CD,6564.92014731271
+IBRD only,IBD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+IBRD only,IBD,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+IBRD only,IBD,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+IBRD only,IBD,Real interest rate (%),FR.INR.RINR,..
+IDA & IBRD total,IBT,population_total,SP.POP.TOTL,6486934851
+IDA & IBRD total,IBT,GDP per capita (current US$),NY.GDP.PCAP.CD,5227.75905922735
+IDA & IBRD total,IBT,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+IDA & IBRD total,IBT,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+IDA & IBRD total,IBT,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+IDA & IBRD total,IBT,Real interest rate (%),FR.INR.RINR,..
+IDA blend,IDB,population_total,SP.POP.TOTL,561572202
+IDA blend,IDB,GDP per capita (current US$),NY.GDP.PCAP.CD,1762.41115437295
+IDA blend,IDB,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+IDA blend,IDB,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+IDA blend,IDB,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+IDA blend,IDB,Real interest rate (%),FR.INR.RINR,..
+IDA only,IDX,population_total,SP.POP.TOTL,1109126698
+IDA only,IDX,GDP per capita (current US$),NY.GDP.PCAP.CD,1185.84185873965
+IDA only,IDX,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+IDA only,IDX,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+IDA only,IDX,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+IDA only,IDX,Real interest rate (%),FR.INR.RINR,..
+IDA total,IDA,population_total,SP.POP.TOTL,1670698900
+IDA total,IDA,GDP per capita (current US$),NY.GDP.PCAP.CD,1377.49082047327
+IDA total,IDA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+IDA total,IDA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+IDA total,IDA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+IDA total,IDA,Real interest rate (%),FR.INR.RINR,..
+Late-demographic dividend,LTE,population_total,SP.POP.TOTL,2298470832
+Late-demographic dividend,LTE,GDP per capita (current US$),NY.GDP.PCAP.CD,10000.4820064391
+Late-demographic dividend,LTE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Late-demographic dividend,LTE,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Late-demographic dividend,LTE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Late-demographic dividend,LTE,Real interest rate (%),FR.INR.RINR,..
+Latin America & Caribbean,LCN,population_total,SP.POP.TOTL,646430841
+Latin America & Caribbean,LCN,GDP per capita (current US$),NY.GDP.PCAP.CD,8847.43187038476
+Latin America & Caribbean,LCN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Latin America & Caribbean,LCN,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Latin America & Caribbean,LCN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Latin America & Caribbean,LCN,Real interest rate (%),FR.INR.RINR,..
+Latin America & Caribbean (excluding high income),LAC,population_total,SP.POP.TOTL,613773128
+Latin America & Caribbean (excluding high income),LAC,GDP per capita (current US$),NY.GDP.PCAP.CD,8368.44639140975
+Latin America & Caribbean (excluding high income),LAC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Latin America & Caribbean (excluding high income),LAC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Latin America & Caribbean (excluding high income),LAC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Latin America & Caribbean (excluding high income),LAC,Real interest rate (%),FR.INR.RINR,..
+Latin America & the Caribbean (IDA & IBRD countries),TLA,population_total,SP.POP.TOTL,630644770
+Latin America & the Caribbean (IDA & IBRD countries),TLA,GDP per capita (current US$),NY.GDP.PCAP.CD,8681.19668598354
+Latin America & the Caribbean (IDA & IBRD countries),TLA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Latin America & the Caribbean (IDA & IBRD countries),TLA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Latin America & the Caribbean (IDA & IBRD countries),TLA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Latin America & the Caribbean (IDA & IBRD countries),TLA,Real interest rate (%),FR.INR.RINR,..
+Least developed countries: UN classification,LDC,population_total,SP.POP.TOTL,1033388876
+Least developed countries: UN classification,LDC,GDP per capita (current US$),NY.GDP.PCAP.CD,1069.6816991512
+Least developed countries: UN classification,LDC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Least developed countries: UN classification,LDC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Least developed countries: UN classification,LDC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Least developed countries: UN classification,LDC,Real interest rate (%),FR.INR.RINR,..
+Low & middle income,LMY,population_total,SP.POP.TOTL,6437681145
+Low & middle income,LMY,GDP per capita (current US$),NY.GDP.PCAP.CD,5080.3654962737
+Low & middle income,LMY,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Low & middle income,LMY,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Low & middle income,LMY,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Low & middle income,LMY,Real interest rate (%),FR.INR.RINR,..
+Low income,LIC,population_total,SP.POP.TOTL,668454965
+Low income,LIC,GDP per capita (current US$),NY.GDP.PCAP.CD,779.818941161527
+Low income,LIC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Low income,LIC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Low income,LIC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Low income,LIC,Real interest rate (%),FR.INR.RINR,..
+Lower middle income,LMC,population_total,SP.POP.TOTL,2913363391
+Lower middle income,LMC,GDP per capita (current US$),NY.GDP.PCAP.CD,2176.55822653246
+Lower middle income,LMC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Lower middle income,LMC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Lower middle income,LMC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Lower middle income,LMC,Real interest rate (%),FR.INR.RINR,..
+Middle East & North Africa,MEA,population_total,SP.POP.TOTL,456707404
+Middle East & North Africa,MEA,GDP per capita (current US$),NY.GDP.PCAP.CD,8104.50188772468
+Middle East & North Africa,MEA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Middle East & North Africa,MEA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Middle East & North Africa,MEA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Middle East & North Africa,MEA,Real interest rate (%),FR.INR.RINR,..
+Middle East & North Africa (excluding high income),MNA,population_total,SP.POP.TOTL,389457086
+Middle East & North Africa (excluding high income),MNA,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Middle East & North Africa (excluding high income),MNA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Middle East & North Africa (excluding high income),MNA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Middle East & North Africa (excluding high income),MNA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Middle East & North Africa (excluding high income),MNA,Real interest rate (%),FR.INR.RINR,..
+Middle East & North Africa (IDA & IBRD countries),TMN,population_total,SP.POP.TOTL,384771780
+Middle East & North Africa (IDA & IBRD countries),TMN,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Middle East & North Africa (IDA & IBRD countries),TMN,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Middle East & North Africa (IDA & IBRD countries),TMN,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Middle East & North Africa (IDA & IBRD countries),TMN,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Middle East & North Africa (IDA & IBRD countries),TMN,Real interest rate (%),FR.INR.RINR,..
+Middle income,MIC,population_total,SP.POP.TOTL,5769226180
+Middle income,MIC,GDP per capita (current US$),NY.GDP.PCAP.CD,5575.44091508914
+Middle income,MIC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Middle income,MIC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Middle income,MIC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Middle income,MIC,Real interest rate (%),FR.INR.RINR,..
+North America,NAC,population_total,SP.POP.TOTL,365892703
+North America,NAC,GDP per capita (current US$),NY.GDP.PCAP.CD,63181.7957557198
+North America,NAC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+North America,NAC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+North America,NAC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+North America,NAC,Real interest rate (%),FR.INR.RINR,..
+Not classified,INX,population_total,SP.POP.TOTL,..
+Not classified,INX,GDP per capita (current US$),NY.GDP.PCAP.CD,..
+Not classified,INX,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Not classified,INX,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Not classified,INX,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Not classified,INX,Real interest rate (%),FR.INR.RINR,..
+OECD members,OED,population_total,SP.POP.TOTL,1359963500
+OECD members,OED,GDP per capita (current US$),NY.GDP.PCAP.CD,39399.0492287395
+OECD members,OED,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+OECD members,OED,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+OECD members,OED,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+OECD members,OED,Real interest rate (%),FR.INR.RINR,..
+Other small states,OSS,population_total,SP.POP.TOTL,31360407
+Other small states,OSS,GDP per capita (current US$),NY.GDP.PCAP.CD,13981.5837843025
+Other small states,OSS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Other small states,OSS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Other small states,OSS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Other small states,OSS,Real interest rate (%),FR.INR.RINR,..
+Pacific island small states,PSS,population_total,SP.POP.TOTL,2493696
+Pacific island small states,PSS,GDP per capita (current US$),NY.GDP.PCAP.CD,4192.97376136243
+Pacific island small states,PSS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Pacific island small states,PSS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Pacific island small states,PSS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Pacific island small states,PSS,Real interest rate (%),FR.INR.RINR,..
+Post-demographic dividend,PST,population_total,SP.POP.TOTL,1112914457
+Post-demographic dividend,PST,GDP per capita (current US$),NY.GDP.PCAP.CD,45530.2481525471
+Post-demographic dividend,PST,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Post-demographic dividend,PST,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Post-demographic dividend,PST,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Post-demographic dividend,PST,Real interest rate (%),FR.INR.RINR,..
+Pre-demographic dividend,PRE,population_total,SP.POP.TOTL,944902749
+Pre-demographic dividend,PRE,GDP per capita (current US$),NY.GDP.PCAP.CD,1472.38540164517
+Pre-demographic dividend,PRE,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Pre-demographic dividend,PRE,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Pre-demographic dividend,PRE,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Pre-demographic dividend,PRE,Real interest rate (%),FR.INR.RINR,..
+Small states,SST,population_total,SP.POP.TOTL,41255484
+Small states,SST,GDP per capita (current US$),NY.GDP.PCAP.CD,12730.944488417
+Small states,SST,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Small states,SST,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Small states,SST,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Small states,SST,Real interest rate (%),FR.INR.RINR,..
+South Asia,SAS,population_total,SP.POP.TOTL,1835776742
+South Asia,SAS,GDP per capita (current US$),NY.GDP.PCAP.CD,1959.91716548699
+South Asia,SAS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+South Asia,SAS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+South Asia,SAS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+South Asia,SAS,Real interest rate (%),FR.INR.RINR,..
+South Asia (IDA & IBRD),TSA,population_total,SP.POP.TOTL,1835776742
+South Asia (IDA & IBRD),TSA,GDP per capita (current US$),NY.GDP.PCAP.CD,1959.91716548699
+South Asia (IDA & IBRD),TSA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+South Asia (IDA & IBRD),TSA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+South Asia (IDA & IBRD),TSA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+South Asia (IDA & IBRD),TSA,Real interest rate (%),FR.INR.RINR,..
+Sub-Saharan Africa,SSF,population_total,SP.POP.TOTL,1106957898
+Sub-Saharan Africa,SSF,GDP per capita (current US$),NY.GDP.PCAP.CD,1585.43646774798
+Sub-Saharan Africa,SSF,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sub-Saharan Africa,SSF,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Sub-Saharan Africa,SSF,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sub-Saharan Africa,SSF,Real interest rate (%),FR.INR.RINR,..
+Sub-Saharan Africa (excluding high income),SSA,population_total,SP.POP.TOTL,1105594562
+Sub-Saharan Africa (excluding high income),SSA,GDP per capita (current US$),NY.GDP.PCAP.CD,1573.01368789166
+Sub-Saharan Africa (excluding high income),SSA,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sub-Saharan Africa (excluding high income),SSA,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Sub-Saharan Africa (excluding high income),SSA,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sub-Saharan Africa (excluding high income),SSA,Real interest rate (%),FR.INR.RINR,..
+Sub-Saharan Africa (IDA & IBRD countries),TSS,population_total,SP.POP.TOTL,1106957898
+Sub-Saharan Africa (IDA & IBRD countries),TSS,GDP per capita (current US$),NY.GDP.PCAP.CD,1585.43646774798
+Sub-Saharan Africa (IDA & IBRD countries),TSS,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Sub-Saharan Africa (IDA & IBRD countries),TSS,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Sub-Saharan Africa (IDA & IBRD countries),TSS,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Sub-Saharan Africa (IDA & IBRD countries),TSS,Real interest rate (%),FR.INR.RINR,..
+Upper middle income,UMC,population_total,SP.POP.TOTL,2855862789
+Upper middle income,UMC,GDP per capita (current US$),NY.GDP.PCAP.CD,9040.04578167003
+Upper middle income,UMC,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+Upper middle income,UMC,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+Upper middle income,UMC,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+Upper middle income,UMC,Real interest rate (%),FR.INR.RINR,..
+World,WLD,population_total,SP.POP.TOTL,7673533972
+World,WLD,GDP per capita (current US$),NY.GDP.PCAP.CD,11428.5698505811
+World,WLD,Poverty headcount ratio at national poverty lines (% of population),SI.POV.NAHC,..
+World,WLD,Consumer price index (2010 = 100),FP.CPI.TOTL,..
+World,WLD,Real effective exchange rate index (2010 = 100),PX.REX.REER,..
+World,WLD,Real interest rate (%),FR.INR.RINR,..

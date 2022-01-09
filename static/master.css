@@ -1,0 +1,33 @@
+.hidden {
+  display: none;
+}
+h1 {
+    padding: 1vh;
+}
+.delete-blog {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  color: red;
+  background: none;
+  float: right;
+  cursor: pointer;
+  font-size: 2vh;
+}
+.delete-blog-own {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  color: red;
+  background: none;
+  float: right;
+  cursor: pointer;
+  font-size: 2vh;
+}
+.blog-wrapper {
+  width: 55vw;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  padding: 1vh;
+}

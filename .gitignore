@@ -1,0 +1,24 @@
+.vscode
+__pycache__
+venv
+.pyc
+*.iml
+.directory
+.idea
+mypython/
+database/travel_cockpit.db
+.env
+setup*
+token.txt
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+pathtomyenv/

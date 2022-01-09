@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Vision
+{% endblock %}
+
+{% block main %}
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <!--Vision text-->
+    <div class="text_box">
+        <h1 class="title_box">The Travel Cockpit Vision</h1>
+        <p class="text_in_box" style="text-align: center">
+            3 step approach to build the travel cockpit we need and deserve!</p>
+        <h2 class="sub_title_box">
+            1. Destination Directory</h2>
+        <p class="text_in_box">
+            Crearte a simple cockpit for vacation planning to its user desired countries.
+            No searching and hiking through different platforms or sites is necessary.
+            All direct links on the most essential travel information are per button available.</p>
+        <h2 class="sub_title_box">
+            2. Travel Dashboard</h2>
+        <p class="text_in_box">
+            Get the core information for your desired trip (country/region/city)
+            of your customized sources in one view. Especially the dashboard view
+            on your desktop or TV will be basis for your personal trip planning.</p>
+        <h2 class="sub_title_box">
+            3. Smart Travel Dashboard</h2>
+        <p class="text_in_box">
+            The prefect trip in your pocket. Never travelling durings climate seasons
+            you don't like, stand in front of closed doors, pick wrong accommodations
+            for you. Enjoy real quality time!</p>
+    </div>
+
+    <!--World map from google maps-->
+    <iframe src="https://www.google.com/maps/embed"
+        class="map"
+        allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+
+    <br><br>
+{% endblock %}

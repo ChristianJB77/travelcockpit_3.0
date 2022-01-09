@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Index
+{% endblock %}
+
+{% block main %}
+    <!-- Error message -->
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <!--Travel links for user submitted travel destination COUNTRY-->
+    <br>
+    <h2 class='h2'>Time to Travel</h2>
+    <br>
+    <a id="qsLoginBtn" class="btn btn-primary
+        btn-lg btn-block" href="/login">
+        Login | Register
+    </a>
+    <br><br><br><br>
+    <h2 class='h2'>Jetzt ins Warme?</h2>
+    <a class="form-row center_div align-items-center"
+        href="{{ go_warm }}" target="_blank">
+        <img class="index_img" src="static/warm_weather.jpg" alt="warm_weather"
+            loading="lazy">
+    </a>
+{% endblock %}

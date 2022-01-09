@@ -1,0 +1,4303 @@
+city,city_ascii,country,iso2,state
+Tokyo,Tokyo,Japan,JP,Tōkyō
+New York,New York,United States,US,New York
+Mexico City,Mexico City,Mexico,MX,Ciudad de México
+Mumbai,Mumbai,India,IN,Mahārāshtra
+São Paulo,Sao Paulo,Brazil,BR,São Paulo
+Delhi,Delhi,India,IN,Delhi
+Shanghai,Shanghai,China,CN,Shanghai
+Kolkata,Kolkata,India,IN,West Bengal
+Los Angeles,Los Angeles,United States,US,California
+Dhaka,Dhaka,Bangladesh,BD,Dhaka
+Buenos Aires,Buenos Aires,Argentina,AR,Buenos Aires
+Karachi,Karachi,Pakistan,PK,Sindh
+Cairo,Cairo,Egypt,EG,Al Qāhirah
+Rio de Janeiro,Rio de Janeiro,Brazil,BR,Rio de Janeiro
+Ōsaka,Osaka,Japan,JP,Ōsaka
+Beijing,Beijing,China,CN,Beijing
+Manila,Manila,Philippines,PH,Manila
+Moscow,Moscow,Russia,RU,Moskva
+Istanbul,Istanbul,Turkey,TR,İstanbul
+Paris,Paris,France,FR,Île-de-France
+Seoul,Seoul,South Korea,KR,Seoul
+Jakarta,Jakarta,Indonesia,ID,Jakarta
+Guangzhou,Guangzhou,China,CN,Guangdong
+Chicago,Chicago,United States,US,Illinois
+London,London,United Kingdom,GB,London
+Lima,Lima,Peru,PE,Lima
+Tehran,Tehran,Iran,IR,Tehrān
+Bogotá,Bogota,Colombia,CO,Bogotá
+Shenzhen,Shenzhen,China,CN,Guangdong
+Wuhan,Wuhan,China,CN,Hubei
+Hong Kong,Hong Kong,Hong Kong,HK,
+Tianjin,Tianjin,China,CN,Tianjin
+Chennai,Chennai,India,IN,Tamil Nādu 
+Taipei,Taipei,Taiwan,TW,Taipei
+Bengalūru,Bengaluru,India,IN,Karnātaka
+Bangkok,Bangkok,Thailand,TH,Krung Thep Maha Nakhon
+Lahore,Lahore,Pakistan,PK,Punjab
+Chongqing,Chongqing,China,CN,Chongqing
+Miami,Miami,United States,US,Florida
+Hyderabad,Hyderabad,India,IN,Telangana
+Dallas,Dallas,United States,US,Texas
+Santiago,Santiago,Chile,CL,Región Metropolitana
+Philadelphia,Philadelphia,United States,US,Pennsylvania
+Belo Horizonte,Belo Horizonte,Brazil,BR,Minas Gerais
+Madrid,Madrid,Spain,ES,Madrid
+Houston,Houston,United States,US,Texas
+Ahmadābād,Ahmadabad,India,IN,Gujarāt
+Ho Chi Minh City,Ho Chi Minh City,Vietnam,VN,Hồ Chí Minh
+Washington,Washington,United States,US,District of Columbia
+Atlanta,Atlanta,United States,US,Georgia
+Toronto,Toronto,Canada,CA,Ontario
+Singapore,Singapore,Singapore,SG,
+Barcelona,Barcelona,Spain,ES,Catalonia
+Hāora,Haora,India,IN,West Bengal
+Shenyang,Shenyang,China,CN,Liaoning
+Pune,Pune,India,IN,Mahārāshtra
+Boston,Boston,United States,US,Massachusetts
+Sydney,Sydney,Australia,AU,New South Wales
+Saint Petersburg,Saint Petersburg,Russia,RU,Sankt-Peterburg
+Chittagong,Chittagong,Bangladesh,BD,Chittagong
+Dongguan,Dongguan,China,CN,Guangdong
+Riyadh,Riyadh,Saudi Arabia,SA,Ar Riyāḑ
+Hanoi,Hanoi,Vietnam,VN,Hà Nội
+Guadalajara,Guadalajara,Mexico,MX,Jalisco
+Melbourne,Melbourne,Australia,AU,Victoria
+Alexandria,Alexandria,Egypt,EG,Al Iskandarīyah
+Chengdu,Chengdu,China,CN,Sichuan
+Rangoon,Rangoon,Burma,MM,Yangon
+Phoenix,Phoenix,United States,US,Arizona
+Xi’an,Xi'an,China,CN,Shaanxi
+Porto Alegre,Porto Alegre,Brazil,BR,Rio Grande do Sul
+Sūrat,Surat,India,IN,Gujarāt
+Hechi,Hechi,China,CN,Guangxi
+Abidjan,Abidjan,Côte D’Ivoire,CI,Abidjan
+Brasília,Brasilia,Brazil,BR,Distrito Federal
+Ankara,Ankara,Turkey,TR,Ankara
+Monterrey,Monterrey,Mexico,MX,Nuevo León
+Yokohama,Yokohama,Japan,JP,Kanagawa
+Nanjing,Nanjing,China,CN,Jiangsu
+Montréal,Montreal,Canada,CA,Québec
+Guiyang,Guiyang,China,CN,Guizhou
+Recife,Recife,Brazil,BR,Pernambuco
+Seattle,Seattle,United States,US,Washington
+Harbin,Harbin,China,CN,Heilongjiang
+San Francisco,San Francisco,United States,US,California
+Fortaleza,Fortaleza,Brazil,BR,Ceará
+Zhangzhou,Zhangzhou,China,CN,Fujian
+Detroit,Detroit,United States,US,Michigan
+Salvador,Salvador,Brazil,BR,Bahia
+Busan,Busan,South Korea,KR,KOR
+Johannesburg,Johannesburg,South Africa,ZA,Gauteng
+Berlin,Berlin,Germany,DE,Berlin
+Rome,Rome,Italy,IT,Lazio
+Pyongyang,Pyongyang,North Korea,KP,PRK
+Medellín,Medellin,Colombia,CO,Antioquia
+Athens,Athens,Greece,GR,Attikí
+Nagoya,Nagoya,Japan,JP,Aichi
+Cape Town,Cape Town,South Africa,ZA,Western Cape
+San Diego,San Diego,United States,US,California
+Changchun,Changchun,China,CN,Jilin
+Casablanca,Casablanca,Morocco,MA,Casablanca-Settat
+Dalian,Dalian,China,CN,Liaoning
+Cawnpore,Cawnpore,India,IN,Uttar Pradesh
+Tel Aviv-Yafo,Tel Aviv-Yafo,Israel,IL,Tel Aviv
+Curitiba,Curitiba,Brazil,BR,Paraná
+Zibo,Zibo,China,CN,Shandong
+Jeddah,Jeddah,Saudi Arabia,SA,Makkah al Mukarramah
+Hangzhou,Hangzhou,China,CN,Zhejiang
+Benoni,Benoni,South Africa,ZA,Gauteng
+Caracas,Caracas,Venezuela,VE,Distrito Capital
+Milan,Milan,Italy,IT,Lombardy
+Stuttgart,Stuttgart,Germany,DE,Baden-Württemberg
+Kunming,Kunming,China,CN,Yunnan
+Minneapolis,Minneapolis,United States,US,Minnesota
+Jaipur,Jaipur,India,IN,Rājasthān
+Taiyuan,Taiyuan,China,CN,Shanxi
+Frankfurt,Frankfurt,Germany,DE,Hesse
+Qingdao,Qingdao,China,CN,Shandong
+Surabaya,Surabaya,Indonesia,ID,Jawa Timur
+Lisbon,Lisbon,Portugal,PT,Lisboa
+Tampa,Tampa,United States,US,Florida
+Jinan,Jinan,China,CN,Shandong
+Fukuoka,Fukuoka,Japan,JP,Fukuoka
+Campinas,Campinas,Brazil,BR,São Paulo
+Denver,Denver,United States,US,Colorado
+Kaohsiung,Kaohsiung,Taiwan,TW,Kaohsiung
+Quezon City,Quezon City,Philippines,PH,Quezon
+Katowice,Katowice,Poland,PL,Śląskie
+Durban,Durban,South Africa,ZA,KwaZulu-Natal
+Kyiv,Kyiv,Ukraine,UA,Kyyiv
+Lucknow,Lucknow,India,IN,Uttar Pradesh
+Giza,Giza,Egypt,EG,Al Jīzah
+Zhengzhou,Zhengzhou,China,CN,Henan
+Taichung,Taichung,Taiwan,TW,Taichung
+Brooklyn,Brooklyn,United States,US,New York
+Faisalabad,Faisalabad,Pakistan,PK,Punjab
+Fuzhou,Fuzhou,China,CN,Fujian
+Changsha,Changsha,China,CN,Hunan
+Dakar,Dakar,Senegal,SN,Dakar
+İzmir,Izmir,Turkey,TR,İzmir
+Xiangtan,Xiangtan,China,CN,Hunan
+Lanzhou,Lanzhou,China,CN,Gansu
+Incheon,Incheon,South Korea,KR,KOR
+Sapporo,Sapporo,Japan,JP,Hokkaidō
+Xiamen,Xiamen,China,CN,Fujian
+Guayaquil,Guayaquil,Ecuador,EC,Guayas
+George Town,George Town,Malaysia,MY,Pulau Pinang
+Daegu,Daegu,South Korea,KR,KOR
+Nāgpur,Nagpur,India,IN,Mahārāshtra
+Lianshan,Lianshan,China,CN,Liaoning
+Shijiazhuang,Shijiazhuang,China,CN,Hebei
+Vienna,Vienna,Austria,AT,Wien
+Jilin,Jilin,China,CN,Jilin
+Bandung,Bandung,Indonesia,ID,Jawa Barat
+Bekasi,Bekasi,Indonesia,ID,Jawa Barat
+Mannheim,Mannheim,Germany,DE,Baden-Württemberg
+Nanchang,Nanchang,China,CN,Jiangxi
+Wenzhou,Wenzhou,China,CN,Zhejiang
+Queens,Queens,United States,US,New York
+Vancouver,Vancouver,Canada,CA,British Columbia
+Birmingham,Birmingham,United Kingdom,GB,Birmingham
+Cali,Cali,Colombia,CO,Valle del Cauca
+Naples,Naples,Italy,IT,Campania
+Sendai,Sendai,Japan,JP,Miyagi
+Manchester,Manchester,United Kingdom,GB,Manchester
+Puebla,Puebla,Mexico,MX,Puebla
+Havana,Havana,Cuba,CU,La Habana
+Gaoping,Gaoping,China,CN,Sichuan
+Baltimore,Baltimore,United States,US,Maryland
+Nanning,Nanning,China,CN,Guangxi
+Belém,Belem,Brazil,BR,Pará
+Patna,Patna,India,IN,Bihār
+Santo Domingo,Santo Domingo,Dominican Republic,DO,Ozama
+Ürümqi,Urumqi,China,CN,Xinjiang
+Zaozhuang,Zaozhuang,China,CN,Shandong
+Yantai,Yantai,China,CN,Shandong
+Medan,Medan,Indonesia,ID,Sumatera Utara
+Santa Cruz,Santa Cruz,Bolivia,BO,Santa Cruz
+Tongshan,Tongshan,China,CN,Jiangsu
+Riverside,Riverside,United States,US,California
+Linyi,Linyi,China,CN,Shandong
+St. Louis,St. Louis,United States,US,Missouri
+Las Vegas,Las Vegas,United States,US,Nevada
+Maracaibo,Maracaibo,Venezuela,VE,Zulia
+Kuwait City,Kuwait City,Kuwait,KW,Al ‘Āşimah
+Ad Dammām,Ad Dammam,Saudi Arabia,SA,Ash Sharqīyah
+Portland,Portland,United States,US,Oregon
+Haikou,Haikou,China,CN,Hainan
+Hiroshima,Hiroshima,Japan,JP,Hiroshima
+Baotou,Baotou,China,CN,Inner Mongolia
+Hefei,Hefei,China,CN,Anhui
+Indore,Indore,India,IN,Madhya Pradesh
+Goiânia,Goiania,Brazil,BR,Goiás
+San Antonio,San Antonio,United States,US,Texas
+Haiphong,Haiphong,Vietnam,VN,Hải Phòng
+Suzhou,Suzhou,China,CN,Anhui
+Nanyang,Nanyang,China,CN,Henan
+Bucharest,Bucharest,Romania,RO,Bucureşti
+Ningbo,Ningbo,China,CN,Zhejiang
+Douala,Douala,Cameroon,CM,Littoral
+Tangshan,Tangshan,China,CN,Hebei
+Tainan,Tainan,Taiwan,TW,Tainan
+Xiping,Xiping,China,CN,Shanxi
+Asunción,Asuncion,Paraguay,PY,Asunción
+Saidu Sharif,Saidu Sharif,Pakistan,PK,Khyber Pakhtunkhwa
+Brisbane,Brisbane,Australia,AU,Queensland
+Rawalpindi,Rawalpindi,Pakistan,PK,Punjab
+Sacramento,Sacramento,United States,US,California
+Beirut,Beirut,Lebanon,LB,Beyrouth
+San Jose,San Jose,United States,US,California
+Minsk,Minsk,Belarus,BY,Minsk
+Kyōto,Kyoto,Japan,JP,Kyōto
+Barranquilla,Barranquilla,Colombia,CO,Atlántico
+Orlando,Orlando,United States,US,Florida
+Shuyangzha,Shuyangzha,China,CN,Jiangsu
+Valencia,Valencia,Venezuela,VE,Carabobo
+Hamburg,Hamburg,Germany,DE,Hamburg
+Vadodara,Vadodara,India,IN,Gujarāt
+Manaus,Manaus,Brazil,BR,Amazonas
+Shangqiu,Shangqiu,China,CN,Henan
+Wuxi,Wuxi,China,CN,Jiangsu
+Palembang,Palembang,Indonesia,ID,Sumatera Selatan
+Brussels,Brussels,Belgium,BE,Brussels-Capital Region
+Essen,Essen,Germany,DE,North Rhine-Westphalia
+Cleveland,Cleveland,United States,US,Ohio
+Bhopal,Bhopal,India,IN,Madhya Pradesh
+Hohhot,Hohhot,China,CN,Inner Mongolia
+Pittsburgh,Pittsburgh,United States,US,Pennsylvania
+Luoyang,Luoyang,China,CN,Henan
+Santos,Santos,Brazil,BR,São Paulo
+Jingling,Jingling,China,CN,Hubei
+Warsaw,Warsaw,Poland,PL,Mazowieckie
+Rabat,Rabat,Morocco,MA,Rabat-Salé-Kénitra
+Vitória,Vitoria,Brazil,BR,Espírito Santo
+Quito,Quito,Ecuador,EC,Pichincha
+Antananarivo,Antananarivo,Madagascar,MG,Antananarivo
+Coimbatore,Coimbatore,India,IN,Tamil Nādu 
+Daqing,Daqing,China,CN,Heilongjiang
+Lu’an,Lu'an,China,CN,Anhui
+Sanzhou,Sanzhou,China,CN,Chongqing
+Budapest,Budapest,Hungary,HU,Budapest
+Turin,Turin,Italy,IT,Piedmont
+Suzhou,Suzhou,China,CN,Jiangsu
+Ludhiāna,Ludhiana,India,IN,Punjab
+Cincinnati,Cincinnati,United States,US,Ohio
+Manhattan,Manhattan,United States,US,New York
+Qiqihar,Qiqihar,China,CN,Heilongjiang
+Anshan,Anshan,China,CN,Liaoning
+Austin,Austin,United States,US,Texas
+Zhongli,Zhongli,Taiwan,TW,Taoyuan
+Handan,Handan,China,CN,Hebei
+Tai’an,Tai'an,China,CN,Shandong
+Kansas City,Kansas City,United States,US,Missouri
+Yaoundé,Yaounde,Cameroon,CM,Centre
+Shantou,Shantou,China,CN,Guangdong
+Āgra,Agra,India,IN,Uttar Pradesh
+Zhanjiang,Zhanjiang,China,CN,Guangdong
+La Paz,La Paz,Bolivia,BO,La Paz
+Kalyān,Kalyan,India,IN,Mahārāshtra
+Indianapolis,Indianapolis,United States,US,Indiana
+Xiantao,Xiantao,China,CN,Hubei
+Khulna,Khulna,Bangladesh,BD,Khulna
+Weifang,Weifang,China,CN,Shandong
+Tijuana,Tijuana,Mexico,MX,Baja California
+Santiago,Santiago,Dominican Republic,DO,Cibao Norte
+Xinyang,Xinyang,China,CN,Henan
+Luzhou,Luzhou,China,CN,Sichuan
+Perth,Perth,Australia,AU,Western Australia
+Toluca,Toluca,Mexico,MX,México
+Vishākhapatnam,Vishakhapatnam,India,IN,Andhra Pradesh
+Leeds,Leeds,United Kingdom,GB,Leeds
+Kōbe,Kobe,Japan,JP,Hyōgo
+Columbus,Columbus,United States,US,Ohio
+Multan,Multan,Pakistan,PK,Punjab
+Kochi,Kochi,India,IN,Kerala
+Montevideo,Montevideo,Uruguay,UY,Montevideo
+Gujranwala,Gujranwala,Pakistan,PK,Punjab
+Niterói,Niteroi,Brazil,BR,Rio de Janeiro
+Ganzhou,Ganzhou,China,CN,Jiangxi
+Florence,Florence,Italy,IT,Tuscany
+Liuzhou,Liuzhou,China,CN,Guangxi
+Conakry,Conakry,Guinea,GN,Conakry
+Bursa,Bursa,Turkey,TR,Bursa
+León de los Aldama,Leon de los Aldama,Mexico,MX,Guanajuato
+Virginia Beach,Virginia Beach,United States,US,Virginia
+Nāsik,Nasik,India,IN,Mahārāshtra
+Fushun,Fushun,China,CN,Liaoning
+Changde,Changde,China,CN,Hunan
+Daejeon,Daejeon,South Korea,KR,KOR
+Charlotte,Charlotte,United States,US,North Carolina
+Phnom Penh,Phnom Penh,Cambodia,KH,Phnom Penh
+Neijiang,Neijiang,China,CN,Sichuan
+Quanzhou,Quanzhou,China,CN,Fujian
+Hyderabad City,Hyderabad City,Pakistan,PK,Sindh
+Bronx,Bronx,United States,US,New York
+Córdoba,Cordoba,Argentina,AR,Córdoba
+Huainan,Huainan,China,CN,Anhui
+Doha,Doha,Qatar,QA,Ad Dawḩah
+Kuala Lumpur,Kuala Lumpur,Malaysia,MY,Kuala Lumpur 
+Gwangju,Gwangju,South Korea,KR,KOR
+Kawanakajima,Kawanakajima,Japan,JP,Kanagawa
+San Salvador,San Salvador,El Salvador,SV,San Salvador
+Suining,Suining,China,CN,Sichuan
+Lyon,Lyon,France,FR,Auvergne-Rhône-Alpes
+The Hague,The Hague,Netherlands,NL,Zuid-Holland
+Davao,Davao,Philippines,PH,Davao
+Marseille,Marseille,France,FR,Provence-Alpes-Côte d’Azur
+Meerut,Meerut,India,IN,Uttar Pradesh
+Mianyang,Mianyang,China,CN,Sichuan
+Semarang,Semarang,Indonesia,ID,Jawa Tengah
+Farīdābād,Faridabad,India,IN,Haryāna
+Novosibirsk,Novosibirsk,Russia,RU,Novosibirskaya Oblast’
+Mecca,Mecca,Saudi Arabia,SA,Makkah al Mukarramah
+Dubai,Dubai,United Arab Emirates,AE,Dubayy
+Milwaukee,Milwaukee,United States,US,Wisconsin
+Auckland,Auckland,New Zealand,NZ,Auckland
+Ma’anshan,Ma'anshan,China,CN,Anhui
+Yiyang,Yiyang,China,CN,Hunan
+Vārānasi,Varanasi,India,IN,Uttar Pradesh
+Juárez,Juarez,Mexico,MX,Chihuahua
+Ghāziābād,Ghaziabad,India,IN,Uttar Pradesh
+Pretoria,Pretoria,South Africa,ZA,Gauteng
+Heze,Heze,China,CN,Shandong
+Porto,Porto,Portugal,PT,Porto
+Āsansol,Asansol,India,IN,West Bengal
+Changzhou,Changzhou,China,CN,Jiangsu
+Yekaterinburg,Yekaterinburg,Russia,RU,Sverdlovskaya Oblast’
+Peshawar,Peshawar,Pakistan,PK,Khyber Pakhtunkhwa
+Mandalay,Mandalay,Burma,MM,Mandalay
+Jamshedpur,Jamshedpur,India,IN,Jharkhand
+Madura,Madura,India,IN,Tamil Nādu 
+Adana,Adana,Turkey,TR,Adana
+Sheffield,Sheffield,United Kingdom,GB,Sheffield
+Jabalpur,Jabalpur,India,IN,Madhya Pradesh
+San José,San Jose,Costa Rica,CR,San José
+Panama City,Panama City,Panama,PA,Panamá
+Nizhniy Novgorod,Nizhniy Novgorod,Russia,RU,Nizhegorodskaya Oblast’
+Chifeng,Chifeng,China,CN,Inner Mongolia
+Duisburg,Duisburg,Germany,DE,North Rhine-Westphalia
+Munich,Munich,Germany,DE,Bavaria
+Huaiyin,Huaiyin,China,CN,Jiangsu
+Stockholm,Stockholm,Sweden,SE,Stockholm
+Makassar,Makassar,Indonesia,ID,Sulawesi Selatan
+Rājkot,Rajkot,India,IN,Gujarāt
+Dhanbād,Dhanbad,India,IN,Jharkhand
+Mudanjiang,Mudanjiang,China,CN,Heilongjiang
+Geneva,Geneva,Switzerland,CH,Genève
+Huzhou,Huzhou,China,CN,Zhejiang
+Beidao,Beidao,China,CN,Gansu
+Shuangshui,Shuangshui,China,CN,Guizhou
+Düsseldorf,Dusseldorf,Germany,DE,North Rhine-Westphalia
+Gaozhou,Gaozhou,China,CN,Guangdong
+Sevilla,Sevilla,Spain,ES,Andalusia
+Amritsar,Amritsar,India,IN,Punjab
+Vila Velha,Vila Velha,Brazil,BR,Espírito Santo
+Vila Velha,Vila Velha,Brazil,BR,Amapá
+Providence,Providence,United States,US,Rhode Island
+Warangal,Warangal,India,IN,Telangana
+Rosario,Rosario,Argentina,AR,Santa Fe
+Allahābād,Allahabad,India,IN,Uttar Pradesh
+Jining,Jining,China,CN,Shandong
+Maceió,Maceio,Brazil,BR,Alagoas
+Sofia,Sofia,Bulgaria,BG,Sofia-Grad
+Abbottabad,Abbottabad,Pakistan,PK,Khyber Pakhtunkhwa
+Cilacap,Cilacap,Indonesia,ID,Jawa Tengah
+Prague,Prague,Czechia,CZ,Praha
+Glasgow,Glasgow,United Kingdom,GB,Glasgow City
+Leshan,Leshan,China,CN,Sichuan
+Jacksonville,Jacksonville,United States,US,Florida
+Ottawa,Ottawa,Canada,CA,Ontario
+Adelaide,Adelaide,Australia,AU,South Australia
+Shangrao,Shangrao,China,CN,Jiangxi
+Torreón,Torreon,Mexico,MX,Coahuila de Zaragoza
+Srīnagar,Srinagar,India,IN,Jammu and Kashmīr
+Bezwāda,Bezwada,India,IN,Andhra Pradesh
+Samara,Samara,Russia,RU,Samarskaya Oblast’
+Omsk,Omsk,Russia,RU,Omskaya Oblast’
+Newcastle,Newcastle,Australia,AU,New South Wales
+Yulin,Yulin,China,CN,Guangxi
+Xianyang,Xianyang,China,CN,Shaanxi
+Cagayan de Oro,Cagayan de Oro,Philippines,PH,Cagayan de Oro
+Cần Thơ,Can Tho,Vietnam,VN,Cần Thơ
+Barquisimeto,Barquisimeto,Venezuela,VE,Lara
+Helsinki,Helsinki,Finland,FI,Uusimaa
+Kazan’,Kazan',Russia,RU,Tatarstan
+Aurangābād,Aurangabad,India,IN,Mahārāshtra
+Calgary,Calgary,Canada,CA,Alberta
+Ciudad Nezahualcóyotl,Ciudad Nezahualcoyotl,Mexico,MX,México
+Zürich,Zurich,Switzerland,CH,Zürich
+Baoding,Baoding,China,CN,Hebei
+Zigong,Zigong,China,CN,Sichuan
+Sharjah,Sharjah,United Arab Emirates,AE,Ash Shāriqah
+Tbilisi,Tbilisi,Georgia,GE,Tbilisi
+Ankang,Ankang,China,CN,Shaanxi
+Belgrade,Belgrade,Serbia,RS,Beograd
+Salt Lake City,Salt Lake City,United States,US,Utah
+Bhilai,Bhilai,India,IN,Chhattīsgarh
+Jinhua,Jinhua,China,CN,Zhejiang
+Chelyabinsk,Chelyabinsk,Russia,RU,Chelyabinskaya Oblast’
+Natal,Natal,Brazil,BR,Rio Grande do Norte
+Copenhagen,Copenhagen,Denmark,DK,Hovedstaden
+Changwon,Changwon,South Korea,KR,KOR
+Zhuzhou,Zhuzhou,China,CN,Hunan
+Suwon,Suwon,South Korea,KR,KOR
+Nashville,Nashville,United States,US,Tennessee
+Vereeniging,Vereeniging,South Africa,ZA,Gauteng
+Xiangyang,Xiangyang,China,CN,Hubei
+Memphis,Memphis,United States,US,Tennessee
+Ulsan,Ulsan,South Korea,KR,KOR
+Amman,Amman,Jordan,JO,Al ‘Āşimah
+Mizhou,Mizhou,China,CN,Shandong
+Richmond,Richmond,United States,US,Virginia
+Dublin,Dublin,Ireland,IE,Dublin
+Edmonton,Edmonton,Canada,CA,Alberta
+Solāpur,Solapur,India,IN,Mahārāshtra
+Rostov-na-Donu,Rostov-na-Donu,Russia,RU,Rostovskaya Oblast’
+Xining,Xining,China,CN,Qinghai
+Zhangjiakou,Zhangjiakou,China,CN,Hebei
+Lille,Lille,France,FR,Hauts-de-France
+Ranchi,Ranchi,India,IN,Jharkhand
+Gaziantep,Gaziantep,Turkey,TR,Gaziantep
+São Luís,Sao Luis,Brazil,BR,Maranhão
+Amsterdam,Amsterdam,Netherlands,NL,Noord-Holland
+Jerusalem,Jerusalem,Israel,IL,
+New Orleans,New Orleans,United States,US,Louisiana
+Guatemala City,Guatemala City,Guatemala,GT,Guatemala
+Zhuhai,Zhuhai,China,CN,Guangdong
+Florianópolis,Florianopolis,Brazil,BR,Santa Catarina
+Port Elizabeth,Port Elizabeth,South Africa,ZA,Eastern Cape
+Jiamusi,Jiamusi,China,CN,Heilongjiang
+Raleigh,Raleigh,United States,US,North Carolina
+Ufa,Ufa,Russia,RU,Bashkortostan
+Hengyang,Hengyang,China,CN,Hunan
+Benxi,Benxi,China,CN,Liaoning
+Louisville,Louisville,United States,US,Kentucky
+Haifa,Haifa,Israel,IL,Haifa
+Medina,Medina,Saudi Arabia,SA,Al Madīnah al Munawwarah
+Bucaramanga,Bucaramanga,Colombia,CO,Santander
+Maracay,Maracay,Venezuela,VE,Aragua
+Rotterdam,Rotterdam,Netherlands,NL,Zuid-Holland
+Cologne,Cologne,Germany,DE,North Rhine-Westphalia
+Qinhuangdao,Qinhuangdao,China,CN,Hebei
+Fès,Fes,Morocco,MA,Fès-Meknès
+Tegucigalpa,Tegucigalpa,Honduras,HN,Francisco Morazán
+Kingston,Kingston,Jamaica,JM,Kingston
+Nay Pyi Taw,Nay Pyi Taw,Burma,MM,Nay Pyi Taw
+Djibouti,Djibouti,Djibouti,DJ,Djibouti
+Managua,Managua,Nicaragua,NI,Managua
+Tirana,Tirana,Albania,AL,Tiranë
+Kathmandu,Kathmandu,Nepal,NP,Bāgmatī
+Ulaanbaatar,Ulaanbaatar,Mongolia,MN,Ulaanbaatar
+Oslo,Oslo,Norway,NO,Oslo
+Islamabad,Islamabad,Pakistan,PK,Islāmābād
+Cotonou,Cotonou,Benin,BJ,Littoral
+Vientiane,Vientiane,Laos,LA,Viangchan
+Riga,Riga,Latvia,LV,Rīga
+Muscat,Muscat,Oman,OM,Masqaţ
+Zagreb,Zagreb,Croatia,HR,Zagreb
+Sarajevo,Sarajevo,Bosnia And Herzegovina,BA,Bosnia and Herzegovina
+Abu Dhabi,Abu Dhabi,United Arab Emirates,AE,Abū Z̧aby
+Port Louis,Port Louis,Mauritius,MU,Port Louis
+Manama,Manama,Bahrain,BH,Al ‘Āşimah
+Vilnius,Vilnius,Lithuania,LT,Vilniaus Miestas
+Skopje,Skopje,Macedonia,MK,Skopje
+Bloemfontein,Bloemfontein,South Africa,ZA,Free State
+Bratislava,Bratislava,Slovakia,SK,Bratislavský
+Bissau,Bissau,Guinea-Bissau,GW,Bissau
+Tallinn,Tallinn,Estonia,EE,Harjumaa
+Wellington,Wellington,New Zealand,NZ,Wellington
+Valletta,Valletta,Malta,MT,Valletta
+Canberra,Canberra,Australia,AU,Australian Capital Territory
+New Delhi,New Delhi,India,IN,Delhi
+Ljubljana,Ljubljana,Slovenia,SI,Ljubljana
+Porto-Novo,Porto-Novo,Benin,BJ,Ouémé
+Bandar Seri Begawan,Bandar Seri Begawan,Brunei,BN,Brunei and Muara
+Port Moresby,Port Moresby,Papua New Guinea,PG,National Capital
+Bern,Bern,Switzerland,CH,Bern
+Windhoek,Windhoek,Namibia,NA,Khomas
+Georgetown,Georgetown,Guyana,GY,Demerara-Mahaica
+Nassau,Nassau,Bahamas, The,BHS
+Sucre,Sucre,Bolivia,BO,Chuquisaca
+Nicosia,Nicosia,Cyprus,CY,Lefkosía
+Colombo,Colombo,Sri Lanka,LK,Western
+Gaborone,Gaborone,Botswana,BW,Gaborone
+Yamoussoukro,Yamoussoukro,Côte D’Ivoire,CI,Yamoussoukro
+Bridgetown,Bridgetown,Barbados,BB,Saint Michael
+Suva,Suva,Fiji,FJ,Rewa
+Reykjavík,Reykjavik,Iceland,IS,Höfuðborgarsvæði
+Malabo,Malabo,Equatorial Guinea,GQ,Bioko Norte
+Willemstad,Willemstad,Curaçao,CW,
+Podgorica,Podgorica,Montenegro,ME,Podgorica
+Moroni,Moroni,Comoros,KM,Grande Comore
+Sri Jayewardenepura Kotte,Sri Jayewardenepura Kotte,Sri Lanka,LK,Western
+Male,Male,Maldives,MV,Maale
+Luxembourg,Luxembourg,Luxembourg,LU,Luxembourg
+Thimphu,Thimphu,Bhutan,BT,Thimphu
+São Tomé,Sao Tome,Sao Tome And Principe,ST,São Tomé
+Honiara,Honiara,Solomon Islands,SB,Honiara
+Oranjestad,Oranjestad,Aruba,AW,
+Apia,Apia,Samoa,WS,Tuamasaga
+Andorra la Vella,Andorra la Vella,Andorra,AD,Andorra la Vella
+Kingstown,Kingstown,Saint Vincent And The Grenadines,VC,Saint George
+Castries,Castries,Saint Lucia,LC,Castries
+Monaco,Monaco,Monaco,MC,
+Vaduz,Vaduz,Liechtenstein,LI,Vaduz
+Saint John’s,Saint John's,Antigua And Barbuda,AG,Saint John
+Saint George’s,Saint George's,Grenada,GD,Saint George
+Victoria,Victoria,Seychelles,SC,
+San Marino,San Marino,San Marino,SM,San Marino Città
+Majuro,Majuro,Marshall Islands,MH,Majuro
+Roseau,Roseau,Dominica,DM,Saint George
+Basseterre,Basseterre,Saint Kitts And Nevis,KN,Saint George Basseterre
+Belmopan,Belmopan,Belize,BZ,Cayo
+Pago Pago,Pago Pago,American Samoa,AS,
+Palikir,Palikir,Micronesia,FM,FSM
+Hagåtña,Hagta,Guam,GU,
+Philipsburg,Philipsburg,Sint Maarten,SX,
+Pristina,Pristina,Kosovo,XK,Prishtinë
+Ngerulmud,Ngerulmud,Palau,PW,Melekeok
+Cochabamba,Cochabamba,Bolivia,BO,Cochabamba
+Yongzhou,Yongzhou,China,CN,Hunan
+Baoshan,Baoshan,China,CN,Yunnan
+Quảng Hà,Quang Ha,Vietnam,VN,Quảng Nam
+Kitaku,Kitaku,Japan,JP,Fukuoka
+Perm’,Perm',Russia,RU,Permskiy Kray
+San Luis Potosí,San Luis Potosi,Mexico,MX,San Luis Potosí
+Yinchuan,Yinchuan,China,CN,Ningxia
+Jiaxing,Jiaxing,China,CN,Zhejiang
+Joinvile,Joinvile,Brazil,BR,Santa Catarina
+Guilin,Guilin,China,CN,Guangxi
+Volgograd,Volgograd,Russia,RU,Volgogradskaya Oblast’
+Yichun,Yichun,China,CN,Jiangxi
+Yangquan,Yangquan,China,CN,Shanxi
+Natal,Natal,Brazil,BR,Amazonas
+Hamamatsu,Hamamatsu,Japan,JP,Shizuoka
+Mérida,Merida,Mexico,MX,Yucatán
+Querétaro,Queretaro,Mexico,MX,Querétaro
+João Pessoa,Joao Pessoa,Brazil,BR,Paraíba
+Klang,Klang,Malaysia,MY,Selangor
+Oklahoma City,Oklahoma City,United States,US,Oklahoma
+Salerno,Salerno,Italy,IT,Campania
+General Santos,General Santos,Philippines,PH,General Santos
+Huế,Hue,Vietnam,VN,Thừa Thiên-Huế
+Bacolod,Bacolod,Philippines,PH,Bacolod
+Sŏngnam,Songnam,South Korea,KR,KOR
+Bridgeport,Bridgeport,United States,US,Connecticut
+Nice,Nice,France,FR,Provence-Alpes-Côte d’Azur
+Buffalo,Buffalo,United States,US,New York
+Krasnoyarsk,Krasnoyarsk,Russia,RU,Krasnoyarskiy Kray
+Olinda,Olinda,Brazil,BR,Pernambuco
+Antwerp,Antwerp,Belgium,BE,Flanders
+Konya,Konya,Turkey,TR,Konya
+Bogor,Bogor,Indonesia,ID,Jawa Barat
+Hartford,Hartford,United States,US,Connecticut
+Teresina,Teresina,Brazil,BR,Piauí
+Naha,Naha,Japan,JP,Okinawa
+Goyang,Goyang,South Korea,KR,KOR
+Az Zarqā’,Az Zarqa',Jordan,JO,Az Zarqā’
+Tarsus,Tarsus,Turkey,TR,Mersin
+Mendoza,Mendoza,Argentina,AR,Mendoza
+Concepción,Concepcion,Chile,CL,Biobío
+Cartagena,Cartagena,Colombia,CO,Bolívar
+Mexicali,Mexicali,Mexico,MX,Baja California
+Newcastle upon Tyne,Newcastle upon Tyne,United Kingdom,GB,Newcastle upon Tyne
+Novo Hamburgo,Novo Hamburgo,Brazil,BR,Rio Grande do Sul
+Callao,Callao,Peru,PE,Callao
+Bilbao,Bilbao,Spain,ES,Basque Country
+Johor Bahru,Johor Bahru,Malaysia,MY,Johor
+Fort Worth,Fort Worth,United States,US,Texas
+Marrakech,Marrakech,Morocco,MA,Marrakech-Safi
+Aguascalientes,Aguascalientes,Mexico,MX,Aguascalientes
+Tucson,Tucson,United States,US,Arizona
+Okayama,Okayama,Japan,JP,Okayama
+Bucheon,Bucheon,South Korea,KR,KOR
+Bandar Lampung,Bandar Lampung,Indonesia,ID,Lampung
+Palermo,Palermo,Italy,IT,Sicilia
+Caerdydd,Caerdydd,United Kingdom,GB,Cardiff
+Tampico,Tampico,Mexico,MX,Tamaulipas
+Padang,Padang,Indonesia,ID,Sumatera Barat
+Valparaíso,Valparaiso,Chile,CL,Valparaíso
+Toulouse,Toulouse,France,FR,Occitanie
+El Paso,El Paso,United States,US,Texas
+Iguaçu,Iguacu,Brazil,BR,Rio de Janeiro
+Voronezh,Voronezh,Russia,RU,Voronezhskaya Oblast’
+Saratov,Saratov,Russia,RU,Saratovskaya Oblast’
+Cuernavaca,Cuernavaca,Mexico,MX,Morelos
+Honolulu,Honolulu,United States,US,Hawaii
+Basel,Basel,Switzerland,CH,Basel-Stadt
+San Miguel de Tucumán,San Miguel de Tucuman,Argentina,AR,Tucumán
+Thessaloníki,Thessaloniki,Greece,GR,Kentrikí Makedonía
+Omaha,Omaha,United States,US,Nebraska
+Braga,Braga,Portugal,PT,Braga
+Nottingham,Nottingham,United Kingdom,GB,Nottingham
+Agadir,Agadir,Morocco,MA,Souss-Massa
+Butterworth,Butterworth,Malaysia,MY,Pulau Pinang
+Cebu City,Cebu City,Philippines,PH,Cebu
+Arequipa,Arequipa,Peru,PE,Arequipa
+Liverpool,Liverpool,United Kingdom,GB,Liverpool
+Rājshāhi,Rajshahi,Bangladesh,BD,Rājshāhi
+Culiacán,Culiacan,Mexico,MX,Sinaloa
+Valencia,Valencia,Spain,ES,Valencia
+Cuiabá,Cuiaba,Brazil,BR,Mato Grosso
+Quy Nhơn,Quy Nhon,Vietnam,VN,Bình Định
+Malang,Malang,Indonesia,ID,Jawa Timur
+Bordeaux,Bordeaux,France,FR,Nouvelle-Aquitaine
+McAllen,McAllen,United States,US,Texas
+Pekanbaru,Pekanbaru,Indonesia,ID,Riau
+Chihuahua,Chihuahua,Mexico,MX,Chihuahua
+Melaka,Melaka,Malaysia,MY,Melaka
+Antalya,Antalya,Turkey,TR,Antalya
+Campo Grande,Campo Grande,Brazil,BR,Mato Grosso do Sul
+Wuppertal,Wuppertal,Germany,DE,North Rhine-Westphalia
+Cheongju,Cheongju,South Korea,KR,KOR
+Zamboanga City,Zamboanga City,Philippines,PH,Zamboanga
+Saarbrücken,Saarbrucken,Germany,DE,Saarland
+Quetta,Quetta,Pakistan,PK,Balochistān
+Trujillo,Trujillo,Peru,PE,La Libertad
+Trabzon,Trabzon,Turkey,TR,Trabzon
+Albuquerque,Albuquerque,United States,US,New Mexico
+Łódź,Lodz,Poland,PL,Łódzkie
+Kraków,Krakow,Poland,PL,Małopolskie
+Saltillo,Saltillo,Mexico,MX,Coahuila de Zaragoza
+São José dos Campos,Sao Jose dos Campos,Brazil,BR,São Paulo
+Pietermaritzburg,Pietermaritzburg,South Africa,ZA,KwaZulu-Natal
+Tangier,Tangier,Morocco,MA,Tanger-Tétouan-Al Hoceïma
+Hsinchu,Hsinchu,Taiwan,TW,Hsinchu
+Changhua,Changhua,Taiwan,TW,Changhua
+Liège,Liege,Belgium,BE,Wallonia
+Ciudad Guayana,Ciudad Guayana,Venezuela,VE,Bolívar
+Birmingham,Birmingham,United States,US,Alabama
+Naga City,Naga City,Philippines,PH,Naga
+Gdańsk,Gdansk,Poland,PL,Pomorskie
+Ansan,Ansan,South Korea,KR,KOR
+Nuremberg,Nuremberg,Germany,DE,Bavaria
+Denpasar,Denpasar,Indonesia,ID,Bali
+Bremen,Bremen,Germany,DE,Bremen
+Hannover,Hannover,Germany,DE,Lower Saxony
+Cúcuta,Cucuta,Colombia,CO,Norte de Santander
+Hamilton,Hamilton,Canada,CA,Ontario
+Kumamoto,Kumamoto,Japan,JP,Kumamoto
+Dayton,Dayton,United States,US,Ohio
+Acapulco de Juárez,Acapulco de Juarez,Mexico,MX,Guerrero
+Jeonju,Jeonju,South Korea,KR,KOR
+Tol’yatti,Tol'yatti,Russia,RU,Samarskaya Oblast’
+Jaboatão,Jaboatao,Brazil,BR,Pernambuco
+Shizuoka,Shizuoka,Japan,JP,Shizuoka
+Soledad,Soledad,Colombia,CO,Atlántico
+Meknès,Meknes,Morocco,MA,Fès-Meknès
+La Plata,La Plata,Argentina,AR,Buenos Aires
+Aracaju,Aracaju,Brazil,BR,Sergipe
+Bonn,Bonn,Germany,DE,North Rhine-Westphalia
+San Pedro Sula,San Pedro Sula,Honduras,HN,Cortés
+Catania,Catania,Italy,IT,Sicilia
+Ipoh,Ipoh,Malaysia,MY,Perak
+Utsunomiya,Utsunomiya,Japan,JP,Tochigi
+São José dos Pinhais,Sao Jose dos Pinhais,Brazil,BR,Paraná
+Santo André,Santo Andre,Brazil,BR,São Paulo
+Bytom,Bytom,Poland,PL,Śląskie
+Ismailia,Ismailia,Egypt,EG,Al Ismā‘īlīyah
+Biên Hòa,Bien Hoa,Vietnam,VN,Đồng Nai
+Irbid,Irbid,Jordan,JO,Irbid
+Krasnodar,Krasnodar,Russia,RU,Krasnodarskiy Kray
+Zaragoza,Zaragoza,Spain,ES,Aragon
+Genoa,Genoa,Italy,IT,Liguria
+Diyarbakır,Diyarbakir,Turkey,TR,Diyarbakır
+Morelia,Morelia,Mexico,MX,Michoacán de Ocampo
+Ul’yanovsk,Ul'yanovsk,Russia,RU,Ul’yanovskaya Oblast’
+Utrecht,Utrecht,Netherlands,NL,Utrecht
+Yogyakarta,Yogyakarta,Indonesia,ID,Yogyakarta
+Wrocław,Wroclaw,Poland,PL,Dolnośląskie
+Winnipeg,Winnipeg,Canada,CA,Manitoba
+Izhevsk,Izhevsk,Russia,RU,Udmurtiya
+Québec,Quebec,Canada,CA,Québec
+Poznań,Poznan,Poland,PL,Wielkopolskie
+Port Said,Port Said,Egypt,EG,Būr Sa‘īd
+Bannu,Bannu,Pakistan,PK,Khyber Pakhtunkhwa
+Southend-on-Sea,Southend-on-Sea,United Kingdom,GB,Southend-on-Sea
+Dresden,Dresden,Germany,DE,Saxony
+Wiesbaden,Wiesbaden,Germany,DE,Hesse
+Palu,Palu,Indonesia,ID,Sulawesi Tengah
+Samsun,Samsun,Turkey,TR,Samsun
+Luxor,Luxor,Egypt,EG,Al Uqşur
+Pontianak,Pontianak,Indonesia,ID,Kalimantan Barat
+Yaroslavl’,Yaroslavl',Russia,RU,Yaroslavskaya Oblast’
+Banjarmasin,Banjarmasin,Indonesia,ID,Kalimantan Selatan
+Sūhāj,Suhaj,Egypt,EG,Sūhāj
+Al Manşūrah,Al Mansurah,Egypt,EG,Ad Daqahlīyah
+Canoas,Canoas,Brazil,BR,Rio Grande do Sul
+Barnaul,Barnaul,Russia,RU,Altayskiy Kray
+Chiclayo,Chiclayo,Peru,PE,Lambayeque
+Hermosillo,Hermosillo,Mexico,MX,Sonora
+Nagano,Nagano,Japan,JP,Nagano
+Vinh,Vinh,Vietnam,VN,Nghệ An
+Kayseri,Kayseri,Turkey,TR,Kayseri
+Samarinda,Samarinda,Indonesia,ID,Kalimantan Timur
+Dortmund,Dortmund,Germany,DE,North Rhine-Westphalia
+Vladivostok,Vladivostok,Russia,RU,Primorskiy Kray
+Irkutsk,Irkutsk,Russia,RU,Irkutskaya Oblast’
+Hachiōji,Hachioji,Japan,JP,Tōkyō
+Veracruz,Veracruz,Mexico,MX,Veracruz
+Quetzaltenango,Quetzaltenango,Guatemala,GT,Quetzaltenango
+Kuching,Kuching,Malaysia,MY,Sarawak
+Niigata,Niigata,Japan,JP,Niigata
+Pereira,Pereira,Colombia,CO,Risaralda
+Macau,Macau,Macau,MO,
+Bouaké,Bouake,Côte D’Ivoire,CI,Vallée du Bandama
+Binjai,Binjai,Indonesia,ID,Sumatera Utara
+Uberlândia,Uberlandia,Brazil,BR,Minas Gerais
+Sorocaba,Sorocaba,Brazil,BR,São Paulo
+Mar del Plata,Mar del Plata,Argentina,AR,Buenos Aires
+Santiago de Cuba,Santiago de Cuba,Cuba,CU,Santiago de Cuba
+Kagoshima,Kagoshima,Japan,JP,Kagoshima
+Surakarta,Surakarta,Indonesia,ID,Jawa Tengah
+Bristol,Bristol,United Kingdom,GB,Bristol
+Bahawalpur,Bahawalpur,Pakistan,PK,Punjab
+Kenitra,Kenitra,Morocco,MA,Rabat-Salé-Kénitra
+Ribeirão Prêto,Ribeirao Preto,Brazil,BR,São Paulo
+Kanazawa,Kanazawa,Japan,JP,Ishikawa
+Málaga,Malaga,Spain,ES,Andalusia
+Puerto La Cruz,Puerto La Cruz,Venezuela,VE,Anzoátegui
+Sargodha,Sargodha,Pakistan,PK,Punjab
+Leipzig,Leipzig,Germany,DE,Saxony
+Cancún,Cancun,Mexico,MX,Quintana Roo
+Heroica Matamoros,Heroica Matamoros,Mexico,MX,Tamaulipas
+Göteborg,Goteborg,Sweden,SE,Västra Götaland
+Ōtsu,Otsu,Japan,JP,Shiga
+Matsuyama,Matsuyama,Japan,JP,Ehime
+Rouen,Rouen,France,FR,Normandie
+Oaxaca,Oaxaca,Mexico,MX,Oaxaca
+Tripoli,Tripoli,Lebanon,LB,Liban-Nord
+Kota Kinabalu,Kota Kinabalu,Malaysia,MY,Sabah
+Gold Coast,Gold Coast,Australia,AU,Queensland
+Londrina,Londrina,Brazil,BR,Paraná
+Bello,Bello,Colombia,CO,Antioquia
+Eskişehir,Eskisehir,Turkey,TR,Eskişehir
+Banda Aceh,Banda Aceh,Indonesia,ID,Aceh
+Salta,Salta,Argentina,AR,Salta
+Suez,Suez,Egypt,EG,As Suways
+Gliwice,Gliwice,Poland,PL,Śląskie
+Bukittinggi,Bukittinggi,Indonesia,ID,Sumatera Barat
+Kota Bharu,Kota Bharu,Malaysia,MY,Kelantan
+Jundiaí,Jundiai,Brazil,BR,São Paulo
+Edinburgh,Edinburgh,United Kingdom,GB,Edinburgh
+Tlaxcala,Tlaxcala,Mexico,MX,Tlaxcala
+Viña del Mar,Vina del Mar,Chile,CL,Valparaíso
+Pingtung,Pingtung,Taiwan,TW,Pingtung
+Brighton,Brighton,United Kingdom,GB,Brighton and Hove
+Bradford,Bradford,United Kingdom,GB,Bradford
+Bari,Bari,Italy,IT,Puglia
+Damanhūr,Damanhur,Egypt,EG,Al Buḩayrah
+Al Minyā,Al Minya,Egypt,EG,Al Minyā
+Taoyuan District,Taoyuan District,Taiwan,TW,Taoyuan
+Keelung,Keelung,Taiwan,TW,Keelung
+San Lorenzo,San Lorenzo,Paraguay,PY,Central
+Pasuruan,Pasuruan,Indonesia,ID,Jawa Timur
+Chiayi,Chiayi,Taiwan,TW,Chiayi
+Thái Nguyên,Thai Nguyen,Vietnam,VN,Thái Nguyên
+Mazatán,Mazatan,Mexico,MX,Sonora
+Tsu,Tsu,Japan,JP,Mie
+Mataram,Mataram,Indonesia,ID,Nusa Tenggara Barat
+Macapá,Macapa,Brazil,BR,Amapá
+Reynosa,Reynosa,Mexico,MX,Tamaulipas
+Santa Fe,Santa Fe,Argentina,AR,Santa Fe
+Banī Suwayf,Bani Suwayf,Egypt,EG,Banī Suwayf
+Bologna,Bologna,Italy,IT,Emilia-Romagna
+Feira de Santana,Feira de Santana,Brazil,BR,Bahia
+Shah Alam,Shah Alam,Malaysia,MY,Selangor
+Tuxtla,Tuxtla,Mexico,MX,Chiapas
+Homyel’,Homyel',Belarus,BY,Homyel’skaya Voblasts’
+Americana,Americana,Brazil,BR,São Paulo
+Ostrava,Ostrava,Czechia,CZ,Moravskoslezský Kraj 
+Sialkot City,Sialkot City,Pakistan,PK,Punjab
+Juiz de Fora,Juiz de Fora,Brazil,BR,Minas Gerais
+Kocaeli,Kocaeli,Turkey,TR,Kocaeli
+Piraeus,Piraeus,Greece,GR,Attikí
+Iligan,Iligan,Philippines,PH,Iligan
+Malatya,Malatya,Turkey,TR,Malatya
+Cranbourne,Cranbourne,Australia,AU,Victoria
+Iquitos,Iquitos,Peru,PE,Loreto
+Leicester,Leicester,United Kingdom,GB,Leicester
+Durango,Durango,Mexico,MX,Durango
+Jambi,Jambi,Indonesia,ID,Jambi
+Volta Redonda,Volta Redonda,Brazil,BR,Rio de Janeiro
+Sunderland,Sunderland,United Kingdom,GB,Sunderland
+Xalapa,Xalapa,Mexico,MX,Veracruz
+Manado,Manado,Indonesia,ID,Sulawesi Utara
+Oshawa,Oshawa,Canada,CA,Ontario
+Belfast,Belfast,United Kingdom,GB,Belfast
+Şanlıurfa,Sanliurfa,Turkey,TR,Şanlıurfa
+Ōita,Oita,Japan,JP,Ōita
+Baguio City,Baguio City,Philippines,PH,Baguio
+San Juan,San Juan,Argentina,AR,San Juan
+Balikpapan,Balikpapan,Indonesia,ID,Kalimantan Timur
+Bamenda,Bamenda,Cameroon,CM,North-West
+Gent,Gent,Belgium,BE,Flanders
+Tokushima,Tokushima,Japan,JP,Tokushima
+Portsmouth,Portsmouth,United Kingdom,GB,Portsmouth
+Cabimas,Cabimas,Venezuela,VE,Zulia
+Foz do Iguaçu,Foz do Iguacu,Brazil,BR,Paraná
+Wakayama,Wakayama,Japan,JP,Wakayama
+Strasbourg,Strasbourg,France,FR,Grand Est
+Mawlamyine,Mawlamyine,Burma,MM,Mon State
+San Cristóbal,San Cristobal,Venezuela,VE,Táchira
+Nantes,Nantes,France,FR,Pays de la Loire
+Garoua,Garoua,Cameroon,CM,Nord
+Nagasaki,Nagasaki,Japan,JP,Nagasaki
+Pohang,Pohang,South Korea,KR,KOR
+Spanish Town,Spanish Town,Jamaica,JM,Saint Catherine
+San Luis,San Luis,Argentina,AR,San Luis
+Welkom,Welkom,South Africa,ZA,Free State
+Santa Marta,Santa Marta,Colombia,CO,Magdalena
+Villahermosa,Villahermosa,Mexico,MX,Tabasco
+Bournemouth,Bournemouth,United Kingdom,GB,Bournemouth
+Bengkulu,Bengkulu,Indonesia,ID,Bengkulu
+Heidelberg,Heidelberg,Germany,DE,Baden-Württemberg
+Batangas,Batangas,Philippines,PH,Batangas
+Ibagué,Ibague,Colombia,CO,Tolima
+Erzurum,Erzurum,Turkey,TR,Erzurum
+Asyūţ,Asyut,Egypt,EG,Asyūţ
+Sukkur,Sukkur,Pakistan,PK,Sindh
+Campina Grande,Campina Grande,Brazil,BR,Paraíba
+Kitchener,Kitchener,Canada,CA,Ontario
+Middlesbrough,Middlesbrough,United Kingdom,GB,Redcar and Cleveland
+Gifu,Gifu,Japan,JP,Gifu
+Huancayo,Huancayo,Peru,PE,Junín
+Nha Trang,Nha Trang,Vietnam,VN,Khánh Hòa
+Maturín,Maturin,Venezuela,VE,Monagas
+Oujda-Angad,Oujda-Angad,Morocco,MA,Oriental
+Metz,Metz,France,FR,Grand Est
+Al ‘Ayn,Al `Ayn,United Arab Emirates,AE,Abū Z̧aby
+Jeju,Jeju,South Korea,KR,KOR
+Ipatinga,Ipatinga,Brazil,BR,Minas Gerais
+Szczecin,Szczecin,Poland,PL,Zachodniopomorskie
+Murcia,Murcia,Spain,ES,Murcia
+Ţanţā,Tanta,Egypt,EG,Al Gharbīyah
+Taubaté,Taubate,Brazil,BR,São Paulo
+Pasay City,Pasay City,Philippines,PH,Pasay
+Gómez Palacio,Gomez Palacio,Mexico,MX,Durango
+Eindhoven,Eindhoven,Netherlands,NL,Noord-Brabant
+Chiang Mai,Chiang Mai,Thailand,TH,Chiang Mai
+Piura,Piura,Peru,PE,Piura
+Sandakan,Sandakan,Malaysia,MY,Sabah
+Stoke-on-Trent,Stoke-on-Trent,United Kingdom,GB,Stoke-on-Trent
+Comilla,Comilla,Bangladesh,BD,Chittagong
+Samut Prakan,Samut Prakan,Thailand,TH,Samut Prakan
+Grenoble,Grenoble,France,FR,Auvergne-Rhône-Alpes
+Granada,Granada,Spain,ES,Andalusia
+Brno,Brno,Czechia,CZ,Jihomoravský Kraj
+Coventry,Coventry,United Kingdom,GB,Coventry
+Alajuela,Alajuela,Costa Rica,CR,Alajuela
+Iloilo,Iloilo,Philippines,PH,Iloilo
+Campos,Campos,Brazil,BR,Rio de Janeiro
+Resistencia,Resistencia,Argentina,AR,Chaco
+Southampton,Southampton,United Kingdom,GB,Southampton
+Celaya,Celaya,Mexico,MX,Guanajuato
+Pasto,Pasto,Colombia,CO,Nariño
+Caxias do Sul,Caxias do Sul,Brazil,BR,Rio Grande do Sul
+Vigo,Vigo,Spain,ES,Galicia
+Las Palmas de Gran Canaria,Las Palmas de Gran Canaria,Spain,ES,Canary Islands
+Karlsruhe,Karlsruhe,Germany,DE,Baden-Württemberg
+Kahramanmaraş,Kahramanmaras,Turkey,TR,Kahramanmaraş
+Manizales,Manizales,Colombia,CO,Caldas
+Palma,Palma,Spain,ES,Balearic Islands
+Manukau City,Manukau City,New Zealand,NZ,Auckland
+Villavicencio,Villavicencio,Colombia,CO,Meta
+São José do Rio Prêto,Sao Jose do Rio Preto,Brazil,BR,São Paulo
+Kaunas,Kaunas,Lithuania,LT,Kauno Miestas
+Seremban,Seremban,Malaysia,MY,Negeri Sembilan
+Denizli,Denizli,Turkey,TR,Denizli
+Van,Van,Turkey,TR,Van
+A Coruña,A Coruna,Spain,ES,Galicia
+Reading,Reading,United Kingdom,GB,Reading
+Mahilyow,Mahilyow,Belarus,BY,Mahilyowskaya Voblasts’
+Mazatlán,Mazatlan,Mexico,MX,Sinaloa
+Bydgoszcz,Bydgoszcz,Poland,PL,Kujawsko-Pomorskie
+Kuantan,Kuantan,Malaysia,MY,Pahang
+Gorontalo,Gorontalo,Indonesia,ID,Gorontalo
+Larkana,Larkana,Pakistan,PK,Sindh
+Christchurch,Christchurch,New Zealand,NZ,Canterbury
+Shekhupura,Shekhupura,Pakistan,PK,Punjab
+Cusco,Cusco,Peru,PE,Cusco
+Lublin,Lublin,Poland,PL,Lubelskie
+Halifax,Halifax,Canada,CA,Nova Scotia
+Augsburg,Augsburg,Germany,DE,Bavaria
+Sungai Petani,Sungai Petani,Malaysia,MY,Kedah
+Toulon,Toulon,France,FR,Provence-Alpes-Côte d’Azur
+Donostia,Donostia,Spain,ES,Basque Country
+Iwaki,Iwaki,Japan,JP,Fukushima
+Encarnación,Encarnacion,Paraguay,PY,Itapúa
+Posadas,Posadas,Argentina,AR,Misiones
+Cà Mau,Ca Mau,Vietnam,VN,Cà Mau
+Asahikawa,Asahikawa,Japan,JP,Hokkaidō
+Mirpur Khas,Mirpur Khas,Pakistan,PK,Sindh
+Ambon,Ambon,Indonesia,ID,Maluku
+Orizaba,Orizaba,Mexico,MX,Veracruz
+Santiago del Estero,Santiago del Estero,Argentina,AR,Santiago del Estero
+Mito,Mito,Japan,JP,Ibaraki
+Safi,Safi,Morocco,MA,Marrakech-Safi
+Rahimyar Khan,Rahimyar Khan,Pakistan,PK,Punjab
+Neiva,Neiva,Colombia,CO,Huila
+Hualien,Hualien,Taiwan,TW,Hualien
+Kuala Terengganu,Kuala Terengganu,Malaysia,MY,Terengganu
+Long Xuyên,Long Xuyen,Vietnam,VN,An Giang
+Việt Trì,Viet Tri,Vietnam,VN,Phú Thọ
+Haarlem,Haarlem,Netherlands,NL,Noord-Holland
+Buôn Ma Thuột,Buon Ma Thuot,Vietnam,VN,Đắk Lắk
+Chimbote,Chimbote,Peru,PE,Ancash
+Nuevo Laredo,Nuevo Laredo,Mexico,MX,Tamaulipas
+Linz,Linz,Austria,AT,Oberösterreich
+Camagüey,Camaguey,Cuba,CU,Camagüey
+Verona,Verona,Italy,IT,Veneto
+Mérida,Merida,Venezuela,VE,Mérida
+Charleroi,Charleroi,Belgium,BE,Wallonia
+Maebashi,Maebashi,Japan,JP,Gunma
+Kohat,Kohat,Pakistan,PK,Khyber Pakhtunkhwa
+Vitsyebsk,Vitsyebsk,Belarus,BY,Vitsyebskaya Voblasts’
+Piracicaba,Piracicaba,Brazil,BR,São Paulo
+Yeosu,Yeosu,South Korea,KR,KOR
+San Juan,San Juan,Puerto Rico,PR,Puerto Rico
+Jhang City,Jhang City,Pakistan,PK,Punjab
+Pematangsiantar,Pematangsiantar,Indonesia,ID,Sumatera Utara
+Corrientes,Corrientes,Argentina,AR,Corrientes
+Tamuramachi-moriyama,Tamuramachi-moriyama,Japan,JP,Fukushima
+Plovdiv,Plovdiv,Bulgaria,BG,Plovdiv
+Irapuato,Irapuato,Mexico,MX,Guanajuato
+East London,East London,South Africa,ZA,Eastern Cape
+Ciudad Bolívar,Ciudad Bolivar,Venezuela,VE,Bolívar
+Kawagoe,Kawagoe,Japan,JP,Saitama
+Jitpur,Jitpur,Nepal,NP,
+Phan Thiết,Phan Thiet,Vietnam,VN,Bình Thuận
+Alor Setar,Alor Setar,Malaysia,MY,Kedah
+Santa Cruz de Tenerife,Santa Cruz de Tenerife,Spain,ES,Canary Islands
+Gijón,Gijon,Spain,ES,Asturias
+Kōchi,Kochi,Japan,JP,Kōchi
+Bauru,Bauru,Brazil,BR,São Paulo
+Nakhon Ratchasima,Nakhon Ratchasima,Thailand,TH,Nakhon Ratchasima
+Takamatsu,Takamatsu,Japan,JP,Kagawa
+Toyama,Toyama,Japan,JP,Toyama
+Montes Claros,Montes Claros,Brazil,BR,Minas Gerais
+Bielefeld,Bielefeld,Germany,DE,North Rhine-Westphalia
+Mymensingh,Mymensingh,Bangladesh,BD,Mymensingh
+Maringá,Maringa,Brazil,BR,Paraná
+Montpellier,Montpellier,France,FR,Occitanie
+Itajaí,Itajai,Brazil,BR,Santa Catarina
+Iaşi,Iasi,Romania,RO,Iaşi
+Miyazaki,Miyazaki,Japan,JP,Miyazaki
+Valladolid,Valladolid,Spain,ES,Castille-Leon
+Córdoba,Cordoba,Spain,ES,Andalusia
+Ciudad del Este,Ciudad del Este,Paraguay,PY,Alto Paraná
+Pelotas,Pelotas,Brazil,BR,Rio Grande do Sul
+Itu,Itu,Brazil,BR,São Paulo
+Legazpi City,Legazpi City,Philippines,PH,Albay
+Akita,Akita,Japan,JP,Akita
+Maroua,Maroua,Cameroon,CM,Extrême-Nord
+Anápolis,Anapolis,Brazil,BR,Goiás
+Pachuca,Pachuca,Mexico,MX,Hidalgo
+Windsor,Windsor,Canada,CA,Ontario
+Holguín,Holguin,Cuba,CU,Holguín
+Tepic,Tepic,Mexico,MX,Nayarit
+Hat Yai,Hat Yai,Thailand,TH,Songkhla
+Cumaná,Cumana,Venezuela,VE,Sucre
+Hrodna,Hrodna,Belarus,BY,Hrodzyenskaya Voblasts’
+Al Fayyūm,Al Fayyum,Egypt,EG,Al Fayyūm
+Cluj-Napoca,Cluj-Napoca,Romania,RO,Cluj
+Alicante,Alicante,Spain,ES,Valencia
+Maiquetía,Maiquetia,Venezuela,VE,Vargas
+Armenia,Armenia,Colombia,CO,Quindío
+Timişoara,Timisoara,Romania,RO,Timiş
+Pescara,Pescara,Italy,IT,Abruzzo
+Gdynia,Gdynia,Poland,PL,Pomorskie
+Angeles City,Angeles City,Philippines,PH,Angeles
+Aswān,Aswan,Egypt,EG,Aswān
+Varna,Varna,Bulgaria,BG,Varna
+Koblenz,Koblenz,Germany,DE,Rhineland-Palatinate
+Galaţi,Galati,Romania,RO,Galaţi
+Braşov,Brasov,Romania,RO,Braşov
+Pucallpa,Pucallpa,Peru,PE,Ucayali
+Antofagasta,Antofagasta,Chile,CL,Antofagasta
+Valledupar,Valledupar,Colombia,CO,Cesar
+Vitória da Conquista,Vitoria da Conquista,Brazil,BR,Bahia
+Antsirabe,Antsirabe,Madagascar,MG,Antananarivo
+Ksar El Kebir,Ksar El Kebir,Morocco,MA,Tanger-Tétouan-Al Hoceïma
+Tawau,Tawau,Malaysia,MY,Sabah
+Porto Velho,Porto Velho,Brazil,BR,Rondônia
+San Salvador de Jujuy,San Salvador de Jujuy,Argentina,AR,Jujuy
+Hatay,Hatay,Turkey,TR,Hatay
+Franca,Franca,Brazil,BR,São Paulo
+Olongapo,Olongapo,Philippines,PH,Olongapo
+Craiova,Craiova,Romania,RO,Dolj
+Kawm Umbū,Kawm Umbu,Egypt,EG,Aswān
+Los Teques,Los Teques,Venezuela,VE,Miranda
+Constanţa,Constanta,Romania,RO,Constanţa
+Hakodate,Hakodate,Japan,JP,Hokkaidō
+Chemnitz,Chemnitz,Germany,DE,Saxony
+Kingston upon Hull,Kingston upon Hull,United Kingdom,GB,Kingston upon Hull
+Batman,Batman,Turkey,TR,Batman
+Qinā,Qina,Egypt,EG,Qinā
+Gujrat,Gujrat,Pakistan,PK,Punjab
+Brest,Brest,Belarus,BY,Brestskaya Voblasts’
+Mardan,Mardan,Pakistan,PK,Khyber Pakhtunkhwa
+Rạch Giá,Rach Gia,Vietnam,VN,Kiến Giang
+Sóc Trăng,Soc Trang,Vietnam,VN,Sóc Trăng
+Curepipe,Curepipe,Mauritius,MU,Plaines Wilhems
+Damietta,Damietta,Egypt,EG,Dumyāţ
+Jember,Jember,Indonesia,ID,Jawa Timur
+Aomori,Aomori,Japan,JP,Aomori
+İskenderun,Iskenderun,Turkey,TR,Hatay
+Morioka,Morioka,Japan,JP,Iwate
+Abertawe,Abertawe,United Kingdom,GB,Swansea
+Fukushima,Fukushima,Japan,JP,Fukushima
+Blumenau,Blumenau,Brazil,BR,Santa Catarina
+Thiès,Thies,Senegal,SN,Thiès
+Ponta Grossa,Ponta Grossa,Brazil,BR,Paraná
+Białystok,Bialystok,Poland,PL,Podlaskie
+Cagliari,Cagliari,Italy,IT,Sardegna
+Bafoussam,Bafoussam,Cameroon,CM,Ouest
+Kasur,Kasur,Pakistan,PK,Punjab
+Kassel,Kassel,Germany,DE,Hesse
+Limeira,Limeira,Brazil,BR,São Paulo
+Victoria,Victoria,Canada,CA,British Columbia
+Talcahuano,Talcahuano,Chile,CL,Biobío
+Ciudad Obregón,Ciudad Obregon,Mexico,MX,Sonora
+Coatzacoalcos,Coatzacoalcos,Mexico,MX,Veracruz
+Cuenca,Cuenca,Ecuador,EC,Azuay
+Petrópolis,Petropolis,Brazil,BR,Rio de Janeiro
+Rangpur,Rangpur,Bangladesh,BD,Rangpur
+Az Zaqāzīq,Az Zaqaziq,Egypt,EG,Ash Sharqīyah
+Bago,Bago,Burma,MM,Bago
+Barinas,Barinas,Venezuela,VE,Barinas
+Iksan,Iksan,South Korea,KR,KOR
+Cadiz,Cadiz,Philippines,PH,Negros Occidental
+Cádiz,Cadiz,Spain,ES,Andalusia
+Kupang,Kupang,Indonesia,ID,Nusa Tenggara Timur
+Bahía Blanca,Bahia Blanca,Argentina,AR,Buenos Aires
+Ambato,Ambato,Ecuador,EC,Tungurahua
+Tacna,Tacna,Peru,PE,Tacna
+Tacloban,Tacloban,Philippines,PH,Tacloban
+Cotabato,Cotabato,Philippines,PH,Cotabato
+Rize,Rize,Turkey,TR,Rize
+Ica,Ica,Peru,PE,Ica
+Kaolack,Kaolack,Senegal,SN,Kaolack
+Sukabumi,Sukabumi,Indonesia,ID,Jawa Barat
+Montería,Monteria,Colombia,CO,Córdoba
+Ciudad Victoria,Ciudad Victoria,Mexico,MX,Tamaulipas
+Pamplona,Pamplona,Spain,ES,Navarre
+Ubon Ratchathani,Ubon Ratchathani,Thailand,TH,Ubon Ratchathani
+Crato,Crato,Brazil,BR,Ceará
+Crato,Crato,Brazil,BR,Amazonas
+Guantánamo,Guantanamo,Cuba,CU,Guantánamo
+Blackpool,Blackpool,United Kingdom,GB,Blackpool
+Majene,Majene,Indonesia,ID,Sulawesi Barat
+Yamagata,Yamagata,Japan,JP,Yamagata
+Pekalongan,Pekalongan,Indonesia,ID,Jawa Tengah
+Tasikmalaya,Tasikmalaya,Indonesia,ID,Jawa Barat
+Venice,Venice,Italy,IT,Veneto
+Münster,Munster,Germany,DE,North Rhine-Westphalia
+Thohoyandou,Thohoyandou,South Africa,ZA,Limpopo
+Kiel,Kiel,Germany,DE,Schleswig-Holstein
+Malmö,Malmo,Sweden,SE,Skåne
+Nancy,Nancy,France,FR,Grand Est
+Mokpo,Mokpo,South Korea,KR,KOR
+Tebingtinggi,Tebingtinggi,Indonesia,ID,Sumatera Utara
+Padangsidempuan,Padangsidempuan,Indonesia,ID,Sumatera Utara
+Myeik,Myeik,Burma,MM,Taninthayi
+Temuco,Temuco,Chile,CL,Araucanía
+Lausanne,Lausanne,Switzerland,CH,Vaud
+Saint-Étienne,Saint-Etienne,France,FR,Auvergne-Rhône-Alpes
+Uruapan,Uruapan,Mexico,MX,Michoacán de Ocampo
+Graz,Graz,Austria,AT,Steiermark
+Paraná,Parana,Argentina,AR,Entre Ríos
+Cabo Frio,Cabo Frio,Brazil,BR,Rio de Janeiro
+Sincelejo,Sincelejo,Colombia,CO,Sucre
+Petrolina,Petrolina,Brazil,BR,Pernambuco
+Acarigua,Acarigua,Venezuela,VE,Portuguesa
+Wollongong,Wollongong,Australia,AU,New South Wales
+Uberaba,Uberaba,Brazil,BR,Minas Gerais
+Tampere,Tampere,Finland,FI,Pirkanmaa
+Popayán,Popayan,Colombia,CO,Cauca
+Nonthaburi,Nonthaburi,Thailand,TH,Nonthaburi
+Rio Branco,Rio Branco,Brazil,BR,Acre
+Cascavel,Cascavel,Brazil,BR,Paraná
+Ensenada,Ensenada,Mexico,MX,Baja California
+Ấp Đa Lợi,Ap Da Loi,Vietnam,VN,Lâm Đồng
+Daloa,Daloa,Côte D’Ivoire,CI,Sassandra-Marahoué
+Freiburg im Breisgau,Freiburg im Breisgau,Germany,DE,Baden-Württemberg
+Poza Rica de Hidalgo,Poza Rica de Hidalgo,Mexico,MX,Veracruz
+Cirebon,Cirebon,Indonesia,ID,Jawa Barat
+Buenaventura,Buenaventura,Colombia,CO,Valle del Cauca
+Messina,Messina,Italy,IT,Sicilia
+Khon Kaen,Khon Kaen,Thailand,TH,Khon Kaen
+Governador Valadares,Governador Valadares,Brazil,BR,Minas Gerais
+Santa Clara,Santa Clara,Cuba,CU,Villa Clara
+Zumpango,Zumpango,Mexico,MX,México
+Jaffna,Jaffna,Sri Lanka,LK,Northern
+Quảng Ngãi,Quang Ngai,Vietnam,VN,Quảng Ngãi
+Caserta,Caserta,Italy,IT,Campania
+Como,Como,Italy,IT,Lombardy
+Niš,Nis,Serbia,RS,Niš
+Lucerne,Lucerne,Switzerland,CH,Luzern
+Várzea Grande,Varzea Grande,Brazil,BR,Mato Grosso
+Melun,Melun,France,FR,Île-de-France
+Santa Maria,Santa Maria,Brazil,BR,Rio Grande do Sul
+Los Mochis,Los Mochis,Mexico,MX,Sinaloa
+Vũng Tàu,Vung Tau,Vietnam,VN,Bà Rịa-Vũng Tàu
+Fukui,Fukui,Japan,JP,Fukui
+Singkawang,Singkawang,Indonesia,ID,Kalimantan Barat
+Miskolc,Miskolc,Hungary,HU,Borsod-Abaúj-Zemplén
+Plymouth,Plymouth,United Kingdom,GB,Plymouth
+Udon Thani,Udon Thani,Thailand,TH,Udon Thani
+San Bernardo,San Bernardo,Chile,CL,Región Metropolitana
+Oruro,Oruro,Bolivia,BO,Oruro
+Shinozaki,Shinozaki,Japan,JP,Fukuoka
+Rzeszów,Rzeszow,Poland,PL,Podkarpackie
+Juliaca,Juliaca,Peru,PE,Puno
+Braunschweig,Braunschweig,Germany,DE,Lower Saxony
+Thủ Dầu Một,Thu Dau Mot,Vietnam,VN,Bình Dương
+Kunsan,Kunsan,South Korea,KR,KOR
+Jessore,Jessore,Bangladesh,BD,Khulna
+Wŏnju,Wonju,South Korea,KR,KOR
+Nam Định,Nam Dinh,Vietnam,VN,Nam Định
+Le Havre,Le Havre,France,FR,Normandie
+Neuquén,Neuquen,Argentina,AR,Neuquén
+Tehuacán,Tehuacan,Mexico,MX,Puebla
+San Pablo,San Pablo,Philippines,PH,Laguna
+Hachimanchō,Hachimancho,Japan,JP,Aomori
+Fürth,Furth,Germany,DE,Bavaria
+Aarhus,Aarhus,Denmark,DK,Midtjylland
+Sato,Sato,Japan,JP,Nagasaki
+Taiping,Taiping,Malaysia,MY,Perak
+Pathein,Pathein,Burma,MM,Ayeyawady
+Tegal,Tegal,Indonesia,ID,Jawa Tengah
+Sylhet,Sylhet,Bangladesh,BD,Sylhet
+Košice,Kosice,Slovakia,SK,Košický
+Monclova,Monclova,Mexico,MX,Coahuila de Zaragoza
+Tours,Tours,France,FR,Centre-Val de Loire
+Dera Ghazi Khan,Dera Ghazi Khan,Pakistan,PK,Punjab
+Springs,Springs,South Africa,ZA,Gauteng
+Luton,Luton,United Kingdom,GB,Luton
+Sahiwal,Sahiwal,Pakistan,PK,Punjab
+Oviedo,Oviedo,Spain,ES,Asturias
+Lübeck,Lubeck,Germany,DE,Schleswig-Holstein
+Kediri,Kediri,Indonesia,ID,Jawa Timur
+Punto Fijo,Punto Fijo,Venezuela,VE,Falcón
+Zacatecas,Zacatecas,Mexico,MX,Zacatecas
+Santa Ana,Santa Ana,El Salvador,SV,Santa Ana
+Santa Ana de Yacuma,Santa Ana de Yacuma,Bolivia,BO,El Beni
+Singaraja,Singaraja,Indonesia,ID,Bali
+Rancagua,Rancagua,Chile,CL,Libertador General Bernardo O’Higgins
+Clermont-Ferrand,Clermont-Ferrand,France,FR,Auvergne-Rhône-Alpes
+Ploieşti,Ploiesti,Romania,RO,Prahova
+Nakhon Si Thammarat,Nakhon Si Thammarat,Thailand,TH,Nakhon Si Thammarat
+Heṭauḍā,Hetauda,Nepal,NP,
+Saidpur,Saidpur,Bangladesh,BD,Rangpur
+Debrecen,Debrecen,Hungary,HU,Hajdú-Bihar
+Osnabrück,Osnabruck,Germany,DE,Lower Saxony
+Magdeburg,Magdeburg,Germany,DE,Saxony-Anhalt
+Nawabshah,Nawabshah,Pakistan,PK,Sindh
+Uitenhage,Uitenhage,South Africa,ZA,Eastern Cape
+Errachidia,Errachidia,Morocco,MA,Drâa-Tafilalet
+Miri,Miri,Malaysia,MY,Sarawak
+Iquique,Iquique,Chile,CL,Tarapacá
+Quillacollo,Quillacollo,Bolivia,BO,Cochabamba
+Tanjungpinang,Tanjungpinang,Indonesia,ID,Kepulauan Riau
+Chon Buri,Chon Buri,Thailand,TH,Chon Buri
+Chuncheon,Chuncheon,South Korea,KR,KOR
+Monywa,Monywa,Burma,MM,Sagaing
+Novi Sad,Novi Sad,Serbia,RS,Novi Sad
+Bạc Liêu,Bac Lieu,Vietnam,VN,Bạc Liêu
+Minamiōzuma,Minamiozuma,Japan,JP,Nagano
+Vitoria-Gasteiz,Vitoria-Gasteiz,Spain,ES,Basque Country
+Okara,Okara,Pakistan,PK,Punjab
+Nārāyanganj,Narayanganj,Bangladesh,BD,Dhaka
+Colima,Colima,Mexico,MX,Colima
+Guéckédou,Gueckedou,Guinea,GN,N’Zérékoré
+Tapachula,Tapachula,Mexico,MX,Chiapas
+Formosa,Formosa,Argentina,AR,Formosa
+Córdoba,Cordoba,Mexico,MX,Veracruz
+Babruysk,Babruysk,Belarus,BY,Mahilyowskaya Voblasts’
+Cabanatuan City,Cabanatuan City,Philippines,PH,Nueva Ecija
+Polokwane,Polokwane,South Africa,ZA,Limpopo
+Potsdam,Potsdam,Germany,DE,Brandenburg
+San Pedro de Macorís,San Pedro de Macoris,Dominican Republic,DO,Higuamo
+Mallawī,Mallawi,Egypt,EG,Al Minyā
+Sibolga,Sibolga,Indonesia,ID,Sumatera Utara
+Orléans,Orleans,France,FR,Centre-Val de Loire
+Gilgit,Gilgit,Pakistan,PK,Gilgit-Baltistan
+Groningen,Groningen,Netherlands,NL,Groningen
+Trieste,Trieste,Italy,IT,Friuli-Venezia Giulia
+Kielce,Kielce,Poland,PL,Świętokrzyskie
+Mulhouse,Mulhouse,France,FR,Grand Est
+Zamora,Zamora,Mexico,MX,Michoacán de Ocampo
+Split,Split,Croatia,HR,Splitsko-Dalmatinska Županija
+Oradea,Oradea,Romania,RO,Bihor
+Portoviejo,Portoviejo,Ecuador,EC,Manabí
+Bergen,Bergen,Norway,NO,Hordaland
+Brăila,Braila,Romania,RO,Brăila
+Machala,Machala,Ecuador,EC,El Oro
+Toamasina,Toamasina,Madagascar,MG,Toamasina
+Thái Bình,Thai Binh,Vietnam,VN,Thái Bình
+Rennes,Rennes,France,FR,Bretagne
+Santander,Santander,Spain,ES,Cantabria
+La Romana,La Romana,Dominican Republic,DO,Yuma
+Waitakere,Waitakere,New Zealand,NZ,Auckland
+Laoag,Laoag,Philippines,PH,Ilocos Norte
+Beersheba,Beersheba,Israel,IL,Southern
+Salzburg,Salzburg,Austria,AT,Salzburg
+Northcote,Northcote,New Zealand,NZ,Auckland
+Campeche,Campeche,Mexico,MX,Campeche
+Funchal,Funchal,Portugal,PT,Madeira
+Lampang,Lampang,Thailand,TH,Lampang
+Sibu,Sibu,Malaysia,MY,Sarawak
+Las Tunas,Las Tunas,Cuba,CU,Las Tunas
+Pisa,Pisa,Italy,IT,Tuscany
+Erfurt,Erfurt,Germany,DE,Thuringia
+Rostock,Rostock,Germany,DE,Mecklenburg-Western Pomerania
+Djougou,Djougou,Benin,BJ,Donga
+Barisāl,Barisal,Bangladesh,BD,Barisāl
+Taranto,Taranto,Italy,IT,Puglia
+Minatitlán,Minatitlan,Mexico,MX,Veracruz
+Chiniot,Chiniot,Pakistan,PK,Punjab
+Pingzhen,Pingzhen,Taiwan,TW,Taoyuan
+San Miguel,San Miguel,El Salvador,SV,San Miguel
+Cartagena,Cartagena,Spain,ES,Murcia
+Moratuwa,Moratuwa,Sri Lanka,LK,Western
+Rivera,Rivera,Uruguay,UY,Rivera
+Pokhara,Pokhara,Nepal,NP,
+Zhubei,Zhubei,Taiwan,TW,Hsinchu
+Bergamo,Bergamo,Italy,IT,Lombardy
+Bacău,Bacau,Romania,RO,Bacău
+Taza,Taza,Morocco,MA,Fès-Meknès
+Batu Pahat,Batu Pahat,Malaysia,MY,Johor
+Rosetta,Rosetta,Egypt,EG,Al Buḩayrah
+Saskatoon,Saskatoon,Canada,CA,Saskatchewan
+Ashino,Ashino,Japan,JP,Hokkaidō
+Martapura,Martapura,Indonesia,ID,Kalimantan Selatan
+Thanh Hóa,Thanh Hoa,Vietnam,VN,Thanh Hóa
+Kōfu,Kofu,Japan,JP,Yamanashi
+Salamanca,Salamanca,Mexico,MX,Guanajuato
+Talca,Talca,Chile,CL,Maule
+El Tigre,El Tigre,Venezuela,VE,Anzoátegui
+Kure,Kure,Japan,JP,Hiroshima
+Cartago,Cartago,Costa Rica,CR,Cartago
+Porlamar,Porlamar,Venezuela,VE,Nueva Esparta
+Reims,Reims,France,FR,Grand Est
+Burgas,Burgas,Bulgaria,BG,Burgas
+Naka,Naka,Japan,JP,Niigata
+Coro,Coro,Venezuela,VE,Falcón
+Al Jahrā’,Al Jahra',Kuwait,KW,
+Tarakan,Tarakan,Indonesia,ID,Kalimantan Utara
+Oxford,Oxford,United Kingdom,GB,Oxfordshire
+Ciudad Madero,Ciudad Madero,Mexico,MX,Tamaulipas
+Bayamo,Bayamo,Cuba,CU,Granma
+Klaipėda,Klaipeda,Lithuania,LT,Klaipėdos Miestas
+Ziguinchor,Ziguinchor,Senegal,SN,Ziguinchor
+Barrancabermeja,Barrancabermeja,Colombia,CO,Santander
+Muar,Muar,Malaysia,MY,Johor
+Valera,Valera,Venezuela,VE,Trujillo
+Norwich,Norwich,United Kingdom,GB,Norfolk
+Butuan,Butuan,Philippines,PH,Butuan
+Caen,Caen,France,FR,Normandie
+Saint-Denis,Saint-Denis,Reunion,RE,
+Saddiqabad,Saddiqabad,Pakistan,PK,Punjab
+La Paz,La Paz,Mexico,MX,Baja California Sur
+Sơn Tây,Son Tay,Vietnam,VN,Hà Nội
+Aberdeen,Aberdeen,United Kingdom,GB,Aberdeen City
+Đồng Hới,Dong Hoi,Vietnam,VN,Quảng Bình
+Cork,Cork,Ireland,IE,Cork
+Parakou,Parakou,Benin,BJ,Borgou
+San Fernando del Valle de Catamarca,San Fernando del Valle de Catamarca,Argentina,AR,Catamarca
+Angers,Angers,France,FR,Pays de la Loire
+Paarl,Paarl,South Africa,ZA,Western Cape
+Szeged,Szeged,Hungary,HU,Csongrád
+Ternate,Ternate,Indonesia,ID,Maluku Utara
+Puerto Vallarta,Puerto Vallarta,Mexico,MX,Jalisco
+Gibraltar,Gibraltar,Gibraltar,GI,
+Pinar del Río,Pinar del Rio,Cuba,CU,Pinar del Río
+Olsztyn,Olsztyn,Poland,PL,Warmińsko-Mazurskie
+San Cristóbal,San Cristobal,Mexico,MX,Chiapas
+Cienfuegos,Cienfuegos,Cuba,CU,Cienfuegos
+Pécs,Pecs,Hungary,HU,Baranya
+Marbella,Marbella,Spain,ES,Andalusia
+Madiun,Madiun,Indonesia,ID,Jawa Timur
+Arica,Arica,Chile,CL,Arica y Parinacota
+Mainz,Mainz,Germany,DE,Rhineland-Palatinate
+Ruse,Ruse,Bulgaria,BG,Ruse
+Fianarantsoa,Fianarantsoa,Madagascar,MG,Fianarantsoa
+Kutaisi,Kutaisi,Georgia,GE,Imereti
+Tarlac City,Tarlac City,Philippines,PH,Tarlac
+Mataró,Mataro,Spain,ES,Catalonia
+Manta,Manta,Ecuador,EC,Manabí
+Shibīn al Kawm,Shibin al Kawm,Egypt,EG,Al Minūfīyah
+Pinrang,Pinrang,Indonesia,ID,Sulawesi Selatan
+Chilpancingo,Chilpancingo,Mexico,MX,Guerrero
+Birāṭnagar,Biratnagar,Nepal,NP,
+Barrie,Barrie,Canada,CA,Ontario
+Probolinggo,Probolinggo,Indonesia,ID,Jawa Timur
+Hinthada,Hinthada,Burma,MM,Ayeyawady
+Gangneung,Gangneung,South Korea,KR,KOR
+Castellón de la Plana,Castellon de la Plana,Spain,ES,Valencia
+El Jadid,El Jadid,Morocco,MA,Casablanca-Settat
+Reggio di Calabria,Reggio di Calabria,Italy,IT,Calabria
+Tāngāil,Tangail,Bangladesh,BD,Dhaka
+Potosí,Potosi,Bolivia,BO,Potosí
+Phan Rang-Tháp Chàm,Phan Rang-Thap Cham,Vietnam,VN,Ninh Thuận
+Almería,Almeria,Spain,ES,Andalusia
+Sittwe,Sittwe,Burma,MM,Rakhine State
+Klerksdorp,Klerksdorp,South Africa,ZA,North West
+Si Racha,Si Racha,Thailand,TH,Chon Buri
+Al ‘Arīsh,Al `Arish,Egypt,EG,Shamāl Sīnā’
+Sangolquí,Sangolqui,Ecuador,EC,Pichincha
+Heroica Nogales,Heroica Nogales,Mexico,MX,Sonora
+Teziutlan,Teziutlan,Mexico,MX,Puebla
+Treviso,Treviso,Italy,IT,Veneto
+Nyíregyháza,Nyiregyhaza,Hungary,HU,Szabolcs-Szatmár-Bereg
+Letpandan,Letpandan,Burma,MM,Bago
+Regina,Regina,Canada,CA,Saskatchewan
+Salatiga,Salatiga,Indonesia,ID,Jawa Tengah
+Turku,Turku,Finland,FI,Varsinais-Suomi
+Modena,Modena,Italy,IT,Emilia-Romagna
+Yangmei,Yangmei,Taiwan,TW,Taoyuan
+Taitung,Taitung,Taiwan,TW,Taitung
+Ōbiraki,Obiraki,Japan,JP,Aomori
+Takaoka,Takaoka,Japan,JP,Hokkaidō
+Puerto Montt,Puerto Montt,Chile,CL,Los Lagos
+George,George,South Africa,ZA,Western Cape
+Puerto Cabello,Puerto Cabello,Venezuela,VE,Carabobo
+Sidon,Sidon,Lebanon,LB,Liban-Sud
+Beppuchō,Beppucho,Japan,JP,Hokkaidō
+Stavanger,Stavanger,Norway,NO,Rogaland
+Esmeraldas,Esmeraldas,Ecuador,EC,Esmeraldas
+Bata,Bata,Equatorial Guinea,GQ,Litoral
+Ulm,Ulm,Germany,DE,Baden-Württemberg
+Hạ Long,Ha Long,Vietnam,VN,Quảng Ninh
+Riobamba,Riobamba,Ecuador,EC,Chimborazo
+Banyuwangi,Banyuwangi,Indonesia,ID,Jawa Timur
+Bade,Bade,Taiwan,TW,Taoyuan
+Kragujevac,Kragujevac,Serbia,RS,Kragujevac
+Piteşti,Pitesti,Romania,RO,Argeş
+Rijeka,Rijeka,Croatia,HR,Primorsko-Goranska Županija
+Bayamón,Bayamon,Puerto Rico,PR,Puerto Rico
+Burgos,Burgos,Spain,ES,Castille-Leon
+Takaoka,Takaoka,Japan,JP,Toyama
+Dijon,Dijon,France,FR,Bourgogne-Franche-Comté
+Kluang,Kluang,Malaysia,MY,Johor
+Nîmes,Nimes,France,FR,Occitanie
+Jayapura,Jayapura,Indonesia,ID,Papua
+Arad,Arad,Romania,RO,Arad
+Sonsonate,Sonsonate,El Salvador,SV,Sonsonate
+Baranavichy,Baranavichy,Belarus,BY,Brestskaya Voblasts’
+Würzburg,Wurzburg,Germany,DE,Bavaria
+N’Zérékoré,N'Zerekore,Guinea,GN,N’Zérékoré
+Jamālpur,Jamalpur,Bangladesh,BD,Mymensingh
+Ormoc,Ormoc,Philippines,PH,Ormoc
+Oldenburg,Oldenburg,Germany,DE,Lower Saxony
+Banhā,Banha,Egypt,EG,Al Qalyūbīyah
+Ayacucho,Ayacucho,Peru,PE,Ayacucho
+Ocumare del Tuy,Ocumare del Tuy,Venezuela,VE,Miranda
+Parma,Parma,Italy,IT,Emilia-Romagna
+Rustenburg,Rustenburg,South Africa,ZA,North West
+Tuluá,Tulua,Colombia,CO,Valle del Cauca
+Hà Tĩnh,Ha Tinh,Vietnam,VN,Hà Tĩnh
+Kendari,Kendari,Indonesia,ID,Sulawesi Tenggara
+Kimberley,Kimberley,South Africa,ZA,Northern Cape
+Elbasan,Elbasan,Albania,AL,Elbasan
+Nantou,Nantou,Taiwan,TW,Nantou
+Serang,Serang,Indonesia,ID,Banten
+León,Leon,Nicaragua,NI,León
+Regensburg,Regensburg,Germany,DE,Bavaria
+Plzeň,Plzen,Czechia,CZ,Plzeňský Kraj
+Phitsanulok,Phitsanulok,Thailand,TH,Phitsanulok
+Myingyan,Myingyan,Burma,MM,Mandalay
+Dagupan City,Dagupan City,Philippines,PH,Dagupan
+Pátra,Patra,Greece,GR,Dytikí Elláda
+Ingolstadt,Ingolstadt,Germany,DE,Bavaria
+La Vega,La Vega,Dominican Republic,DO,Cibao Sur
+La Rioja,La Rioja,Argentina,AR,La Rioja
+Lecce,Lecce,Italy,IT,Puglia
+Salamanca,Salamanca,Spain,ES,Castille-Leon
+Settat,Settat,Morocco,MA,Casablanca-Settat
+Tunja,Tunja,Colombia,CO,Boyacá
+Coquimbo,Coquimbo,Chile,CL,Coquimbo
+Bhisho,Bhisho,South Africa,ZA,Eastern Cape
+Geelong,Geelong,Australia,AU,Victoria
+Ra’s al Khaymah,Ra's al Khaymah,United Arab Emirates,AE,Ra’s al Khaymah
+Sullana,Sullana,Peru,PE,Piura
+Taunggyi,Taunggyi,Burma,MM,Shan State
+Ciudad Lázaro Cárdenas,Ciudad Lazaro Cardenas,Mexico,MX,Michoacán de Ocampo
+Valdivia,Valdivia,Chile,CL,Los Ríos
+Pagadian,Pagadian,Philippines,PH,Zamboanga del Sur
+Tarija,Tarija,Bolivia,BO,Tarija
+Punta del Este,Punta del Este,Uruguay,UY,Maldonado
+York,York,United Kingdom,GB,York
+Odense,Odense,Denmark,DK,Syddanmark
+Huánuco,Huanuco,Peru,PE,Huánuco
+Albacete,Albacete,Spain,ES,Castille-La Mancha
+Sudbury,Sudbury,Canada,CA,Ontario
+Surat Thani,Surat Thani,Thailand,TH,Surat Thani
+Al Ghardaqah,Al Ghardaqah,Egypt,EG,Al Baḩr al Aḩmar
+Puerto Princesa,Puerto Princesa,Philippines,PH,Puerto Princesa
+Rust’avi,Rust'avi,Georgia,GE,
+Matsue,Matsue,Japan,JP,Shimane
+Livorno,Livorno,Italy,IT,Tuscany
+Ciudad del Carmen,Ciudad del Carmen,Mexico,MX,Campeche
+Muroran,Muroran,Japan,JP,Hokkaidō
+Sibiu,Sibiu,Romania,RO,Sibiu
+Batumi,Batumi,Georgia,GE,Ajaria
+Horad Barysaw,Horad Barysaw,Belarus,BY,Minskaya Voblasts’
+Kyŏngju,Kyongju,South Korea,KR,KOR
+Innsbruck,Innsbruck,Austria,AT,Tirol
+Foggia,Foggia,Italy,IT,Puglia
+Battambang,Battambang,Cambodia,KH,Battambang
+Middelburg,Middelburg,South Africa,ZA,Mpumalanga
+Mahajanga,Mahajanga,Madagascar,MG,Mahajanga
+La Serena,La Serena,Chile,CL,Coquimbo
+Chetumal,Chetumal,Mexico,MX,Quintana Roo
+Pathum Thani,Pathum Thani,Thailand,TH,Pathum Thani
+Cairns,Cairns,Australia,AU,Queensland
+Osorno,Osorno,Chile,CL,Los Lagos
+Tottori,Tottori,Japan,JP,Tottori
+San Cristóbal,San Cristobal,Dominican Republic,DO,Valdesia
+Limassol,Limassol,Cyprus,CY,Lemesós
+Río Cuarto,Rio Cuarto,Argentina,AR,Córdoba
+Chincha Alta,Chincha Alta,Peru,PE,Ica
+San Francisco de Macorís,San Francisco de Macoris,Dominican Republic,DO,Cibao Nordeste
+Mudon,Mudon,Burma,MM,Mon State
+Limoges,Limoges,France,FR,Nouvelle-Aquitaine
+Samālūţ,Samalut,Egypt,EG,Al Minyā
+Abbotsford,Abbotsford,Canada,CA,British Columbia
+Guanare,Guanare,Venezuela,VE,Portuguesa
+Bintulu,Bintulu,Malaysia,MY,Sarawak
+Dundee,Dundee,United Kingdom,GB,Dundee City
+Nazareth,Nazareth,Israel,IL,Northern
+Chillán,Chillan,Chile,CL,
+Vryheid,Vryheid,South Africa,ZA,KwaZulu-Natal
+Yilan,Yilan,Taiwan,TW,Yilan
+Miaoli,Miaoli,Taiwan,TW,Miaoli
+Pattani,Pattani,Thailand,TH,Pattani
+Cao Lãnh,Cao Lanh,Vietnam,VN,Đồng Tháp
+Carora,Carora,Venezuela,VE,Lara
+Târgu-Mureş,Targu-Mures,Romania,RO,Mureş
+Perugia,Perugia,Italy,IT,Umbria
+Palangkaraya,Palangkaraya,Indonesia,ID,Kalimantan Tengah
+Hamilton,Hamilton,New Zealand,NZ,Waikato
+Yala,Yala,Thailand,TH,Yala
+Diourbel,Diourbel,Senegal,SN,Diourbel
+Lạng Sơn,Lang Son,Vietnam,VN,Lạng Sơn
+Trang,Trang,Thailand,TH,Trang
+Turbat,Turbat,Pakistan,PK,Balochistān
+San Juan del Río,San Juan del Rio,Mexico,MX,Querétaro
+Guastatoya,Guastatoya,Guatemala,GT,El Progreso
+Trondheim,Trondheim,Norway,NO,
+Aix-en-Provence,Aix-en-Provence,France,FR,Provence-Alpes-Côte d’Azur
+Cam Ranh,Cam Ranh,Vietnam,VN,Khánh Hòa
+Ibarra,Ibarra,Ecuador,EC,Imbabura
+Matanzas,Matanzas,Cuba,CU,Matanzas
+Perpignan,Perpignan,France,FR,Occitanie
+Bruges,Bruges,Belgium,BE,Flanders
+Dawei,Dawei,Burma,MM,Taninthayi
+La Ceiba,La Ceiba,Honduras,HN,Atlántida
+Phra Nakhon Si Ayutthaya,Phra Nakhon Si Ayutthaya,Thailand,TH,Phra Nakhon Si Ayutthaya
+Pointe-à-Pitre,Pointe-a-Pitre,Guadeloupe,GP,
+Biarritz,Biarritz,France,FR,Nouvelle-Aquitaine
+Los Ángeles,Los Angeles,Chile,CL,Biobío
+Concordia,Concordia,Argentina,AR,Entre Ríos
+Brest,Brest,France,FR,Bretagne
+Le Mans,Le Mans,France,FR,Pays de la Loire
+Székesfehérvár,Szekesfehervar,Hungary,HU,Fejér
+Carolina,Carolina,Puerto Rico,PR,Puerto Rico
+Huelva,Huelva,Spain,ES,Andalusia
+Sarnia,Sarnia,Canada,CA,Ontario
+Kafr ash Shaykh,Kafr ash Shaykh,Egypt,EG,Kafr ash Shaykh
+Otaru,Otaru,Japan,JP,Hokkaidō
+Ipswich,Ipswich,United Kingdom,GB,Suffolk
+Logroño,Logrono,Spain,ES,La Rioja
+Stara Zagora,Stara Zagora,Bulgaria,BG,Stara Zagora
+Amiens,Amiens,France,FR,Hauts-de-France
+Calama,Calama,Chile,CL,Antofagasta
+Pleiku,Pleiku,Vietnam,VN,Gia Lai
+Cajamarca,Cajamarca,Peru,PE,Cajamarca
+Nawābganj,Nawabganj,Bangladesh,BD,Rājshāhi
+Ciego de Ávila,Ciego de Avila,Cuba,CU,Ciego de Ávila
+Arnhem,Arnhem,Netherlands,NL,Gelderland
+Phuket,Phuket,Thailand,TH,Phuket
+Ciudad de Melilla,Ciudad de Melilla,Spain,ES,Melilla
+Comodoro Rivadavia,Comodoro Rivadavia,Argentina,AR,Chubut
+As Salţ,As Salt,Jordan,JO,Al Balqā’
+Labé,Labe,Guinea,GN,Labé
+Lhokseumawe,Lhokseumawe,Indonesia,ID,Aceh
+Peterborough,Peterborough,United Kingdom,GB,Peterborough
+Badajoz,Badajoz,Spain,ES,Extremadura
+Sherbrooke,Sherbrooke,Canada,CA,Québec
+Piedras Negras,Piedras Negras,Mexico,MX,Coahuila de Zaragoza
+Göttingen,Gottingen,Germany,DE,Lower Saxony
+Myitkyina,Myitkyina,Burma,MM,Kachin State
+Chinandega,Chinandega,Nicaragua,NI,Chinandega
+Townsville,Townsville,Australia,AU,Queensland
+Pābna,Pabna,Bangladesh,BD,
+Umtata,Umtata,South Africa,ZA,Eastern Cape
+Bremerhaven,Bremerhaven,Germany,DE,Bremen
+Tân An,Tan An,Vietnam,VN,Long An
+Cerro de Pasco,Cerro de Pasco,Peru,PE,Pasco
+Irákleio,Irakleio,Greece,GR,Kríti
+Oulu,Oulu,Finland,FI,Pohjois-Pohjanmaa
+Baia Mare,Baia Mare,Romania,RO,Maramureş
+León,Leon,Spain,ES,Castille-Leon
+Győr,Gyor,Hungary,HU,Győr-Moson-Sopron
+Cẩm Phả,Cam Pha,Vietnam,VN,Quảng Ninh
+Pyay,Pyay,Burma,MM,Bago
+Orsha,Orsha,Belarus,BY,Vitsyebskaya Voblasts’
+May Pen,May Pen,Jamaica,JM,Clarendon
+Cartago,Cartago,Colombia,CO,Valle del Cauca
+Ravenna,Ravenna,Italy,IT,Emilia-Romagna
+’s-Hertogenbosch,'s-Hertogenbosch,Netherlands,NL,Noord-Brabant
+Šiauliai,Siauliai,Lithuania,LT,Šiaulių Miestas
+Birgañj,Birganj,Nepal,NP,
+Ríohacha,Riohacha,Colombia,CO,La Guajira
+Uppsala,Uppsala,Sweden,SE,Stockholm
+San Luis,San Luis,Guatemala,GT,Petén
+Blitar,Blitar,Indonesia,ID,Jawa Timur
+Papeete,Papeete,French Polynesia,PF,Îles du Vent
+Saint John’s,Saint John's,Canada,CA,Newfoundland and Labrador
+Opole,Opole,Poland,PL,Opolskie
+Trà Vinh,Tra Vinh,Vietnam,VN,Trà Vinh
+Ciénaga,Cienaga,Colombia,CO,Magdalena
+Lae,Lae,Papua New Guinea,PG,Morobe
+Ferrara,Ferrara,Italy,IT,Emilia-Romagna
+Buzău,Buzau,Romania,RO,Buzău
+Pinsk,Pinsk,Belarus,BY,Brestskaya Voblasts’
+Ninh Bình,Ninh Binh,Vietnam,VN,Ninh Bình
+Florencia,Florencia,Colombia,CO,Caquetá
+Girardot,Girardot,Colombia,CO,Cundinamarca
+Masaya,Masaya,Nicaragua,NI,Masaya
+Andong,Andong,South Korea,KR,KOR
+Copiapó,Copiapo,Chile,CL,Atacama
+Batticaloa,Batticaloa,Sri Lanka,LK,Eastern
+Lárisa,Larisa,Greece,GR,Thessalía
+Cambridge,Cambridge,United Kingdom,GB,Cambridgeshire
+Besançon,Besancon,France,FR,Bourgogne-Franche-Comté
+Jirjā,Jirja,Egypt,EG,Sūhāj
+Manzanillo,Manzanillo,Cuba,CU,Granma
+San Nicolás de los Arroyos,San Nicolas de los Arroyos,Argentina,AR,Buenos Aires
+Worcester,Worcester,South Africa,ZA,Western Cape
+Elbląg,Elblag,Poland,PL,Warmińsko-Mazurskie
+Panevėžys,Panevezys,Lithuania,LT,Panevėžio Miestas
+Sancti Spíritus,Sancti Spiritus,Cuba,CU,Sancti Spíritus
+Pakokku,Pakokku,Burma,MM,Magway
+Sogamoso,Sogamoso,Colombia,CO,Boyacá
+Tây Ninh,Tay Ninh,Vietnam,VN,Tây Ninh
+Loja,Loja,Ecuador,EC,Loja
+Carúpano,Carupano,Venezuela,VE,Sucre
+Tarragona,Tarragona,Spain,ES,Catalonia
+Montego Bay,Montego Bay,Jamaica,JM,Saint James
+Magway,Magway,Burma,MM,Magway
+Pangkalpinang,Pangkalpinang,Indonesia,ID,Kepulauan Bangka Belitung
+Leeuwarden,Leeuwarden,Netherlands,NL,Fryslân
+Sorong,Sorong,Indonesia,ID,Papua Barat
+Kelowna,Kelowna,Canada,CA,British Columbia
+Santa Tecla,Santa Tecla,El Salvador,SV,La Libertad
+Zlín,Zlin,Czechia,CZ,Zlínský Kraj
+Mỹ Tho,My Tho,Vietnam,VN,Tiền Giang
+Higüey,Higuey,Dominican Republic,DO,Yuma
+Potchefstroom,Potchefstroom,South Africa,ZA,North West
+Siracusa,Siracusa,Italy,IT,Sicilia
+Indramayu,Indramayu,Indonesia,ID,Jawa Barat
+Pati,Pati,Indonesia,ID,Jawa Tengah
+San Fernando,San Fernando,Venezuela,VE,Apure
+Brits,Brits,South Africa,ZA,North West
+Maina,Maina,Guam,GU,
+Maastricht,Maastricht,Netherlands,NL,Limburg
+Aalborg,Aalborg,Denmark,DK,Nordjylland
+Tauranga,Tauranga,New Zealand,NZ,Bay of Plenty
+Sassari,Sassari,Italy,IT,Sardegna
+Ponce,Ponce,Puerto Rico,PR,Puerto Rico
+Larache,Larache,Morocco,MA,Tanger-Tétouan-Al Hoceïma
+Puerto Plata,Puerto Plata,Dominican Republic,DO,Cibao Norte
+Trois-Rivières,Trois-Rivieres,Canada,CA,Québec
+Tetovo,Tetovo,Macedonia,MK,Tetovo
+Udine,Udine,Italy,IT,Friuli-Venezia Giulia
+Pleven,Pleven,Bulgaria,BG,Pleven
+Zielona Góra,Zielona Gora,Poland,PL,Lubuskie
+Anuradhapura,Anuradhapura,Sri Lanka,LK,North Central
+Ourense,Ourense,Spain,ES,Galicia
+Setúbal,Setubal,Portugal,PT,Setúbal
+Nakhon Pathom,Nakhon Pathom,Thailand,TH,Nakhon Pathom
+Dunedin,Dunedin,New Zealand,NZ,Otago
+Anaco,Anaco,Venezuela,VE,Anzoátegui
+Punta Arenas,Punta Arenas,Chile,CL,Magallanes y de la Antártica Chilena
+San Martín,San Martin,Argentina,AR,Mendoza
+Langsa,Langsa,Indonesia,ID,Aceh
+Calabozo,Calabozo,Venezuela,VE,Guárico
+Chiang Rai,Chiang Rai,Thailand,TH,Chiang Rai
+Kindia,Kindia,Guinea,GN,Kindia
+Puno,Puno,Peru,PE,Puno
+Jaén,Jaen,Spain,ES,Andalusia
+Boké,Boke,Guinea,GN,Boké
+Navojoa,Navojoa,Mexico,MX,Sonora
+Toliara,Toliara,Madagascar,MG,Toliara
+Guelmim,Guelmim,Morocco,MA,Guelmim-Oued Noun
+Tuguegarao,Tuguegarao,Philippines,PH,Cagayan
+Ciudad Valles,Ciudad Valles,Mexico,MX,San Luis Potosí
+Botoşani,Botosani,Romania,RO,Botoşani
+Las Delicias,Las Delicias,Mexico,MX,Chihuahua
+Maribor,Maribor,Slovenia,SI,Maribor
+Kingston,Kingston,Canada,CA,Ontario
+Kankan,Kankan,Guinea,GN,Kankan
+Kecskemét,Kecskemet,Hungary,HU,Bács-Kiskun
+Curicó,Curico,Chile,CL,Maule
+Sørum,Sorum,Norway,NO,Akershus
+Kōenchō,Koencho,Japan,JP,Hokkaidō
+Exeter,Exeter,United Kingdom,GB,Devon
+Mojokerto,Mojokerto,Indonesia,ID,Jawa Timur
+Satu Mare,Satu Mare,Romania,RO,Satu Mare
+Guanajuato,Guanajuato,Mexico,MX,Guanajuato
+Mazyr,Mazyr,Belarus,BY,Homyel’skaya Voblasts’
+Iguala de la Independencia,Iguala de la Independencia,Mexico,MX,Guerrero
+Nakhon Sawan,Nakhon Sawan,Thailand,TH,Nakhon Sawan
+Zwolle,Zwolle,Netherlands,NL,Overijssel
+Kandy,Kandy,Sri Lanka,LK,Central
+Daugavpils,Daugavpils,Latvia,LV,Daugavpils Novads
+Magelang,Magelang,Indonesia,ID,Jawa Tengah
+Santa Rosa,Santa Rosa,Argentina,AR,La Pampa
+Algeciras,Algeciras,Spain,ES,Andalusia
+Manzanillo,Manzanillo,Mexico,MX,Colima
+Vólos,Volos,Greece,GR,Thessalía
+Yenangyaung,Yenangyaung,Burma,MM,Magway
+Milagro,Milagro,Ecuador,EC,Guayas
+Kandi,Kandi,Benin,BJ,Alibori
+Ipiales,Ipiales,Colombia,CO,Nariño
+Szombathely,Szombathely,Hungary,HU,Vas
+Siem Reap,Siem Reap,Cambodia,KH,Siem Reap
+Szolnok,Szolnok,Hungary,HU,Jász-Nagykun-Szolnok
+Tumbes,Tumbes,Peru,PE,Tumbes
+San Rafael,San Rafael,Argentina,AR,Mendoza
+Matagalpa,Matagalpa,Nicaragua,NI,Matagalpa
+Túxpam de Rodríguez Cano,Tuxpam de Rodriguez Cano,Mexico,MX,Veracruz
+Kaposvár,Kaposvar,Hungary,HU,Somogy
+Trincomalee,Trincomalee,Sri Lanka,LK,Eastern
+Estelí,Esteli,Nicaragua,NI,Estelí
+Barletta,Barletta,Italy,IT,Puglia
+Trento,Trento,Italy,IT,Trentino-Alto Adige
+Escuintla,Escuintla,Mexico,MX,Chiapas
+Escuintla,Escuintla,Guatemala,GT,Escuintla
+Râmnicu Vâlcea,Ramnicu Valcea,Romania,RO,Vâlcea
+Koszalin,Koszalin,Poland,PL,Zachodniopomorskie
+Västerås,Vasteras,Sweden,SE,Västmanland
+Louangphabang,Louangphabang,Laos,LA,Louangphabang
+Pardubice,Pardubice,Czechia,CZ,Pardubický Kraj
+Ratchaburi,Ratchaburi,Thailand,TH,Ratchaburi
+Taungoo,Taungoo,Burma,MM,Bago
+Douliu,Douliu,Taiwan,TW,Yunlin
+Coimbra,Coimbra,Portugal,PT,Coimbra
+Drobeta-Turnu Severin,Drobeta-Turnu Severin,Romania,RO,Mehedinţi
+Namur,Namur,Belgium,BE,Wallonia
+Raba,Raba,Indonesia,ID,Nusa Tenggara Barat
+Suceava,Suceava,Romania,RO,Suceava
+Annecy,Annecy,France,FR,Auvergne-Rhône-Alpes
+Salto,Salto,Uruguay,UY,Salto
+Lahad Datu,Lahad Datu,Malaysia,MY,Sabah
+Kon Tum,Kon Tum,Vietnam,VN,Kon Tum
+Fresnillo,Fresnillo,Mexico,MX,Zacatecas
+Lugano,Lugano,Switzerland,CH,Ticino
+Queenstown,Queenstown,South Africa,ZA,Eastern Cape
+Hòa Bình,Hoa Binh,Vietnam,VN,Hòa Bình
+Granada,Granada,Nicaragua,NI,Granada
+Focşani,Focsani,Romania,RO,Vrancea
+Cottbus,Cottbus,Germany,DE,Brandenburg
+Jena,Jena,Germany,DE,Thuringia
+Gera,Gera,Germany,DE,Thuringia
+Nong Khai,Nong Khai,Thailand,TH,Nong Khai
+Brindisi,Brindisi,Italy,IT,Puglia
+Mmabatho,Mmabatho,South Africa,ZA,North West
+Tandil,Tandil,Argentina,AR,Buenos Aires
+San Antonio,San Antonio,Chile,CL,Valparaíso
+Maumere,Maumere,Indonesia,ID,Nusa Tenggara Timur
+Albury,Albury,Australia,AU,New South Wales
+Kroonstad,Kroonstad,South Africa,ZA,Free State
+Kilinochchi,Kilinochchi,Sri Lanka,LK,Northern
+Biak,Biak,Indonesia,ID,Papua
+Prabumulih,Prabumulih,Indonesia,ID,Sumatera Selatan
+Marsá Maţrūḩ,Marsa Matruh,Egypt,EG,Maţrūḩ
+Heroica Guaymas,Heroica Guaymas,Mexico,MX,Sonora
+Parral,Parral,Mexico,MX,Chihuahua
+Vĩnh Long,Vinh Long,Vietnam,VN,Vĩnh Long
+Palma Soriano,Palma Soriano,Cuba,CU,Santiago de Cuba
+Pedro Juan Caballero,Pedro Juan Caballero,Paraguay,PY,Amambay
+Pakxé,Pakxe,Laos,LA,Champasak
+Roxas City,Roxas City,Philippines,PH,Capiz
+Piatra Neamţ,Piatra Neamt,Romania,RO,Neamţ
+Grudziądz,Grudziadz,Poland,PL,Kujawsko-Pomorskie
+Lower Hutt,Lower Hutt,New Zealand,NZ,Wellington
+Liberec,Liberec,Czechia,CZ,Liberecký Kraj
+Bethal,Bethal,South Africa,ZA,Mpumalanga
+Bontang,Bontang,Indonesia,ID,Kalimantan Timur
+Teluk Intan,Teluk Intan,Malaysia,MY,Perak
+Dera Ismail Khan,Dera Ismail Khan,Pakistan,PK,Khyber Pakhtunkhwa
+Maladzyechna,Maladzyechna,Belarus,BY,Minskaya Voblasts’
+Olomouc,Olomouc,Czechia,CZ,Olomoucký Kraj
+Duitama,Duitama,Colombia,CO,Boyacá
+Tartu,Tartu,Estonia,EE,Tartumaa
+Novara,Novara,Italy,IT,Piedmont
+Ancona,Ancona,Italy,IT,Marche
+Sakata,Sakata,Japan,JP,Yamagata
+Magangué,Magangue,Colombia,CO,Bolívar
+Lida,Lida,Belarus,BY,Hrodzyenskaya Voblasts’
+Chanthaburi,Chanthaburi,Thailand,TH,Chanthaburi
+Galle,Galle,Sri Lanka,LK,Southern
+Ciudad Choluteca,Ciudad Choluteca,Honduras,HN,Choluteca
+České Budějovice,Ceske Budejovice,Czechia,CZ,Jihočeský Kraj 
+Lahti,Lahti,Finland,FI,Päijät-Häme
+Örebro,Orebro,Sweden,SE,Örebro
+Apatzingan de la Constitucion,Apatzingan de la Constitucion,Mexico,MX,Michoacán de Ocampo
+Jyväskylä,Jyvaskyla,Finland,FI,Keski-Suomi
+Ciudad de Atlixco,Ciudad de Atlixco,Mexico,MX,Puebla
+Ozamiz City,Ozamiz City,Philippines,PH,Misamis Occidental
+Slavonski Brod,Slavonski Brod,Croatia,HR,Brodsko-Posavska Županija
+Târgu Jiu,Targu Jiu,Romania,RO,Gorj
+Guasave,Guasave,Mexico,MX,Sinaloa
+Linköping,Linkoping,Sweden,SE,Östergötland
+Schwerin,Schwerin,Germany,DE,Mecklenburg-Western Pomerania
+Yên Bái,Yen Bai,Vietnam,VN,Yên Bái
+Half Way Tree,Half Way Tree,Jamaica,JM,Saint Andrew
+Sliven,Sliven,Bulgaria,BG,Sliven
+Catanzaro,Catanzaro,Italy,IT,Calabria
+Hradec Králové,Hradec Kralove,Czechia,CZ,Královéhradecký Kraj
+Osijek,Osijek,Croatia,HR,Osječko-Baranjska Županija
+Al ‘Aqabah,Al `Aqabah,Jordan,JO,Al ‘Aqabah
+Latacunga,Latacunga,Ecuador,EC,Cotopaxi
+Dobrich,Dobrich,Bulgaria,BG,Dobrich
+Prešov,Presov,Slovakia,SK,Prešovský
+Al Fujayrah,Al Fujayrah,United Arab Emirates,AE,Al Fujayrah
+Lagos de Moreno,Lagos de Moreno,Mexico,MX,Jalisco
+Ústí nad Labem,Usti nad Labem,Czechia,CZ,Ústecký Kraj
+Bath,Bath,United Kingdom,GB,Bath and North East Somerset
+Darwin,Darwin,Australia,AU,Northern Territory
+Quibdó,Quibdo,Colombia,CO,Chocó
+Tulcea,Tulcea,Romania,RO,Tulcea
+Santiago de Compostela,Santiago de Compostela,Spain,ES,Galicia
+Calais,Calais,France,FR,Hauts-de-France
+Ciudad Guzmán,Ciudad Guzman,Mexico,MX,Jalisco
+Kuopio,Kuopio,Finland,FI,Pohjois-Savo
+Tecomán,Tecoman,Mexico,MX,Colima
+Helsingborg,Helsingborg,Sweden,SE,Skåne
+Cuauhtémoc,Cuauhtemoc,Mexico,MX,Chihuahua
+Drammen,Drammen,Norway,NO,Buskerud
+Moncton,Moncton,Canada,CA,New Brunswick
+Klagenfurt,Klagenfurt,Austria,AT,Kärnten
+Phetchaburi,Phetchaburi,Thailand,TH,Phetchaburi
+Barahona,Barahona,Dominican Republic,DO,Enriquillo
+Limerick,Limerick,Ireland,IE,Limerick
+Francistown,Francistown,Botswana,BW,Francistown
+Jönköping,Jonkoping,Sweden,SE,Jönköping
+Chester,Chester,United Kingdom,GB,Cheshire West and Chester
+Tambacounda,Tambacounda,Senegal,SN,Tambacounda
+Târgovişte,Targoviste,Romania,RO,Dâmboviţa
+Coronel Oviedo,Coronel Oviedo,Paraguay,PY,Caaguazú
+Surigao,Surigao,Philippines,PH,Surigao del Norte
+San Juan de los Morros,San Juan de los Morros,Venezuela,VE,Guárico
+Žilina,Zilina,Slovakia,SK,Žilinský
+Shumen,Shumen,Bulgaria,BG,Shumen
+Lokossa,Lokossa,Benin,BJ,Mono
+Huaraz,Huaraz,Peru,PE,Ancash
+Bitola,Bitola,Macedonia,MK,Bitola
+Ioánnina,Ioannina,Greece,GR,Ípeiros
+Agua Prieta,Agua Prieta,Mexico,MX,Sonora
+Huehuetenango,Huehuetenango,Guatemala,GT,Huehuetenango
+Poitiers,Poitiers,France,FR,Nouvelle-Aquitaine
+Río Gallegos,Rio Gallegos,Argentina,AR,Santa Cruz
+Chumphon,Chumphon,Thailand,TH,Chumphon
+Versailles,Versailles,France,FR,Île-de-France
+Liepāja,Liepaja,Latvia,LV,Liepāja
+Louga,Louga,Senegal,SN,Louga
+Puerto Limón,Puerto Limon,Costa Rica,CR,Limón
+Lorient,Lorient,France,FR,Bretagne
+Savannakhet,Savannakhet,Laos,LA,Savannakhét
+Trinidad,Trinidad,Bolivia,BO,El Beni
+Derry,Derry,United Kingdom,GB,Derry and Strabane
+Peterborough,Peterborough,Canada,CA,Ontario
+Ouidah,Ouidah,Benin,BJ,Atlantique
+Reşiţa,Resita,Romania,RO,Caraş-Severin
+Kampong Cham,Kampong Cham,Cambodia,KH,Kampong Cham
+Tulcán,Tulcan,Ecuador,EC,Carchi
+Antsiran̈ana,Antsiranana,Madagascar,MG,Antsiranana
+Nan,Nan,Thailand,TH,Nan
+Pernik,Pernik,Bulgaria,BG,Pernik
+Cukai,Cukai,Malaysia,MY,Terengganu
+Palmerston North,Palmerston North,New Zealand,NZ,Manawatu-Wanganui
+Chimaltenango,Chimaltenango,Guatemala,GT,Chimaltenango
+Banská Bystrica,Banska Bystrica,Slovakia,SK,Banskobystrický
+Abomey,Abomey,Benin,BJ,Zou
+Sokhumi,Sokhumi,Georgia,GE,Abkhazia
+Bistriţa,Bistrita,Romania,RO,Bistriţa-Năsăud
+Pisco,Pisco,Peru,PE,Ica
+Salina Cruz,Salina Cruz,Mexico,MX,Oaxaca
+Natitingou,Natitingou,Benin,BJ,Atacora
+Hobart,Hobart,Australia,AU,Tasmania
+Huacho,Huacho,Peru,PE,Lima
+Al Karak,Al Karak,Jordan,JO,Al Karak
+Nabatîyé,Nabatiye,Lebanon,LB,Nabatîyé
+Ciudad Mante,Ciudad Mante,Mexico,MX,Tamaulipas
+Prachin Buri,Prachin Buri,Thailand,TH,Prachin Buri
+Haskovo,Haskovo,Bulgaria,BG,Haskovo
+Erdenet,Erdenet,Mongolia,MN,Orhon
+Paysandú,Paysandu,Uruguay,UY,Paysandú
+Inowrocław,Inowroclaw,Poland,PL,Kujawsko-Pomorskie
+Slatina,Slatina,Romania,RO,Olt
+Sagaing,Sagaing,Burma,MM,Sagaing
+Chaniá,Chania,Greece,GR,Kríti
+Biel/Bienne,Biel/Bienne,Switzerland,CH,Bern
+Ciudad de Ceuta,Ciudad de Ceuta,Spain,ES,Ceuta
+Umeå,Umea,Sweden,SE,Västerbotten
+Zahlé,Zahle,Lebanon,LB,Béqaa
+San Carlos,San Carlos,Venezuela,VE,Cojedes
+Caguas,Caguas,Puerto Rico,PR,Puerto Rico
+La Rochelle,La Rochelle,France,FR,Nouvelle-Aquitaine
+Thakhèk,Thakhek,Laos,LA,Khammouan
+Pori,Pori,Finland,FI,Satakunta
+San Felipe,San Felipe,Venezuela,VE,Yaracuy
+Uttaradit,Uttaradit,Thailand,TH,Uttaradit
+Babahoyo,Babahoyo,Ecuador,EC,Los Ríos
+Sakon Nakhon,Sakon Nakhon,Thailand,TH,Sakon Nakhon
+Galway,Galway,Ireland,IE,Galway
+Kampong Chhnang,Kampong Chhnang,Cambodia,KH,Kampong Chhnang
+Greenock,Greenock,United Kingdom,GB,Inverclyde
+Toledo,Toledo,Spain,ES,Castille-La Mancha
+Manokwari,Manokwari,Indonesia,ID,Papua Barat
+Karlstad,Karlstad,Sweden,SE,Värmland
+Prey Veng,Prey Veng,Cambodia,KH,Prey Veng
+Cozumel,Cozumel,Mexico,MX,Quintana Roo
+Skien,Skien,Norway,NO,Telemark
+Roanne,Roanne,France,FR,Auvergne-Rhône-Alpes
+Călăraşi,Calarasi,Romania,RO,Călăraşi
+San Juan,San Juan,Dominican Republic,DO,El Valle
+Tamazunchale,Tamazunchale,Mexico,MX,San Luis Potosí
+Carlisle,Carlisle,United Kingdom,GB,Cumbria
+Esbjerg,Esbjerg,Denmark,DK,Syddanmark
+Vratsa,Vratsa,Bulgaria,BG,Vratsa
+Upington,Upington,South Africa,ZA,Northern Cape
+Zadar,Zadar,Croatia,HR,Zadarska Županija
+Mamou,Mamou,Guinea,GN,Mamou
+Comayagua,Comayagua,Honduras,HN,Comayagua
+Guaynabo,Guaynabo,Puerto Rico,PR,Puerto Rico
+Saraburi,Saraburi,Thailand,TH,Sara Buri
+Sankt Gallen,Sankt Gallen,Switzerland,CH,Sankt Gallen
+Scarborough,Scarborough,United Kingdom,GB,North Yorkshire
+Tatabánya,Tatabanya,Hungary,HU,Komárom-Esztergom
+Lobatse,Lobatse,Botswana,BW,Lobatse
+Trnava,Trnava,Slovakia,SK,Trnavský
+Totonicapán,Totonicapan,Guatemala,GT,Totonicapán
+Ouezzane,Ouezzane,Morocco,MA,Tanger-Tétouan-Al Hoceïma
+Rioverde,Rioverde,Mexico,MX,San Luis Potosí
+Tuy Hòa,Tuy Hoa,Vietnam,VN,Phú Yên
+Kolda,Kolda,Senegal,SN,Kolda
+Arauca,Arauca,Colombia,CO,Arauca
+Vaslui,Vaslui,Romania,RO,Vaslui
+Azogues,Azogues,Ecuador,EC,Cañar
+Giurgiu,Giurgiu,Romania,RO,Giurgiu
+Potenza,Potenza,Italy,IT,Basilicata
+Ayr,Ayr,United Kingdom,GB,South Ayrshire
+Gävle,Gavle,Sweden,SE,Gävleborg
+L’Aquila,L'Aquila,Italy,IT,Abruzzo
+Matara,Matara,Sri Lanka,LK,Southern
+Narathiwat,Narathiwat,Thailand,TH,Narathiwat
+Artemisa,Artemisa,Cuba,CU,Artemisa
+Putrajaya,Putrajaya,Malaysia,MY,Putrajaya
+Calbayog City,Calbayog City,Philippines,PH,Samar
+Matehuala,Matehuala,Mexico,MX,San Luis Potosí
+Juchitán de Zaragoza,Juchitan de Zaragoza,Mexico,MX,Oaxaca
+Jelgava,Jelgava,Latvia,LV,Jelgavas Novads
+Lào Cai,Lao Cai,Vietnam,VN,Lào Cai
+Puerto Maldonado,Puerto Maldonado,Peru,PE,Madre de Dios
+Jáltipan de Morelos,Jaltipan de Morelos,Mexico,MX,Veracruz
+Alba Iulia,Alba Iulia,Romania,RO,Alba
+Békéscsaba,Bekescsaba,Hungary,HU,Békés
+Cobán,Coban,Guatemala,GT,Alta Verapaz
+Mazatenango,Mazatenango,Guatemala,GT,Suchitepéquez
+Nepālgañj,Nepalganj,Nepal,NP,
+Arras,Arras,France,FR,Hauts-de-France
+Ciudad Hidalgo,Ciudad Hidalgo,Mexico,MX,Michoacán de Ocampo
+Kangar,Kangar,Malaysia,MY,Perlis
+Ramla,Ramla,Israel,IL,Central
+Kristiansand,Kristiansand,Norway,NO,Vest-Agder
+Kanchanaburi,Kanchanaburi,Thailand,TH,Kanchanaburi
+Samut Sakhon,Samut Sakhon,Thailand,TH,Samut Sakhon
+Molepolole,Molepolole,Botswana,BW,Kweneng
+Zalău,Zalau,Romania,RO,Sălaj
+Belize City,Belize City,Belize,BZ,Belize
+Graaff-Reinet,Graaff-Reinet,South Africa,ZA,Eastern Cape
+Guamúchil,Guamuchil,Mexico,MX,Sinaloa
+Surin,Surin,Thailand,TH,Surin
+Assen,Assen,Netherlands,NL,Drenthe
+Veszprém,Veszprem,Hungary,HU,Veszprém
+Madang,Madang,Papua New Guinea,PG,Madang
+Zalaegerszeg,Zalaegerszeg,Hungary,HU,Zala
+Troyes,Troyes,France,FR,Grand Est
+Cayenne,Cayenne,French Guiana,GF,
+Ponta Delgada,Ponta Delgada,Portugal,PT,Azores
+Portimão,Portimao,Portugal,PT,Faro
+Yopal,Yopal,Colombia,CO,Casanare
+Cherbourg,Cherbourg,France,FR,Normandie
+Nelson,Nelson,New Zealand,NZ,Nelson
+Sfântu-Gheorghe,Sfantu-Gheorghe,Romania,RO,Covasna
+Växjö,Vaxjo,Sweden,SE,Kronoberg
+Leticia,Leticia,Colombia,CO,Amazonas
+Drummondville,Drummondville,Canada,CA,Québec
+Bến Tre,Ben Tre,Vietnam,VN,Bến Tre
+Lappeenranta,Lappeenranta,Finland,FI,Etelä-Karjala
+Azua,Azua,Dominican Republic,DO,Valdesia
+Viedma,Viedma,Argentina,AR,Río Negro
+Concepción,Concepcion,Paraguay,PY,Concepción
+Mount Hagen,Mount Hagen,Papua New Guinea,PG,Western Highlands
+Kamphaeng Phet,Kamphaeng Phet,Thailand,TH,Kamphaeng Phet
+Chaiyaphum,Chaiyaphum,Thailand,TH,Chaiyaphum
+San Andrés,San Andres,Colombia,CO,San Andrés y Providencia
+Agen,Agen,France,FR,Nouvelle-Aquitaine
+Rundu,Rundu,Namibia,NA,Kavango East
+Hải Dương,Hai Duong,Vietnam,VN,Hải Dương
+Ushuaia,Ushuaia,Argentina,AR,Tierra del Fuego
+Napier,Napier,New Zealand,NZ,Hawke’s Bay
+Lop Buri,Lop Buri,Thailand,TH,Lop Buri
+Linares,Linares,Mexico,MX,Nuevo León
+Al Mafraq,Al Mafraq,Jordan,JO,Al Mafraq
+Puntarenas,Puntarenas,Costa Rica,CR,Puntarenas
+Vaasa,Vaasa,Finland,FI,Pohjanmaa
+Ródos,Rodos,Greece,GR,Notío Aigaío
+Eger,Eger,Hungary,HU,Heves
+Puerto Barrios,Puerto Barrios,Guatemala,GT,Izabal
+Magong,Magong,Taiwan,TW,Penghu
+Lautoka,Lautoka,Fiji,FJ,Ba
+Ełk,Elk,Poland,PL,Warmińsko-Mazurskie
+Halmstad,Halmstad,Sweden,SE,Halland
+Évora,Evora,Portugal,PT,Évora
+Melo,Melo,Uruguay,UY,Cerro Largo
+Maldonado,Maldonado,Uruguay,UY,Maldonado
+Nakhon Phanom,Nakhon Phanom,Thailand,TH,Nakhon Phanom
+Abancay,Abancay,Peru,PE,Apurímac
+Kalasin,Kalasin,Thailand,TH,Kalasin
+Karlovac,Karlovac,Croatia,HR,Karlovačka Županija
+Tarbes,Tarbes,France,FR,Occitanie
+Nuevo Casas Grandes,Nuevo Casas Grandes,Mexico,MX,Chihuahua
+Juigalpa,Juigalpa,Nicaragua,NI,Chontales
+Moquegua,Moquegua,Peru,PE,Moquegua
+Ajaccio,Ajaccio,France,FR,Corsica
+Tacuarembó,Tacuarembo,Uruguay,UY,Tacuarembó
+Aveiro,Aveiro,Portugal,PT,Aveiro
+Jihlava,Jihlava,Czechia,CZ,Vysočina
+Bắc Giang,Bac Giang,Vietnam,VN,Bắc Giang
+San Pedro,San Pedro,Mexico,MX,Coahuila de Zaragoza
+Suphan Buri,Suphan Buri,Thailand,TH,Suphan Buri
+Joensuu,Joensuu,Finland,FI,Pohjois-Karjala
+Saint-Brieuc,Saint-Brieuc,France,FR,Bretagne
+Taxco de Alarcón,Taxco de Alarcon,Mexico,MX,Guerrero
+Veliko Tarnovo,Veliko Tarnovo,Bulgaria,BG,Veliko Tarnovo
+Arrecife,Arrecife,Spain,ES,Canary Islands
+Slobozia,Slobozia,Romania,RO,Ialomiţa
+Puerto Ayacucho,Puerto Ayacucho,Venezuela,VE,Amazonas
+Pursat,Pursat,Cambodia,KH,Pursat
+Tromsø,Tromso,Norway,NO,Troms
+Mérida,Merida,Spain,ES,Extremadura
+Fredericton,Fredericton,Canada,CA,New Brunswick
+Whangarei,Whangarei,New Zealand,NZ,Northland
+Chilliwack,Chilliwack,Canada,CA,British Columbia
+Usulután,Usulutan,El Salvador,SV,Usulután
+Maha Sarakham,Maha Sarakham,Thailand,TH,Maha Sarakham
+Tucupita,Tucupita,Venezuela,VE,Delta Amacuro
+Vejle,Vejle,Denmark,DK,Syddanmark
+Jinotega,Jinotega,Nicaragua,NI,Jinotega
+Kyustendil,Kyustendil,Bulgaria,BG,Kyustendil
+Campobasso,Campobasso,Italy,IT,Molise
+Jutiapa,Jutiapa,Guatemala,GT,Jutiapa
+Phetchabun,Phetchabun,Thailand,TH,Phetchabun
+Trujillo,Trujillo,Venezuela,VE,Trujillo
+Ma‘ān,Ma`an,Jordan,JO,Ma‘ān
+Sisophon,Sisophon,Cambodia,KH,Banteay Meanchey
+Kampot,Kampot,Cambodia,KH,Kampot
+Hpa-An,Hpa-An,Burma,MM,Kayin State
+Al Khārijah,Al Kharijah,Egypt,EG,Al Wādī al Jadīd
+Maun,Maun,Botswana,BW,North West
+Chachoengsao,Chachoengsao,Thailand,TH,Chachoengsao
+Vryburg,Vryburg,South Africa,ZA,North West
+Alexandria,Alexandria,Romania,RO,Teleorman
+Waterford,Waterford,Ireland,IE,Waterford
+Invercargill,Invercargill,New Zealand,NZ,Southland
+Shawinigan,Shawinigan,Canada,CA,Québec
+Larnaca,Larnaca,Cyprus,CY,Lárnaka
+Cornwall,Cornwall,Canada,CA,Ontario
+Luleå,Lulea,Sweden,SE,Norrbotten
+Songkhla,Songkhla,Thailand,TH,Songkhla
+Serowe,Serowe,Botswana,BW,Central
+Vigan,Vigan,Philippines,PH,Ilocos Sur
+Valladolid,Valladolid,Mexico,MX,Yucatán
+Cojutepeque,Cojutepeque,El Salvador,SV,Cuscatlán
+Mao,Mao,Dominican Republic,DO,Cibao Noroeste
+Ciudad de Huajuapam de León,Ciudad de Huajuapam de Leon,Mexico,MX,Oaxaca
+Ratnapura,Ratnapura,Sri Lanka,LK,Sabaragamuwa
+Moyobamba,Moyobamba,Peru,PE,San Martín
+Autlán de Navarro,Autlan de Navarro,Mexico,MX,Jalisco
+Badulla,Badulla,Sri Lanka,LK,Uva
+Montana,Montana,Bulgaria,BG,Montana
+Buri Ram,Buri Ram,Thailand,TH,Buriram
+Hämeenlinna,Hameenlinna,Finland,FI,Kanta-Häme
+Lamía,Lamia,Greece,GR,Stereá Elláda
+Progreso,Progreso,Mexico,MX,Yucatán
+Mandeville,Mandeville,Jamaica,JM,Manchester
+Nacaome,Nacaome,Honduras,HN,Valle
+New Amsterdam,New Amsterdam,Guyana,GY,East Berbice-Corentyne
+Kanye,Kanye,Botswana,BW,Southern
+Kokkola,Kokkola,Finland,FI,Keski-Pohjanmaa
+Mikkeli,Mikkeli,Finland,FI,Etelä-Savo
+Middelburg,Middelburg,Netherlands,NL,Zeeland
+Östersund,Ostersund,Sweden,SE,Jämtland
+Trujillo Alto,Trujillo Alto,Puerto Rico,PR,Puerto Rico
+Nevers,Nevers,France,FR,Bourgogne-Franche-Comté
+Jalapa,Jalapa,Guatemala,GT,Jalapa
+Coyhaique,Coyhaique,Chile,CL,Aysén
+Puttalam,Puttalam,Sri Lanka,LK,North Western
+Komotiní,Komotini,Greece,GR,Anatolikí Makedonía kai Thráki
+Liberia,Liberia,Costa Rica,CR,Guanacaste
+Sololá,Solola,Guatemala,GT,Sololá
+Inverness,Inverness,United Kingdom,GB,Highland
+Leiria,Leiria,Portugal,PT,Leiria
+Si Sa Ket,Si Sa Ket,Thailand,TH,Sisaket
+Linden,Linden,Guyana,GY,Upper Demerara-Berbice
+Trollhättan,Trollhattan,Sweden,SE,Västra Götaland
+Cobija,Cobija,Bolivia,BO,Pando
+Umm al Qaywayn,Umm al Qaywayn,United Arab Emirates,AE,Umm al Qaywayn
+Huancavelica,Huancavelica,Peru,PE,Huancavelica
+Bluefields,Bluefields,Nicaragua,NI,Caribe Sur
+Pärnu,Parnu,Estonia,EE,Pärnumaa
+Belleville,Belleville,Canada,CA,Ontario
+Phatthalung,Phatthalung,Thailand,TH,Phatthalung
+Vichy,Vichy,France,FR,Auvergne-Rhône-Alpes
+Bilwi,Bilwi,Nicaragua,NI,Caribe Norte
+Ventspils,Ventspils,Latvia,LV,Ventspils
+Santo Domingo Tehuantepec,Santo Domingo Tehuantepec,Mexico,MX,Oaxaca
+Montemorelos,Montemorelos,Mexico,MX,Nuevo León
+Cabo San Lucas,Cabo San Lucas,Mexico,MX,Baja California Sur
+Dieppe,Dieppe,France,FR,Normandie
+Charlottetown,Charlottetown,Canada,CA,Prince Edward Island
+Mercedes,Mercedes,Uruguay,UY,Soriano
+Lovech,Lovech,Bulgaria,BG,Lovech
+Miercurea-Ciuc,Miercurea-Ciuc,Romania,RO,Harghita
+Tizimín,Tizimin,Mexico,MX,Yucatán
+Artigas,Artigas,Uruguay,UY,Artigas
+Chiquimula,Chiquimula,Guatemala,GT,Chiquimula
+Victoriaville,Victoriaville,Canada,CA,Québec
+Grande Prairie,Grande Prairie,Canada,CA,Alberta
+Faro,Faro,Portugal,PT,Faro
+Minas,Minas,Uruguay,UY,Lavalleja
+Villarrica,Villarrica,Paraguay,PY,Guairá
+Cao Bằng,Cao Bang,Vietnam,VN,Cao Bằng
+Bastia,Bastia,France,FR,Corsica
+Ali Sabieh,Ali Sabieh,Djibouti,DJ,Ali Sabieh
+Salamá,Salama,Guatemala,GT,Baja Verapaz
+Ciudad Constitución,Ciudad Constitucion,Mexico,MX,Baja California Sur
+Mochudi,Mochudi,Botswana,BW,Kgatleng
+Goroka,Goroka,Papua New Guinea,PG,Eastern Highlands
+Perth,Perth,United Kingdom,GB,Perth and Kinross
+Salgótarján,Salgotarjan,Hungary,HU,Nógrád
+Zacatecoluca,Zacatecoluca,El Salvador,SV,La Paz
+Antigua Guatemala,Antigua Guatemala,Guatemala,GT,Sacatepéquez
+Roi Et,Roi Et,Thailand,TH,Roi Et
+Upper Hutt,Upper Hutt,New Zealand,NZ,Wellington
+Xam Nua,Xam Nua,Laos,LA,Houaphan
+Dún Dealgan,Dun Dealgan,Ireland,IE,Louth
+Caloundra,Caloundra,Australia,AU,Queensland
+Phrae,Phrae,Thailand,TH,Phrae
+Kérkyra,Kerkyra,Greece,GR,Ionía Nísia
+Hà Giang,Ha Giang,Vietnam,VN,Hà Giang
+Rēzekne,Rezekne,Latvia,LV,Rēzeknes Novads
+Chur,Chur,Switzerland,CH,Graubünden
+Razgrad,Razgrad,Bulgaria,BG,Razgrad
+Flores,Flores,Guatemala,GT,Petén
+Camargo,Camargo,Mexico,MX,Chihuahua
+Penticton,Penticton,Canada,CA,British Columbia
+San Vicente,San Vicente,El Salvador,SV,San Vicente
+Šibenik,Sibenik,Croatia,HR,Šibensko-Kninska Županija
+Rayong,Rayong,Thailand,TH,Rayong
+Dubrovnik,Dubrovnik,Croatia,HR,Dubrovačko-Neretvanska Županija
+Retalhuleu,Retalhuleu,Guatemala,GT,Retalhuleu
+Nueva Rosita,Nueva Rosita,Mexico,MX,Coahuila de Zaragoza
+Drogheda,Drogheda,Ireland,IE,Louth
+San José,San Jose,Uruguay,UY,San José
+Falun,Falun,Sweden,SE,Dalarna
+Tuyên Quang,Tuyen Quang,Vietnam,VN,Tuyên Quang
+Dover,Dover,United Kingdom,GB,Kent
+Zacapa,Zacapa,Guatemala,GT,Zacapa
+Paphos,Paphos,Cyprus,CY,Páfos
+Beja,Beja,Portugal,PT,Beja
+Ulaangom,Ulaangom,Mongolia,MN,Uvs
+Phichit,Phichit,Thailand,TH,Phichit
+La Barca,La Barca,Mexico,MX,Jalisco
+Pánuco,Panuco,Mexico,MX,Veracruz
+Loei,Loei,Thailand,TH,Loei
+Karlskrona,Karlskrona,Sweden,SE,Blekinge
+La Asunción,La Asuncion,Venezuela,VE,Nueva Esparta
+Samut Songkhram,Samut Songkhram,Thailand,TH,Samut Songkhram
+Kalmar,Kalmar,Sweden,SE,Kalmar
+Taibao,Taibao,Taiwan,TW,Chiayi
+Ölgiy,Olgiy,Mongolia,MN,Bayan-Ölgiy
+Viborg,Viborg,Denmark,DK,Midtjylland
+Rovaniemi,Rovaniemi,Finland,FI,Lappi
+Satun,Satun,Thailand,TH,Satun
+Bragança,Braganca,Portugal,PT,Bragança
+Gisborne,Gisborne,New Zealand,NZ,Gisborne
+Szekszárd,Szekszard,Hungary,HU,Tolna
+Ahuachapán,Ahuachapan,El Salvador,SV,Ahuachapán
+Bodø,Bodo,Norway,NO,Nordland
+Aosta,Aosta,Italy,IT,Valle d’Aosta
+Durazno,Durazno,Uruguay,UY,Durazno
+Ocotal,Ocotal,Nicaragua,NI,Nueva Segovia
+Prachuap Khiri Khan,Prachuap Khiri Khan,Thailand,TH,Prachuap Khiri Khan
+Castelo Branco,Castelo Branco,Portugal,PT,Castelo Branco
+Cananea,Cananea,Mexico,MX,Sonora
+Campbell River,Campbell River,Canada,CA,British Columbia
+Choybalsan,Choybalsan,Mongolia,MN,Dornod
+Kampong Speu,Kampong Speu,Cambodia,KH,Kampong Speu
+Tak,Tak,Thailand,TH,Tak
+Koh Kong,Koh Kong,Cambodia,KH,Koh Kong
+Cradock,Cradock,South Africa,ZA,Eastern Cape
+Fribourg,Fribourg,Switzerland,CH,Fribourg
+Courtenay,Courtenay,Canada,CA,British Columbia
+Orangeville,Orangeville,Canada,CA,Ontario
+Tenosique,Tenosique,Mexico,MX,Tabasco
+Parras de la Fuente,Parras de la Fuente,Mexico,MX,Coahuila de Zaragoza
+Florida,Florida,Uruguay,UY,Florida
+Moose Jaw,Moose Jaw,Canada,CA,Saskatchewan
+Guarda,Guarda,Portugal,PT,Guarda
+Mamoudzou,Mamoudzou,Mayotte,YT,
+Ciudad Sabinas Hidalgo,Ciudad Sabinas Hidalgo,Mexico,MX,Nuevo León
+Rivas,Rivas,Nicaragua,NI,Rivas
+Petatlán,Petatlan,Mexico,MX,Guerrero
+Neuchâtel,Neuchatel,Switzerland,CH,Neuchâtel
+Krabi,Krabi,Thailand,TH,Krabi
+Kouvola,Kouvola,Finland,FI,Kymenlaakso
+Tena,Tena,Ecuador,EC,Napo
+Dumfries,Dumfries,United Kingdom,GB,Dumfries and Galloway
+Arendal,Arendal,Norway,NO,Aust-Agder
+Ticul,Ticul,Mexico,MX,Yucatán
+Hovd,Hovd,Mongolia,MN,Hovd
+Huatabampo,Huatabampo,Mexico,MX,Sonora
+Blenheim,Blenheim,New Zealand,NZ,Marlborough
+Ometepec,Ometepec,Mexico,MX,Guerrero
+Savanna-la-Mar,Savanna-la-Mar,Jamaica,JM,Westmoreland
+Bafatá,Bafata,Guinea-Bissau,GW,Bafatá
+Stung Treng,Stung Treng,Cambodia,KH,Stung Treng
+Jinotepe,Jinotepe,Nicaragua,NI,Carazo
+Swakopmund,Swakopmund,Namibia,NA,Erongo
+Hamar,Hamar,Norway,NO,Hedmark
+Santarém,Santarem,Portugal,PT,Santarém
+Mytilíni,Mytilini,Greece,GR,Voreío Aigaío
+Chalatenango,Chalatenango,El Salvador,SV,Chalatenango
+Bắc Kạn,Bac Kan,Vietnam,VN,Bắc Kạn
+San Fernando,San Fernando,Mexico,MX,Tamaulipas
+Boaco,Boaco,Nicaragua,NI,Boaco
+Trípoli,Tripoli,Greece,GR,Peloponnísos
+Pilar,Pilar,Paraguay,PY,Ñeembucú
+Brandon,Brandon,Canada,CA,Manitoba
+Hillerød,Hillerod,Denmark,DK,Hovedstaden
+Escuinapa,Escuinapa,Mexico,MX,Sinaloa
+Popondetta,Popondetta,Papua New Guinea,PG,Northern
+Arvayheer,Arvayheer,Mongolia,MN,Övörhangay
+Guaranda,Guaranda,Ecuador,EC,Bolívar
+Mörön,Moron,Mongolia,MN,Hövsgöl
+Treinta y Tres,Treinta y Tres,Uruguay,UY,Treinta y Tres
+Aţ Ţūr,At Tur,Egypt,EG,Janūb Sīnā’
+Nyköping,Nykoping,Sweden,SE,Södermanland
+Sensuntepeque,Sensuntepeque,El Salvador,SV,Cabañas
+Bregenz,Bregenz,Austria,AT,Vorarlberg
+Rocha,Rocha,Uruguay,UY,Rocha
+La Unión,La Union,El Salvador,SV,La Unión
+Champotón,Champoton,Mexico,MX,Campeche
+Brockville,Brockville,Canada,CA,Ontario
+Tralee,Tralee,Ireland,IE,Kerry
+Viseu,Viseu,Portugal,PT,Viseu
+Rawson,Rawson,Argentina,AR,Chubut
+Bayanhongor,Bayanhongor,Mongolia,MN,Bayanhongor
+Mendi,Mendi,Papua New Guinea,PG,Southern Highlands
+Levittown,Levittown,Puerto Rico,PR,Puerto Rico
+Tuxpan,Tuxpan,Mexico,MX,Nayarit
+Chachapoyas,Chachapoyas,Peru,PE,Amazonas
+Cataño,Catano,Puerto Rico,PR,Puerto Rico
+Nueva Gerona,Nueva Gerona,Cuba,CU,Isla de la Juventud
+Aţ Ţafīlah,At Tafilah,Jordan,JO,Aţ Ţafīlah
+Rehoboth,Rehoboth,Namibia,NA,Hardap
+Wewak,Wewak,Papua New Guinea,PG,East Sepik
+San Marcos,San Marcos,Guatemala,GT,San Marcos
+Katima Mulilo,Katima Mulilo,Namibia,NA,Zambezi
+Puyo,Puyo,Ecuador,EC,Pastaza
+Covilhã,Covilha,Portugal,PT,Castelo Branco
+Otjiwarongo,Otjiwarongo,Namibia,NA,Otjozondjupa
+Felipe Carrillo Puerto,Felipe Carrillo Puerto,Mexico,MX,Quintana Roo
+Rouyn-Noranda,Rouyn-Noranda,Canada,CA,Québec
+Ranong,Ranong,Thailand,TH,Ranong
+Ciudad Altamirano,Ciudad Altamirano,Mexico,MX,Guerrero
+San Pedro Pochutla,San Pedro Pochutla,Mexico,MX,Oaxaca
+Tbeng Meanchey,Tbeng Meanchey,Cambodia,KH,Preah Vihear
+Fatick,Fatick,Senegal,SN,Fatick
+Sühbaatar,Suhbaatar,Mongolia,MN,Selenge
+Svay Rieng,Svay Rieng,Cambodia,KH,Svay Rieng
+Paraíso,Paraiso,Mexico,MX,Tabasco
+Macas,Macas,Ecuador,EC,Morona-Santiago
+Pijijiapan,Pijijiapan,Mexico,MX,Chiapas
+Santa Cruz del Quiché,Santa Cruz del Quiche,Guatemala,GT,Quiché
+Zug,Zug,Switzerland,CH,Zug
+Magdalena de Kino,Magdalena de Kino,Mexico,MX,Sonora
+Fray Bentos,Fray Bentos,Uruguay,UY,Río Negro
+Whitehorse,Whitehorse,Canada,CA,Yukon
+Tecax,Tecax,Mexico,MX,Yucatán
+Bella Unión,Bella Union,Uruguay,UY,Artigas
+Frontera,Frontera,Mexico,MX,Tabasco
+Visby,Visby,Sweden,SE,Gotland
+Uthai Thani,Uthai Thani,Thailand,TH,Uthai Thani
+Tadjourah,Tadjourah,Djibouti,DJ,Tadjourah
+San José del Guaviare,San Jose del Guaviare,Colombia,CO,Guaviare
+Ojinaga,Ojinaga,Mexico,MX,Chihuahua
+Mocoa,Mocoa,Colombia,CO,Putumayo
+Guayama,Guayama,Puerto Rico,PR,Puerto Rico
+Heredia,Heredia,Costa Rica,CR,Heredia
+Fort McMurray,Fort McMurray,Canada,CA,Alberta
+Colonia del Sacramento,Colonia del Sacramento,Uruguay,UY,Colonia
+Caacupé,Caacupe,Paraguay,PY,Cordillera
+Yasothon,Yasothon,Thailand,TH,Yasothon
+Trat,Trat,Thailand,TH,Trat
+Kilkenny,Kilkenny,Ireland,IE,Kilkenny
+Heroica Ciudad de Tlaxiaco,Heroica Ciudad de Tlaxiaco,Mexico,MX,Oaxaca
+Nakhon Nayok,Nakhon Nayok,Thailand,TH,Nakhon Nayok
+Motul,Motul,Mexico,MX,Yucatán
+Phayao,Phayao,Thailand,TH,Phayao
+Omagh,Omagh,United Kingdom,GB,Fermanagh and Omagh
+Orange Walk,Orange Walk,Belize,BZ,Orange Walk
+Penzance,Penzance,United Kingdom,GB,Cornwall
+Atoyac de Álvarez,Atoyac de Alvarez,Mexico,MX,Guerrero
+Somoto,Somoto,Nicaragua,NI,Madriz
+Viljandi,Viljandi,Estonia,EE,Viljandimaa
+Sligo,Sligo,Ireland,IE,Sligo
+Sing Buri,Sing Buri,Thailand,TH,Sing Buri
+Hakha,Hakha,Burma,MM,Chin State
+Kratie,Kratie,Cambodia,KH,Kratie
+Tsetserleg,Tsetserleg,Mongolia,MN,Arhangay
+Kavieng,Kavieng,Papua New Guinea,PG,New Ireland
+Canelones,Canelones,Uruguay,UY,Canelones
+Allende,Allende,Mexico,MX,Coahuila de Zaragoza
+Lillehammer,Lillehammer,Norway,NO,Oppland
+Puerto Escondido,Puerto Escondido,Mexico,MX,Oaxaca
+Faranah,Faranah,Guinea,GN,Faranah
+Yellowknife,Yellowknife,Canada,CA,Northwest Territories
+Sơn La,Son La,Vietnam,VN,Sơn La
+Paraguarí,Paraguari,Paraguay,PY,Paraguarí
+Acatlán de Osorio,Acatlan de Osorio,Mexico,MX,Puebla
+Kimbe,Kimbe,Papua New Guinea,PG,West New Britain
+Fort Saint John,Fort Saint John,Canada,CA,British Columbia
+Whakatane,Whakatane,New Zealand,NZ,Bay of Plenty
+Molde,Molde,Norway,NO,Møre og Romsdal
+Santiago Ixcuintla,Santiago Ixcuintla,Mexico,MX,Nayarit
+Kédougou,Kedougou,Senegal,SN,Kédougou
+Keetmanshoop,Keetmanshoop,Namibia,NA,//Karas
+Obock,Obock,Djibouti,DJ,Obock
+Dzuunmod,Dzuunmod,Mongolia,MN,Töv
+Đông Hà,Dong Ha,Vietnam,VN,Quảng Trị
+Miahuatlán de Porfirio Díaz,Miahuatlan de Porfirio Diaz,Mexico,MX,Oaxaca
+Peto,Peto,Mexico,MX,Yucatán
+El Dorado,El Dorado,Mexico,MX,Sinaloa
+Bulgan,Bulgan,Mongolia,MN,Bulgan
+Loikaw,Loikaw,Burma,MM,Kayah State
+Yauco,Yauco,Puerto Rico,PR,Puerto Rico
+Härnösand,Harnosand,Sweden,SE,Västernorrland
+Vila Real,Vila Real,Portugal,PT,Vila Real
+San Ignacio,San Ignacio,Belize,BZ,Cayo
+Carmelo,Carmelo,Uruguay,UY,Colonia
+Cuilapa,Cuilapa,Guatemala,GT,Santa Rosa
+Santa Lucía,Santa Lucia,Uruguay,UY,Canelones
+Rivière-du-Loup,Riviere-du-Loup,Canada,CA,Québec
+Gobabis,Gobabis,Namibia,NA,Omaheke
+Xaignabouli,Xaignabouli,Laos,LA,Xaignabouli
+Compostela,Compostela,Mexico,MX,Nayarit
+San Francisco,San Francisco,El Salvador,SV,Morazán
+Baruun-Urt,Baruun-Urt,Mongolia,MN,Sühbaatar
+Santiago Tuxtla,Santiago Tuxtla,Mexico,MX,Veracruz
+Villa Hayes,Villa Hayes,Paraguay,PY,Presidente Hayes
+Portalegre,Portalegre,Portugal,PT,Portalegre
+Viana do Castelo,Viana do Castelo,Portugal,PT,Viana do Castelo
+Chai Nat,Chai Nat,Thailand,TH,Chai Nat
+Villa Unión,Villa Union,Mexico,MX,Sinaloa
+Cayey,Cayey,Puerto Rico,PR,Puerto Rico
+Cárdenas,Cardenas,Mexico,MX,San Luis Potosí
+Zamora,Zamora,Ecuador,EC,Zamora-Chinchipe
+Takeo,Takeo,Cambodia,KH,Takeo
+Daru,Daru,Papua New Guinea,PG,Western
+Lüderitz,Luderitz,Namibia,NA,//Karas
+Paro,Paro,Bhutan,BT,Paro
+Izamal,Izamal,Mexico,MX,Yucatán
+Tecuala,Tecuala,Mexico,MX,Nayarit
+Solothurn,Solothurn,Switzerland,CH,Solothurn
+Tamuín,Tamuin,Mexico,MX,San Luis Potosí
+Öndörhaan,Ondorhaan,Mongolia,MN,Hentiy
+Técpan de Galeana,Tecpan de Galeana,Mexico,MX,Guerrero
+Gabú,Gabu,Guinea-Bissau,GW,Gabú
+Port Antonio,Port Antonio,Jamaica,JM,Portland
+Schwyz,Schwyz,Switzerland,CH,Schwyz
+Juan Aldama,Juan Aldama,Mexico,MX,Zacatecas
+Lamphun,Lamphun,Thailand,TH,Lamphun
+Ang Thong,Ang Thong,Thailand,TH,Ang Thong
+Saint Ann’s Bay,Saint Ann's Bay,Jamaica,JM,Saint Ann
+San Carlos,San Carlos,Nicaragua,NI,Río San Juan
+Mariental,Mariental,Namibia,NA,Hardap
+Eisenstadt,Eisenstadt,Austria,AT,Burgenland
+Manatí,Manati,Puerto Rico,PR,Puerto Rico
+Guerrero Negro,Guerrero Negro,Mexico,MX,Baja California
+Río Grande,Rio Grande,Puerto Rico,PR,Puerto Rico
+Liestal,Liestal,Switzerland,CH,Basel-Landschaft
+Vicente Guerrero,Vicente Guerrero,Mexico,MX,Baja California
+Isla Mujeres,Isla Mujeres,Mexico,MX,Quintana Roo
+Oshikango,Oshikango,Namibia,NA,Ohangwena
+Forécariah,Forecariah,Guinea,GN,Kindia
+Aldama,Aldama,Mexico,MX,Tamaulipas
+Ermoúpoli,Ermoupoli,Greece,GR,Notío Aigaío
+Dikhil,Dikhil,Djibouti,DJ,Dikhil
+La Cruz,La Cruz,Mexico,MX,Sinaloa
+Santa Rosalía,Santa Rosalia,Mexico,MX,Baja California Sur
+Balancán,Balancan,Mexico,MX,Tabasco
+Wetaskiwin,Wetaskiwin,Canada,CA,Alberta
+Haapsalu,Haapsalu,Estonia,EE,Läänemaa
+Ascensión,Ascension,Mexico,MX,Chihuahua
+Alotau,Alotau,Papua New Guinea,PG,Milne Bay
+Bartica,Bartica,Guyana,GY,Cuyuni-Mazaruni
+Coamo,Coamo,Puerto Rico,PR,Puerto Rico
+Steinkjer,Steinkjer,Norway,NO,
+Loreto,Loreto,Mexico,MX,Baja California Sur
+Vanimo,Vanimo,Papua New Guinea,PG,West Sepik
+El Fuerte,El Fuerte,Mexico,MX,Sinaloa
+Villanueva,Villanueva,Mexico,MX,Zacatecas
+Santa Bárbara,Santa Barbara,Mexico,MX,Chihuahua
+Bolama,Bolama,Guinea-Bissau,GW,Bolama/Bijagós
+Dangriga,Dangriga,Belize,BZ,Stann Creek
+Coalcomán de Vázquez Pallares,Coalcoman de Vazquez Pallares,Mexico,MX,Michoacán de Ocampo
+Valparaíso,Valparaiso,Mexico,MX,Zacatecas
+Cacheu,Cacheu,Guinea-Bissau,GW,Cacheu
+Filadelfia,Filadelfia,Paraguay,PY,Boquerón
+Canatlán,Canatlan,Mexico,MX,Durango
+Sukhothai,Sukhothai,Thailand,TH,Sukhothai
+Puerto Carreño,Puerto Carreno,Colombia,CO,Vichada
+Greymouth,Greymouth,New Zealand,NZ,West Coast
+Catió,Catio,Guinea-Bissau,GW,Tombali
+Ayutla de los Libres,Ayutla de los Libres,Mexico,MX,Guerrero
+Pájaros,Pajaros,Puerto Rico,PR,Puerto Rico
+Tshabong,Tshabong,Botswana,BW,Kgalagadi
+Phangnga,Phangnga,Thailand,TH,Phangnga
+Fort William,Fort William,United Kingdom,GB,Highland
+Sabana Grande,Sabana Grande,Puerto Rico,PR,Puerto Rico
+Sarnen,Sarnen,Switzerland,CH,Obwalden
+Kundiawa,Kundiawa,Papua New Guinea,PG,Chimbu
+Weyburn,Weyburn,Canada,CA,Saskatchewan
+San Pedro de Ycuamandiyú,San Pedro de Ycuamandiyu,Paraguay,PY,San Pedro
+Ahumada,Ahumada,Mexico,MX,Chihuahua
+Kasane,Kasane,Botswana,BW,Chobe
+Halachó,Halacho,Mexico,MX,Yucatán
+Mae Hong Son,Mae Hong Son,Thailand,TH,Mae Hong Son
+Inírida,Inirida,Colombia,CO,Guainía
+Ciudad Tula,Ciudad Tula,Mexico,MX,Tamaulipas
+Baabda,Baabda,Lebanon,LB,Mont-Liban
+Cuencamé de Ceniceros,Cuencame de Ceniceros,Mexico,MX,Durango
+Saynshand,Saynshand,Mongolia,MN,Dornogovĭ
+Corozal,Corozal,Belize,BZ,Corozal
+Aibonito,Aibonito,Puerto Rico,PR,Puerto Rico
+Altdorf,Altdorf,Switzerland,CH,Uri
+Luba,Luba,Equatorial Guinea,GQ,Bioko Sur
+Kirkwall,Kirkwall,United Kingdom,GB,Orkney Islands
+Evinayong,Evinayong,Equatorial Guinea,GQ,Centro Sur
+Sabana Seca,Sabana Seca,Puerto Rico,PR,Puerto Rico
+Uliastay,Uliastay,Mongolia,MN,Dzavhan
+San Lorenzo,San Lorenzo,Puerto Rico,PR,Puerto Rico
+Sen Monorom,Sen Monorom,Cambodia,KH,Mondolkiri
+Port Maria,Port Maria,Jamaica,JM,Saint Mary
+San Juan Bautista,San Juan Bautista,Paraguay,PY,Misiones
+Falmouth,Falmouth,Jamaica,JM,Trelawny
+Punta Gorda,Punta Gorda,Belize,BZ,Toledo
+Luquillo,Luquillo,Puerto Rico,PR,Puerto Rico
+Gurabo,Gurabo,Puerto Rico,PR,Puerto Rico
+Castillos,Castillos,Uruguay,UY,Rocha
+Stans,Stans,Switzerland,CH,Nidwalden
+Juncos,Juncos,Puerto Rico,PR,Puerto Rico
+Sorø,Soro,Denmark,DK,Sjælland
+Las Piedras,Las Piedras,Puerto Rico,PR,Puerto Rico
+Lascano,Lascano,Uruguay,UY,Rocha
+San Isidro,San Isidro,Puerto Rico,PR,Puerto Rico
+Yabucoa,Yabucoa,Puerto Rico,PR,Puerto Rico
+Farim,Farim,Guinea-Bissau,GW,Oio
+Magugpo Poblacion,Magugpo Poblacion,Philippines,PH,Davao del Norte
+Lerwick,Lerwick,United Kingdom,GB,Shetland Islands
+Mongomo,Mongomo,Equatorial Guinea,GQ,Wele-Nzas
+San Carlos,San Carlos,Philippines,PH,Negros Occidental
+Ban Houayxay,Ban Houayxay,Laos,LA,Bokèo
+Ghanzi,Ghanzi,Botswana,BW,Ghanzi
+Lucea,Lucea,Jamaica,JM,Hanover
+Diekirch,Diekirch,Luxembourg,LU,Diekirch
+Gizo,Gizo,Solomon Islands,SB,Western
+Iqaluit,Iqaluit,Canada,CA,Nunavut
+Puerto Real,Puerto Real,Puerto Rico,PR,Puerto Rico
+Santa Isabel,Santa Isabel,Puerto Rico,PR,Puerto Rico
+Puerto Baquerizo Moreno,Puerto Baquerizo Moreno,Ecuador,EC,Galápagos
+Phôngsali,Phongsali,Laos,LA,Phôngsali
+Campanilla,Campanilla,Puerto Rico,PR,Puerto Rico
+Arroyo,Arroyo,Puerto Rico,PR,Puerto Rico
+Monaghan,Monaghan,Ireland,IE,Monaghan
+Mitú,Mitu,Colombia,CO,Vaupés
+Meadow Lake,Meadow Lake,Canada,CA,Saskatchewan
+Lorengau,Lorengau,Papua New Guinea,PG,Manus
+Ceiba,Ceiba,Puerto Rico,PR,Puerto Rico
+Glarus,Glarus,Switzerland,CH,Glarus
+Appenzell,Appenzell,Switzerland,CH,Appenzell Innerrhoden
+Kerema,Kerema,Papua New Guinea,PG,Gulf
+Añasco,Anasco,Puerto Rico,PR,Puerto Rico
+Salavan,Salavan,Laos,LA,Salavan
+Caazapá,Caazapa,Paraguay,PY,Caazapá
+Peñuelas,Penuelas,Puerto Rico,PR,Puerto Rico
+Vadsø,Vadso,Norway,NO,Finnmark
+Salinas,Salinas,Puerto Rico,PR,Puerto Rico
+Santa Bárbara,Santa Barbara,Puerto Rico,PR,Puerto Rico
+Wangdue Phodrang,Wangdue Phodrang,Bhutan,BT,Wangdue Phodrang
+Punakha,Punakha,Bhutan,BT,Punakha
+Ros Comáin,Ros Comain,Ireland,IE,Roscommon
+Opuwo,Opuwo,Namibia,NA,Kunene
+Attapu,Attapu,Laos,LA,Attapu
+Black River,Black River,Jamaica,JM,Saint Elizabeth
+Grevenmacher,Grevenmacher,Luxembourg,LU,Grevenmacher
+Wabag,Wabag,Papua New Guinea,PG,Enga
+Esperanza,Esperanza,Mexico,MX,Sonora
+Louang Namtha,Louang Namtha,Laos,LA,Louangnamtha
+Mandalgovĭ,Mandalgovi,Mongolia,MN,Dundgovĭ
+Mabaruma,Mabaruma,Guyana,GY,Barima-Waini
+Fuerte Olimpo,Fuerte Olimpo,Paraguay,PY,Alto Paraguay
+Lata,Lata,Solomon Islands,SB,Temotu
+Lethem,Lethem,Guyana,GY,Upper Takutu-Upper Essequibo
+Waitangi,Waitangi,New Zealand,NZ,Chatham Islands
+Gingoog,Gingoog,Philippines,PH,Misamis Oriental
+Antipolo,Antipolo,Philippines,PH,Rizal
+Navotas,Navotas,Philippines,PH,Navotas
+Mandaluyong City,Mandaluyong City,Philippines,PH,Mandaluyong
+Mandaue City,Mandaue City,Philippines,PH,Mandaue
+Pasig City,Pasig City,Philippines,PH,Pasig
+Un’goofaaru,Un'goofaaru,Maldives,MV,
+Banqiao,Banqiao,Taiwan,TW,New Taipei
+Caloocan City,Caloocan City,Philippines,PH,Caloocan
+San Juan,San Juan,Philippines,PH,San Juan
+Valenzuela,Valenzuela,Philippines,PH,Valenzuela
+City of Parañaque,City of Paranaque,Philippines,PH,Parañaque
+Lucena,Lucena,Philippines,PH,Lucena
+Masbate,Masbate,Philippines,PH,Masbate
+Hackney,Hackney,United Kingdom,GB,Hackney
+Tandag,Tandag,Philippines,PH,Surigao del Sur
+Camden Town,Camden Town,United Kingdom,GB,Camden
+Islington,Islington,United Kingdom,GB,Islington
+Kensington,Kensington,United Kingdom,GB,Kensington and Chelsea
+Malabon,Malabon,Philippines,PH,Malabon
+Naifaru,Naifaru,Maldives,MV,
+Hammersmith,Hammersmith,United Kingdom,GB,Hammersmith and Fulham
+East Ham,East Ham,United Kingdom,GB,Newham
+Oroquieta,Oroquieta,Philippines,PH,Misamis Occidental
+Camberwell,Camberwell,United Kingdom,GB,Southwark
+Walthamstow,Walthamstow,United Kingdom,GB,Waltham Forest
+Đà Nẵng,Da Nang,Vietnam,VN,Đà Nẵng
+Catarman,Catarman,Philippines,PH,Northern Samar
+City of Westminster,City of Westminster,United Kingdom,GB,Westminster
+Lambeth,Lambeth,United Kingdom,GB,Lambeth
+Catford,Catford,United Kingdom,GB,Lewisham
+Hove,Hove,United Kingdom,GB,Brighton and Hove
+La Trinidad,La Trinidad,Philippines,PH,Benguet
+Marawi City,Marawi City,Philippines,PH,Lanao del Sur
+Taguig City,Taguig City,Philippines,PH,Taguig
+Northampton,Northampton,United Kingdom,GB,Northamptonshire
+Sliema,Sliema,Malta,MT,Sliema
+Lapu-Lapu City,Lapu-Lapu City,Philippines,PH,Lapu-Lapu
+Ealing,Ealing,United Kingdom,GB,Ealing
+Poplar,Poplar,United Kingdom,GB,Tower Hamlets
+Balanga,Balanga,Philippines,PH,Bataan
+Santiago,Santiago,Philippines,PH,Santiago
+Dumaguete City,Dumaguete City,Philippines,PH,Negros Oriental
+Marikina City,Marikina City,Philippines,PH,Marikina
+Santo Domingo Este,Santo Domingo Este,Dominican Republic,DO,Ozama
+Sorsogon,Sorsogon,Philippines,PH,Sorsogon
+Kalibo,Kalibo,Philippines,PH,Aklan
+Ilford,Ilford,United Kingdom,GB,Redbridge
+Wandsworth,Wandsworth,United Kingdom,GB,Wandsworth
+Kidapawan,Kidapawan,Philippines,PH,Cotabato
+Fgura,Fgura,Malta,MT,Fgura
+Birkirkara,Birkirkara,Malta,MT,Birkirkara
+Wood Green,Wood Green,United Kingdom,GB,Haringey
+Ħamrun,Hamrun,Malta,MT,Ħamrun
+Enfield,Enfield,United Kingdom,GB,Enfield
+San Jose,San Jose,Philippines,PH,Antique
+Darlington,Darlington,United Kingdom,GB,Darlington
+Daet,Daet,Philippines,PH,Camarines Norte
+Virac,Virac,Philippines,PH,Catanduanes
+Senglea,Senglea,Malta,MT,Isla
+Mahibadhoo,Mahibadhoo,Maldives,MV,
+South Shields,South Shields,United Kingdom,GB,South Tyneside
+Rochester,Rochester,United Kingdom,GB,Medway
+Eydhafushi,Eydhafushi,Maldives,MV,
+Bắc Ninh,Bac Ninh,Vietnam,VN,Bắc Ninh
+Maidstone,Maidstone,United Kingdom,GB,Kent
+Bayombong,Bayombong,Philippines,PH,Nueva Vizcaya
+Tarxien,Tarxien,Malta,MT,Tarxien
+Jolo,Jolo,Philippines,PH,Sulu
+Bongao,Bongao,Philippines,PH,Tawi-Tawi
+Piran,Piran,Slovenia,SI,Piran
+Morden,Morden,United Kingdom,GB,Merton
+Barnsley,Barnsley,United Kingdom,GB,Barnsley
+Floriana,Floriana,Malta,MT,Floriana
+Grays,Grays,United Kingdom,GB,Thurrock
+Imsida,Imsida,Malta,MT,Imsida
+Wembley,Wembley,United Kingdom,GB,Brent
+Weston-super-Mare,Weston-super-Mare,United Kingdom,GB,North Somerset
+Santa Venera,Santa Venera,Malta,MT,Santa Venera
+Saitama,Saitama,Japan,JP,Saitama
+Ashton-under-Lyne,Ashton-under-Lyne,United Kingdom,GB,Tameside
+Pietà,Pieta,Malta,MT,Pietà
+Ta’ Xbiex,Ta' Xbiex,Malta,MT,Ta’ Xbiex
+Newport,Newport,United Kingdom,GB,Isle of Wight
+Croydon,Croydon,United Kingdom,GB,Croydon
+Barri,Barri,United Kingdom,GB,Vale of Glamorgan
+Stretford,Stretford,United Kingdom,GB,Trafford
+Kingston upon Thames,Kingston upon Thames,United Kingdom,GB,Kingston upon Thames
+Hendon,Hendon,United Kingdom,GB,Barnet
+Sutton,Sutton,United Kingdom,GB,Sutton
+Doncaster,Doncaster,United Kingdom,GB,Doncaster
+Romford,Romford,United Kingdom,GB,Havering
+Gżira,Gzira,Malta,MT,Gżira
+Calapan,Calapan,Philippines,PH,Oriental Mindoro
+South Bank,South Bank,United Kingdom,GB,Redcar and Cleveland
+Tagum,Tagum,Philippines,PH,Davao del Norte
+Muntinlupa City,Muntinlupa City,Philippines,PH,Muntinlupa
+Worcester,Worcester,United Kingdom,GB,Worcestershire
+Catbalogan,Catbalogan,Philippines,PH,Samar
+Stockport,Stockport,United Kingdom,GB,Stockport
+Paisley,Paisley,United Kingdom,GB,Renfrewshire
+Uppsala,Uppsala,Sweden,SE,Uppsala
+Uxbridge,Uxbridge,United Kingdom,GB,Hillingdon
+Shrewsbury,Shrewsbury,United Kingdom,GB,Shropshire
+Digos,Digos,Philippines,PH,Davao del Sur
+Lincoln,Lincoln,United Kingdom,GB,Lincolnshire
+Béni Mellal,Beni Mellal,Morocco,MA,Béni Mellal-Khénifra
+Hưng Yên,Hung Yen,Vietnam,VN,Hưng Yên
+Wallasey,Wallasey,United Kingdom,GB,Wirral
+Oldham,Oldham,United Kingdom,GB,Oldham
+Twickenham,Twickenham,United Kingdom,GB,Richmond upon Thames
+Preston,Preston,United Kingdom,GB,Lancashire
+Harrow,Harrow,United Kingdom,GB,Harrow
+Rotherham,Rotherham,United Kingdom,GB,Rotherham
+Dorchester,Dorchester,United Kingdom,GB,Dorset
+San Ġwann,San Gwann,Malta,MT,San Ġwann
+Newport,Newport,United Kingdom,GB,Newport
+Port Talbot,Port Talbot,United Kingdom,GB,Neath Port Talbot
+Derby,Derby,United Kingdom,GB,Derby
+Makati City,Makati City,Philippines,PH,Makati
+Isulan,Isulan,Philippines,PH,Sultan Kudarat
+Hounslow,Hounslow,United Kingdom,GB,Hounslow
+Pont-y-pŵl,Pont-y-pwl,United Kingdom,GB,Torfaen
+Forfar,Forfar,United Kingdom,GB,Angus
+Trinidad,Trinidad,Uruguay,UY,Flores
+Trece Martires City,Trece Martires City,Philippines,PH,Cavite
+Boac,Boac,Philippines,PH,Marinduque
+Janakpur,Janakpur,Nepal,NP,
+San Ġiljan,San Giljan,Malta,MT,San Ġiljan
+Tubod,Tubod,Philippines,PH,Lanao del Norte
+Mamburao,Mamburao,Philippines,PH,Occidental Mindoro
+Widnes,Widnes,United Kingdom,GB,Halton
+Taunton,Taunton,United Kingdom,GB,Somerset
+Dunleary,Dunleary,Ireland,IE,Dún Laoghaire-Rathdown
+Dudley,Dudley,United Kingdom,GB,Dudley
+Nabunturan,Nabunturan,Philippines,PH,Compostela Valley
+Wigan,Wigan,United Kingdom,GB,Wigan
+Malita,Malita,Philippines,PH,Davao Occidental
+Hereford,Hereford,United Kingdom,GB,Herefordshire
+Maasin,Maasin,Philippines,PH,Southern Leyte
+Glenrothes,Glenrothes,United Kingdom,GB,Fife
+Rochdale,Rochdale,United Kingdom,GB,Rochdale
+Vittoriosa,Vittoriosa,Malta,MT,Birgu
+Chiba,Chiba,Japan,JP,Chiba
+Aylesbury,Aylesbury,United Kingdom,GB,Buckinghamshire
+Balzan,Balzan,Malta,MT,Balzan
+Wokingham,Wokingham,United Kingdom,GB,Wokingham
+Thinadhoo,Thinadhoo,Maldives,MV,
+Truro,Truro,United Kingdom,GB,Cornwall
+Funadhoo,Funadhoo,Maldives,MV,
+Bangued,Bangued,Philippines,PH,Abra
+Thornbury,Thornbury,United Kingdom,GB,South Gloucestershire
+Bracknell,Bracknell,United Kingdom,GB,Bracknell Forest
+Trowbridge,Trowbridge,United Kingdom,GB,Wiltshire
+Morpeth,Morpeth,United Kingdom,GB,Northumberland
+Milton Keynes,Milton Keynes,United Kingdom,GB,Milton Keynes
+Caerfyrddin,Caerfyrddin,United Kingdom,GB,Carmarthenshire
+Mambajao,Mambajao,Philippines,PH,Camiguin
+Gloucester,Gloucester,United Kingdom,GB,Gloucestershire
+Newbury,Newbury,United Kingdom,GB,West Berkshire
+Qormi,Qormi,Malta,MT,Qormi
+Dalkeith,Dalkeith,United Kingdom,GB,Midlothian
+Kulhudhuffushi,Kulhudhuffushi,Maldives,MV,
+Naval,Naval,Philippines,PH,Biliran
+Bangor,Bangor,United Kingdom,GB,Ards and North Down
+Scunthorpe,Scunthorpe,United Kingdom,GB,North Lincolnshire
+Chelmsford,Chelmsford,United Kingdom,GB,Essex
+Kolonia,Kolonia,Micronesia,FM,FSM
+Motherwell,Motherwell,United Kingdom,GB,North Lanarkshire
+Dipolog,Dipolog,Philippines,PH,Zamboanga del Norte
+Kampong Thom,Kampong Thom,Cambodia,KH,Kampong Thom
+Dhihdhoo,Dhihdhoo,Maldives,MV,
+Mosta,Mosta,Malta,MT,Mosta
+Hartlepool,Hartlepool,United Kingdom,GB,Hartlepool
+Kudahuvadhoo,Kudahuvadhoo,Maldives,MV,
+San Fernando,San Fernando,Philippines,PH,La Union
+Warrington,Warrington,United Kingdom,GB,Warrington
+Merthyr Tudful,Merthyr Tudful,United Kingdom,GB,Merthyr Tydfil
+Rasdhoo,Rasdhoo,Maldives,MV,
+Salford,Salford,United Kingdom,GB,Salford
+Hertford,Hertford,United Kingdom,GB,Hertfordshire
+Koper,Koper,Slovenia,SI,Koper
+Żabbar,Zabbar,Malta,MT,Żabbar
+Caernarfon,Caernarfon,United Kingdom,GB,Gwynedd
+Walsall,Walsall,United Kingdom,GB,Walsall
+Tallaght,Tallaght,Ireland,IE,South Dublin
+Swieqi,Swieqi,Malta,MT,Swieqi
+Ballymena,Ballymena,United Kingdom,GB,Mid and East Antrim
+Škofja Loka,Skofja Loka,Slovenia,SI,Škofja Loka
+Hwlffordd,Hwlffordd,United Kingdom,GB,Pembrokeshire
+Iba,Iba,Philippines,PH,Zambales
+Wrecsam,Wrecsam,United Kingdom,GB,Wrexham
+Magherafelt,Magherafelt,United Kingdom,GB,Mid Ulster
+Ta Khmau,Ta Khmau,Cambodia,KH,Kandal
+Malolos,Malolos,Philippines,PH,Bulacan
+Domžale,Domzale,Slovenia,SI,Domžale
+Belfast,Belfast,United Kingdom,GB,Belfast
+Lingayen,Lingayen,Philippines,PH,Pangasinan
+Lisburn,Lisburn,United Kingdom,GB,Lisburn and Castlereagh
+Banlung,Banlung,Cambodia,KH,Ratanakiri
+Phủ Lý,Phu Ly,Vietnam,VN,Hà Nam
+Wicklow,Wicklow,Ireland,IE,Wicklow
+Kalkara,Kalkara,Malta,MT,Kalkara
+Cospicua,Cospicua,Malta,MT,Bormla
+Romblon,Romblon,Philippines,PH,Romblon
+Ravne na Koroškem,Ravne na Koroskem,Slovenia,SI,Ravne na Koroškem
+Thulusdhoo,Thulusdhoo,Maldives,MV,
+Clonmel,Clonmel,Ireland,IE,Tipperary
+Baalbek,Baalbek,Lebanon,LB,Baalbek-Hermel
+Wexford,Wexford,Ireland,IE,Wexford
+Marsaskala,Marsaskala,Malta,MT,Marsaskala
+Viligili,Viligili,Maldives,MV,
+Alabel,Alabel,Philippines,PH,Sarangani
+Esch-sur-Alzette,Esch-sur-Alzette,Luxembourg,LU,Esch-sur-Alzette
+Lija,Lija,Malta,MT,Lija
+Victoria,Victoria,Malta,MT,Rabat (Ghawdex)
+Baler,Baler,Philippines,PH,Aurora
+Żejtun,Zejtun,Malta,MT,Żejtun
+Ennis,Ennis,Ireland,IE,Clare
+Oshakati,Oshakati,Namibia,NA,Oshana
+Naas,Naas,Ireland,IE,Kildare
+Siquijor,Siquijor,Philippines,PH,Siquijor
+Fontana,Fontana,Malta,MT,Fontana
+Butwāl,Butwal,Nepal,NP,
+Paola,Paola,Malta,MT,Paola
+Sihanoukville,Sihanoukville,Cambodia,KH,Sihanoukville
+Xgħajra,Xghajra,Malta,MT,Xgħajra
+Toruń,Torun,Poland,PL,Kujawsko-Pomorskie
+Hithadhoo,Hithadhoo,Maldives,MV,
+Iklin,Iklin,Malta,MT,Iklin
+Solothurn,Solothurn,Switzerland,CH,Solothurn
+Vĩnh Yên,Vinh Yen,Vietnam,VN,Vĩnh Phúc
+Borongan,Borongan,Philippines,PH,Eastern Samar
+Veymandoo,Veymandoo,Maldives,MV,
+Aarau,Aarau,Switzerland,CH,Aargau
+Swords,Swords,Ireland,IE,Fingal
+Auki,Auki,Solomon Islands,SB,Malaita
+Kirkop,Kirkop,Malta,MT,Kirkop
+Felidhoo,Felidhoo,Maldives,MV,
+Trim,Trim,Ireland,IE,Meath
+Pembroke,Pembroke,Malta,MT,Pembroke
+Gorzów Wielkopolski,Gorzow Wielkopolski,Poland,PL,Lubuskie
+Nilandhoo,Nilandhoo,Maldives,MV,
+Richmond,Richmond,New Zealand,NZ,Tasman
+Kirakira,Kirakira,Solomon Islands,SB,Makira and Ulawa
+Carrick on Shannon,Carrick on Shannon,Ireland,IE,Leitrim
+Attard,Attard,Malta,MT,Attard
+Rapla,Rapla,Estonia,EE,Raplamaa
+Marsa,Marsa,Malta,MT,Marsa
+Foammulah,Foammulah,Maldives,MV,
+Tullamore,Tullamore,Ireland,IE,Offaly
+City of Isabela,City of Isabela,Philippines,PH,Basilan
+Valmiera,Valmiera,Latvia,LV,Valmiera
+Fomboni,Fomboni,Comoros,KM,Mohéli
+San Fernando,San Fernando,Philippines,PH,Pampanga
+Kurunegala,Kurunegala,Sri Lanka,LK,North Western
+Lagawe,Lagawe,Philippines,PH,Ifugao
+‘Ajmān,`Ajman,United Arab Emirates,AE,‘Ajmān
+Għargħur,Gharghur,Malta,MT,Għargħur
+Rakvere,Rakvere,Estonia,EE,Lääne-Virumaa
+Alytus,Alytus,Lithuania,LT,Alytaus Miestas
+Żebbuġ,Zebbug,Malta,MT,Żebbuġ
+Carlow,Carlow,Ireland,IE,Carlow
+Gudja,Gudja,Malta,MT,Gudja
+Vreed-en-Hoop,Vreed-en-Hoop,Guyana,GY,Essequibo Islands-West Demerara
+Escaldes-Engordany,Escaldes-Engordany,Andorra,AD,Escaldes-Engordany
+Jõgeva,Jogeva,Estonia,EE,Jõgevamaa
+Nara,Nara,Japan,JP,Nara
+Malaybalay,Malaybalay,Philippines,PH,Bukidnon
+Imqabba,Imqabba,Malta,MT,Imqabba
+Tam Kỳ,Tam Ky,Vietnam,VN,Quảng Nam
+Saint Paul’s Bay,Saint Paul's Bay,Malta,MT,San Pawl il-Baħar
+Mullingar,Mullingar,Ireland,IE,Westmeath
+Bà Rịa,Ba Ria,Vietnam,VN,Bà Rịa-Vũng Tàu
+Santa Cruz de la Sierra,Santa Cruz de la Sierra,Bolivia,BO,Santa Cruz
+Marsaxlokk,Marsaxlokk,Malta,MT,Marsaxlokk
+Outapi,Outapi,Namibia,NA,Omusati
+Kuressaare,Kuressaare,Estonia,EE,Saaremaa
+Taro,Taro,Solomon Islands,SB,Choiseul
+Kozáni,Kozani,Greece,GR,Dytikí Makedonía
+Għaxaq,Ghaxaq,Malta,MT,Għaxaq
+Birżebbuġa,Birzebbuga,Malta,MT,Birżebbuġa
+Żurrieq,Zurrieq,Malta,MT,Żurrieq
+Naxxar,Naxxar,Malta,MT,Naxxar
+Sopište,Sopiste,Macedonia,MK,Sopište
+Mahikeng,Mahikeng,South Africa,ZA,North West
+Jēkabpils,Jekabpils,Latvia,LV,Jēkabpils Novads
+Longford,Longford,Ireland,IE,Longford
+Muli,Muli,Maldives,MV,
+Schaffhausen,Schaffhausen,Switzerland,CH,Schaffhausen
+Ipil,Ipil,Philippines,PH,Zamboanga Sibugay
+Areguá,Aregua,Paraguay,PY,Central
+Serravalle,Serravalle,San Marino,SM,Serravalle
+Võru,Voru,Estonia,EE,Võrumaa
+Halba,Halba,Lebanon,LB,Aakkâr
+Castlebar,Castlebar,Ireland,IE,Mayo
+Põlva,Polva,Estonia,EE,Põlvamaa
+Nenagh,Nenagh,Ireland,IE,Tipperary
+Palayan City,Palayan City,Philippines,PH,Nueva Ecija
+Ilagan,Ilagan,Philippines,PH,Isabela
+Dunaújváros,Dunaujvaros,Hungary,HU,Dunaújváros
+Safi,Safi,Malta,MT,Safi
+Labuan,Labuan,Malaysia,MY,Labuan
+Imtarfa,Imtarfa,Malta,MT,Imtarfa
+Kerċem,Kercem,Malta,MT,Kerċem
+An Cabhán,An Cabhan,Ireland,IE,Cavan
+Mariehamn,Mariehamn,Finland,FI,Åland
+Fonadhoo,Fonadhoo,Maldives,MV,
+Manadhoo,Manadhoo,Maldives,MV,
+Stratford,Stratford,New Zealand,NZ,Taranaki
+Điện Biên Phủ,Dien Bien Phu,Vietnam,VN,Điện Biên
+Luqa,Luqa,Malta,MT,Luqa
+Basse-Terre,Basse-Terre,Guadeloupe,GP,
+Birendranagar,Birendranagar,Nepal,NP,
+Basco,Basco,Philippines,PH,Batanes
+Qrendi,Qrendi,Malta,MT,Qrendi
+Karlovy Vary,Karlovy Vary,Czechia,CZ,Karlovarský Kraj
+Darhan,Darhan,Mongolia,MN,Darhan-Uul
+Paide,Paide,Estonia,EE,Järvamaa
+Varaždin,Varazdin,Croatia,HR,Varaždinska Županija
+Shariff Aguak,Shariff Aguak,Philippines,PH,Maguindanao
+Nitra,Nitra,Slovakia,SK,Nitriansky
+Port Laoise,Port Laoise,Ireland,IE,Laois
+Mādabā,Madaba,Jordan,JO,Ma’dabā
+Cabarroguis,Cabarroguis,Philippines,PH,Quirino
+Tulagi,Tulagi,Solomon Islands,SB,Central
+Jordan,Jordan,Philippines,PH,Guimaras
+Trenčín,Trencin,Slovakia,SK,Trenčiansky
+Yambol,Yambol,Bulgaria,BG,Yambol
+Jūrmala,Jurmala,Latvia,LV,Jūrmala
+Borgo Maggiore,Borgo Maggiore,San Marino,SM,Borgo Maggiore
+Jarash,Jarash,Jordan,JO,Jarash
+Nangan,Nangan,Taiwan,TW,Lienchiang
+Kärdla,Kardla,Estonia,EE,Hiiumaa
+Xewkija,Xewkija,Malta,MT,Xewkija
+Selibe Phikwe,Selibe Phikwe,Botswana,BW,Selibe Phikwe
+Kičevo,Kicevo,Macedonia,MK,Kičevo
+Valga,Valga,Estonia,EE,Valgamaa
+Suong,Suong,Cambodia,KH,Tbong Khmum
+Għasri,Ghasri,Malta,MT,Għasri
+Đồng Xoài,Dong Xoai,Vietnam,VN,Bình Phước
+Hunedoara,Hunedoara,Romania,RO,Hunedoara
+Bontoc,Bontoc,Philippines,PH,Mountain
+Đà Lạt,Da Lat,Vietnam,VN,Lâm Đồng
+Dingli,Dingli,Malta,MT,Dingli
+Kabugao,Kabugao,Philippines,PH,Apayao
+Vị Thanh,Vi Thanh,Vietnam,VN,Hậu Giang
+Weno,Weno,Micronesia,FM,FSM
+Mauren,Mauren,Liechtenstein,LI,Mauren
+Jincheng,Jincheng,Taiwan,TW,Kinmen
+Saga,Saga,Japan,JP,Saga
+Mamushë,Mamushe,Kosovo,XK,Mamushë
+Kuala Belait,Kuala Belait,Brunei,BN,Belait
+Xagħra,Xaghra,Malta,MT,Xagħra
+Lai Châu,Lai Chau,Vietnam,VN,Lai Châu
+Imdina,Imdina,Malta,MT,Imdina
+Delémont,Delemont,Switzerland,CH,Jura
+Sankt Pölten,Sankt Polten,Austria,AT,Niederösterreich
+Nadur,Nadur,Malta,MT,Nadur
+Munxar,Munxar,Malta,MT,Munxar
+Domagnano,Domagnano,San Marino,SM,Domagnano
+Prosperidad,Prosperidad,Philippines,PH,Agusan del Sur
+Sannat,Sannat,Malta,MT,Sannat
+Puerto Francisco de Orellana,Puerto Francisco de Orellana,Ecuador,EC,Orellana
+Remich,Remich,Luxembourg,LU,Remich
+Buala,Buala,Solomon Islands,SB,Isabel
+Cabadbaran,Cabadbaran,Philippines,PH,Agusan del Norte
+Eschen,Eschen,Liechtenstein,LI,Eschen
+Colonia,Colonia,Micronesia,FM,FSM
+Novobërdë,Novoberde,Kosovo,XK,Novobërdë
+Graçanicë,Gracanice,Kosovo,XK,Graçanicë
+Schellenberg,Schellenberg,Liechtenstein,LI,Schellenberg
+Acquaviva,Acquaviva,San Marino,SM,Acquaviva
+Siġġiewi,Siggiewi,Malta,MT,Siġġiewi
+Kon Tum,Kon Tum,Vietnam,VN,Kon Tum
+Rabat,Rabat,Malta,MT,Rabat
+Aračinovo,Aracinovo,Macedonia,MK,Aračinovo
+Afega,Afega,Samoa,WS,Tuamasaga
+Mellieħa,Mellieha,Malta,MT,Mellieħa
+Trindade,Trindade,Sao Tome And Principe,ST,
+Sopron,Sopron,Hungary,HU,Sopron
+Santa Cruz,Santa Cruz,Philippines,PH,Laguna
+La Guaira,La Guaira,Venezuela,VE,Vargas
+Fiorentino,Fiorentino,San Marino,SM,Fiorentino
+Tønsberg,Tonsberg,Norway,NO,Vestfold
+Saint-Louis,Saint-Louis,Senegal,SN,Saint-Louis
+Dogbo,Dogbo,Benin,BJ,Couffo
+Čakovec,Cakovec,Croatia,HR,Međimurska Županija
+Lelystad,Lelystad,Netherlands,NL,Flevoland
+Ferizaj,Ferizaj,Kosovo,XK,Ferizaj
+Għajnsielem,Ghajnsielem,Malta,MT,Għajnsielem
+Lifford,Lifford,Ireland,IE,Donegal
+Koprivnica,Koprivnica,Croatia,HR,Koprivničko-Križevačka Županija
+Palé,Pale,Equatorial Guinea,GQ,Annobón
+Santo Domingo de los Colorados,Santo Domingo de los Colorados,Ecuador,EC,Santo Domingo de los Tsáchilas
+‘Ajlūn,`Ajlun,Jordan,JO,‘Ajlūn
+Qala,Qala,Malta,MT,Qala
+Prizren,Prizren,Kosovo,XK,Prizren
+Montegiardino,Montegiardino,San Marino,SM,Montegiardino
+Nagykanizsa,Nagykanizsa,Hungary,HU,Nagykanizsa
+Brvenica,Brvenica,Macedonia,MK,Brvenica
+Vukovar,Vukovar,Croatia,HR,Vukovarsko-Srijemska Županija
+Santa Luċija,Santa Lucija,Malta,MT,Santa Luċija
+Nelspruit,Nelspruit,South Africa,ZA,Mpumalanga
+Zugdidi,Zugdidi,Georgia,GE,Samegrelo-Zemo Svaneti
+Sakété,Sakete,Benin,BJ,Plateau
+Tivat,Tivat,Montenegro,ME,Tivat
+Ruggell,Ruggell,Liechtenstein,LI,Ruggell
+Gamprin,Gamprin,Liechtenstein,LI,Gamprin
+Capellen,Capellen,Luxembourg,LU,Capellen
+Mitrovicë,Mitrovice,Kosovo,XK,
+Samraong,Samraong,Cambodia,KH,Oddar Meanchey
+Wiltz,Wiltz,Luxembourg,LU,Wiltz
+Mati,Mati,Philippines,PH,Davao Oriental
+Tottori,Tottori,Japan,JP,Tottori
+Partesh,Partesh,Kosovo,XK,Partesh
+Żebbuġ,Zebbug,Malta,MT,Żebbuġ (Ghawdex)
+Schaan,Schaan,Liechtenstein,LI,Schaan
+Encamp,Encamp,Andorra,AD,Encamp
+Imġarr,Imgarr,Malta,MT,Imġarr
+Omuthiya,Omuthiya,Namibia,NA,Oshikoto
+Salaspils,Salaspils,Latvia,LV,Salaspils Novads
+Gllogovc,Gllogovc,Kosovo,XK,Gllogovc
+Rahovec,Rahovec,Kosovo,XK,Rahovec
+Leulumoega,Leulumoega,Samoa,WS,A‘ana
+Koronadal,Koronadal,Philippines,PH,South Cotabato
+Bogovinje,Bogovinje,Macedonia,MK,Bogovinje
+Balzers,Balzers,Liechtenstein,LI,Balzers
+Fushë Kosovë,Fushe Kosove,Kosovo,XK,Fushë Kosovë
+Obiliq,Obiliq,Kosovo,XK,Obiliq
+Shtime,Shtime,Kosovo,XK,Shtime
+Echternach,Echternach,Luxembourg,LU,Echternach
+Kumanovo,Kumanovo,Macedonia,MK,Kumanovo
+Vushtrri,Vushtrri,Kosovo,XK,Vushtrri
+Guadalupe,Guadalupe,Sao Tome And Principe,ST,
+Visaginas,Visaginas,Lithuania,LT,Visaginas
+Bjelovar,Bjelovar,Croatia,HR,Bjelovarsko-Bilogorska Županija
+Għarb,Gharb,Malta,MT,Għarb
+Chiesanuova,Chiesanuova,San Marino,SM,Chiesanuova
+Malishevë,Malisheve,Kosovo,XK,Malishevë
+Ulbroka,Ulbroka,Latvia,LV,Stopiņu Novads
+Kokopo,Kokopo,Papua New Guinea,PG,East New Britain
+Sejong,Sejong,South Korea,KR,KOR
+Ramotswa,Ramotswa,Botswana,BW,South East
+Mulifanua,Mulifanua,Samoa,WS,Aiga-i-le-Tai
+Vrapčište,Vrapciste,Macedonia,MK,Vrapčište
+Požega,Pozega,Croatia,HR,Požeško-Slavonska Županija
+Ilinden,Ilinden,Macedonia,MK,Ilinden
+Yamaguchi,Yamaguchi,Japan,JP,Yamaguchi
+Gia Nghĩa,Gia Nghia,Vietnam,VN,Đắk Nông
+Lipjan,Lipjan,Kosovo,XK,Lipjan
+Gostivar,Gostivar,Macedonia,MK,Gostivar
+La Massana,La Massana,Andorra,AD,La Massana
+Suharekë,Suhareke,Kosovo,XK,Suharekë
+Nueva Loja,Nueva Loja,Ecuador,EC,Sucumbíos
+Strumica,Strumica,Macedonia,MK,Strumica
+Tutong,Tutong,Brunei,BN,Tutong
+Viti,Viti,Kosovo,XK,Viti
+Kllokot,Kllokot,Kosovo,XK,Kllokot
+Gjakovë,Gjakove,Kosovo,XK,Gjakovë
+Vianden,Vianden,Luxembourg,LU,Vianden
+Tsirang,Tsirang,Bhutan,BT,Tsirang
+Pailin,Pailin,Cambodia,KH,Pailin
+Petrovec,Petrovec,Macedonia,MK,Petrovec
+Pejë,Peje,Kosovo,XK,Pejë
+Pazardzhik,Pazardzhik,Bulgaria,BG,Pazardzhik
+Triesen,Triesen,Liechtenstein,LI,Triesen
+Studeničani,Studenicani,Macedonia,MK,Studeničani
+Krong Kep,Krong Kep,Cambodia,KH,Kep
+Sant Julià de Lòria,Sant Julia de Loria,Andorra,AD,Sant Julià de Lòria
+Palanga,Palanga,Lithuania,LT,Palangos Miestas
+Faetano,Faetano,San Marino,SM,Faetano
+Santana,Santana,Sao Tome And Principe,ST,
+Mārupe,Marupe,Latvia,LV,Mārupes Novads
+San Lawrenz,San Lawrenz,Malta,MT,San Lawrenz
+Kaçanik,Kacanik,Kosovo,XK,Kaçanik
+Debar,Debar,Macedonia,MK,Debar
+Hani i Elezit,Hani i Elezit,Kosovo,XK,Hani i Elezit
+Mersch,Mersch,Luxembourg,LU,Mersch
+Budva,Budva,Montenegro,ME,Budva
+Hongseong,Hongseong,South Korea,KR,KOR
+Tearce,Tearce,Macedonia,MK,Tearce
+Tuzi,Tuzi,Montenegro,ME,
+Sarpsborg,Sarpsborg,Norway,NO,Østfold
+Anna Regina,Anna Regina,Guyana,GY,Pomeroon-Supenaam
+Muan,Muan,South Korea,KR,KOR
+Jegunovce,Jegunovce,Macedonia,MK,Jegunovce
+Želino,Zelino,Macedonia,MK,Želino
+Ohrid,Ohrid,Macedonia,MK,Ohrid
+Skenderaj,Skenderaj,Kosovo,XK,Skenderaj 
+Deçan,Decan,Kosovo,XK,Deçan
+Nkurenkuru,Nkurenkuru,Namibia,NA,Kavango West
+Podujevë,Podujeve,Kosovo,XK,Podujevë
+Klinë,Kline,Kosovo,XK,Klinë
+San José de las Lajas,San Jose de las Lajas,Cuba,CU,Mayabeque
+Struga,Struga,Macedonia,MK,Struga
+Saulkrasti,Saulkrasti,Latvia,LV,Saulkrastu Novads
+Phôn-Hông,Phon-Hong,Laos,LA,Viangchan
+Veles,Veles,Macedonia,MK,Veles
+Čaška,Caska,Macedonia,MK,Čaška
+Mutsamudu,Mutsamudu,Comoros,KM,Anjouan
+Morant Bay,Morant Bay,Jamaica,JM,Saint Thomas
+Kardzhali,Kardzhali,Bulgaria,BG,Kardzhali
+Mukdahan,Mukdahan,Thailand,TH,Mukdahan
+Ozurgeti,Ozurgeti,Georgia,GE,Guria
+Nong Bua Lamphu,Nong Bua Lamphu,Thailand,TH,Nong Bua Lamphu
+Herceg-Novi,Herceg-Novi,Montenegro,ME,Herceg Novi
+Virovitica,Virovitica,Croatia,HR,Virovitičko-Podravska Županija
+Eenhana,Eenhana,Namibia,NA,Ohangwena
+Jõhvi,Johvi,Estonia,EE,Ida-Virumaa
+Quinhámel,Quinhamel,Guinea-Bissau,GW,Biombo
+Lipkovo,Lipkovo,Macedonia,MK,Lipkovo
+Vidin,Vidin,Bulgaria,BG,Vidin
+Kočani,Kocani,Macedonia,MK,Kočani
+Obleševo,Oblesevo,Macedonia,MK,Češinovo-Obleševo
+Santa Elena,Santa Elena,Ecuador,EC,Santa Elena
+Cēsis,Cesis,Latvia,LV,Cēsu Novads
+San Jose,San Jose,Philippines,PH,Dinagat Islands
+Mongar,Mongar,Bhutan,BT,Mongar
+Godāwari̇̄,Godawari,Nepal,NP,
+Blagoevgrad,Blagoevgrad,Bulgaria,BG,Blagoevgrad
+Kurumul,Kurumul,Papua New Guinea,PG,Jiwaka
+Junik,Junik,Kosovo,XK,Junik
+Sisak,Sisak,Croatia,HR,Sisačko-Moslavačka Županija
+Gabrovo,Gabrovo,Bulgaria,BG,Gabrovo
+Haa,Haa,Bhutan,BT,Haa
+Krapina,Krapina,Croatia,HR,Krapinsko-Zagorska Županija
+Aizkraukle,Aizkraukle,Latvia,LV,Aizkraukles Novads
+Famagusta,Famagusta,Cyprus,CY,Ammóchostos
+Kyrenia,Kyrenia,Cyprus,CY,Kerýneia
+Amnat Charoen,Amnat Charoen,Thailand,TH,Amnat Charoen
+Bar,Bar,Montenegro,ME,Bar
+Tari,Tari,Papua New Guinea,PG,Hela
+Istog,Istog,Kosovo,XK,Istog
+Planken,Planken,Liechtenstein,LI,Planken
+Triesenberg,Triesenberg,Liechtenstein,LI,Triesenberg
+Lufilufi,Lufilufi,Samoa,WS,Atua
+Kotor,Kotor,Montenegro,ME,Kotor
+Carnikava,Carnikava,Latvia,LV,Carnikavas Novads
+Clervaux,Clervaux,Luxembourg,LU,Clervaux
+Redange-sur-Attert,Redange-sur-Attert,Luxembourg,LU,Redange
+Bosilovo,Bosilovo,Macedonia,MK,Bosilovo
+Vevčani,Vevcani,Macedonia,MK,Vevčani
+Hódmezővásárhely,Hodmezovasarhely,Hungary,HU,Hódmezővásárhely
+Štip,Stip,Macedonia,MK,Štip
+Kaffrine,Kaffrine,Senegal,SN,Kaffrine
+Ķekava,Kekava,Latvia,LV,Ķekavas Novads
+Ordino,Ordino,Andorra,AD,Ordino
+Targovishte,Targovishte,Bulgaria,BG,Targovishte
+Kamenicë,Kamenice,Kosovo,XK,Kamenicë
+Canillo,Canillo,Andorra,AD,Canillo
+Fort Wellington,Fort Wellington,Guyana,GY,Mahaica-Berbice
+Sa Kaeo,Sa Kaeo,Thailand,TH,Sa Kaeo
+Marijampolė,Marijampole,Lithuania,LT,Marijampolė
+Inčukalns,Incukalns,Latvia,LV,Inčukalna Novads
+Bogdanci,Bogdanci,Macedonia,MK,Bogdanci
+Phônsavan,Phonsavan,Laos,LA,Xiangkhouang
+Plasnica,Plasnica,Macedonia,MK,Plasnica
+Bueng Kan,Bueng Kan,Thailand,TH,Bueng Kan
+Pakxan,Pakxan,Laos,LA,Bolikhamxai
+Ikšķile,Ikskile,Latvia,LV,Ikšķiles Novads
+Samdrup Jongkhar,Samdrup Jongkhar,Bhutan,BT,Samdrup Jongkhar
+Dragash,Dragash,Kosovo,XK,Dragash
+Olaine,Olaine,Latvia,LV,Olaines Novads
+Sarpang,Sarpang,Bhutan,BT,Sarpang
+Mtskheta,Mtskheta,Georgia,GE,Mtskheta Mtianeti
+Trashigang,Trashigang,Bhutan,BT,Trashigang
+Ādaži,Adazi,Latvia,LV,Ādažu Novads
+Ozolnieki,Ozolnieki,Latvia,LV,Ozolnieku Novads
+Neves,Neves,Sao Tome And Principe,ST,
+Prilep,Prilep,Macedonia,MK,Prilep
+Ulcinj,Ulcinj,Montenegro,ME,Ulcinj
+Pemagatshel,Pemagatshel,Bhutan,BT,Pemagatshel
+Sofifi,Sofifi,Indonesia,ID,Maluku Utara
+Rustavi,Rustavi,Georgia,GE,Kvemo Kartli
+Gori,Gori,Georgia,GE,Shida Kartli
+Rožaje,Rozaje,Montenegro,ME,Rožaje
+Krivogaštani,Krivogastani,Macedonia,MK,Krivogaštani
+Safotulafai,Safotulafai,Samoa,WS,Fa‘asaleleaga
+Sédhiou,Sedhiou,Senegal,SN,Sédhiou
+Vasilevo,Vasilevo,Macedonia,MK,Vasilevo
+Zveçan,Zvecan,Kosovo,XK,Zveçan
+Telavi,Telavi,Georgia,GE,K’akheti
+Radoviš,Radovis,Macedonia,MK,Radoviš
+Tabuk,Tabuk,Philippines,PH,Kalinga
+Pazin,Pazin,Croatia,HR,Istarska Županija
+Savalou,Savalou,Benin,BJ,Collines
+Elektrėnai,Elektrenai,Lithuania,LT,Elektrénai
+Centar Župa,Centar Zupa,Macedonia,MK,Centar Župa
+Ranillug,Ranillug,Kosovo,XK,Ranillug
+Mamuju,Mamuju,Indonesia,ID,Sulawesi Barat
+Garkalne,Garkalne,Latvia,LV,Garkalnes Novads
+Santo António,Santo Antonio,Sao Tome And Principe,ST,Príncipe
+Zrnovci,Zrnovci,Macedonia,MK,Zrnovci
+Novo Selo,Novo Selo,Macedonia,MK,Novo Selo
+Gevgelija,Gevgelija,Macedonia,MK,Gevgelija
+Lielvārde,Lielvarde,Latvia,LV,Lielvārdes Novads
+Sigulda,Sigulda,Latvia,LV,Siguldas Novads
+Akhaltsikhe,Akhaltsikhe,Georgia,GE,Samtskhe-Javakheti
+Tsimasham,Tsimasham,Bhutan,BT,Chhukha
+Kruševo,Krusevo,Macedonia,MK,Kruševo
+Bijelo Polje,Bijelo Polje,Montenegro,ME,Bijelo Polje
+Probištip,Probistip,Macedonia,MK,Probištip
+Berane,Berane,Montenegro,ME,Berane
+Petnjica,Petnjica,Montenegro,ME,Petnjica
+Negotino,Negotino,Macedonia,MK,Negotino
+Jonava,Jonava,Lithuania,LT,Jonava
+Matam,Matam,Senegal,SN,Matam
+Dalandzadgad,Dalandzadgad,Mongolia,MN,Ömnögovĭ
+Piņķi,Pinki,Latvia,LV,Babītes Novads
+Vinica,Vinica,Macedonia,MK,Vinica
+Čučer-Sandevo,Cucer-Sandevo,Macedonia,MK,Čučer-Sandevo
+Druskininkai,Druskininkai,Lithuania,LT,Druskininkai
+Mažeikiai,Mazeikiai,Lithuania,LT,Mažeikiai
+Seinäjoki,Seinajoki,Finland,FI,Etelä-Pohjanmaa
+Smolyan,Smolyan,Bulgaria,BG,Smolyan
+Samamea,Samamea,Samoa,WS,Va‘a-o-Fonoti
+Kavadarci,Kavadarci,Macedonia,MK,Kavadarci
+Xai,Xai,Laos,LA,Oudômxai
+Kretinga,Kretinga,Lithuania,LT,Kretinga
+Kriva Palanka,Kriva Palanka,Macedonia,MK,Kriva Palanka
+Danilovgrad,Danilovgrad,Montenegro,ME,Danilovgrad
+Delčevo,Delcevo,Macedonia,MK,Delčevo
+Ogre,Ogre,Latvia,LV,Ogres Novads
+Buka,Buka,Papua New Guinea,PG,Bougainville
+Makedonska Kamenica,Makedonska Kamenica,Macedonia,MK,Makedonska Kamenica
+Satupa‘itea,Satupa`itea,Samoa,WS,Satupa‘itea
+Samtse,Samtse,Bhutan,BT,Samtse
+Skrīveri,Skriveri,Latvia,LV,Skrīveru Novads
+Sveti Nikole,Sveti Nikole,Macedonia,MK,Sveti Nikole
+Asau,Asau,Samoa,WS,Vaisigano
+Trakai,Trakai,Lithuania,LT,Trakai
+Gjilan,Gjilan,Kosovo,XK,Gjilan
+Birštonas,Birstonas,Lithuania,LT,Birštono
+Nikšić,Niksic,Montenegro,ME,Nikšić
+Valandovo,Valandovo,Macedonia,MK,Valandovo
+Bauska,Bauska,Latvia,LV,Bauskas Novads
+Utena,Utena,Lithuania,LT,Utena
+Tauragė,Taurage,Lithuania,LT,Tauragė
+Plungė,Plunge,Lithuania,LT,Plungė
+Silistra,Silistra,Bulgaria,BG,Silistra
+Dolneni,Dolneni,Macedonia,MK,Dolneni
+Safotu,Safotu,Samoa,WS,Gagaifomauga
+Šilutė,Silute,Lithuania,LT,Šilutė
+Vailoa,Vailoa,Samoa,WS,Palauli
+Baldone,Baldone,Latvia,LV,Baldones Novads
+Preiļi,Preili,Latvia,LV,Preiļu Novads
+Vilkaviškis,Vilkaviskis,Lithuania,LT,Vilkaviškis
+Iecava,Iecava,Latvia,LV,Iecavas Novads
+Rosoman,Rosoman,Macedonia,MK,Rosoman
+Priekuļi,Priekuli,Latvia,LV,Priekuļu Novads
+Plav,Plav,Montenegro,ME,Plav
+Gusinje,Gusinje,Montenegro,ME,Gusinje
+Shtërpcë,Shterpce,Kosovo,XK,Shtërpcë
+Telšiai,Telsiai,Lithuania,LT,Telšiai
+Kėdainiai,Kedainiai,Lithuania,LT,Kėdainiai
+Tofol,Tofol,Micronesia,FM,FSM
+Zelenikovo,Zelenikovo,Macedonia,MK,Zelenikovo
+Resen,Resen,Macedonia,MK,Resen
+Kaišiadorys,Kaisiadorys,Lithuania,LT,Kaišiadorys
+Tukums,Tukums,Latvia,LV,Tukuma Novads
+Dobele,Dobele,Latvia,LV,Dobeles Novads
+Nida,Nida,Lithuania,LT,Neringa
+Prienai,Prienai,Lithuania,LT,Prienai
+Kratovo,Kratovo,Macedonia,MK,Kratovo
+Ukmergė,Ukmerge,Lithuania,LT,Ukmergė
+Akmenė,Akmene,Lithuania,LT,Akmenė
+Kalvarija,Kalvarija,Lithuania,LT,Kalvarijos
+Ebebiyín,Ebebiyin,Equatorial Guinea,GQ,Kié-Ntem
+Buba,Buba,Guinea-Bissau,GW,Quinara
+Mogila,Mogila,Macedonia,MK,Mogila
+Pehčevo,Pehcevo,Macedonia,MK,Pehčevo
+Radviliškis,Radviliskis,Lithuania,LT,Radviliškis
+Leposaviq,Leposaviq,Kosovo,XK,Leposaviq
+Bangar,Bangar,Brunei,BN,Temburong
+Viļāni,Vilani,Latvia,LV,Viļānu Novads
+Pili,Pili,Philippines,PH,Camarines Sur
+Līgatne,Ligatne,Latvia,LV,Līgatnes Novads
+Arta,Arta,Djibouti,DJ,Arta
+Berovo,Berovo,Macedonia,MK,Berovo
+Kazlų Rūda,Kazlu Ruda,Lithuania,LT,Kazlų Rūdos
+Raseiniai,Raseiniai,Lithuania,LT,Raseiniai
+Mojkovac,Mojkovac,Montenegro,ME,Mojkovac
+Roja,Roja,Latvia,LV,Rojas Novads
+Līvāni,Livani,Latvia,LV,Līvānu Novads
+Ropaži,Ropazi,Latvia,LV,Ropažu Novads
+São João dos Angolares,Sao Joao dos Angolares,Sao Tome And Principe,ST,
+Šilalė,Silale,Lithuania,LT,Šilalė
+Šakiai,Sakiai,Lithuania,LT,Šakiai
+Šalčininkai,Salcininkai,Lithuania,LT,Šalčininkai
+Pljevlja,Pljevlja,Montenegro,ME,Pljevlja
+Grobiņa,Grobina,Latvia,LV,Grobiņas Novads
+Smārde,Smarde,Latvia,LV,Engures Novads
+Joniškis,Joniskis,Lithuania,LT,Joniškis
+Pasvalys,Pasvalys,Lithuania,LT,Pasvalys
+Kajaani,Kajaani,Finland,FI,Kainuu
+Zubin Potok,Zubin Potok,Kosovo,XK,Zubin Potok
+Skuodas,Skuodas,Lithuania,LT,Skuodas
+Talsi,Talsi,Latvia,LV,Talsu Novads
+Xékong,Xekong,Laos,LA,Xékong
+Trashi Yangtse,Trashi Yangtse,Bhutan,BT,Trashi Yangtse
+Širvintos,Sirvintos,Lithuania,LT,Širvintos
+Krāslava,Kraslava,Latvia,LV,Krāslavas Novads
+Pilsrundāle,Pilsrundale,Latvia,LV,Rundāles Novads
+Mērsrags,Mersrags,Latvia,LV,Mērsraga Novads
+Rokiškis,Rokiskis,Lithuania,LT,Rokiškis
+Jurbarkas,Jurbarkas,Lithuania,LT,Jurbarkas
+Tērvete,Tervete,Latvia,LV,Tērvetes Novads
+Karbinci,Karbinci,Macedonia,MK,Karbinci
+Kelmė,Kelme,Lithuania,LT,Kelmė
+Mālpils,Malpils,Latvia,LV,Mālpils Novads
+Demir Hisar,Demir Hisar,Macedonia,MK,Demir Hisar
+Kupiškis,Kupiskis,Lithuania,LT,Kupiškis
+Biržai,Birzai,Lithuania,LT,Biržai
+Pagėgiai,Pagegiai,Lithuania,LT,Pagégiai
+Rūjiena,Rujiena,Latvia,LV,Rūjienas Novads
+Cetinje,Cetinje,Montenegro,ME,Cetinje
+Koknese,Koknese,Latvia,LV,Kokneses Novads
+Saldus,Saldus,Latvia,LV,Saldus Novads
+Pļaviņas,Plavinas,Latvia,LV,Pļaviņu Novads
+Ragana,Ragana,Latvia,LV,Krimuldas Novads
+Auce,Auce,Latvia,LV,Auces Novads
+Limbaži,Limbazi,Latvia,LV,Limbažu Novads
+Pakruojis,Pakruojis,Lithuania,LT,Pakruojis
+Ludza,Ludza,Latvia,LV,Ludzas Novads
+Cesvaine,Cesvaine,Latvia,LV,Cesvaines Novads
+Aizpute,Aizpute,Latvia,LV,Aizputes Novads
+Lazdijai,Lazdijai,Lithuania,LT,Lazdijai
+Konče,Konce,Macedonia,MK,Konče
+Rankovce,Rankovce,Macedonia,MK,Rankovce
+Kuldīga,Kuldiga,Latvia,LV,Kuldīgas Novads
+Lozovo,Lozovo,Macedonia,MK,Lozovo
+Švenčionys,Svencionys,Lithuania,LT,Švenčionys
+Kandava,Kandava,Latvia,LV,Kandavas Novads
+Andrijevica,Andrijevica,Montenegro,ME,Andrijevica
+Smiltene,Smiltene,Latvia,LV,Smiltenes Novads
+Anykščiai,Anyksciai,Lithuania,LT,Anykščiai
+Zarasai,Zarasai,Lithuania,LT,Zarasai
+Molėtai,Moletai,Lithuania,LT,Molėtai
+Balvi,Balvi,Latvia,LV,Balvu Novads
+Salacgrīva,Salacgriva,Latvia,LV,Salacgrīvas Novads
+Rietavas,Rietavas,Lithuania,LT,Rietavo
+Ilūkste,Ilukste,Latvia,LV,Ilūkstes Novads
+Sala,Sala,Latvia,LV,Salas Novads
+Brocēni,Broceni,Latvia,LV,Brocēnu Novads
+Varakļāni,Varaklani,Latvia,LV,Varakļānu Novads
+Salto del Guairá,Salto del Guaira,Paraguay,PY,Canindeyú
+Saleaula,Saleaula,Samoa,WS,Gaga‘emauga
+Kocēni,Koceni,Latvia,LV,Kocēnu Novads
+Jaunpils,Jaunpils,Latvia,LV,Jaunpils Novads
+Gulbene,Gulbene,Latvia,LV,Gulbenes Novads
+Rostuša,Rostusa,Macedonia,MK,Mavrovo i Rostuša
+Ķegums,Kegums,Latvia,LV,Ķeguma Novads
+Madona,Madona,Latvia,LV,Madonas Novads
+Gospić,Gospic,Croatia,HR,Ličko-Senjska Županija
+Rauna,Rauna,Latvia,LV,Raunas Novads
+Gradsko,Gradsko,Macedonia,MK,Gradsko
+Ambrolauri,Ambrolauri,Georgia,GE,Rach’a-Lechkhumi da Kvemo Svaneti
+Ignalina,Ignalina,Lithuania,LT,Ignalina
+Priekule,Priekule,Latvia,LV,Priekules Novads
+Demir Kapija,Demir Kapija,Macedonia,MK,Demir Kapija
+Burtnieki,Burtnieki,Latvia,LV,Burtnieku Novads
+Masunga,Masunga,Botswana,BW,North East
+Mūrmuiža,Murmuiza,Latvia,LV,Beverīnas Novads
+Hermansverk,Hermansverk,Norway,NO,Sogn og Fjordane
+Trongsa,Trongsa,Bhutan,BT,Trongsa
+Aglona,Aglona,Latvia,LV,Aglonas Novads
+Nīca,Nica,Latvia,LV,Nīcas Novads
+Valka,Valka,Latvia,LV,Valkas Novads
+Zilupe,Zilupe,Latvia,LV,Zilupes Novads
+Alūksne,Aluksne,Latvia,LV,Alūksnes Novads
+Aknīste,Akniste,Latvia,LV,Aknīstes Novads
+Vecumnieki,Vecumnieki,Latvia,LV,Vecumnieku Novads
+Zhemgang,Zhemgang,Bhutan,BT,Zhemgang
+Strenči,Strenci,Latvia,LV,Strenču Novads
+Loja,Loja,Latvia,LV,Sējas Novads
+Tanjung Selor,Tanjung Selor,Indonesia,ID,Kalimantan Utara
+Skrunda,Skrunda,Latvia,LV,Skrundas Novads
+Lieģi,Liegi,Latvia,LV,Durbes Novads
+Kārsava,Karsava,Latvia,LV,Kārsavas Novads
+Varėna,Varena,Lithuania,LT,Varėna
+Jaunpiebalga,Jaunpiebalga,Latvia,LV,Jaunpiebalgas Novads
+Belčišta,Belcista,Macedonia,MK,Debarca
+Tigoa,Tigoa,Solomon Islands,SB,Rennell and Bellona
+Riebiņi,Riebini,Latvia,LV,Riebiņu Novads
+Jaunjelgava,Jaunjelgava,Latvia,LV,Jaunjelgavas Novads
+Dagda,Dagda,Latvia,LV,Dagdas Novads
+Viļaka,Vilaka,Latvia,LV,Viļakas Novads
+Aloja,Aloja,Latvia,LV,Alojas Novads
+Vaiņode,Vainode,Latvia,LV,Vaiņodes Novads
+Staro Nagoričane,Staro Nagoricane,Macedonia,MK,Staro Nagoričane
+Ērgļi,Ergli,Latvia,LV,Ērgļu Novads
+Mazsalaca,Mazsalaca,Latvia,LV,Mazsalacas Novads
+Stalbe,Stalbe,Latvia,LV,Pārgaujas Novads
+Kolašin,Kolasin,Montenegro,ME,Kolašin
+Vecpiebalga,Vecpiebalga,Latvia,LV,Vecpiebalgas Novads
+Anouvông,Anouvong,Laos,LA,Xaisômboun
+Alsunga,Alsunga,Latvia,LV,Alsungas Novads
+Drabeši,Drabesi,Latvia,LV,Amatas Novads
+Vecvārkava,Vecvarkava,Latvia,LV,Vārkavas Novads
+Lubāna,Lubana,Latvia,LV,Lubānas Novads
+Naukšēni,Naukseni,Latvia,LV,Naukšēnu Novads
+Ape,Ape,Latvia,LV,Apes Novads
+Baltinava,Baltinava,Latvia,LV,Baltinavas Novads
+Žabljak,Zabljak,Montenegro,ME,Žabljak
+Makedonski Brod,Makedonski Brod,Macedonia,MK,Makedonski Brod
+Dundaga,Dundaga,Latvia,LV,Dundagas Novads
+Viesīte,Viesite,Latvia,LV,Viesītes Novads
+Georgetown,Georgetown,Saint Helena, Ascension,SH
+Altay,Altay,Mongolia,MN,Govĭ-Altay
+Nereta,Nereta,Latvia,LV,Neretas Novads
+Cibla,Cibla,Latvia,LV,Ciblas Novads
+Pāvilosta,Pavilosta,Latvia,LV,Pāvilostas Novads
+Lhuentse,Lhuentse,Bhutan,BT,Lhuentse
+Jakar,Jakar,Bhutan,BT,Bumthang
+Rugāji,Rugaji,Latvia,LV,Rugāju Novads
+Daga,Daga,Bhutan,BT,Dagana
+Novaci,Novaci,Macedonia,MK,Novaci
+Rucava,Rucava,Latvia,LV,Rucavas Novads
+Sowa Town,Sowa Town,Botswana,BW,Sowa Town
+Šavnik,Savnik,Montenegro,ME,Šavnik
+Plužine,Pluzine,Montenegro,ME,Plužine
+Choyr,Choyr,Mongolia,MN,Govĭsümber
+Edinburgh of the Seven Seas,Edinburgh of the Seven Seas,Saint Helena, Ascension,SH
+Gasa,Gasa,Bhutan,BT,Gasa
+Jwaneng,Jwaneng,Botswana,BW,Jwaneng
+Mahdia,Mahdia,Guyana,GY,Potaro-Siparuni
+Star Dojran,Star Dojran,Macedonia,MK,Dojran
+Isnā,Isna,Egypt,EG,Qinā
+Tsuruoka,Tsuruoka,Japan,JP,Yamagata
+Thunder Bay,Thunder Bay,Canada,CA,Ontario
+Talara,Talara,Peru,PE,Piura
+Flensburg,Flensburg,Germany,DE,Schleswig-Holstein
+San Carlos del Zulia,San Carlos del Zulia,Venezuela,VE,Zulia
+Sungai Penuh,Sungai Penuh,Indonesia,ID,Jambi
+Bolzano,Bolzano,Italy,IT,Trentino-Alto Adige
+San Carlos de Bariloche,San Carlos de Bariloche,Argentina,AR,Río Negro
+Nowra,Nowra,Australia,AU,New South Wales
+Trelew,Trelew,Argentina,AR,Chubut
+Coronel,Coronel,Chile,CL,Biobío
+Rosenheim,Rosenheim,Germany,DE,Bavaria
+Toowoomba,Toowoomba,Australia,AU,Queensland
+Sampit,Sampit,Indonesia,ID,Kalimantan Tengah
+Maizuru,Maizuru,Japan,JP,Kyōto
+Villa María,Villa Maria,Argentina,AR,Córdoba
+Dhangaḍhi̇̄,Dhangadhi,Nepal,NP,
+Arezzo,Arezzo,Italy,IT,Tuscany
+Grahamstown,Grahamstown,South Africa,ZA,Eastern Cape
+Mons,Mons,Belgium,BE,Wallonia
+Chauk,Chauk,Burma,MM,Magway
+Reconquista,Reconquista,Argentina,AR,Santa Fe
+Valle de La Pascua,Valle de La Pascua,Venezuela,VE,Guárico
+Shwebo,Shwebo,Burma,MM,Sagaing
+Zárate,Zarate,Argentina,AR,Buenos Aires
+Rafaela,Rafaela,Argentina,AR,Santa Fe
+Norrköping,Norrkoping,Sweden,SE,Östergötland
+Montero,Montero,Bolivia,BO,Santa Cruz
+Chosica,Chosica,Peru,PE,Lima
+Chaman,Chaman,Pakistan,PK,Balochistān
+Zhob,Zhob,Pakistan,PK,Balochistān
+Saint John,Saint John,Canada,CA,New Brunswick
+Parepare,Parepare,Indonesia,ID,Sulawesi Selatan
+Pergamino,Pergamino,Argentina,AR,Buenos Aires
+Tumaco,Tumaco,Colombia,CO,Nariño
+Olavarría,Olavarria,Argentina,AR,Buenos Aires
+Lorca,Lorca,Spain,ES,Murcia
+Sokcho,Sokcho,South Korea,KR,KOR
+Ballarat,Ballarat,Australia,AU,Victoria
+Junín,Junin,Argentina,AR,Buenos Aires
+Nanaimo,Nanaimo,Canada,CA,British Columbia
+Sumenep,Sumenep,Indonesia,ID,Jawa Timur
+Bethlehem,Bethlehem,South Africa,ZA,Free State
+Ocaña,Ocana,Colombia,CO,Norte de Santander
+Wiener Neustadt,Wiener Neustadt,Austria,AT,Niederösterreich
+Gießen,Giessen,Germany,DE,Hesse
+Kaneyama,Kaneyama,Japan,JP,Kagoshima
+Polatsk,Polatsk,Belarus,BY,Vitsyebskaya Voblasts’
+Presidencia Roque Sáenz Peña,Presidencia Roque Saenz Pena,Argentina,AR,Chaco
+Luján,Lujan,Argentina,AR,Buenos Aires
+Bendigo,Bendigo,Australia,AU,Victoria
+Watampone,Watampone,Indonesia,ID,Sulawesi Selatan
+Campana,Campana,Argentina,AR,Buenos Aires
+Béziers,Beziers,France,FR,Occitanie
+Linares,Linares,Chile,CL,Maule
+Necochea,Necochea,Argentina,AR,Buenos Aires
+Quillota,Quillota,Chile,CL,Valparaíso
+Banī Mazār,Bani Mazar,Egypt,EG,Al Minyā
+Gualeguaychú,Gualeguaychu,Argentina,AR,Entre Ríos
+Saint-Jérôme,Saint-Jerome,Canada,CA,Québec
+Marsala,Marsala,Italy,IT,Sicilia
+Ende,Ende,Indonesia,ID,Nusa Tenggara Timur
+Ovalle,Ovalle,Chile,CL,Coquimbo
+Oudtshoorn,Oudtshoorn,South Africa,ZA,Western Cape
+Tuban,Tuban,Indonesia,ID,Jawa Timur
+Mackay,Mackay,Australia,AU,Queensland
+Agrínio,Agrinio,Greece,GR,Dytikí Elláda
+Red Deer,Red Deer,Canada,CA,Alberta
+Darhan,Darhan,Mongolia,MN,Selenge
+San Ramón de la Nueva Orán,San Ramon de la Nueva Oran,Argentina,AR,Salta
+Standerton,Standerton,South Africa,ZA,Mpumalanga
+Riberalta,Riberalta,Bolivia,BO,El Beni
+Sundsvall,Sundsvall,Sweden,SE,Västernorrland
+Mandurah,Mandurah,Australia,AU,Western Australia
+Bonao,Bonao,Dominican Republic,DO,Cibao Sur
+General Roca,General Roca,Argentina,AR,Río Negro
+Guadalajara,Guadalajara,Spain,ES,Castille-La Mancha
+Quảng Trị,Quang Tri,Vietnam,VN,Quảng Trị
+Launceston,Launceston,Australia,AU,Tasmania
+Bourges,Bourges,France,FR,Centre-Val de Loire
+Venado Tuerto,Venado Tuerto,Argentina,AR,Santa Fe
+Goya,Goya,Argentina,AR,Corrientes
+Chalkída,Chalkida,Greece,GR,Stereá Elláda
+Kalamáta,Kalamata,Greece,GR,Peloponnísos
+Asti,Asti,Italy,IT,Piedmont
+Lethbridge,Lethbridge,Canada,CA,Alberta
+Châu Đốc,Chau Doc,Vietnam,VN,An Giang
+Villa Carlos Paz,Villa Carlos Paz,Argentina,AR,Córdoba
+Hasselt,Hasselt,Belgium,BE,Flanders
+Ragusa,Ragusa,Italy,IT,Sicilia
+Güines,Guines,Cuba,CU,Mayabeque
+Chulucanas,Chulucanas,Peru,PE,Piura
+Al Aḩmadī,Al Ahmadi,Kuwait,KW,
+Kamloops,Kamloops,Canada,CA,British Columbia
+Sabanalarga,Sabanalarga,Colombia,CO,Atlántico
+Saldanha,Saldanha,South Africa,ZA,Western Cape
+Concepción del Uruguay,Concepcion del Uruguay,Argentina,AR,Entre Ríos
+Deva,Deva,Romania,RO,Hunedoara
+Tzaneen,Tzaneen,South Africa,ZA,Limpopo
+Narva,Narva,Estonia,EE,Ida-Virumaa
+Kissidougou,Kissidougou,Guinea,GN,Faranah
+Baní,Bani,Dominican Republic,DO,Valdesia
+Las Heras,Las Heras,Argentina,AR,Mendoza
+Mansehra,Mansehra,Pakistan,PK,Khyber Pakhtunkhwa
+Morón,Moron,Cuba,CU,Ciego de Ávila
+Lahat,Lahat,Indonesia,ID,Sumatera Selatan
+Rockhampton,Rockhampton,Australia,AU,Queensland
+Pyapon,Pyapon,Burma,MM,Ayeyawady
+Prince George,Prince George,Canada,CA,British Columbia
+Borås,Boras,Sweden,SE,Västra Götaland
+Tan-Tan,Tan-Tan,Morocco,MA,Guelmim-Oued Noun
+Mayagüez,Mayaguez,Puerto Rico,PR,Puerto Rico
+Puerto Madryn,Puerto Madryn,Argentina,AR,Chubut
+Colón,Colon,Cuba,CU,Matanzas
+Bhairāhawā,Bhairahawa,Nepal,NP,
+Medicine Hat,Medicine Hat,Canada,CA,Alberta
+Knysna,Knysna,South Africa,ZA,Western Cape
+Coffs Harbour,Coffs Harbour,Australia,AU,New South Wales
+Machiques,Machiques,Venezuela,VE,Zulia
+Tanjungpandan,Tanjungpandan,Indonesia,ID,Kepulauan Bangka Belitung
+Sagua la Grande,Sagua la Grande,Cuba,CU,Villa Clara
+Moca,Moca,Dominican Republic,DO,Cibao Norte
+Benevento,Benevento,Italy,IT,Campania
+Pula,Pula,Croatia,HR,Istarska Županija
+Stralsund,Stralsund,Germany,DE,Mecklenburg-Western Pomerania
+Civitavecchia,Civitavecchia,Italy,IT,Lazio
+Coburg,Coburg,Germany,DE,Bavaria
+El Carmen de Bolívar,El Carmen de Bolivar,Colombia,CO,Bolívar
+Tartagal,Tartagal,Argentina,AR,Salta
+San Fernando,San Fernando,Chile,CL,Libertador General Bernardo O’Higgins
+Soasio,Soasio,Indonesia,ID,Maluku Utara
+Crotone,Crotone,Italy,IT,Calabria
+Linares,Linares,Spain,ES,Andalusia
+San Felipe,San Felipe,Chile,CL,Valparaíso
+Kavála,Kavala,Greece,GR,Anatolikí Makedonía kai Thráki
+San Francisco,San Francisco,Argentina,AR,Córdoba
+San Pedro,San Pedro,Argentina,AR,Jujuy
+Allanmyo,Allanmyo,Burma,MM,Magway
+Tiznit,Tiznit,Morocco,MA,Souss-Massa
+Heroica Caborca,Heroica Caborca,Mexico,MX,Sonora
+Punta Alta,Punta Alta,Argentina,AR,Buenos Aires
+General Pico,General Pico,Argentina,AR,La Pampa
+Los Andes,Los Andes,Chile,CL,Valparaíso
+Garzón,Garzon,Colombia,CO,Huila
+Rotorua,Rotorua,New Zealand,NZ,Bay of Plenty
+Hof,Hof,Germany,DE,Bavaria
+Paita,Paita,Peru,PE,Piura
+Sérres,Serres,Greece,GR,Kentrikí Makedonía
+Parachinar,Parachinar,Pakistan,PK,Federally Administered Tribal Areas
+Brive-la-Gaillarde,Brive-la-Gaillarde,France,FR,Nouvelle-Aquitaine
+Placetas,Placetas,Cuba,CU,Villa Clara
+Wagga Wagga,Wagga Wagga,Australia,AU,New South Wales
+El Banco,El Banco,Colombia,CO,Magdalena
+Chivilcoy,Chivilcoy,Argentina,AR,Buenos Aires
+Nuevitas,Nuevitas,Cuba,CU,Camagüey
+Ruteng,Ruteng,Indonesia,ID,Nusa Tenggara Timur
+Chiquinquirá,Chiquinquira,Colombia,CO,Boyacá
+Azul,Azul,Argentina,AR,Buenos Aires
+Chicoutimi,Chicoutimi,Canada,CA,Québec
+Upata,Upata,Venezuela,VE,Bolívar
+Pamplona,Pamplona,Colombia,CO,Norte de Santander
+Ilo,Ilo,Peru,PE,Moquegua
+Río Tercero,Rio Tercero,Argentina,AR,Córdoba
+Kateríni,Katerini,Greece,GR,Kentrikí Makedonía
+Tingo María,Tingo Maria,Peru,PE,Huánuco
+Banes,Banes,Cuba,CU,Holguín
+Alexandroúpoli,Alexandroupoli,Greece,GR,Anatolikí Makedonía kai Thráki
+Mercedes,Mercedes,Argentina,AR,Buenos Aires
+Port Shepstone,Port Shepstone,South Africa,ZA,KwaZulu-Natal
+Lorica,Lorica,Colombia,CO,Córdoba
+Siena,Siena,Italy,IT,Tuscany
+New Plymouth,New Plymouth,New Zealand,NZ,Taranaki
+Porirua,Porirua,New Zealand,NZ,Wellington
+Thongwa,Thongwa,Burma,MM,Yangon
+Jaén,Jaen,Peru,PE,Cajamarca
+Bundaberg,Bundaberg,Australia,AU,Queensland
+Hamilton,Hamilton,Bermuda,BM,Hamilton
+Walvisbaai,Walvisbaai,Namibia,NA,Erongo
+Gwadar,Gwadar,Pakistan,PK,Balochistān
+Emden,Emden,Germany,DE,Lower Saxony
+Tarma,Tarma,Peru,PE,Junín
+Ye,Ye,Burma,MM,Mon State
+Mahalapye,Mahalapye,Botswana,BW,Central
+Xánthi,Xanthi,Greece,GR,Anatolikí Makedonía kai Thráki
+Passau,Passau,Germany,DE,Bavaria
+Turbo,Turbo,Colombia,CO,Antioquia
+Hua Hin,Hua Hin,Thailand,TH,Prachuap Khiri Khan
+Arjona,Arjona,Colombia,CO,Bolívar
+Sawahlunto,Sawahlunto,Indonesia,ID,Sumatera Barat
+Ferreñafe,Ferrenafe,Peru,PE,Lambayeque
+North Bay,North Bay,Canada,CA,Ontario
+Siguiri,Siguiri,Guinea,GN,Kankan
+Pozi,Pozi,Taiwan,TW,Chiayi
+Lota,Lota,Chile,CL,Biobío
+Villa Mercedes,Villa Mercedes,Argentina,AR,San Luis
+Libertador General San Martín,Libertador General San Martin,Argentina,AR,Jujuy
+Mollendo,Mollendo,Peru,PE,Arequipa
+Waingapu,Waingapu,Indonesia,ID,Nusa Tenggara Timur
+Namtu,Namtu,Burma,MM,Shan State
+Port Macquarie,Port Macquarie,Australia,AU,New South Wales
+Wakema,Wakema,Burma,MM,Ayeyawady
+Mildura,Mildura,Australia,AU,Victoria
+Cutral-Có,Cutral-Co,Argentina,AR,Neuquén
+Luwuk,Luwuk,Indonesia,ID,Sulawesi Tengah
+Ålesund,Alesund,Norway,NO,Møre og Romsdal
+Amahai,Amahai,Indonesia,ID,Maluku
+San Lorenzo,San Lorenzo,Argentina,AR,Corrientes
+Ladysmith,Ladysmith,South Africa,ZA,KwaZulu-Natal
+Antalaha,Antalaha,Madagascar,MG,Antsiranana
+P’ot’i,P'ot'i,Georgia,GE,
+Tres Arroyos,Tres Arroyos,Argentina,AR,Buenos Aires
+Poso,Poso,Indonesia,ID,Sulawesi Tengah
+Sandnes,Sandnes,Norway,NO,Rogaland
+Kohtla-Järve,Kohtla-Jarve,Estonia,EE,Ida-Virumaa
+Mae Sot,Mae Sot,Thailand,TH,Tak
+Olbia,Olbia,Italy,IT,Sardegna
+Joliette,Joliette,Canada,CA,Québec
+Salcedo,Salcedo,Dominican Republic,DO,Cibao Nordeste
+Vallenar,Vallenar,Chile,CL,Atacama
+Angol,Angol,Chile,CL,Araucanía
+Chone,Chone,Ecuador,EC,Manabí
+Beaufort West,Beaufort West,South Africa,ZA,Western Cape
+Zvolen,Zvolen,Slovakia,SK,Banskobystrický
+Aliwal North,Aliwal North,South Africa,ZA,Eastern Cape
+Roskilde,Roskilde,Denmark,DK,Sjælland
+Villa Constitución,Villa Constitucion,Argentina,AR,Santa Fe
+Taree,Taree,Australia,AU,New South Wales
+Padangpanjang,Padangpanjang,Indonesia,ID,Sumatera Barat
+Nabire,Nabire,Indonesia,ID,Papua
+Comendador,Comendador,Dominican Republic,DO,El Valle
+Salinas,Salinas,Ecuador,EC,Guayas
+Sambava,Sambava,Madagascar,MG,Antsiranana
+Volksrust,Volksrust,South Africa,ZA,Mpumalanga
+Whanganui,Whanganui,New Zealand,NZ,Manawatu-Wanganui
+Ambatondrazaka,Ambatondrazaka,Madagascar,MG,Toamasina
+Macenta,Macenta,Guinea,GN,N’Zérékoré
+San Antonio de los Baños,San Antonio de los Banos,Cuba,CU,Artemisa
+Kotabumi,Kotabumi,Indonesia,ID,Lampung
+Nadi,Nadi,Fiji,FJ,Ba
+Cotuí,Cotui,Dominican Republic,DO,Cibao Sur
+Arecibo,Arecibo,Puerto Rico,PR,Puerto Rico
+Auxerre,Auxerre,France,FR,Bourgogne-Franche-Comté
+Zaraza,Zaraza,Venezuela,VE,Guárico
+Itá,Ita,Paraguay,PY,Central
+Huaura,Huaura,Peru,PE,Lima
+Pyu,Pyu,Burma,MM,Bago
+Alta Gracia,Alta Gracia,Argentina,AR,Córdoba
+Haugesund,Haugesund,Norway,NO,Rogaland
+Bình Long,Binh Long,Vietnam,VN,Bình Phước
+Arawa,Arawa,Papua New Guinea,PG,Bougainville
+Altagracia de Orituco,Altagracia de Orituco,Venezuela,VE,Guárico
+Raub,Raub,Malaysia,MY,Pahang
+Borlänge,Borlange,Sweden,SE,Dalarna
+Orange,Orange,Australia,AU,New South Wales
+Pacasmayo,Pacasmayo,Peru,PE,La Libertad
+Caibarién,Caibarien,Cuba,CU,Villa Clara
+Tønsberg,Tonsberg,Norway,NO,Vestfold
+Tamworth,Tamworth,Australia,AU,New South Wales
+Ts’khinvali,Ts'khinvali,Georgia,GE,
+Maroantsetra,Maroantsetra,Madagascar,MG,Toamasina
+Constitución,Constitucion,Chile,CL,Maule
+Juanjuí,Juanjui,Peru,PE,San Martín
+Sydney,Sydney,Canada,CA,Nova Scotia
+Orillia,Orillia,Canada,CA,Ontario
+Villazón,Villazon,Bolivia,BO,Potosí
+Moss,Moss,Norway,NO,Østfold
+Kalgoorlie,Kalgoorlie,Australia,AU,Western Australia
+Morondava,Morondava,Madagascar,MG,Toliara
+Bermejo,Bermejo,Bolivia,BO,Tarija
+Nyaungdon,Nyaungdon,Burma,MM,Ayeyawady
+Guayaramerín,Guayaramerin,Bolivia,BO,El Beni
+Hato Mayor,Hato Mayor,Dominican Republic,DO,Higuamo
+Jipijapa,Jipijapa,Ecuador,EC,Manabí
+Douglas,Douglas,Isle Of Man,IM,
+Kuala Kapuas,Kuala Kapuas,Indonesia,ID,Kalimantan Tengah
+Rimouski,Rimouski,Canada,CA,Québec
+Honda,Honda,Colombia,CO,Tolima
+Kundian,Kundian,Pakistan,PK,Punjab
+Yarumal,Yarumal,Colombia,CO,Antioquia
+Saint-Benoît,Saint-Benoit,Reunion,RE,
+Vác,Vac,Hungary,HU,Pest
+Praya,Praya,Indonesia,ID,Nusa Tenggara Barat
+Bell Ville,Bell Ville,Argentina,AR,Córdoba
+Timmins,Timmins,Canada,CA,Ontario
+Kamsar,Kamsar,Guinea,GN,Boké
+Viacha,Viacha,Bolivia,BO,La Paz
+Nueve de Julio,Nueve de Julio,Argentina,AR,Buenos Aires
+Prince Albert,Prince Albert,Canada,CA,Saskatchewan
+Chacabuco,Chacabuco,Argentina,AR,Buenos Aires
+Merauke,Merauke,Indonesia,ID,Papua
+Puerto Berrío,Puerto Berrio,Colombia,CO,Antioquia
+Túquerres,Tuquerres,Colombia,CO,Nariño
+Vibo Valentia,Vibo Valentia,Italy,IT,Calabria
+Schaffhausen,Schaffhausen,Switzerland,CH,Schaffhausen
+Nagua,Nagua,Dominican Republic,DO,Cibao Nordeste
+Sicuani,Sicuani,Peru,PE,Cusco
+Shepparton,Shepparton,Australia,AU,Victoria
+Forbe Oroya,Forbe Oroya,Peru,PE,Junín
+Lebowakgomo,Lebowakgomo,South Africa,ZA,Limpopo
+Mount Isa,Mount Isa,Australia,AU,Queensland
+Gualeguay,Gualeguay,Argentina,AR,Entre Ríos
+Tweed Heads,Tweed Heads,Australia,AU,New South Wales
+Hanumānnagar,Hanumannagar,Nepal,NP,
+Safājā,Safaja,Egypt,EG,Al Baḩr al Aḩmar
+Queanbeyan,Queanbeyan,Australia,AU,New South Wales
+Melton,Melton,Australia,AU,Victoria
+De Aar,De Aar,South Africa,ZA,Northern Cape
+Kristianstad,Kristianstad,Sweden,SE,Skåne
+Pativilca,Pativilca,Peru,PE,Lima
+Santa Rita,Santa Rita,Venezuela,VE,Zulia
+Villarrica,Villarrica,Chile,CL,Araucanía
+Dubbo,Dubbo,Australia,AU,New South Wales
+Caboolture,Caboolture,Australia,AU,Queensland
+Lismore,Lismore,Australia,AU,New South Wales
+Cauquenes,Cauquenes,Chile,CL,Maule
+Skellefteå,Skelleftea,Sweden,SE,Västerbotten
+Marovoay,Marovoay,Madagascar,MG,Mahajanga
+Quesada,Quesada,Costa Rica,CR,Alajuela
+Río Grande,Rio Grande,Argentina,AR,Tierra del Fuego
+Guasdualito,Guasdualito,Venezuela,VE,Apure
+Huamachuco,Huamachuco,Peru,PE,La Libertad
+Palapye,Palapye,Botswana,BW,Central
+Mercedes,Mercedes,Argentina,AR,Corrientes
+Ambanja,Ambanja,Madagascar,MG,Antsiranana
+Curanilahue,Curanilahue,Chile,CL,Biobío
+Gladstone,Gladstone,Australia,AU,Queensland
+Télimélé,Telimele,Guinea,GN,Kindia
+Ypacarai,Ypacarai,Paraguay,PY,Central
+Villa Ángela,Villa Angela,Argentina,AR,Chaco
+Kulat,Kulat,Indonesia,ID,Bali
+Casma,Casma,Peru,PE,Ancash
+Warrnambool,Warrnambool,Australia,AU,Victoria
+Castro,Castro,Chile,CL,Los Lagos
+Sunbury,Sunbury,Australia,AU,Victoria
+Svendborg,Svendborg,Denmark,DK,Syddanmark
+Tame,Tame,Colombia,CO,Arauca
+Tocache Nuevo,Tocache Nuevo,Peru,PE,San Martín
+Tupiza,Tupiza,Bolivia,BO,Potosí
+Thung Song,Thung Song,Thailand,TH,Nakhon Si Thammarat
+Llallagua,Llallagua,Bolivia,BO,Potosí
+Sion,Sion,Switzerland,CH,Valais
+Ancud,Ancud,Chile,CL,Los Lagos
+Camiri,Camiri,Bolivia,BO,Santa Cruz
+Cayambe,Cayambe,Ecuador,EC,Pichincha
+Örnsköldsvik,Ornskoldsvik,Sweden,SE,Västernorrland
+Alice Springs,Alice Springs,Australia,AU,Northern Territory
+Mananjary,Mananjary,Madagascar,MG,Fianarantsoa
+Santiago de Tolú,Santiago de Tolu,Colombia,CO,Sucre
+Savonlinna,Savonlinna,Finland,FI,Etelä-Savo
+Geraldton,Geraldton,Australia,AU,Western Australia
+Timaru,Timaru,New Zealand,NZ,Canterbury
+Coronel Suárez,Coronel Suarez,Argentina,AR,Buenos Aires
+Bunbury,Bunbury,Australia,AU,Western Australia
+Chancay,Chancay,Peru,PE,Lima
+Chíos,Chios,Greece,GR,Voreío Aigaío
+La Ligua,La Ligua,Chile,CL,Valparaíso
+Albany,Albany,Australia,AU,Western Australia
+Illapel,Illapel,Chile,CL,Coquimbo
+Punata,Punata,Bolivia,BO,Cochabamba
+Pukekohe East,Pukekohe East,New Zealand,NZ,
+La Unión,La Union,Chile,CL,Los Ríos
+Arlon,Arlon,Belgium,BE,Wallonia
+Saint-Georges,Saint-Georges,Canada,CA,Québec
+Fajardo,Fajardo,Puerto Rico,PR,Puerto Rico
+Tinipuka,Tinipuka,Indonesia,ID,Papua
+Neiba,Neiba,Dominican Republic,DO,Enriquillo
+Sept-Îles,Sept-Iles,Canada,CA,Québec
+Tougué,Tougue,Guinea,GN,Labé
+San Ignacio de Velasco,San Ignacio de Velasco,Bolivia,BO,Santa Cruz
+Freeport City,Freeport City,Bahamas, The,BHS
+Paraparaumu,Paraparaumu,New Zealand,NZ,Wellington
+Dolores,Dolores,Argentina,AR,Buenos Aires
+Hermanus,Hermanus,South Africa,ZA,Western Cape
+Victoria,Victoria,Argentina,AR,Entre Ríos
+Hervey Bay,Hervey Bay,Australia,AU,Queensland
+Ongwediva,Ongwediva,Namibia,NA,Oshana
+Puerto Varas,Puerto Varas,Chile,CL,Los Lagos
+Socorro,Socorro,Colombia,CO,Santander
+Lincoln,Lincoln,Argentina,AR,Buenos Aires
+Farafangana,Farafangana,Madagascar,MG,Fianarantsoa
+Veinticinco de Mayo,Veinticinco de Mayo,Argentina,AR,Buenos Aires
+Victoria,Victoria,Chile,CL,Araucanía
+Tocopilla,Tocopilla,Chile,CL,Antofagasta
+Baubau,Baubau,Indonesia,ID,Sulawesi Tenggara
+Saint-Laurent-du-Maroni,Saint-Laurent-du-Maroni,French Guiana,GF,
+Labasa,Labasa,Fiji,FJ,Macuata
+Frederikshavn,Frederikshavn,Denmark,DK,Nordjylland
+Grootfontein,Grootfontein,Namibia,NA,Otjozondjupa
+Kourou,Kourou,French Guiana,GF,
+Fria,Fria,Guinea,GN,Boké
+Ayapel,Ayapel,Colombia,CO,Córdoba
+Nazca,Nazca,Peru,PE,Ica
+El Seibo,El Seibo,Dominican Republic,DO,Yuma
+Bāglung,Baglung,Nepal,NP,
+Mount Gambier,Mount Gambier,Australia,AU,South Australia
+Sīwah,Siwah,Egypt,EG,Maţrūḩ
+Sechura,Sechura,Peru,PE,Piura
+Vega Baja,Vega Baja,Puerto Rico,PR,Puerto Rico
+Tunuyán,Tunuyan,Argentina,AR,Mendoza
+San Miguel de Papasquiaro,San Miguel de Papasquiaro,Mexico,MX,Durango
+Gjøvik,Gjovik,Norway,NO,Oppland
+Andoany,Andoany,Madagascar,MG,Antsiranana
+Armidale,Armidale,Australia,AU,New South Wales
+Kemi,Kemi,Finland,FI,Lappi
+Owen Sound,Owen Sound,Canada,CA,Ontario
+Taupo,Taupo,New Zealand,NZ,Waikato
+Campoalegre,Campoalegre,Colombia,CO,Huila
+Whyalla,Whyalla,Australia,AU,South Australia
+Sale,Sale,Australia,AU,Victoria
+Aranyaprathet,Aranyaprathet,Thailand,TH,Sa Kaeo
+Pýrgos,Pyrgos,Greece,GR,Dytikí Elláda
+Lebu,Lebu,Chile,CL,Biobío
+Katoomba,Katoomba,Australia,AU,New South Wales
+Puerto Suárez,Puerto Suarez,Bolivia,BO,Santa Cruz
+Frauenfeld,Frauenfeld,Switzerland,CH,Thurgau
+Vänersborg,Vanersborg,Sweden,SE,Västra Götaland
+Kobilo,Kobilo,Senegal,SN,Matam
+Antsohihy,Antsohihy,Madagascar,MG,Mahajanga
+Trinidad,Trinidad,Uruguay,UY,Flores
+Jauja,Jauja,Peru,PE,Junín
+Chascomús,Chascomus,Argentina,AR,Buenos Aires
+Camaná,Camana,Peru,PE,Arequipa
+Goulburn,Goulburn,Australia,AU,New South Wales
+Okahandja,Okahandja,Namibia,NA,Otjozondjupa
+Corner Brook,Corner Brook,Canada,CA,Newfoundland and Labrador
+Ulundi,Ulundi,South Africa,ZA,KwaZulu-Natal
+San Felipe,San Felipe,Mexico,MX,Baja California
+Maryborough,Maryborough,Australia,AU,Queensland
+Miandrivazo,Miandrivazo,Madagascar,MG,Toliara
+Val-d’Or,Val-d'Or,Canada,CA,Québec
+Komatipoort,Komatipoort,South Africa,ZA,Mpumalanga
+Mo i Rana,Mo i Rana,Norway,NO,Nordland
+Chilecito,Chilecito,Argentina,AR,La Rioja
+New Glasgow,New Glasgow,Canada,CA,Nova Scotia
+Cañas,Canas,Costa Rica,CR,Guanacaste
+Salamanca,Salamanca,Chile,CL,Coquimbo
+San Lorenzo de Esmeraldas,San Lorenzo de Esmeraldas,Ecuador,EC,Esmeraldas
+Masterton,Masterton,New Zealand,NZ,Wellington
+Musina,Musina,South Africa,ZA,Limpopo
+Kwinana,Kwinana,Australia,AU,Western Australia
+Pita,Pita,Guinea,GN,Mamou
+Esquel,Esquel,Argentina,AR,Buenos Aires
+Narvik,Narvik,Norway,NO,Nordland
+Puerto Natales,Puerto Natales,Chile,CL,Magallanes y de la Antártica Chilena
+Burnie,Burnie,Australia,AU,Tasmania
+Kampong Thum,Kampong Thum,Cambodia,KH,Kampong Thom
+General Martín Miguel de Güemes,General Martin Miguel de Guemes,Argentina,AR,Salta
+San Borja,San Borja,Bolivia,BO,El Beni
+Levin,Levin,New Zealand,NZ,Manawatu-Wanganui
+Echuca,Echuca,Australia,AU,Victoria
+Terrace,Terrace,Canada,CA,British Columbia
+North Battleford,North Battleford,Canada,CA,Saskatchewan
+Harstad,Harstad,Norway,NO,Troms
+Devonport,Devonport,Australia,AU,Tasmania
+Ayaviri,Ayaviri,Peru,PE,Puno
+Roebourne,Roebourne,Australia,AU,Western Australia
+Kos,Kos,Greece,GR,Notío Aigaío
+Lumphat,Lumphat,Cambodia,KH,Ratanakiri
+Zapala,Zapala,Argentina,AR,Neuquén
+Dadeldhurā,Dadeldhura,Nepal,NP,
+Balcarce,Balcarce,Argentina,AR,Buenos Aires
+Contamana,Contamana,Peru,PE,Loreto
+Dzüünharaa,Dzuunharaa,Mongolia,MN,Selenge
+Sonsón,Sonson,Colombia,CO,Antioquia
+Nueva Imperial,Nueva Imperial,Chile,CL,Araucanía
+Villamontes,Villamontes,Bolivia,BO,Tarija
+Puerto San José,Puerto San Jose,Guatemala,GT,Escuintla
+Huanta,Huanta,Peru,PE,Ayacucho
+Maitland,Maitland,Australia,AU,New South Wales
+Cranbrook,Cranbrook,Canada,CA,British Columbia
+Charata,Charata,Argentina,AR,Chaco
+Lobos,Lobos,Argentina,AR,Buenos Aires
+Bua Yai,Bua Yai,Thailand,TH,Nakhon Ratchasima
+Traralgon,Traralgon,Australia,AU,Victoria
+Middelburg,Middelburg,South Africa,ZA,Eastern Cape
+Kiruna,Kiruna,Sweden,SE,Norrbotten
+Diego de Almagro,Diego de Almagro,Chile,CL,Atacama
+Humacao,Humacao,Puerto Rico,PR,Puerto Rico
+Requena,Requena,Peru,PE,Loreto
+Port Alfred,Port Alfred,South Africa,ZA,Eastern Cape
+Edmundston,Edmundston,Canada,CA,New Brunswick
+Ashton,Ashton,New Zealand,NZ,Canterbury
+Īlām,Ilam,Nepal,NP,
+Veinticinco de Mayo,Veinticinco de Mayo,Argentina,AR,La Pampa
+Eldorado,Eldorado,Argentina,AR,Misiones
+Bloemhof,Bloemhof,South Africa,ZA,North West
+Monte Cristi,Monte Cristi,Dominican Republic,DO,Cibao Noroeste
+Ihosy,Ihosy,Madagascar,MG,Fianarantsoa
+Piñas,Pinas,Ecuador,EC,El Oro
+Bella Vista,Bella Vista,Paraguay,PY,Amambay
+Tôlan̈aro,Tolanaro,Madagascar,MG,Toliara
+Mossel Bay,Mossel Bay,South Africa,ZA,Western Cape
+Morombe,Morombe,Madagascar,MG,Toliara
+Puerto López,Puerto Lopez,Colombia,CO,Meta
+Macetown,Macetown,New Zealand,NZ,Otago
+Bellinzona,Bellinzona,Switzerland,CH,Ticino
+Akureyri,Akureyri,Iceland,IS,
+Dajabón,Dajabon,Dominican Republic,DO,Cibao Noroeste
+Collipulli,Collipulli,Chile,CL,Araucanía
+Sabaneta,Sabaneta,Dominican Republic,DO,Cibao Noroeste
+San Martín,San Martin,Colombia,CO,Meta
+Spárti,Sparti,Greece,GR,Peloponnísos
+Huarmey,Huarmey,Peru,PE,Ancash
+Horqueta,Horqueta,Paraguay,PY,Concepción
+San Gabriel,San Gabriel,Ecuador,EC,Carchi
+Ilave,Ilave,Peru,PE,Puno
+Cliza,Cliza,Bolivia,BO,Cochabamba
+Camrose,Camrose,Canada,CA,Alberta
+Loncoche,Loncoche,Chile,CL,Araucanía
+Puerto Pimentel,Puerto Pimentel,Peru,PE,Lambayeque
+Pembroke,Pembroke,Canada,CA,Ontario
+Candelaria,Candelaria,Puerto Rico,PR,Puerto Rico
+Monte Plata,Monte Plata,Dominican Republic,DO,Higuamo
+Satipo,Satipo,Peru,PE,Junín
+Aarau,Aarau,Switzerland,CH,Aargau
+Río Bueno,Rio Bueno,Chile,CL,Los Ríos
+Kuala Lipis,Kuala Lipis,Malaysia,MY,Pahang
+Herisau,Herisau,Switzerland,CH,Appenzell Ausserrhoden
+Kérouané,Kerouane,Guinea,GN,Kankan
+Junín,Junin,Peru,PE,Junín
+Cambridge,Cambridge,New Zealand,NZ,Waikato
+Yorkton,Yorkton,Canada,CA,Saskatchewan
+Dalanzadgad,Dalanzadgad,Mongolia,MN,Ömnögovĭ
+Salyan,Salyan,Nepal,NP,
+Rāmechhāp,Ramechhap,Nepal,NP,Janakpur
+Bhimphedi̇̄,Bhimphedi,Nepal,NP,
+Chaguarama,Chaguarama,Venezuela,VE,Anzoátegui
+Tsumeb,Tsumeb,Namibia,NA,Oshikoto
+Bredasdorp,Bredasdorp,South Africa,ZA,Western Cape
+Swift Current,Swift Current,Canada,CA,Saskatchewan
+Mariestad,Mariestad,Sweden,SE,Västra Götaland
+Prince Rupert,Prince Rupert,Canada,CA,British Columbia
+San Ramón,San Ramon,Peru,PE,Junín
+Ascensión,Ascension,Bolivia,BO,Santa Cruz
+Lívingston,Livingston,Guatemala,GT,Izabal
+Coronel José Félix Bogado,Coronel Jose Felix Bogado,Paraguay,PY,Itapúa
+Alausí,Alausi,Ecuador,EC,Chimborazo
+Chota,Chota,Peru,PE,Cajamarca
+Kouroussa,Kouroussa,Guinea,GN,Kankan
+Aḑ Ḑab‘ah,Ad Dab`ah,Egypt,EG,Maţrūḩ
+Williams Lake,Williams Lake,Canada,CA,British Columbia
+Brooks,Brooks,Canada,CA,Alberta
+Añatuya,Anatuya,Argentina,AR,Santiago del Estero
+Koundara,Koundara,Guinea,GN,Boké
+Guapí,Guapi,Colombia,CO,Cauca
+Quesnel,Quesnel,Canada,CA,British Columbia
+Thompson,Thompson,Canada,CA,Manitoba
+Lamas,Lamas,Peru,PE,San Martín
+Motupe,Motupe,Peru,PE,Lambayeque
+Swellendam,Swellendam,South Africa,ZA,Western Cape
+Mar de Ajó,Mar de Ajo,Argentina,AR,Buenos Aires
+Frías,Frias,Argentina,AR,Santiago del Estero
+Chañaral,Chanaral,Chile,CL,Atacama
+Vicuña,Vicuna,Chile,CL,Coquimbo
+Cajabamba,Cajabamba,Peru,PE,Cajamarca
+Bollnäs,Bollnas,Sweden,SE,Gävleborg
+Muisne,Muisne,Ecuador,EC,Esmeraldas
+Joaquín V. González,Joaquin V. Gonzalez,Argentina,AR,Salta
+Tokoroa,Tokoroa,New Zealand,NZ,Waikato
+Dolbeau,Dolbeau,Canada,CA,Québec
+Paso de los Toros,Paso de los Toros,Uruguay,UY,Durazno
+Beyla,Beyla,Guinea,GN,N’Zérékoré
+Dabola,Dabola,Guinea,GN,Faranah
+Macará,Macara,Ecuador,EC,Loja
+Champasak,Champasak,Laos,LA,Champasak
+Uyuni,Uyuni,Bolivia,BO,Potosí
+Tierra Amarilla,Tierra Amarilla,Chile,CL,Atacama
+Chilca,Chilca,Peru,PE,Lima
+Los Lagos,Los Lagos,Chile,CL,Los Ríos
+Powell River,Powell River,Canada,CA,British Columbia
+Dorado,Dorado,Puerto Rico,PR,Puerto Rico
+Sunchales,Sunchales,Argentina,AR,Santa Fe
+Calbuco,Calbuco,Chile,CL,Los Lagos
+Colesberg,Colesberg,South Africa,ZA,Northern Cape
+Porvoo,Porvoo,Finland,FI,Uusimaa
+Brandfort,Brandfort,South Africa,ZA,Free State
+Alta,Alta,Norway,NO,Finnmark
+Angra do Heroísmo,Angra do Heroismo,Portugal,PT,Azores
+Princetown,Princetown,Guyana,GY,East Berbice-Corentyne
+Chuquicamata,Chuquicamata,Chile,CL,Antofagasta
+Killarney,Killarney,Ireland,IE,Kerry
+Carahue,Carahue,Chile,CL,Araucanía
+Nacozari Viejo,Nacozari Viejo,Mexico,MX,Sonora
+Malargüe,Malargue,Argentina,AR,Mendoza
+Cafayate,Cafayate,Argentina,AR,Salta
+Nelson,Nelson,Canada,CA,British Columbia
+Rurrenabaque,Rurrenabaque,Bolivia,BO,El Beni
+Mont-Laurier,Mont-Laurier,Canada,CA,Québec
+Pichilemu,Pichilemu,Chile,CL,Libertador General Bernardo O’Higgins
+Isabela,Isabela,Puerto Rico,PR,Puerto Rico
+Aguadilla,Aguadilla,Puerto Rico,PR,Puerto Rico
+Omaruru,Omaruru,Namibia,NA,Erongo
+Port Morant,Port Morant,Jamaica,JM,Saint Thomas
+San Germán,San German,Puerto Rico,PR,Puerto Rico
+Río Colorado,Rio Colorado,Argentina,AR,La Pampa
+Cerrillos,Cerrillos,Argentina,AR,Salta
+Portachuelo,Portachuelo,Bolivia,BO,Santa Cruz
+Valdez,Valdez,Ecuador,EC,Esmeraldas
+Samaná,Samana,Dominican Republic,DO,Cibao Nordeste
+Monte Quemado,Monte Quemado,Argentina,AR,Santiago del Estero
+Humahuaca,Humahuaca,Argentina,AR,Jujuy
+Belén,Belen,Paraguay,PY,Concepción
+Belén,Belen,Argentina,AR,Catamarca
+Delémont,Delemont,Switzerland,CH,Jura
+Hormigueros,Hormigueros,Puerto Rico,PR,Puerto Rico
+Santa Cruz,Santa Cruz,Ecuador,EC,Galápagos
+Prieska,Prieska,South Africa,ZA,Northern Cape
+Koror,Koror,Palau,PW,
+Hawera,Hawera,New Zealand,NZ,Taranaki
+Pedernales,Pedernales,Dominican Republic,DO,Enriquillo
+Kenora,Kenora,Canada,CA,Ontario
+Pozo Almonte,Pozo Almonte,Chile,CL,Tarapacá
+Dawson Creek,Dawson Creek,Canada,CA,British Columbia
+Benito Juárez,Benito Juarez,Argentina,AR,Buenos Aires
+Amos,Amos,Canada,CA,Québec
+Puquio,Puquio,Peru,PE,Ayacucho
+Santiago,Santiago,Peru,PE,Ica
+Springbok,Springbok,South Africa,ZA,Northern Cape
+Baie-Comeau,Baie-Comeau,Canada,CA,Québec
+Puerto Quijarro,Puerto Quijarro,Bolivia,BO,Santa Cruz
+Bethanie,Bethanie,Namibia,NA,//Karas
+Hinton,Hinton,Canada,CA,Alberta
+Caldera,Caldera,Chile,CL,Atacama
+Lonquimay,Lonquimay,Chile,CL,Araucanía
+Kairaki,Kairaki,New Zealand,NZ,Canterbury
+Otuzco,Otuzco,Peru,PE,La Libertad
+Eumseong,Eumseong,South Korea,KR,KOR
+Salaverry,Salaverry,Peru,PE,La Libertad
+Roboré,Robore,Bolivia,BO,Santa Cruz
+Taltal,Taltal,Chile,CL,Antofagasta
+Kuruman,Kuruman,South Africa,ZA,Northern Cape
+Hammerfest,Hammerfest,Norway,NO,Finnmark
+Choele Choel,Choele Choel,Argentina,AR,Río Negro
+Selkirk,Selkirk,Canada,CA,Manitoba
+Vera,Vera,Argentina,AR,Santa Fe
+Makale,Makale,Indonesia,ID,Sulawesi Selatan
+Steinbach,Steinbach,Canada,CA,Manitoba
+Vega Alta,Vega Alta,Puerto Rico,PR,Puerto Rico
+San Justo,San Justo,Argentina,AR,Santa Fe
+Castelli,Castelli,Argentina,AR,Chaco
+Amherst,Amherst,Canada,CA,Nova Scotia
+Kapuskasing,Kapuskasing,Canada,CA,Ontario
+Corozal,Corozal,Puerto Rico,PR,Puerto Rico
+Cabo Rojo,Cabo Rojo,Puerto Rico,PR,Puerto Rico
+Dauphin,Dauphin,Canada,CA,Manitoba
+Namsos,Namsos,Norway,NO,
+Chamical,Chamical,Argentina,AR,La Rioja
+Sodankylä,Sodankyla,Finland,FI,Lappi
+Kemijärvi,Kemijarvi,Finland,FI,Lappi
+Siteía,Siteia,Greece,GR,Kríti
+Shannon,Shannon,Ireland,IE,Clare
+La Libertad,La Libertad,Guatemala,GT,Petén
+San Sebastián,San Sebastian,Puerto Rico,PR,Puerto Rico
+Chos Malal,Chos Malal,Argentina,AR,Neuquén
+Oranjemund,Oranjemund,Namibia,NA,//Karas
+San Antonio Oeste,San Antonio Oeste,Argentina,AR,Río Negro
+Rabaul,Rabaul,Papua New Guinea,PG,East New Britain
+Puerto Aysén,Puerto Aysen,Chile,CL,Aysén
+El Calafate,El Calafate,Argentina,AR,Santa Cruz
+Dryden,Dryden,Canada,CA,Ontario
+San Juan del Sur,San Juan del Sur,Nicaragua,NI,Rivas
+Canóvanas,Canovanas,Puerto Rico,PR,Puerto Rico
+Revelstoke,Revelstoke,Canada,CA,British Columbia
+San Antonio,San Antonio,Puerto Rico,PR,Puerto Rico
+Happy Valley,Happy Valley,Canada,CA,Newfoundland and Labrador
+San Pablo Villa de Mitla,San Pablo Villa de Mitla,Mexico,MX,Oaxaca
+Banff,Banff,Canada,CA,Alberta
+Yarmouth,Yarmouth,Canada,CA,Nova Scotia
+Gaoual,Gaoual,Guinea,GN,Boké
+Utuado,Utuado,Puerto Rico,PR,Puerto Rico
+La Sarre,La Sarre,Canada,CA,Québec
+Carhué,Carhue,Argentina,AR,Buenos Aires
+Guánica,Guanica,Puerto Rico,PR,Puerto Rico
+Stephenville,Stephenville,Canada,CA,Newfoundland and Labrador
+Juana Díaz,Juana Diaz,Puerto Rico,PR,Puerto Rico
+Thames,Thames,New Zealand,NZ,Waikato
+Rinconada,Rinconada,Argentina,AR,Jujuy
+Horta,Horta,Portugal,PT,Azores
+Jimaní,Jimani,Dominican Republic,DO,Enriquillo
+Ingeniero Guillermo N. Juárez,Ingeniero Guillermo N. Juarez,Argentina,AR,Formosa
+Flin Flon,Flin Flon,Canada,CA,Manitoba
+Dalaba,Dalaba,Guinea,GN,Mamou
+Coco,Coco,Puerto Rico,PR,Puerto Rico
+Dinguiraye,Dinguiraye,Guinea,GN,Faranah
+The Pas,The Pas,Canada,CA,Manitoba
+Karasburg,Karasburg,Namibia,NA,//Karas
+Chepes,Chepes,Argentina,AR,La Rioja
+Port Saint John’s,Port Saint John's,South Africa,ZA,Eastern Cape
+Maintirano,Maintirano,Madagascar,MG,Mahajanga
+Kerikeri,Kerikeri,New Zealand,NZ,Northland
+Vegreville,Vegreville,Canada,CA,Alberta
+Carnarvon,Carnarvon,South Africa,ZA,Northern Cape
+Mali,Mali,Guinea,GN,Labé
+Cidra,Cidra,Puerto Rico,PR,Puerto Rico
+Peace River,Peace River,Canada,CA,Alberta
+Polýgyros,Polygyros,Greece,GR,Kentrikí Makedonía
+Kaitaia,Kaitaia,New Zealand,NZ,Northland
+Sarmiento,Sarmiento,Argentina,AR,Chubut
+Punta Santiago,Punta Santiago,Puerto Rico,PR,Puerto Rico
+Wanaka,Wanaka,New Zealand,NZ,Otago
+Creston,Creston,Canada,CA,British Columbia
+Sioux Lookout,Sioux Lookout,Canada,CA,Ontario
+Abra Pampa,Abra Pampa,Argentina,AR,Jujuy
+Victorica,Victorica,Argentina,AR,La Pampa
+Cochrane,Cochrane,Canada,CA,Ontario
+Cochrane,Cochrane,Chile,CL,Aysén
+La Paz,La Paz,Argentina,AR,Mendoza
+Liverpool,Liverpool,Canada,CA,Nova Scotia
+Melville,Melville,Canada,CA,Saskatchewan
+Comandante Fontana,Comandante Fontana,Argentina,AR,Formosa
+George Town,George Town,Cayman Islands,KY,
+Pofadder,Pofadder,South Africa,ZA,Northern Cape
+Svolvær,Svolvaer,Norway,NO,Nordland
+Deer Lake,Deer Lake,Canada,CA,Newfoundland and Labrador
+San Antonio de los Cobres,San Antonio de los Cobres,Argentina,AR,Salta
+Vergara,Vergara,Uruguay,UY,Treinta y Tres
+Jasper,Jasper,Canada,CA,Alberta
+Finnsnes,Finnsnes,Norway,NO,Troms
+Perito Moreno,Perito Moreno,Argentina,AR,Santa Cruz
+Ulaan-Uul,Ulaan-Uul,Mongolia,MN,Dornogovĭ
+Gaspé,Gaspe,Canada,CA,Québec
+Yomou,Yomou,Guinea,GN,N’Zérékoré
+Vanrhynsdorp,Vanrhynsdorp,South Africa,ZA,Western Cape
+Puerto Deseado,Puerto Deseado,Argentina,AR,Santa Cruz
+Kirkenes,Kirkenes,Norway,NO,Finnmark
+Turangi,Turangi,New Zealand,NZ,Waikato
+La Paloma,La Paloma,Uruguay,UY,Rocha
+Fort Chipewyan,Fort Chipewyan,Canada,CA,Alberta
+Sinnamary,Sinnamary,French Guiana,GF,
+Hokitika,Hokitika,New Zealand,NZ,West Coast
+Lac La Biche,Lac La Biche,Canada,CA,Alberta
+General Conesa,General Conesa,Argentina,AR,Río Negro
+Renwick,Renwick,New Zealand,NZ,Marlborough
+Pampa del Infierno,Pampa del Infierno,Argentina,AR,Chaco
+Nautla,Nautla,Mexico,MX,Veracruz
+Orocué,Orocue,Colombia,CO,Casanare
+Saint-Georges,Saint-Georges,French Guiana,GF,
+Nuquí,Nuqui,Colombia,CO,Chocó
+Aiguá,Aigua,Uruguay,UY,Maldonado
+Baie-du-Poste,Baie-du-Poste,Canada,CA,Québec
+Gimli,Gimli,Canada,CA,Manitoba
+Rørvik,Rorvik,Norway,NO,
+Chumbicha,Chumbicha,Argentina,AR,Catamarca
+Athabasca,Athabasca,Canada,CA,Alberta
+Gobernador Gregores,Gobernador Gregores,Argentina,AR,Santa Cruz
+Baltasar Brum,Baltasar Brum,Uruguay,UY,Artigas
+Donegal,Donegal,Ireland,IE,Donegal
+Nelson House,Nelson House,Canada,CA,Manitoba
+Puerto Williams,Puerto Williams,Chile,CL,Magallanes y de la Antártica Chilena
+Rankin Inlet,Rankin Inlet,Canada,CA,Nunavut
+Palopo,Palopo,Indonesia,ID,Sulawesi Selatan
+Juradó,Jurado,Colombia,CO,Chocó
+San Julián,San Julian,Argentina,AR,Santa Cruz
+Boffa,Boffa,Guinea,GN,Boké
+Maltahöhe,Maltahohe,Namibia,NA,Hardap
+Port Hardy,Port Hardy,Canada,CA,British Columbia
+Roura,Roura,French Guiana,GF,
+Puerto Villamil,Puerto Villamil,Ecuador,EC,Galápagos
+Wawa,Wawa,Canada,CA,Ontario
+Kaikoura,Kaikoura,New Zealand,NZ,Canterbury
+Arviat,Arviat,Canada,CA,Nunavut
+Te Anau,Te Anau,New Zealand,NZ,Southland
+Trancas,Trancas,Argentina,AR,Tucumán
+Baker Lake,Baker Lake,Canada,CA,Nunavut
+Alto Río Senguer,Alto Rio Senguer,Argentina,AR,Chubut
+Iracoubo,Iracoubo,French Guiana,GF,
+Sierra Colorada,Sierra Colorada,Argentina,AR,Río Negro
+Alexander Bay,Alexander Bay,South Africa,ZA,Northern Cape
+San Vicente del Caguán,San Vicente del Caguan,Colombia,CO,Caquetá
+Cape Dorset,Cape Dorset,Canada,CA,Nunavut
+Tarutung,Tarutung,Indonesia,ID,Sumatera Utara
+Lake Louise,Lake Louise,Canada,CA,Alberta
+Las Lajas,Las Lajas,Argentina,AR,Neuquén
+Susques,Susques,Argentina,AR,Jujuy
+Repulse Bay,Repulse Bay,Canada,CA,Nunavut
+Greytown,Greytown,Nicaragua,NI,Río San Juan
+Tarapoto,Tarapoto,Peru,PE,San Martín
+Rodeo,Rodeo,Argentina,AR,San Juan
+Arctic Bay,Arctic Bay,Canada,CA,Nunavut
+Fort Good Hope,Fort Good Hope,Canada,CA,Northwest Territories
+Tinogasta,Tinogasta,Argentina,AR,Catamarca
+Schefferville,Schefferville,Canada,CA,Québec
+Kimmirut,Kimmirut,Canada,CA,Nunavut
+Halfmoon Bay,Halfmoon Bay,New Zealand,NZ,Southland
+Lasserre,Lasserre,Guadeloupe,GP,
+Saint Anthony,Saint Anthony,Canada,CA,Newfoundland and Labrador
+Oxford House,Oxford House,Canada,CA,Manitoba
+La Esmeralda,La Esmeralda,Venezuela,VE,Amazonas
+Hödrögö,Hodrogo,Mongolia,MN,Dzavhan
+Olmos,Olmos,Peru,PE,Lambayeque
+Glencoe,Glencoe,New Zealand,NZ,Southland
+Mandritsara,Mandritsara,Madagascar,MG,Mahajanga
+San José de Chiquitos,San Jose de Chiquitos,Bolivia,BO,Santa Cruz
+Usakos,Usakos,Namibia,NA,Erongo
+Challapata,Challapata,Bolivia,BO,Oruro
+Jumlā,Jumla,Nepal,NP,
+Achacachi,Achacachi,Bolivia,BO,La Paz
+Vallegrande,Vallegrande,Bolivia,BO,Santa Cruz
+Aiquile,Aiquile,Bolivia,BO,Cochabamba
+Putina,Putina,Peru,PE,Puno
+Keflavík,Keflavik,Iceland,IS,
+Urubamba,Urubamba,Peru,PE,Cusco
+Tranqueras,Tranqueras,Uruguay,UY,Rivera
+Coracora,Coracora,Peru,PE,Ayacucho
+Al ‘Alamayn,Al `Alamayn,Egypt,EG,Maţrūḩ
+Reyes,Reyes,Bolivia,BO,El Beni
+Luân Châu,Luan Chau,Vietnam,VN,Điện Biên
+As Sallūm,As Sallum,Egypt,EG,Maţrūḩ
+Parry Sound,Parry Sound,Canada,CA,Ontario
+Quellón,Quellon,Chile,CL,Los Lagos
+Melekeok,Melekeok,Palau,PW,Melekeok
+Kieta,Kieta,Papua New Guinea,PG,Bougainville
+Karibib,Karibib,Namibia,NA,Erongo
+Golfito,Golfito,Costa Rica,CR,Puntarenas
+Antigonish,Antigonish,Canada,CA,Nova Scotia
+Outjo,Outjo,Namibia,NA,Kunene
+Quirihue,Quirihue,Chile,CL,Biobío
+San Ramón,San Ramon,Bolivia,BO,El Beni
+San Carlos,San Carlos,Bolivia,BO,Santa Cruz
+San Matías,San Matias,Bolivia,BO,Santa Cruz
+Fort Nelson,Fort Nelson,Canada,CA,British Columbia
+Selfoss,Selfoss,Iceland,IS,
+Smithers,Smithers,Canada,CA,British Columbia
+Bathurst,Bathurst,Canada,CA,New Brunswick
+Norway House,Norway House,Canada,CA,Manitoba
+Vossevangen,Vossevangen,Norway,NO,Hordaland
+Stettler,Stettler,Canada,CA,Alberta
+Avarua,Avarua,Cook Islands,CK,
+San Quintín,San Quintin,Mexico,MX,Baja California
+Desaguadero,Desaguadero,Peru,PE,Puno
+Hohenau,Hohenau,Paraguay,PY,Itapúa
+New Liskeard,New Liskeard,Canada,CA,Ontario
+Xiangkhoang,Xiangkhoang,Laos,LA,Xiangkhouang
+Combarbalá,Combarbala,Chile,CL,Coquimbo
+Villa del Rosario,Villa del Rosario,Paraguay,PY,San Pedro
+Hearst,Hearst,Canada,CA,Ontario
+Qaşr al Farāfirah,Qasr al Farafirah,Egypt,EG,Al Wādī al Jadīd
+Puerto La Victoria,Puerto La Victoria,Paraguay,PY,Alto Paraguay
+Betanzos,Betanzos,Bolivia,BO,Potosí
+Nata,Nata,Botswana,BW,
+Uncia,Uncia,Bolivia,BO,Potosí
+Camargo,Camargo,Bolivia,BO,Chuquisaca
+Marathon,Marathon,Canada,CA,Ontario
+Otavi,Otavi,Namibia,NA,Otjozondjupa
+Kindersley,Kindersley,Canada,CA,Saskatchewan
+La Cruz,La Cruz,Costa Rica,CR,Guanacaste
+Bekily,Bekily,Madagascar,MG,Toliara
+Kyaukpyu,Kyaukpyu,Burma,MM,Rakhine State
+Channel-Port aux Basques,Channel-Port aux Basques,Canada,CA,Newfoundland and Labrador
+San Javier,San Javier,Bolivia,BO,Santa Cruz
+Apolo,Apolo,Bolivia,BO,La Paz
+Santo Tomás,Santo Tomas,Peru,PE,Cusco
+Quime,Quime,Bolivia,BO,La Paz
+Saint-Augustin,Saint-Augustin,Canada,CA,Québec
+Digby,Digby,Canada,CA,Nova Scotia
+Westport,Westport,New Zealand,NZ,West Coast
+Hay River,Hay River,Canada,CA,Northwest Territories
+Windsor,Windsor,Canada,CA,Nova Scotia
+Ciudad Cortés,Ciudad Cortes,Costa Rica,CR,Puntarenas
+La Ronge,La Ronge,Canada,CA,Saskatchewan
+Deer Lake,Deer Lake,Canada,CA,Ontario
+Atikokan,Atikokan,Canada,CA,Ontario
+Santa Bárbara,Santa Barbara,Chile,CL,Biobío
+Magdalena,Magdalena,Bolivia,BO,El Beni
+Gander,Gander,Canada,CA,Newfoundland and Labrador
+Mopipi,Mopipi,Botswana,BW,Central
+Caballococha,Caballococha,Peru,PE,Loreto
+Shelburne,Shelburne,Canada,CA,Nova Scotia
+Anna Regina,Anna Regina,Guyana,GY,Pomeroon-Supenaam
+Arroyos y Esteros,Arroyos y Esteros,Paraguay,PY,Cordillera
+Charagua,Charagua,Bolivia,BO,Santa Cruz
+Abaí,Abai,Paraguay,PY,Caazapá
+Inuvik,Inuvik,Canada,CA,Northwest Territories
+San Lorenzo,San Lorenzo,Bolivia,BO,Tarija
+Samaipata,Samaipata,Bolivia,BO,Santa Cruz
+Padilla,Padilla,Bolivia,BO,Chuquisaca
+Lillooet,Lillooet,Canada,CA,British Columbia
+Ygatimi,Ygatimi,Paraguay,PY,Canindeyú
+Entre Ríos,Entre Rios,Bolivia,BO,Tarija
+Sauðárkrókur,Saudharkrokur,Iceland,IS,
+Chapleau,Chapleau,Canada,CA,Ontario
+Burns Lake,Burns Lake,Canada,CA,British Columbia
+Huasco,Huasco,Chile,CL,Atacama
+Ísafjörður,Isafjordhur,Iceland,IS,
+Nauta,Nauta,Peru,PE,Loreto
+Mariscal Estigarribia,Mariscal Estigarribia,Paraguay,PY,Boquerón
+José Batlle y Ordóñez,Jose Batlle y Ordonez,Uruguay,UY,Lavalleja
+Tarabuco,Tarabuco,Bolivia,BO,Chuquisaca
+Baures,Baures,Bolivia,BO,El Beni
+El Dorado,El Dorado,Venezuela,VE,Bolívar
+Oficina María Elena,Oficina Maria Elena,Chile,CL,Antofagasta
+Coroico,Coroico,Bolivia,BO,La Paz
+Sohano,Sohano,Papua New Guinea,PG,Bougainville
+Toltén,Tolten,Chile,CL,Araucanía
+Egilsstaðir,Egilsstadhir,Iceland,IS,
+El Manteco,El Manteco,Venezuela,VE,Bolívar
+Stanley,Stanley,Falkland Islands (Islas Malvinas),FK,
+Biggar,Biggar,Canada,CA,Saskatchewan
+Sorata,Sorata,Bolivia,BO,La Paz
+Wiarton,Wiarton,Canada,CA,Ontario
+Hudson Bay,Hudson Bay,Canada,CA,Saskatchewan
+Pozo Colorado,Pozo Colorado,Paraguay,PY,Presidente Hayes
+Mejillones,Mejillones,Chile,CL,Antofagasta
+Matagami,Matagami,Canada,CA,Québec
+Kaupanger,Kaupanger,Norway,NO,Sogn og Fjordane
+Lehututu,Lehututu,Botswana,BW,
+Corocoro,Corocoro,Bolivia,BO,La Paz
+Sixaola,Sixaola,Costa Rica,CR,Limón
+Attawapiskat,Attawapiskat,Canada,CA,Ontario
+Borgarnes,Borgarnes,Iceland,IS,
+Puerto Villarroel,Puerto Villarroel,Bolivia,BO,Cochabamba
+Red Lake,Red Lake,Canada,CA,Ontario
+Nokaneng,Nokaneng,Botswana,BW,
+Moosonee,Moosonee,Canada,CA,Ontario
+Al Qaşr,Al Qasr,Egypt,EG,Al Wādī al Jadīd
+Höfn,Hofn,Iceland,IS,Austurland
+Labutta,Labutta,Burma,MM,Ayeyawady
+Tofino,Tofino,Canada,CA,British Columbia
+Igloolik,Igloolik,Canada,CA,Nunavut
+Inukjuak,Inukjuak,Canada,CA,Québec
+Little Current,Little Current,Canada,CA,Ontario
+Pond Inlet,Pond Inlet,Canada,CA,Nunavut
+Manja,Manja,Madagascar,MG,Toliara
+Cap-Chat,Cap-Chat,Canada,CA,Québec
+Cambridge Bay,Cambridge Bay,Canada,CA,Nunavut
+Lokwabe,Lokwabe,Botswana,BW,
+Thessalon,Thessalon,Canada,CA,Ontario
+Tsau,Tsau,Botswana,BW,
+Bella Bella,Bella Bella,Canada,CA,British Columbia
+Cobalt,Cobalt,Canada,CA,Ontario
+Pangnirtung,Pangnirtung,Canada,CA,Nunavut
+Dawson,Dawson,Canada,CA,Yukon
+Fulacunda,Fulacunda,Guinea-Bissau,GW,
+Kugluktuk,Kugluktuk,Canada,CA,Nunavut
+Geraldton,Geraldton,Canada,CA,Ontario
+Gillam,Gillam,Canada,CA,Manitoba
+Kuujjuaq,Kuujjuaq,Canada,CA,Québec
+Ñacunday,Nacunday,Paraguay,PY,Alto Paraná
+Nipigon,Nipigon,Canada,CA,Ontario
+San Rafael,San Rafael,Bolivia,BO,Santa Cruz
+Capitán Pablo Lagerenza,Capitan Pablo Lagerenza,Paraguay,PY,Alto Paraguay
+Santo António,Santo Antonio,Sao Tome And Principe,ST,Príncipe
+Nain,Nain,Canada,CA,Newfoundland and Labrador
+Puerto Acosta,Puerto Acosta,Bolivia,BO,La Paz
+Gjoa Haven,Gjoa Haven,Canada,CA,Nunavut
+Fort McPherson,Fort McPherson,Canada,CA,Northwest Territories
+Argentia,Argentia,Canada,CA,Newfoundland and Labrador
+Norman Wells,Norman Wells,Canada,CA,Northwest Territories
+Besalampy,Besalampy,Madagascar,MG,Mahajanga
+Sicasica,Sicasica,Bolivia,BO,La Paz
+Altata,Altata,Mexico,MX,Sinaloa
+Churchill,Churchill,Canada,CA,Manitoba
+General Eugenio A. Garay,General Eugenio A. Garay,Paraguay,PY,Boquerón
+Cuevo,Cuevo,Bolivia,BO,Santa Cruz
+Tuktoyaktuk,Tuktoyaktuk,Canada,CA,Northwest Territories
+Berens River,Berens River,Canada,CA,Manitoba
+Hoskins,Hoskins,Papua New Guinea,PG,West New Britain
+Shamattawa,Shamattawa,Canada,CA,Manitoba
+Baddeck,Baddeck,Canada,CA,Nova Scotia
+Coral Harbour,Coral Harbour,Canada,CA,Nunavut
+La Scie,La Scie,Canada,CA,Newfoundland and Labrador
+Watson Lake,Watson Lake,Canada,CA,Yukon
+Bávaro,Bavaro,Dominican Republic,DO,Yuma
+Taloyoak,Taloyoak,Canada,CA,Nunavut
+Muhembo,Muhembo,Botswana,BW,
+Natashquan,Natashquan,Canada,CA,Québec
+Buchans,Buchans,Canada,CA,Newfoundland and Labrador
+Hall Beach,Hall Beach,Canada,CA,Nunavut
+Calatrava,Calatrava,Equatorial Guinea,GQ,
+Ype Jhú,Ype Jhu,Paraguay,PY,Canindeyú
+Mingan,Mingan,Canada,CA,Québec
+Sabaya,Sabaya,Bolivia,BO,Oruro
+Ubombo,Ubombo,South Africa,ZA,KwaZulu-Natal
+Llica,Llica,Bolivia,BO,Potosí
+Kangirsuk,Kangirsuk,Canada,CA,Québec
+Sandspit,Sandspit,Canada,CA,British Columbia
+Punta Prieta,Punta Prieta,Mexico,MX,Baja California
+Délįne,Deline,Canada,CA,Northwest Territories
+Fort Smith,Fort Smith,Canada,CA,Northwest Territories
+Tournavista,Tournavista,Peru,PE,Huánuco
+Cartwright,Cartwright,Canada,CA,Newfoundland and Labrador
+Puerto Pinasco,Puerto Pinasco,Paraguay,PY,Presidente Hayes
+Holman,Holman,Canada,CA,Northwest Territories
+Lynn Lake,Lynn Lake,Canada,CA,Manitoba
+Trout River,Trout River,Canada,CA,Newfoundland and Labrador
+Fort Resolution,Fort Resolution,Canada,CA,Northwest Territories
+Forteau Bay,Forteau Bay,Canada,CA,Newfoundland and Labrador
+Hopedale,Hopedale,Canada,CA,Newfoundland and Labrador
+Pukatawagan,Pukatawagan,Canada,CA,Manitoba
+Trepassey,Trepassey,Canada,CA,Newfoundland and Labrador
+Chonchi,Chonchi,Chile,CL,Los Lagos
+Toconao,Toconao,Chile,CL,Antofagasta
+Chesterfield Inlet,Chesterfield Inlet,Canada,CA,Nunavut
+Balsadero Río Verde,Balsadero Rio Verde,Chile,CL,Magallanes y de la Antártica Chilena
+Eastmain,Eastmain,Canada,CA,Québec
+Dease Lake,Dease Lake,Canada,CA,British Columbia
+Paulatuk,Paulatuk,Canada,CA,Northwest Territories
+Yaupi,Yaupi,Ecuador,EC,Morona-Santiago
+Fort Simpson,Fort Simpson,Canada,CA,Northwest Territories
+Brochet,Brochet,Canada,CA,Manitoba
+Cat Lake,Cat Lake,Canada,CA,Ontario
+Radisson,Radisson,Canada,CA,Québec
+Port-Menier,Port-Menier,Canada,CA,Québec
+Villa O’Higgins,Villa O'Higgins,Chile,CL,Aysén
+Resolute,Resolute,Canada,CA,Nunavut
+Amau,Amau,Papua New Guinea,PG,Central
+Upper Hay River,Upper Hay River,Canada,CA,Alberta
+Port Hope Simpson,Port Hope Simpson,Canada,CA,Newfoundland and Labrador
+Charaña,Charana,Bolivia,BO,La Paz
+Tsiigehtchic,Tsiigehtchic,Canada,CA,Northwest Territories
+Androka,Androka,Madagascar,MG,Toliara
+Ivujivik,Ivujivik,Canada,CA,Québec
+Stony Rapids,Stony Rapids,Canada,CA,Saskatchewan
+Buton,Buton,Indonesia,ID,Kepulauan Riau
+Alert,Alert,Canada,CA,Nunavut
+Fort Severn,Fort Severn,Canada,CA,Ontario
+Rigolet,Rigolet,Canada,CA,Newfoundland and Labrador
+Lansdowne House,Lansdowne House,Canada,CA,Ontario
+Salluit,Salluit,Canada,CA,Québec
+Łutselk’e,Lutselk'e,Canada,CA,Northwest Territories
+Villa Martín Colchak,Villa Martin Colchak,Bolivia,BO,Potosí
+Güeppí,Gueppi,Peru,PE,Loreto
+Ituni,Ituni,Guyana,GY,Upper Demerara-Berbice
+Grytviken,Grytviken,South Georgia And South Sandwich Islands,GS,
+Uranium City,Uranium City,Canada,CA,Saskatchewan
+Burwash Landing,Burwash Landing,Canada,CA,Yukon
+Piso Firme,Piso Firme,Bolivia,BO,El Beni
+Rocafuerte,Rocafuerte,Peru,PE,Loreto
+Grise Fiord,Grise Fiord,Canada,CA,Nunavut
+Cuya,Cuya,Chile,CL,Arica y Parinacota
+Lagunas,Lagunas,Chile,CL,Tarapacá
+Andoas,Andoas,Peru,PE,Loreto
+Puca Urco,Puca Urco,Peru,PE,Loreto
+Barnīs,Barnis,Egypt,EG,Al Baḩr al Aḩmar
+Soldado Bartra,Soldado Bartra,Peru,PE,Loreto
+Puerto Heath,Puerto Heath,Bolivia,BO,La Paz
+Island Lake,Island Lake,Canada,CA,Manitoba
+Big Beaverhouse,Big Beaverhouse,Canada,CA,Ontario
+Ennadai,Ennadai,Canada,CA,Nunavut

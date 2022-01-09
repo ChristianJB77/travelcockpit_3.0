@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Travel Secrets
+{% endblock %}
+
+{% block main %}
+<h2 class="h2">Travel Secrets</h2>
+<br><br>
+{% for blog in blogs %}
+    <div class="container info_box" style="margin-top:15px">
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="blog_title">{{ blog.title }}</p>
+            </div>
+            <div class="col-sm-7">
+            </div>
+            <div class="col-sm-2 blog_title">
+                {% if blog.link != None %}
+                    <form action="/home?dest={{ blog.link }}" method="post">
+                        <div class="form-group">
+                            <button class="btn btn-primary" type="submit">
+                              {{ blog.link }}</button>
+                        </div>
+                    </form>
+                {% endif %}
+            </div>
+        </div>
+        {% if blog.why1 %}
+            <div class="row">
+                <div class="col-sm-2">
+                    <p class="blog_p">Why?</p>
+                </div>
+                <div class="col-sm-10 blog_p">
+                    <ul>
+                        <li>{{ blog.why1 }}</li>
+                    </ul>
+                </div>
+            </div>
+        {% endif %}
+        {% if blog.why2 %}
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-10 blog_p">
+                    <ul>
+                        <li>{{ blog.why2 }}</li>
+                    </ul>
+                </div>
+            </div>
+        {% endif %}
+        {% if blog.why3 %}
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-10 blog_p">
+                    <ul>
+                        <li>{{ blog.why3 }}</li>
+                    </ul>
+                </div>
+            </div>
+        {% endif %}
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="blog_p">{{ blog.text }}</p>
+            </div>
+        </div>
+        <br>
+    </div>
+{% endfor %}
+<br><br>
+{% endblock %}

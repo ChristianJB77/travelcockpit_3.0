@@ -1,0 +1,385 @@
+/*Media query for mobile devices, max width Galaxy S10+*/
+@media only screen and (max-width: 1200px) {
+    body {
+        background-image: url("mobile_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+        padding: 1vw;
+    }
+    label {
+        color: white;
+        font-size: 2.5vh;
+        text-shadow: 0.06vw 0.06vw black;
+    }
+    .back {
+        color: white;
+        font-size: 2.5vh;
+        text-shadow: 0.06vw 0.06vw black;
+    }
+    .alert {
+        padding: 1.5vw;
+        font-size: 2vh;
+    }
+    .nav {
+        border-radius: 0.6vh;
+    }
+    .h1 {
+        font-size:4vw;
+        padding-left: 0.1vh;
+        padding-right: 0.1vh;
+        text-align: center;
+        text-shadow: 0.025vw 0.025vw darkgrey;
+    }
+    .h2 {
+        padding-top: 0.2vh;
+        font-size:3.5vw;
+        text-align: center;
+        color: white;
+        text-shadow: 0.06vw 0.06vw black;
+    }
+    .footer {
+        font-size: 2vh;
+        padding: 0.6vh;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+    }
+    .source_footer {
+        font-size: 1.5vh;
+        padding: 0.6vh
+        text-align: center;
+        color: white;
+    }
+    .links {
+        margin-top: 0.4vh;
+        background-color: lightgrey;
+        border: 0.05vh solid grey;
+        opacity: 0.8;
+        width: 18vh;
+        font-size: 2vh;
+        padding: 0.6vh;
+        color: darkblue;
+        font-weight: bold;
+        text-align: left;
+    }
+    .center_div {
+        margin: 0 auto;
+        width: 50%
+    }
+    .logo {
+        height: 7vh;
+        width: 7vh;
+        border-radius: 1vh;
+        border: 0.05vh solid darkgrey;
+        margin: 0;
+    }
+    .logo_pos {
+        float: left;
+    }
+    .index_img {
+        object-fit: cover;
+        height: 22vh;
+        width: 45vw;
+        border-radius: 0.5vh;
+        border: 0.05vh solid darkgrey;
+    }
+    .map {
+        width: 100%;
+        height: 40vh;
+        border: 0;
+        border-radius: 1vh;
+    }
+    .blog_title {
+        font-size:2.5vh;
+        font-weight: bold;
+        padding-left: 1vh;
+        padding-top: 1vh;
+    }
+    .blog_p {
+        font-size:1.8vh;
+        padding-left: 1vh;
+    }
+    .info_title {
+        font-size:2.5vh;
+        text-shadow: 0.08vw 0.08vw grey;
+        padding-bottom: 1vh;
+    }
+    .info_box {
+        background: #FFFAF0;
+        opacity: 0.8;
+        border-radius: 1vh;
+    }
+    .info_title {
+        font-size:2.5vh;
+        text-shadow: 0.08vw 0.08vw grey;
+        padding-bottom: 1vh;
+    }
+    .info_p {
+        font-size:1.8vh;
+        text-shadow: 0.04vw 0.04vw grey;
+    }
+    .weather_box {
+        background: #FFFAF0;
+        opacity: 0.8;
+        border-radius: 1vh;
+    }
+    .weather_title {
+        font-size:3vh;
+        text-shadow: 0.08vw 0.08vw grey;
+    }
+    .weather_subtitle {
+        font-size:2vh;
+        text-shadow: 0.06vw 0.06vw grey;
+    }
+    .weather_p {
+        font-size:1.8vh;
+        text-shadow: 0.04vw 0.04vw grey;
+    }
+    .weather_icon {
+        height: 10vh;
+        margin-bottom: -3vh;
+    }
+    .covid {
+        background: #FFFAF0;
+        opacity: 0.8;
+        border-radius: 1vh;
+    }
+    .text_box {
+        border: 0;
+        padding: 1vh;
+        background-color: grey;
+        border-radius: 1vh;
+        margin-bottom: 2vh;
+    }
+    .title_box {
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3vh;
+    }
+    .sub_title_box {
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 2.5vh;
+    }
+    .text_in_box {
+        color: white;
+        text-align: justify;
+        font-size: 2vh;
+        text-indent: 2vw;
+        padding-left: 0.7vh;
+        padding-right: 0.7vh;
+        padding-bottom: 1vh;
+    }
+    .contact {
+        color: white;
+        text-align: left;
+        font-size: 2.5vh;
+        margin-bottom: 2vh;
+    }
+    .list {
+        list-style-type: square;
+        color: white;
+        font-size: 2vh;
+        padding-left: 7vw;
+        padding-right: 0.7vh;
+        padding-bottom: 1vh;
+    }
+    .button_icon {
+        vertical-align: -25%;
+        padding: 1vh;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    body {
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left;
+        padding: 1vw;
+    }
+    label {
+        color: white;
+        font-size: 2.5vh;
+        text-shadow: 0.06vw 0.06vw black;
+    }
+    .back {
+        color: white;
+        font-size: 2.5vh;
+        text-shadow: 0.06vw 0.06vw black;
+    }
+    .alert {
+        padding: 1vw;
+        font-size: 1.5vh;
+    }
+    .nav {
+        border-radius: 0.8vh;
+    }
+    .nav_title {
+        font-size: 3.5vh;
+    }
+    .h1 {
+        font-size:4vh;
+        padding-left: 0.2vh;
+        padding-right: 27vw;
+        text-align: center;
+        text-shadow: 0.02vw 0.02vw darkgrey;
+    }
+    .h2 {
+        padding-top: 0.2vh;
+        padding-right: 20vw;
+        font-size:3.5vh;
+        text-align: center;
+        color: white;
+        text-shadow: 0.08vw 0.08vw black;
+    }
+    .footer {
+        font-size: 2vh;
+        padding: 0.6vh;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+    }
+    .source_footer {
+        font-size: 1.5vh;
+        padding: 0.6vh
+        text-align: center;
+        color: white;
+    }
+    .links {
+        visibility: hidden;
+        margin: 0.4vh;
+        background-color: lightgrey;
+        border: 0.05vh solid grey;
+        opacity: 0.8;
+        width: 25vh;
+        font-size: 2vh;
+        padding: 0.6vh;
+        color: darkblue;
+        font-weight: bold;
+        text-align: right;
+    }
+    .center_div {
+        margin: 0 auto;
+        width: 60%
+    }
+    .logo {
+        height: 8vh;
+        width: 8vh;
+        border-radius: 1vh;
+        border: 0.05vh solid darkgrey;
+    }
+    .logo_pos {
+        float: left;
+    }
+    .index_img {
+        object-fit: cover;
+        height: 22vh;
+        width: 45vw;
+        border-radius: 0.5vh;
+        border: 0.05vh solid darkgrey;
+    }
+    .map {
+        width: 100%;
+        height: 45vh;
+        border: 0;
+        border-radius: 1vh;
+    }
+    .blog_title {
+        font-size:2.5vh;
+        font-weight: bold;
+        padding-left: 1vh;
+        padding-top: 1vh;
+    }
+    .blog_p {
+        font-size:1.8vh;
+        padding-left: 1vh;
+    }
+    .info_box {
+        background: #FFFAF0;
+        opacity: 0.8;
+        border-radius: 1vh;
+    }
+    .info_title {
+        font-size:2.5vh;
+        text-shadow: 0.03vw 0.03vw grey;
+        padding-bottom: 1vh;
+    }
+    .info_p {
+        font-size:1.8vh;
+        text-shadow: 0.02vw 0.02vw grey;
+    }
+    .weather_box {
+        background: #FFFAF0;
+        opacity: 0.8;
+        border-radius: 1vh;
+    }
+    .weather_title {
+        font-size:3.5vh;
+        text-shadow: 0.08vw 0.08vw grey;
+        text-align: center;
+    }
+    .weather_subtitle {
+        font-size:2.5vh;
+        text-shadow: 0.06vw 0.06vw grey;
+    }
+    .weather_icon {
+        height: 10vh;
+        margin-bottom: -3vh;
+    }
+    .covid {
+        background: #FFFAF0;
+        opacity: 0.8;
+        border-radius: 1vh;
+    }
+    .text_box {
+        border: 0;
+        padding: 1vh;
+        background-color: grey;
+        border-radius: 1vh;
+        margin-bottom: 2vh;
+        width: 60vw;
+        margin-left: 19vw;
+    }
+    .title_box {
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 4vh;
+    }
+    .sub_title_box {
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        font-size: 3vh;
+    }
+    .text_in_box {
+        color: white;
+        text-align: justify;
+        font-size: 2vh;
+    }
+    .contact {
+        color: white;
+        text-align: left;
+        font-size: 2.5vh;
+        margin-bottom: 2vh;
+    }
+    .list {
+        list-style-type: square;
+        color: white;
+        font-size: 2vh;
+        padding-left: 7vw;
+        padding-right: 0.7vh;
+        padding-bottom: 1vh;
+    }
+    .button_icon {
+        vertical-align: -25%;
+        padding: 1vh;
+    }
+}

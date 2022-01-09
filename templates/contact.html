@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Contact
+{% endblock %}
+
+{% block main %}
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <!--Contact with Font Awesome icons-->
+    <div class="text_box">
+        <h1 class="title_box">Contact</h1>
+        <ul class="fa-ul contact">
+            <li><span class="fa-li">
+                <i class="fas fa-user-astronaut"></i></span>Christian Johann Bayerle</li>
+        </ul>
+        <ul class="fa-ul contact">
+            <li><span class="fa-li">
+                <i class="fas fa-map-marked-alt"></i></span>Stuttgart, Germany</li>
+        </ul>
+        <ul class="fa-ul contact">
+            <li><span class="fa-li">
+                <i class="fas fa-envelope"></i></span>christian.bayerle@gmail.com</li>
+        </ul>
+    </div>
+
+    <br><br>
+{% endblock %}
