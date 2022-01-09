@@ -68,6 +68,12 @@ def weather_widget(loc_classes, switch):
                 # Get capital for time time_zone
                 city = capital
                 r = requests.get(url_city.format(city, iso, cnt, lang)).json()
+            # Area q=area,country_iso
+            elif loc_classes['loc_type'] == 'area':
+                area = loc_classes['area_loc']
+                iso = loc_classes['country_iso']
+                lang = "de"
+                r = requests.get(url_city.format(area, iso, cnt, lang)).json()
             # Big city q=city,country_iso
             elif loc_classes['loc_type'] == 'big_city':
                 city = loc_classes['city']
@@ -92,6 +98,12 @@ def weather_widget(loc_classes, switch):
                 # Get capital for time time_zone
                 city = capital
                 r = requests.get(url_city.format(city, iso, cnt, lang)).json()
+            # Area q=area,country_iso
+            elif loc_classes['loc_type'] == 'area':
+                area = loc_classes['area_loc']
+                iso = loc_classes['country_iso']
+                lang = "en"
+                r = requests.get(url_city.format(area, iso, cnt, lang)).json()
             # Big city q=city,country_iso
             elif loc_classes['loc_type'] == 'big_city':
                 city = loc_classes['city']

@@ -5,7 +5,8 @@ from flask import redirect, render_template, request, session
 from functools import wraps
 from sqlalchemy import or_, func
 # Database
-from database.models import db, DataHubCountries, CountriesTranslate, Cities41k
+from database.models import db, DataHubCountries, CountriesTranslate, \
+    Cities41k, Areas
 
 
 def check(destination):
@@ -143,24 +144,24 @@ def loc_class(dest):
 
     # Area/province check
     elif Areas.query \
-        .filter(or_(func.lower(Areas.area_loc) == dest),
-                    Areas.area_eng.ilike('%{}%'.format(dest))) \
+        .filter(or_(func.lower(Areas.area_loc) == dest, \
+                    Areas.area_eng.ilike('%{}%'.format(dest)))) \
                     .first() is not None:
 
         # Location type for link functions
         dest_dic['loc_type'] = "area"
         # Get area local name
         dest_dic['area_loc'] = Areas.query \
-            .filter(or_(func.lower(Areas.area_loc) == dest),
-                Areas.area_eng.ilike('%{}%'.format(dest))) \
+            .filter(or_(func.lower(Areas.area_loc) == dest,
+                Areas.area_eng.ilike('%{}%'.format(dest)))) \
                 .first().area_loc.lower()
         # Get iso2 for country names in German and English
         iso3 = Areas.query \
-            .filter(or_(func.lower(Areas.area_loc) == dest),
-                Areas.area_eng.ilike('%{}%'.format(dest))) \
+            .filter(or_(func.lower(Areas.area_loc) == dest,
+                Areas.area_eng.ilike('%{}%'.format(dest)))) \
                 .first().iso3.lower()
         country_iso = DataHubCountries.query \
-            .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == dest) \
+            .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
             .first().iso3166_1_alpha_2.lower()
         dest_dic['country_iso'] = country_iso
         # Translate to English and German
@@ -171,8 +172,10 @@ def loc_class(dest):
             .filter(func.lower(CountriesTranslate.code)
                     == country_iso).first().en.lower()
 
-
-
+        dest_dic['language'] = "unclear"
+        # Print out for html title
+        dest_dic['print'] = dest_dic['area_loc'].title()
+        return dest_dic
 
 
     # City check

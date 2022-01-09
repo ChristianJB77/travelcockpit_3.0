@@ -203,6 +203,8 @@ def create_app(test_config=None):
             loc = loc_classes["loc_type"]
             if loc == "country":
                 history = loc_classes["country_en"]
+            elif loc == "area":
+                history = loc_classes["area_loc"]
             elif loc == "big_city":
                 history = loc_classes["city"]
             else:

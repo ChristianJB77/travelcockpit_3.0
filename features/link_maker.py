@@ -26,6 +26,7 @@ def links(dest, loc_classes, switch):
     dest_no_space = dest.replace(" ", "-")
 
     if loc_classes['loc_type'] == 'country' or \
+            loc_classes['loc_type'] == 'area' or \
             loc_classes['loc_type'] == 'big_city':
         country_de = loc_classes['country_de']
         country_en = loc_classes['country_en']
@@ -49,6 +50,16 @@ def links(dest, loc_classes, switch):
         else:
             links_dic['michelin'] = "https://guide.michelin.com/" \
                 + country_iso + "/en/restaurants"
+
+    # Area
+    elif loc_classes['loc_type'] == 'area':
+        # Excpetions
+        if country_iso == 'jp':
+            links_dic['michelin'] = "https://guide.michelin.co.jp/"
+        else:
+            links_dic['michelin'] = "https://guide.michelin.com/" \
+                + country_iso + "/en/search?q=" \
+                + loc_classes['area_loc']
 
     # Big city
     elif loc_classes['loc_type'] == 'big_city':
@@ -75,6 +86,10 @@ def links(dest, loc_classes, switch):
         if loc_classes['loc_type'] == 'country':
             links_dic['wiki'] = "https://de.wikipedia.org/wiki/" \
                                 + country_de
+        # Area
+        elif loc_classes['loc_type'] == 'area':
+            links_dic['wiki'] = "https://de.wikipedia.org/wiki/" \
+                                + loc_classes["area_loc"]
         # Big City
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['wiki'] = "https://de.wikipedia.org/wiki/" \
@@ -90,6 +105,10 @@ def links(dest, loc_classes, switch):
         if loc_classes['loc_type'] == 'country':
             links_dic['wiki'] = "https://en.wikipedia.org/wiki/" \
                                 + country_en
+        # Area
+        elif loc_classes['loc_type'] == 'area':
+            links_dic['wiki'] = "https://en.wikipedia.org/wiki/" \
+                                + loc_classes["area_loc"]
         # Big City
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['wiki'] = "https://en.wikipedia.org/wiki/" \
@@ -118,6 +137,10 @@ def links(dest, loc_classes, switch):
         if loc_classes['loc_type'] == 'country':
             links_dic['lp'] = "https://www.lonelyplanet.com/" \
                 + co_en
+        # Area
+        elif loc_classes['loc_type'] == 'area':
+            links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
+                + loc_classes["area_loc"]
         # City
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
@@ -137,6 +160,11 @@ def links(dest, loc_classes, switch):
             links_dic['maps'] = "https://www.google.com/maps" \
                 + "/embed/v1/search?key=" \
                 + MAPS_KEY + country_de + "/&language=de"
+        # Area
+        elif loc_classes['loc_type'] == 'area':
+            links_dic['maps'] = "https://www.google.com/maps" \
+                + "/embed/v1/search?key=" \
+                + MAPS_KEY + loc_classes["area_loc"] + "/&language=de"
         # Big City
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['maps'] = "https://www.google.com/maps" \
@@ -155,6 +183,11 @@ def links(dest, loc_classes, switch):
             links_dic['maps'] = "https://www.google.com/maps" \
                 + "/embed/v1/search?key=" \
                 + MAPS_KEY + country_en + "/&language=en"
+        # Area
+        elif loc_classes['loc_type'] == 'area':
+            links_dic['maps'] = "https://www.google.com/maps" \
+                + "/embed/v1/search?key=" \
+                + MAPS_KEY + loc_classes["area_loc"] + "/&language=en"
         # Big City
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['maps'] = "https://www.google.com/maps" \
@@ -182,6 +215,7 @@ def links(dest, loc_classes, switch):
 
         # Else go to optimale-reisezeit.de
         elif loc_classes['loc_type'] == "country" or \
+                loc_classes['loc_type'] == "area" or \
                 loc_classes['loc_type'] == "big_city":
             links_dic['reisezeit'] = "https://www.optimale-reisezeit.de/" \
                 + co_de
@@ -193,6 +227,7 @@ def links(dest, loc_classes, switch):
     # English
     else:
         if loc_classes['loc_type'] == "country" or \
+                loc_classes['loc_type'] == "area" or \
                 loc_classes['loc_type'] == "big_city":
             links_dic['climate'] = "https://www.climatestotravel.com/climate/"\
                 + co_en
@@ -209,6 +244,10 @@ def links(dest, loc_classes, switch):
         if loc_classes['loc_type'] == 'country':
             links_dic['medi_de'] = "https://www.fit-for-travel.de/reiseziel/" \
                 + co_de
+        # Area
+        elif loc_classes['loc_type'] == 'area':
+            links_dic['medi_de'] = "https://www.fit-for-travel.de/reiseziel/" \
+                + co_de
         # Big City
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['medi_de'] = "https://www.fit-for-travel.de/reiseziel/" \
@@ -222,6 +261,11 @@ def links(dest, loc_classes, switch):
     else:
         # Country
         if loc_classes['loc_type'] == 'country':
+            links_dic['medi_en'] = \
+                "https://wwwnc.cdc.gov/travel/destinations/traveler/none/" \
+                + co_en
+        # Area
+        elif loc_classes['loc_type'] == 'area':
             links_dic['medi_en'] = \
                 "https://wwwnc.cdc.gov/travel/destinations/traveler/none/" \
                 + co_en
@@ -241,6 +285,7 @@ def links(dest, loc_classes, switch):
     if loc_classes['language'] == "german" or switch == "German":
         # Country or big_city -> country knwown
         if loc_classes['loc_type'] == "country" or\
+                loc_classes['loc_type'] == "area" or\
                 loc_classes['loc_type'] == "big_city":
             links_dic['power_de'] = "https://www.welt-steckdosen.de/" + co_de
         # Good luck mode
@@ -250,6 +295,7 @@ def links(dest, loc_classes, switch):
     else:
         # Country or big_city -> country knwown
         if loc_classes['loc_type'] == "country" or \
+                loc_classes['loc_type'] == "area" or\
                 loc_classes['loc_type'] == "big_city":
             links_dic['power_en'] = "https://www.power-plugs-sockets.com/" \
                 + co_en
@@ -264,6 +310,7 @@ def links(dest, loc_classes, switch):
     if loc_classes['language'] == "german" or switch == "German":
         # Country or big_city -> country knwown
         if loc_classes['loc_type'] == "country" or \
+                loc_classes['loc_type'] == "area" or\
                 loc_classes['loc_type'] == "big_city":
             # Exception
             if country_iso == "kr":
@@ -280,6 +327,7 @@ def links(dest, loc_classes, switch):
     else:
         # Country or big_city -> country knwown
         if loc_classes['loc_type'] == "country" or \
+                loc_classes['loc_type'] == "area" or\
                 loc_classes['loc_type'] == "big_city":
             links_dic['gov_en'] = "https://travel.state.gov/content/travel" \
                 + "/en/traveladvisories/traveladvisories/" \
