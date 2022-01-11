@@ -6,7 +6,7 @@ from functools import wraps
 from sqlalchemy import or_, func
 # Database
 from database.models import db, DataHubCountries, CountriesTranslate, \
-    Cities41k, Areas
+    Cities41k, Areas, CitiesTranslate
 
 
 def check(destination):
@@ -233,6 +233,41 @@ def loc_class(dest):
         dest_dic['language'] = "unclear"
         # Print out for html title
         dest_dic['print'] = dest_dic['city'].title()
+        return dest_dic
+
+
+    # City check LOCAL language
+    elif CitiesTranslate.query \
+        .filter(CitiesTranslate.alternative_name.ilike('%{}%'.format(dest))) \
+        .first() is not None:
+
+        # Location type for link functions
+        dest_dic['loc_type'] = "big_city"
+        # Get response from cities translate
+        r = CitiesTranslate.query \
+            .filter(CitiesTranslate.alternative_name \
+            .ilike('%{}%'.format(dest))) \
+            .first()
+        # Get city name
+        dest_dic['city'] = r.city_ascii.lower()
+        # Get ISO alpha2 code
+        country_iso = r.iso2.lower()
+        dest_dic['country_iso'] = country_iso
+        # Get population
+        dest_dic['population'] = Cities41k.query \
+            .filter(func.lower(Cities41k.city_ascii) == dest_dic['city']) \
+            .first().population
+        # Translate to English and German
+        dest_dic['country_de'] = CountriesTranslate.query \
+            .filter(func.lower(CountriesTranslate.code)
+                    == country_iso).first().de.lower()
+        dest_dic['country_en'] = CountriesTranslate.query \
+            .filter(func.lower(CountriesTranslate.code)
+                    == country_iso).first().en.lower()
+
+        dest_dic['language'] = "unclear"
+        # Print out for html title
+        dest_dic['print'] = dest.title()
         return dest_dic
 
 
