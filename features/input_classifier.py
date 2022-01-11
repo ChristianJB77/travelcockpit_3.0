@@ -32,6 +32,7 @@ def loc_class(dest):
     dest = dest.lower()
     dest_no_space = dest.replace(" ", "")
     dest_up = dest.upper()
+    dest_up_link = dest_up.replace(" ", "-")
     dest_dic = {}
 
     # Country check
@@ -142,24 +143,18 @@ def loc_class(dest):
         dest_dic['print'] = dest_dic['country_de'].title()
         return dest_dic
 
-    # Area/province check
+    # Area/province EXACT check
     elif Areas.query \
-        .filter(or_(func.lower(Areas.area_loc) == dest, \
-                    Areas.area_eng.ilike('%{}%'.format(dest)))) \
-                    .first() is not None:
+        .filter(func.lower(Areas.area_loc) == dest).first() is not None:
 
         # Location type for link functions
         dest_dic['loc_type'] = "area"
         # Get area local name
         dest_dic['area_loc'] = Areas.query \
-            .filter(or_(func.lower(Areas.area_loc) == dest,
-                Areas.area_eng.ilike('%{}%'.format(dest)))) \
-                .first().area_loc.lower()
+            .filter(func.lower(Areas.area_loc) == dest).first().area_loc.lower()
         # Get iso2 for country names in German and English
         iso3 = Areas.query \
-            .filter(or_(func.lower(Areas.area_loc) == dest,
-                Areas.area_eng.ilike('%{}%'.format(dest)))) \
-                .first().iso3.lower()
+            .filter(func.lower(Areas.area_loc) == dest).first().iso3.lower()
         country_iso = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
             .first().iso3166_1_alpha_2.lower()
@@ -178,9 +173,39 @@ def loc_class(dest):
         return dest_dic
 
 
+    # Format all to upper case debugging for special character ä, ö, ü
+    elif Areas.query \
+        .filter(func.upper(Areas.area_loc) == dest_up_link).first() is not None:
+
+        dest = dest_up_link
+        # Location type for link functions
+        dest_dic['loc_type'] = "area"
+        # Get area local name
+        dest_dic['area_loc'] = Areas.query \
+            .filter(func.upper(Areas.area_loc) == dest).first().area_loc.lower()
+        # Get iso2 for country names in German and English
+        iso3 = Areas.query \
+            .filter(func.upper(Areas.area_loc) == dest).first().iso3.lower()
+        country_iso = DataHubCountries.query \
+            .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
+            .first().iso3166_1_alpha_2.lower()
+        dest_dic['country_iso'] = country_iso
+        # Translate to English and German
+        dest_dic['country_de'] = CountriesTranslate.query \
+            .filter(func.lower(CountriesTranslate.code)
+                    == country_iso).first().de.lower()
+        dest_dic['country_en'] = CountriesTranslate.query \
+            .filter(func.lower(CountriesTranslate.code)
+                    == country_iso).first().en.lower()
+
+        dest_dic['language'] = "german"
+        # Print out for html title
+        dest_dic['print'] = dest_dic['area_loc'].title()
+        return dest_dic
+
+
     # City check
     # Big city check from 41k list
-
     elif Cities41k.query \
             .filter(func.lower(Cities41k.city_ascii) == dest).first() is not None:
 
@@ -193,6 +218,10 @@ def loc_class(dest):
             .filter(func.lower(Cities41k.city_ascii) == dest) \
             .first().iso2.lower()
         dest_dic['country_iso'] = country_iso
+        # Get population
+        dest_dic['population'] = Cities41k.query \
+            .filter(func.lower(Cities41k.city_ascii) == dest) \
+            .first().population
         # Translate to English and German
         dest_dic['country_de'] = CountriesTranslate.query \
             .filter(func.lower(CountriesTranslate.code)
@@ -204,6 +233,38 @@ def loc_class(dest):
         dest_dic['language'] = "unclear"
         # Print out for html title
         dest_dic['print'] = dest_dic['city'].title()
+        return dest_dic
+
+
+    # Area/province SIMILAR check
+    elif Areas.query \
+        .filter(Areas.area_eng.ilike('%{}%'.format(dest))).first() is not None:
+
+        # Location type for link functions
+        dest_dic['loc_type'] = "area"
+        # Get area local name
+        dest_dic['area_loc'] = Areas.query \
+            .filter(Areas.area_eng.ilike('%{}%'.format(dest))) \
+            .first().area_loc.lower()
+        # Get iso2 for country names in German and English
+        iso3 = Areas.query \
+            .filter(Areas.area_eng.ilike('%{}%'.format(dest))) \
+                .first().iso3.lower()
+        country_iso = DataHubCountries.query \
+            .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
+            .first().iso3166_1_alpha_2.lower()
+        dest_dic['country_iso'] = country_iso
+        # Translate to English and German
+        dest_dic['country_de'] = CountriesTranslate.query \
+            .filter(func.lower(CountriesTranslate.code)
+                    == country_iso).first().de.lower()
+        dest_dic['country_en'] = CountriesTranslate.query \
+            .filter(func.lower(CountriesTranslate.code)
+                    == country_iso).first().en.lower()
+
+        dest_dic['language'] = "unclear"
+        # Print out for html title
+        dest_dic['print'] = dest_dic['area_loc'].title()
         return dest_dic
 
     # Search, if user input is misspelled

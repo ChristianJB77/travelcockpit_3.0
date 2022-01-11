@@ -56,7 +56,7 @@ def weather_widget(loc_classes, switch):
 
     try:
         # German lang=de
-        if switch == "German" or loc_classes['language'] == 'german':
+        if switch != "English" or loc_classes['language'] != 'english':
             # Language title
             feels_title = "Gefühlt"
             sunrise_title = "Aufgang"

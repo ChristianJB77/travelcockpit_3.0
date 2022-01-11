@@ -179,10 +179,10 @@ def create_app(test_config=None):
             loc_classes = loc_class(dest)
 
             # Post default language to dropdwon on my dashboard
-            if loc_classes['language'] == 'german':
-                options = ["German", "English"]
-            else:
+            if loc_classes['language'] == 'english':
                 options = ["English", "German"]
+            else:
+                options = ["German", "English"]
 
             # Button links dictionary
             links_dic = links(dest, loc_classes, switch)

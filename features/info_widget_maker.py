@@ -1,7 +1,7 @@
 import os
 import requests
 import urllib.parse
-import locale  # Number 1000 comma separator
+import locale
 from sqlalchemy import or_, func
 # Database
 from database.models import db, DataHubCountries, WorldBank
@@ -129,9 +129,7 @@ def info_widget(loc_classes, switch, weather):
                     gdp_cur = "USD"
 
             # 1000 (3 comma digits), splitter for readability
-            # Use '' for auto, or force e.g. to 'en_US.UTF-8'
-            locale.setlocale(locale.LC_ALL, '')
-            gdp = f'{gdp_raw:n}'
+            gdp = f'{gdp_raw:,}'
             info["gdp"] = gdp
             info["gdp_cur"] = gdp_cur
 

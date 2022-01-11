@@ -81,7 +81,7 @@ def links(dest, loc_classes, switch):
     """Wikipedia"""
 
     # German
-    if switch == "German" or loc_classes['language'] == 'german':
+    if switch != "English" or loc_classes['language'] != 'english':
         # Country
         if loc_classes['loc_type'] == 'country':
             links_dic['wiki'] = "https://de.wikipedia.org/wiki/" \
@@ -121,7 +121,7 @@ def links(dest, loc_classes, switch):
     """Lonely Planet"""
 
     # German, but only country
-    if (switch == "German" or loc_classes['language'] == 'german') \
+    if (switch != "English" or loc_classes['language'] != 'english') \
             and loc_classes['loc_type'] == 'country':
         # Exception
         if country_de == "südafrika":
@@ -154,7 +154,7 @@ def links(dest, loc_classes, switch):
 
     # https://www.google.com/maps/place/Thailand/?hl=de-DE
     # German
-    if switch == "German" or loc_classes['language'] == 'german':
+    if switch != "English" or loc_classes['language'] != 'english':
         # Country
         if loc_classes['loc_type'] == 'country':
             links_dic['maps'] = "https://www.google.com/maps" \
@@ -202,7 +202,7 @@ def links(dest, loc_classes, switch):
     """Climate"""
 
     # German
-    if loc_classes['language'] == "german" or switch == "German":
+    if switch != "English" or loc_classes['language'] != 'english':
         # Available at reise-klima.de, upper/lower check for German Ä/Ö/Ü
         dest_up = dest.upper()
         if ReiseKlima.query \
@@ -239,7 +239,7 @@ def links(dest, loc_classes, switch):
     """Medicine / Health care"""
 
     # German
-    if switch == "German" or loc_classes['language'] == 'german':
+    if switch != "English" or loc_classes['language'] != 'english':
         # Country
         if loc_classes['loc_type'] == 'country':
             links_dic['medi_de'] = "https://www.fit-for-travel.de/reiseziel/" \
@@ -282,7 +282,7 @@ def links(dest, loc_classes, switch):
     """Power plugs"""
 
     # German
-    if loc_classes['language'] == "german" or switch == "German":
+    if switch != "English" or loc_classes['language'] != 'english':
         # Country or big_city -> country knwown
         if loc_classes['loc_type'] == "country" or\
                 loc_classes['loc_type'] == "area" or\
@@ -307,7 +307,7 @@ def links(dest, loc_classes, switch):
 
     # https://www.auswaertiges-amt.de/de/aussenpolitik/laender/korearepublik-node
     # German
-    if loc_classes['language'] == "german" or switch == "German":
+    if switch != "English" or loc_classes['language'] != 'english':
         # Country or big_city -> country knwown
         if loc_classes['loc_type'] == "country" or \
                 loc_classes['loc_type'] == "area" or\
@@ -341,7 +341,7 @@ def links(dest, loc_classes, switch):
     """Booking.com & AirBnB"""
 
     # German
-    if switch == "German" or loc_classes['language'] == 'german':
+    if switch != "English" or loc_classes['language'] != 'english':
         # Country
         if loc_classes['loc_type'] == 'country':
             links_dic['booking'] = \
@@ -390,7 +390,7 @@ def links(dest, loc_classes, switch):
     """Kayak & Lufthansa"""
 
     # German
-    if switch == "German" or loc_classes['language'] == 'german':
+    if switch != "English" or loc_classes['language'] != 'english':
         links_dic['kayak'] = \
             "https://www.kayak.de/explore/FRA-anywhere?stops=0"
         links_dic['lh'] = "https://www.lufthansa.com/de/de/homepage"
