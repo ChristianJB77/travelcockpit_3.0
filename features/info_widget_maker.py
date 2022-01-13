@@ -91,6 +91,17 @@ def info_widget(loc_classes, switch, weather):
                 info["title_euro"] = "FX box Euro countries"
                 info["title"] = "FX box"
 
+
+            """City data"""
+            try:
+                if loc_classes["city"]:
+                    info["city"] = loc_classes["city"].title()
+                    # 1000 (3 comma digits), splitter for readability
+                    info["city_pop"] = f'{loc_classes["city_pop"]:,}'
+            except Exception:
+                info["city"] = 0
+
+
             """GDP and population"""
 
             # World Band database needs iso3 country code

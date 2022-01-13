@@ -38,11 +38,25 @@
 
         <div class="row">
 
-        <!-- Info Box -->
         <div class="col-sm-3">
+            <!-- Info Box -->
             {% if info %}
             <div class="container-fluid info_box">
                 <div class="info_title">Info box</div>
+                {% if info["city"] != 0 %}
+                <div class="info_sub_title">City info</div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-city fa-lg"></i></div>
+                    <div class="col info_p">{{ info["city"] }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-user-friends fa-lg"></i></div>
+                    <div class="col info_p">{{ info["city_pop"] }}</div>
+                    <div class="col"></div>
+                </div>
+                <div class="info_sub_title">Country info</div>
+                {% endif %}
                 <div class="row row-cols-3">
                     <div class="col"><i class="fas fa-map-marked-alt fa-lg"></i></div>
                     <div class="col info_p">{{ info["country"] }}</div>

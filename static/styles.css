@@ -116,6 +116,11 @@
         text-shadow: 0.08vw 0.08vw grey;
         padding-bottom: 1vh;
     }
+    .info_sub_title {
+        font-size:2.1vh;
+        text-shadow: 0.02vw 0.02vw grey;
+        padding-bottom: 0.5vh;
+    }
     .info_p {
         font-size:1.8vh;
         text-shadow: 0.04vw 0.04vw grey;
@@ -309,6 +314,11 @@
         font-size:2.5vh;
         text-shadow: 0.03vw 0.03vw grey;
         padding-bottom: 1vh;
+    }
+    .info_sub_title {
+        font-size:2.1vh;
+        text-shadow: 0.02vw 0.02vw grey;
+        padding-bottom: 0.5vh;
     }
     .info_p {
         font-size:1.8vh;

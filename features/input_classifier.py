@@ -147,6 +147,15 @@ def loc_class(dest):
     elif Areas.query \
         .filter(func.lower(Areas.area_loc) == dest).first() is not None:
 
+        # Check if area = city name
+        if Cities41k.query \
+                .filter(func.lower(Cities41k.city_ascii) == dest) \
+                .first() is not None:
+            dest_dic['city'] = dest
+            dest_dic['city_pop'] = Cities41k.query \
+                .filter(func.lower(Cities41k.city_ascii) == dest) \
+                .first().population
+
         # Location type for link functions
         dest_dic['loc_type'] = "area"
         # Get area local name
@@ -178,6 +187,15 @@ def loc_class(dest):
         .filter(func.upper(Areas.area_loc) == dest_up_link).first() is not None:
 
         dest = dest_up_link
+        # Check if area = city name
+        if Cities41k.query \
+                .filter(func.upper(Cities41k.city_ascii) == dest) \
+                .first() is not None:
+            dest_dic['city'] = dest
+            dest_dic['city_pop'] = Cities41k.query \
+                .filter(func.upper(Cities41k.city_ascii) == dest) \
+                .first().population
+
         # Location type for link functions
         dest_dic['loc_type'] = "area"
         # Get area local name
@@ -219,7 +237,7 @@ def loc_class(dest):
             .first().iso2.lower()
         dest_dic['country_iso'] = country_iso
         # Get population
-        dest_dic['population'] = Cities41k.query \
+        dest_dic['city_pop'] = Cities41k.query \
             .filter(func.lower(Cities41k.city_ascii) == dest) \
             .first().population
         # Translate to English and German
@@ -254,7 +272,7 @@ def loc_class(dest):
         country_iso = r.iso2.lower()
         dest_dic['country_iso'] = country_iso
         # Get population
-        dest_dic['population'] = Cities41k.query \
+        dest_dic['city_pop'] = Cities41k.query \
             .filter(func.lower(Cities41k.city_ascii) == dest_dic['city']) \
             .first().population
         # Translate to English and German
