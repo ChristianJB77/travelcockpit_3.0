@@ -66,7 +66,7 @@ class CountriesTranslate(db.Model):
     # Debugging printout formatting
 
     def __repr__(self):
-        return f'<CountriesTranslate {self.id} {self.code}>'
+        return f'<CountriesTranslate {self.id} {self.area_loc}>'
 
 #Areas/provinces (e.g. Bali)
 # GID_0_0,NAME_0,gadm36_1,NAME_1,VARNAME_1,NL_NAME_1,TYPE_1,ENGTYPE_1,CC_1,HASC_1,LAT,LON
@@ -85,7 +85,7 @@ class Areas(db.Model):
     # Debugging printout formatting
 
     def __repr__(self):
-        return f'<Areas {self.id} {self.code}>'
+        return f'<Areas {self.id} {self.area_loc}>'
 
 
 #41k cities list, https://simplemaps.com/data/world-cities (BASIC) - Update 2021
@@ -121,6 +121,23 @@ class CitiesTranslate(db.Model):
 
     def __repr__(self):
         return f'<CitiesTranslate {self.id} {self.city_ascii}>'
+
+#Cities Areas main table (>140k cities)
+# https://data.world/dr5hn/country-state-city
+# https://dr5hn.github.io/countries-states-cities-database/
+class CitiesAreas(db.Model):
+    __tablename__ = "cities_areas"
+    id = db.Column(db.Integer, primary_key=True)
+    city_ascii = db.Column(db.String(200), nullable=False)
+    area = db.Column(db.String(200), nullable=False)
+    iso2 = db.Column(db.String(3), nullable=False)
+    country_en = db.Column(db.String(200), nullable=False)
+    lat = db.Column(db.Float)
+    lng = db.Column(db.Float)
+    # Debugging printout formatting
+
+    def __repr__(self):
+        return f'<CitiesAreas {self.id} {self.city_ascii}>'
 
 
 class ReiseKlima(db.Model):

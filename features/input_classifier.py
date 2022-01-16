@@ -6,7 +6,7 @@ from functools import wraps
 from sqlalchemy import or_, func
 # Database
 from database.models import db, DataHubCountries, CountriesTranslate, \
-    Cities41k, Areas, CitiesTranslate
+    Cities41k, Areas, CitiesTranslate, CitiesAreas
 
 
 def check(destination):
@@ -146,18 +146,20 @@ def loc_class(dest):
     # Area/province EXACT check
     elif Areas.query \
         .filter(func.lower(Areas.area_loc) == dest).first() is not None:
-
-        # Check if area = city name
+        # Location type for link functions
+        dest_dic['loc_type'] = "area"
+        # Check if area = city name,
+        # areas << cities41k, therefore cities_areas not necessary
         if Cities41k.query \
                 .filter(func.lower(Cities41k.city_ascii) == dest) \
                 .first() is not None:
             dest_dic['city'] = dest
+            dest_dic['city_loc'] = dest
             dest_dic['city_pop'] = Cities41k.query \
                 .filter(func.lower(Cities41k.city_ascii) == dest) \
                 .first().population
+            dest_dic['loc_type'] = "big_city"
 
-        # Location type for link functions
-        dest_dic['loc_type'] = "area"
         # Get area local name
         dest_dic['area_loc'] = Areas.query \
             .filter(func.lower(Areas.area_loc) == dest).first().area_loc.lower()
@@ -187,7 +189,8 @@ def loc_class(dest):
         .filter(func.upper(Areas.area_loc) == dest_up_link).first() is not None:
 
         dest = dest_up_link
-        # Check if area = city name
+        # Check if area = city name,
+        # areas << cities41k, therefore cities_areas not necessary
         if Cities41k.query \
                 .filter(func.upper(Cities41k.city_ascii) == dest) \
                 .first() is not None:
@@ -223,17 +226,29 @@ def loc_class(dest):
 
 
     # City check
-    # Big city check from 41k list
-    elif Cities41k.query \
-            .filter(func.lower(Cities41k.city_ascii) == dest).first() is not None:
+    # https://data.world/dr5hn/country-state-city
+    # https://dr5hn.github.io/countries-states-cities-database/
+    elif CitiesAreas.query \
+        .filter(func.lower(CitiesAreas.city_ascii) == dest).first() is not None:
 
         # Location type for link functions
         dest_dic['loc_type'] = "big_city"
         # Save city name
         dest_dic['city'] = dest
+        dest_dic['city_loc'] = dest
+        # Get area
+        area = CitiesAreas.query \
+            .filter(func.lower(CitiesAreas.city_ascii) == dest) \
+            .first().area.lower()
+        if Areas.query \
+                .filter(func.lower(Areas.area_loc) == area).first() is not None:
+            dest_dic['area_loc'] = area
+        else:
+            dest_dic['area_loc'] = Areas.query \
+                .filter(Areas.area_eng.ilike('%{}%'.format(area))).first()
         # Get ISO alpha2 code
-        country_iso = Cities41k.query \
-            .filter(func.lower(Cities41k.city_ascii) == dest) \
+        country_iso = CitiesAreas.query \
+            .filter(func.lower(CitiesAreas.city_ascii) == dest) \
             .first().iso2.lower()
         dest_dic['country_iso'] = country_iso
         # Get population
@@ -248,7 +263,7 @@ def loc_class(dest):
             .filter(func.lower(CountriesTranslate.code)
                     == country_iso).first().en.lower()
 
-        dest_dic['language'] = "unclear"
+        dest_dic['language'] = "english"
         # Print out for html title
         dest_dic['print'] = dest_dic['city'].title()
         return dest_dic
@@ -261,16 +276,28 @@ def loc_class(dest):
 
         # Location type for link functions
         dest_dic['loc_type'] = "big_city"
+        # City local name (e.g. in German)
+        dest_dic['city_loc'] = dest
         # Get response from cities translate
         r = CitiesTranslate.query \
             .filter(CitiesTranslate.alternative_name \
             .ilike('%{}%'.format(dest))) \
             .first()
-        # Get city name
+        # Get city ascii name
         dest_dic['city'] = r.city_ascii.lower()
         # Get ISO alpha2 code
         country_iso = r.iso2.lower()
         dest_dic['country_iso'] = country_iso
+        # Get area
+        area = CitiesAreas.query \
+            .filter(func.lower(CitiesAreas.city_ascii) == dest_dic['city']) \
+            .first().area.lower()
+        if Areas.query \
+                .filter(func.lower(Areas.area_loc) == area).first() is not None:
+            dest_dic['area_loc'] = area
+        else:
+            dest_dic['area_loc'] = Areas.query \
+                .filter(Areas.area_eng.ilike('%{}%'.format(area))).first()
         # Get population
         dest_dic['city_pop'] = Cities41k.query \
             .filter(func.lower(Cities41k.city_ascii) == dest_dic['city']) \
@@ -283,7 +310,7 @@ def loc_class(dest):
             .filter(func.lower(CountriesTranslate.code)
                     == country_iso).first().en.lower()
 
-        dest_dic['language'] = "unclear"
+        dest_dic['language'] = "german"
         # Print out for html title
         dest_dic['print'] = dest.title()
         return dest_dic
