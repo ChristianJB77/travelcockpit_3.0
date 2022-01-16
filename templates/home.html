@@ -14,23 +14,24 @@
 
     <!--Travel links for user submitted travel destination COUNTRY-->
     <h2 class='h2'>Your Destination | Dein Reiseziel?</h2>
-    <form action="/home" method="post">
-        <div class="form-row align-items-center center_div">
-            <div class="col-sm-6 my-1">
-                <input autocomplete="off" autofocus class="form-control"
-                name="destination" placeholder="Country or City" type="text">
-            </div>
-            <select class="form-control mb-2 mr-sm-2 col-sm-2 my-2"
+    <div class="container">
+        <form class="form-inline" action="/home" method="post">
+            <input autocomplete="off" class="form-control mb-2 mr-sm-2 col-sm-6"
+                autofocus name="destination" placeholder="Country or City"
+                type="text">
+            <select class="form-control mb-2 mr-sm-2 col-sm-2"
                     autofocus name="language">
                 {% for option in options %}
                     <option value="{{ option }}">{{ option }}</option>
                 {% endfor %}
             </select>
-            <div class="col-auto my-1">
-                <button class="btn btn-primary" type="submit">GO</button>
+
+            <div>
+                <button class="btn btn-primary mb-2"
+                        type="submit">GO</button>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
     <br><br><br>
 
     <!-- Travel Secrets Blog -->
