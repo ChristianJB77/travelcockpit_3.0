@@ -149,7 +149,10 @@ def create_app(test_config=None):
                 abort(404)
             go_warm = "https://www.reise-klima.de/urlaub/" + month_de_str
 
-            return render_template("home.html", go_warm=go_warm)
+            options = ["German", "English"]
+
+            return render_template("home.html", go_warm=go_warm,
+                                    options=options)
 
         # POST
         else:
