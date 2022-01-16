@@ -158,8 +158,11 @@ def links(dest, loc_classes, switch):
             links_dic['lp'] = "https://www.lonelyplanet.com/" \
                 + country_en.replace(" ", "-") + "/" \
                 + loc_classes['city'].replace(" ", "-")
-            # links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
-            #     + loc_classes["city"]
+            # Check if site is existing
+            res = requests.get(links_dic['lp'])
+            if res.status_code != 200:
+                links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
+                    + loc_classes["city"]
         # Good luck mode
         else:
             links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
