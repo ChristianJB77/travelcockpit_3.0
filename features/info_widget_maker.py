@@ -101,6 +101,13 @@ def info_widget(loc_classes, switch, weather):
             except Exception:
                 info["city"] = 0
 
+            """Area data"""
+            try:
+                if loc_classes["area_loc"]:
+                    info["area_loc"] = loc_classes["area_loc"].title()
+            except Exception:
+                None
+
 
             """GDP and population"""
 
