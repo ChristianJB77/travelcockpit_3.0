@@ -94,10 +94,16 @@ def info_widget(loc_classes, switch, weather):
 
             """City data"""
             try:
-                if loc_classes["city"]:
+                if loc_classes["city_loc"]:
+                    info["city"] = loc_classes["city_loc"].title()
+                    if loc_classes["city_pop"]:
+                        # 1000 (3 comma digits), splitter for readability
+                        info["city_pop"] = f'{loc_classes["city_pop"]:,}'
+                elif loc_classes["city"]:
                     info["city"] = loc_classes["city"].title()
-                    # 1000 (3 comma digits), splitter for readability
-                    info["city_pop"] = f'{loc_classes["city_pop"]:,}'
+                    if loc_classes["city_pop"]:
+                        # 1000 (3 comma digits), splitter for readability
+                        info["city_pop"] = f'{loc_classes["city_pop"]:,}'
             except Exception:
                 info["city"] = 0
 

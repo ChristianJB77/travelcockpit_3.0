@@ -38,6 +38,9 @@ def links(dest, loc_classes, switch):
         co_de = co_de.replace("ü", "ue")
         co_de = co_de.replace("ö", "oe")
 
+    else:
+        country_iso = 0
+
     """Excpetions: """
 
     """Michelin Guide"""
