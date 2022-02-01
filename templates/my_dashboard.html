@@ -250,7 +250,7 @@
         <div class="col-sm-5">
             {% if covid %}
             <div class="covid">
-              <canvas id="covid_chart" width="12vw" height="9vh"></canvas>
+              <canvas id="covid_chart" width="10vw" height="7vh"></canvas>
 
               <script>
                   var ctx = document.getElementById("covid_chart").getContext("2d");
@@ -372,7 +372,7 @@
                     allowfullscreen></iframe>
             <br><br>
         </div>
-
+        <!--Sleep-->
         <div class="col-sm-4">
             <div class="container-fluid info_box">
                 <div class="container">
@@ -384,6 +384,7 @@
                 </div>
             </div>
             <br>
+            <!--Fly-->
             <div class="container-fluid info_box">
                 <div class="container">
                     <i class="button_icon fas fa-plane-departure fa-2x"></i>
@@ -394,7 +395,31 @@
                 </div>
             </div>
             <br>
+            <!--Train-->
+            <div class="container-fluid info_box">
+                <div class="container">
+                    <i class="button_icon fas fa-train fa-2x"></i>
+                    <a href="{{ links_dic['trainline'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Trainline</a>
+                    <a href="{{ links_dic['db'] }}" type="button" class="btn btn-primary"
+                        target="_blank">Deutsche Bahn</a>
+                </div>
+            </div>
+            <br>
+            <!-- Tiqets widget -->
+            <div class="container-fluid info_box">
+                <div class="container">
+                <div data-tiqets-widget="discovery" data-cards-layout="responsive"
+                    data-content-type="product" data-partner="travelcockpit"
+                    data-item_count="4" data-destination-type="{{ info['tiq_type'] }}"
+                    data-destination-id="{{ info['tiq_id'] }}"></div>
+                <script defer src="https://widgets.tiqets.com/loader.js">
+                </script>
+                </div>
+            </div>
+            <br>
         </div>
+
 
         <!-- National holidays widget -->
         {% if holidays %}

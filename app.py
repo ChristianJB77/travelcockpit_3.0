@@ -21,6 +21,7 @@ from features.weather_widget_maker import weather_widget
 from features.covid_widget_maker import covid_widget
 from features.info_widget_maker import info_widget
 from features.holiday_widget_maker import holiday
+from helper_features.tiqets_ids_getter import getLinks
 
 
 def create_app(test_config=None):
@@ -45,6 +46,10 @@ def create_app(test_config=None):
     AUTH0_CALLBACK_URL = auth_dict["url"]
     AUTH0_AUDIENCE = auth_dict["audi"]
     AUTH0_CLIENT_ID = auth_dict['id']
+
+    """Tiqets IDs list"""
+    # Deactivate after update
+    # getLinks("https://www.tiqets.com/en/all-destinations")
 
     """Auth0 login / logout"""
 
@@ -180,6 +185,7 @@ def create_app(test_config=None):
             switch = request.form.get("language")
             # Get location classified dictionary
             loc_classes = loc_class(dest)
+            print('LOC: ', loc_classes)
 
             # Post default language to dropdwon on my dashboard
             if loc_classes['language'] == 'english':
@@ -195,10 +201,8 @@ def create_app(test_config=None):
             covid = covid_widget(loc_classes, switch)
             # Info box widget
             info = info_widget(loc_classes, switch, weather)
-            print('info', info)
             # National holidays widget
             holidays = holiday(loc_classes, switch)
-            print('holidays', holidays)
             # Current time
             time = datetime.datetime.now()
 

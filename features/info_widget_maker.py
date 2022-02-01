@@ -4,7 +4,7 @@ import urllib.parse
 import locale
 from sqlalchemy import or_, func
 # Database
-from database.models import db, DataHubCountries, WorldBank
+from database.models import db, DataHubCountries, WorldBank, TiqetsIDs
 
 # FX rate API key
 FX_KEY = os.environ['FX_KEY']
@@ -114,6 +114,31 @@ def info_widget(loc_classes, switch, weather):
             except Exception:
                 None
 
+
+            """Tiqet ID"""
+            try:
+                if loc_classes["loc_type"] == "country":
+                    dest = loc_classes["country_en"]
+                elif loc_classes["loc_type"] == "area":
+                    dest = loc_classes["area_loc"]
+                elif loc_classes["city"]:
+                    dest = loc_classes["city"]
+                elif loc_classes["city_loc"]:
+                    dest = loc_classes["city_loc"]
+                else:
+                    None
+
+                if TiqetsIDs.query.filter(TiqetsIDs.location \
+                    .ilike('{}%'.format(dest))).first() is not None:
+
+                    res = TiqetsIDs.query.filter(TiqetsIDs.location \
+                        .ilike('{}%'.format(dest))).first()
+
+                    info["tiq_id"] = res.tiq_id
+                    info["tiq_type"] = res.tiq_type
+
+            except Exception:
+                None
 
             """GDP and population"""
 

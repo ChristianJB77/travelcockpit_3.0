@@ -162,8 +162,8 @@ def links(dest, loc_classes, switch):
                 + country_en.replace(" ", "-") + "/" \
                 + loc_classes['city'].replace(" ", "-")
             # Check if site is existing
-            res = requests.get(links_dic['lp'])
-            if res.status_code != 200:
+            res = requests.get(links_dic['lp']).status_code
+            if res != 200:
                 links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
                     + loc_classes["city"]
         # Good luck mode
@@ -421,6 +421,17 @@ def links(dest, loc_classes, switch):
         links_dic['kayak'] = \
             "https://www.kayak.com/explore/FRA-anywhere?stops=0"
         links_dic['lh'] = "https://www.lufthansa.com/de/en/homepage"
+
+    """Trainline & DB"""
+    # German
+    if switch == "German" or loc_classes['language'] == 'german':
+        links_dic['trainline'] = "https://www.thetrainline.com/de"
+        links_dic['db'] = "https://www.bahn.de/"
+
+    # English
+    else:
+        links_dic['trainline'] = "https://www.thetrainline.com/"
+        links_dic['db'] = "https://www.bahn.com/en"
 
     """Return links dictionary"""
 

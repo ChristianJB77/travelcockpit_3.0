@@ -176,6 +176,27 @@ class WorldBank(db.Model):
         return f'<CovidCountries {self.id} {self.SeriesName}>'
 
 
+"""TIQETS"""
+
+
+class TiqetsIDs(db.Model):
+    __tablename__ = "tiqets_ids"
+    id = db.Column(db.Integer, primary_key=True)
+    location = db.Column(db.String(200), nullable=False)
+    loc_type = db.Column(db.String(10), nullable=False)
+    tiq_type = db.Column(db.String(10), nullable=False)
+    tiq_id = db.Column(db.String(15), nullable=False)
+    # Insert new model to database
+
+    def insert(self):
+        db.session.add(self)
+        db.session.commit()
+    # Debugging printout formatting
+
+    def __repr__(self):
+        return f'<TiqetsIDs {self.id} {self.location}>'
+
+
 """USERDATA"""
 
 
