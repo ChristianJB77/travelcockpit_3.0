@@ -93,10 +93,19 @@
                     <div class="col"></div>
                 </div>
                 <div class="row row-cols-3">
-                    <div class="col"><i class="fas fa-wallet fa-lg"></i></div>
+                    <div class="col"><i class="fas fa-wallet fa-lg"></i>
+                        GDP</div>
                     <div class="col info_p">{{ info["gdp"] }} {{ info["gdp_cur"]}} </div>
                     <div class="col"></div>
                 </div>
+                {% if info["big_mac"] != 0 %}
+                <div class="row row-cols-3">
+                    <div class="col"><i class="fas fa-hamburger fa-lg"></i>
+                        Index</div>
+                    <div class="col info_p">{{ info["big_mac"] }} % vs. EU</div>
+                    <div class="col"></div>
+                </div>
+                {% endif %}
             <br>
             </div>
             <br>
@@ -455,7 +464,8 @@
     <footer class="small text-center text-muted">
         <p class="source_footer">Data for free by: Weather by openweathermap.org,
             FX-rates by exchangesrateapi,
-            Main infos by World Bank,
+            Main infos by World Bank, simplemaps and data.world,
+            Big Mac index by the Economist,
             COVID19 data by covid19api</p>
     </footer>
 {% endblock %}

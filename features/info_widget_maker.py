@@ -2,9 +2,9 @@ import os
 import requests
 import urllib.parse
 import locale
-from sqlalchemy import or_, func
+from sqlalchemy import or_, and_, func
 # Database
-from database.models import db, DataHubCountries, WorldBank, TiqetsIDs
+from database.models import db, DataHubCountries, WorldBank, TiqetsIDs, BigMac
 
 # FX rate API key
 FX_KEY = os.environ['FX_KEY']
@@ -113,6 +113,37 @@ def info_widget(loc_classes, switch, weather):
                     info["area_loc"] = loc_classes["area_loc"].title()
             except Exception:
                 None
+
+
+            """Big Mac Index"""
+            try:
+                iso3 = DataHubCountries.query \
+                    .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
+                    == iso).first().iso316_1_alpha_3.lower()
+
+                # Euro currency adjusted base line price
+                euro_base = BigMac.query \
+                    .filter(and_(func.lower(BigMac.iso_a3) == 'euz'), \
+                    BigMac.date > "2021-12-31").first().adj_price
+                # Destination country
+                res = BigMac.query \
+                    .filter(and_(func.lower(BigMac.iso_a3) == iso3), \
+                    BigMac.date > "2021-12-31").first()
+                # Destination country's adjusted price
+                adj_price = res.adj_price
+                # Euro area adjusted price
+                eur_adj = res.EUR_adjusted
+
+                # Relative delta in percantage Euro basline vs. destination
+                delta = ((adj_price + eur_adj) / euro_base) - 1
+                delta_per = int(delta * 100)
+                if delta_per > 0:
+                    delta_per = "+" + str(delta_per)
+
+                info["big_mac"] = delta_per
+
+            except Exception:
+                info["big_mac"] = 0
 
 
             """Tiqet ID"""

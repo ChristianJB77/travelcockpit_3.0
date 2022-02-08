@@ -176,6 +176,35 @@ class WorldBank(db.Model):
         return f'<CovidCountries {self.id} {self.SeriesName}>'
 
 
+# The Economist’s Big Mac index
+class BigMac(db.Model):
+    __tablename__ = "big_mac"
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.DateTime(), nullable=False)
+    iso_a3 = db.Column(db.String(4), nullable=False)
+    currency_code = db.Column(db.String(4), nullable=False)
+    name = db.Column(db.String(120), nullable=False)
+    local_price = db.Column(db.Float, nullable=False)
+    dollar_ex = db.Column(db.Float, nullable=False)
+    dollar_price = db.Column(db.Float, nullable=False)
+    USD_raw = db.Column(db.Float, nullable=False)
+    EUR_raw = db.Column(db.Float, nullable=False)
+    GBP_raw = db.Column(db.Float, nullable=False)
+    JPY_raw = db.Column(db.Float, nullable=False)
+    CNY_raw = db.Column(db.Float, nullable=False)
+    GDP_dollar = db.Column(db.Float)
+    adj_price = db.Column(db.Float)
+    USD_adjusted = db.Column(db.Float)
+    EUR_adjusted = db.Column(db.Float)
+    GBP_adjusted = db.Column(db.Float)
+    JPY_adjusted = db.Column(db.Float)
+    CNY_adjusted = db.Column(db.Float)
+    # Debugging printout formatting
+
+    def __repr__(self):
+        return f'<BigMac {self.id} {self.name}>'
+
+
 """TIQETS"""
 
 
