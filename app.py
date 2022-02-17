@@ -131,6 +131,11 @@ def create_app(test_config=None):
     def get_contact():
         return render_template("contact.html")
 
+    # View privacy policy page
+    @app.route("/privacy")
+    def get_privacy():
+        return render_template("privacy.html")
+
     # Get destination search and view result in dashboard view
     @app.route('/home', methods=['GET', 'POST'])
     @requires_auth
