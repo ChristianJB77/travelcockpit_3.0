@@ -13,7 +13,8 @@ from sqlalchemy import func, desc, join
 import auth.constants as constants
 from auth.auth import AuthError, requires_auth, requires_auth_rbac, auther
 # Database model
-from database.models import setup_db, db, Month, User, UserHistory, Secret
+from database.models import setup_db, db, Month, User, UserHistory, Secret, \
+    Exceptions
 # My features
 from features.input_classifier import check, loc_class
 from features.link_maker import links
@@ -310,7 +311,7 @@ def create_app(test_config=None):
     def get_blog(jwt):
         blogs = Secret.query.select_from(join(Secret, User)) \
                 .order_by(desc(Secret.id)).all()
-        # Userinfo to great by name
+        # Userinfo to greet by name
         try:
             userinfo = session[os.environ['PROFILE_KEY']]
         except Exception:
@@ -493,6 +494,82 @@ def create_app(test_config=None):
             return jsonify({'success': True})
         except Exception:
             abort(422)
+
+
+    """Exceptions"""
+    # View Excpetions Director & Manager
+    @app.route("/exceptions")
+    @requires_auth_rbac('get:blog')
+    def get_exceptions(jwt):
+        exceptions = Exceptions.query.order_by(desc(Exceptions.id)).all()
+        # Permission to steer edit & delete link buttons
+        try:
+            permi = jwt['permissions']
+        except Exception:
+            permi = None
+
+        return render_template("exceptions.html", exceptions=exceptions,
+                                permi=permi)
+
+    # Create new excpetions
+    # First get template, then post
+    @app.route("/exceptions/create")
+    @requires_auth_rbac('post:blog')
+    def post_exceptions(jwt):
+        return render_template("exceptions_create.html")
+
+    @app.route("/exceptions/create", methods=['POST'])
+    @requires_auth_rbac('post:blog')
+    def post_exceptions_submission(jwt):
+        try:
+            exception = Exceptions(
+                dest=request.form.get('dest'),
+                lp_link_de=request.form.get('lp_link_de'),
+                lp_link_en=request.form.get('lp_link_en'),
+                mich_link_de=request.form.get('mich_link_de'),
+                mich_link_en=request.form.get('mich_link_en')
+            )
+            exception.insert()
+            flash("Exception was successfully added!")
+
+            return redirect("/exceptions")
+        except Exception:
+            abort(405)
+
+    # Edit exception post MASTER (Director)
+    # First get blog then patch
+    @app.route("/exceptions/<int:id>/edit")
+    @requires_auth_rbac('patch:master')
+    def patch_blog(jwt, id):
+        exception = Exceptions.query.filter(Exceptions.id == id).one_or_none()
+        if exception is None:
+            abort(404)
+        return render_template("exception_edit.html", blog=blog)
+
+    @app.route("/blog/<int:id>/edit/submission", methods=['PATCH'])
+    @requires_auth_rbac('patch:master')
+    def patch_blog_submission(jwt, id):
+        try:
+            # Get HTML json body response
+            body = request.get_json()
+            secret = Secret.query.filter(Secret.id == id).one_or_none()
+
+            # Get user edit and update database
+            secret.title = body.get('title', None)
+            secret.why1 = body.get('why1', None)
+            secret.why2 = body.get('why2', None)
+            secret.why3 = body.get('why3', None)
+            secret.text = body.get('text', None)
+            secret.link = body.get('link', None)
+
+            secret.update()
+
+            flash("Blog was successfully updated!")
+
+            return jsonify({'success': True})
+        except Exception:
+            abort(405)
+
 
     """Error handler"""
 

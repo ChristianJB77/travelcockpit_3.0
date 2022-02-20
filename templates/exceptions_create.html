@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Create a new Exception
+{% endblock %}
+
+{% block main %}
+<h2 class='h2'>New Exception</h2>
+<form action="/exceptions/create" method="post">
+    <div class="form-group">
+          <label>Destination search name</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="dest"
+                  placeholder="Freiburg im Breisgau"
+                  type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Lonely Planet Link English</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="lp_link_en"
+                  placeholder="https://www.lonelyplanet.com/germany/black-forest/freiburg"
+                  type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Lonely Planet Link Deutsch</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="lp_link_de"
+                  placeholder="https://www.lonelyplanet.de/magazin/miniguides/freiburg-deutschland-ausgehen.html"
+                  type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Michelin Guide Link English</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="mich_link_en"
+                  placeholder="https://guide.michelin.com/en/fr/ile-de-france/paris/restaurants"
+                  type="text">
+            </div>
+    </div>
+    <div class="form-group">
+          <label>Michelin Guide Link Deutsch</label>
+                <input autocomplete="off" autofocus class="form-control"
+                  name="mich_link_de"
+                  placeholder="https://guide.michelin.com/de/de/ile-de-france/paris/restaurants"
+                  type="text">
+            </div>
+    </div>
+
+
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">POST</button>
+    </div>
+</form>
+<br><br>
+{% endblock %}

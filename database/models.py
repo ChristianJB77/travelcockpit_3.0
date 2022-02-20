@@ -226,6 +226,36 @@ class TiqetsIDs(db.Model):
         return f'<TiqetsIDs {self.id} {self.location}>'
 
 
+"""Exceptions"""
+
+class Exceptions(db.Model):
+    __tablename__ = "exceptions"
+    id = db.Column(db.Integer, primary_key=True)
+    dest = db.Column(db.String(120), nullable=False)
+    lp_link_de = db.Column(db.String(200))
+    lp_link_en = db.Column(db.String(200))
+    mich_link_de = db.Column(db.String(200))
+    mich_link_en = db.Column(db.String(200))
+    # Insert new model to database
+
+    def insert(self):
+        db.session.add(self)
+        db.session.commit()
+    # Delete model in the database
+
+    def delete(self):
+        db.session.delete(self)
+        db.session.commit()
+    # Update model in the database
+
+    def update(self):
+        db.session.commit()
+    # Debugging printout formatting
+
+    def __repr__(self):
+        return f'<Excpetions {self.id} {self.dest}>'
+
+
 """USERDATA"""
 
 

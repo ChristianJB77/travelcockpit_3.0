@@ -442,9 +442,12 @@ def loc_class(dest):
             .first().iso2.lower()
         dest_dic['country_iso'] = country_iso
         # Get population
-        dest_dic['city_pop'] = Cities41k.query \
-            .filter(func.lower(Cities41k.city_ascii) == dest) \
-            .first().population
+        if Cities41k.query \
+                .filter(func.upper(Cities41k.city_ascii) == dest) \
+                .first() is not None:
+            dest_dic['city_pop'] = Cities41k.query \
+                .filter(func.lower(Cities41k.city_ascii) == dest) \
+                .first().population
         # Translate to English and German
         dest_dic['country_de'] = CountriesTranslate.query \
             .filter(func.lower(CountriesTranslate.code)
