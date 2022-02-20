@@ -540,35 +540,50 @@ def create_app(test_config=None):
     # First get blog then patch
     @app.route("/exceptions/<int:id>/edit")
     @requires_auth_rbac('patch:master')
-    def patch_blog(jwt, id):
+    def patch_exception(jwt, id):
         exception = Exceptions.query.filter(Exceptions.id == id).one_or_none()
         if exception is None:
             abort(404)
-        return render_template("exception_edit.html", blog=blog)
+        return render_template("exceptions_edit.html", exception=exception)
 
-    @app.route("/blog/<int:id>/edit/submission", methods=['PATCH'])
+    @app.route("/exceptions/<int:id>/edit/submission", methods=['PATCH'])
     @requires_auth_rbac('patch:master')
-    def patch_blog_submission(jwt, id):
+    def patch_exception_submission(jwt, id):
         try:
             # Get HTML json body response
             body = request.get_json()
-            secret = Secret.query.filter(Secret.id == id).one_or_none()
+            exception = Exceptions.query.filter(Exceptions.id == id).one_or_none()
 
             # Get user edit and update database
-            secret.title = body.get('title', None)
-            secret.why1 = body.get('why1', None)
-            secret.why2 = body.get('why2', None)
-            secret.why3 = body.get('why3', None)
-            secret.text = body.get('text', None)
-            secret.link = body.get('link', None)
+            exception.dest = body.get('dest', None)
+            exception.lp_link_de = body.get('lp_link_de', None)
+            exception.lp_link_en = body.get('lp_link_en', None)
+            exception.mich_link_de = body.get('mich_link_de', None)
+            exception.mich_link_en = body.get('mich_link_en', None)
 
-            secret.update()
+            exception.update()
 
-            flash("Blog was successfully updated!")
+            flash("Exception was successfully updated!")
 
             return jsonify({'success': True})
         except Exception:
             abort(405)
+
+    # Delete exception MASTER (Director)
+    @app.route("/exceptions/<int:id>/delete", methods=['DELETE'])
+    @requires_auth_rbac('delete:master')
+    def delete_exception_master(jwt, id):
+        try:
+            exception = Exceptions.query.filter(Exceptions.id == id).one_or_none()
+            if exception is None:
+                abort(404)
+
+            exception.delete()
+            flash("Exception was DELETED!")
+
+            return jsonify({'success': True})
+        except Exception:
+            abort(422)
 
 
     """Error handler"""

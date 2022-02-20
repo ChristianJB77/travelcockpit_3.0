@@ -1,0 +1,102 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Edit Exceptions
+{% endblock %}
+
+{% block main %}
+<h2 class='h2'>Exceptions</h2>
+<form id="exception-form" data-id="{{ exception.id }}">
+    <div class="form-group">
+        <label>Destination search name</label>
+          <div class="form-group">
+              <input id="dest" autocomplete="off" autofocus class="form-control"
+                name="dest" placeholder="Destination search name" type="text"
+                value="{{ exception.dest }}">
+          </div>
+    </div>
+    <div class="form-group">
+        <label>Lonely Planet Link English</label>
+            <div class="form-group">
+                <input id="lp_link_en" autocomplete="off" autofocus class="form-control"
+                  name="lp_link_en" placeholder="Lonely Planet Link English" type="text"
+                  value = "{{ exception.lp_link_en }}">
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Lonely Planet Link Deutsch</label>
+            <div class="form-group">
+                <input id="lp_link_de" autocomplete="off" autofocus class="form-control"
+                  name="lp_link_de" placeholder="Lonely Planet Link Deutsch" type="text"
+                  value = "{{ exception.lp_link_de }}">
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Michelin Guide English</label>
+            <div class="form-group">
+                <input id="mich_link_en" autocomplete="off" autofocus class="form-control"
+                  name="mich_link_en" placeholder="Michelin Guide English" type="text"
+                  value = "{{ exception.mich_link_en }}">
+            </div>
+    </div>
+    <div class="form-group">
+        <label>Michelin Guide Deutsch</label>
+            <div class="form-group">
+                <input id="mich_link_de" autocomplete="off" autofocus class="form-control"
+                  name="mich_link_de" placeholder="Michelin Guide Deutsch" type="text"
+                  value = "{{ exception.mich_link_de }}">
+            </div>
+    </div>
+
+
+    <div class="form-group">
+      <button class="btn btn-primary" type="submit">EDIT</button>
+    </div>
+</form>
+<div class="form-group">
+    <a class="back" href="/exceptions">Back</a>
+</div>
+<br><br>
+
+<script type="text/javascript">
+    // Edit post
+    const dest_input = document.getElementById('dest');
+    const lp_link_en_input = document.getElementById('lp_link_en');
+    const lp_link_de_input = document.getElementById('lp_link_de');
+    const mich_link_en_input = document.getElementById('mich_link_en');
+    const mich_link_de_input = document.getElementById('mich_link_de');
+    document.getElementById('exception-form').onsubmit = function(e) {
+        e.preventDefault;
+        console.log('edit exception', e);
+        const exception_id = e.target.dataset['id'];
+        const dest = dest_input.value;
+        const lp_link_en = lp_link_en_input.value;
+        const lp_link_de = lp_link_de_input.value;
+        const mich_link_en = mich_link_en_input.value;
+        const mich_link_de = mich_link_de_input.value;
+        fetch('/exceptions/' + exception_id + '/edit/submission', {
+            method: 'PATCH',
+            body: JSON.stringify({
+                'dest': dest,
+                'lp_link_en': lp_link_en,
+                'lp_link_de': lp_link_de,
+                'mich_link_en': mich_link_en,
+                'mich_link_de': mich_link_de
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => response.json())
+        .then(jsonResponse => {
+            console.log('response', jsonResponse);
+            window.location.reload(true);
+        })
+        .catch(function(e) {
+            console.error(e);
+        })
+    }
+
+
+</script>
+{% endblock %}
