@@ -5,7 +5,7 @@ from flask import redirect, render_template, request, session
 from functools import wraps
 from sqlalchemy import or_, func
 # Database
-from database.models import db, ReiseKlima
+from database.models import db, ReiseKlima, Exceptions
 
 
 def links(dest, loc_classes, switch):
@@ -135,19 +135,7 @@ def links(dest, loc_classes, switch):
 
     """Lonely Planet"""
 
-    # German, but only country
-    if (switch == "German" or loc_classes['language'] == 'german')\
-            and loc_classes['loc_type'] == 'country':
-        # Exception
-        if country_de == "südafrika":
-            links_dic['lp'] = "https://www.lonelyplanet.de/reiseziele/" \
-                + "suedafrika/index-5718.html"
-        else:
-            links_dic['lp'] = "https://www.lonelyplanet.de/reiseziele/" \
-                + co_de
-
-    # English
-    else:
+    def lp():
         # Country
         if loc_classes['loc_type'] == 'country':
             links_dic['lp'] = "https://www.lonelyplanet.com/" \
@@ -170,6 +158,32 @@ def links(dest, loc_classes, switch):
         else:
             links_dic['lp'] = "https://www.lonelyplanet.com/search?q=" \
                 + loc_classes["location"]
+        return
+
+    # Exception
+    if Exceptions.query \
+        .filter(func.lower(Exceptions.dest) == dest).first() is not None:
+
+        if Exceptions.query \
+            .filter(func.lower(Exceptions.dest) == dest).first().lp_link_de \
+            is not None:
+
+            links_dic['lp'] = Exceptions.query \
+            .filter(func.lower(Exceptions.dest) == dest).first().lp_link_de
+
+        if Exceptions.query \
+            .filter(func.lower(Exceptions.dest) == dest).first().lp_link_en \
+            is not None:
+
+            links_dic['lp'] = Exceptions.query \
+                .filter(func.lower(Exceptions.dest) == dest).first().lp_link_en
+
+        else:
+            lp()
+
+    # Only English
+    else:
+        lp()
 
     """Google Maps"""
 
