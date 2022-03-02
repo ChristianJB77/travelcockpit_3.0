@@ -41,13 +41,10 @@ def links(dest, loc_classes, switch):
     else:
         country_iso = 0
 
-    """Excpetions: """
 
     """Michelin Guide"""
-    if country_iso == 'jp':
-        links_dic['michelin'] = "https://guide.michelin.co.jp/"
 
-    else:
+    def mich():
         # German
         if switch == "German" or loc_classes['language'] == 'german':
             # Country
@@ -89,9 +86,33 @@ def links(dest, loc_classes, switch):
                 links_dic['michelin'] = \
                     "https://guide.michelin.com/en/en/search?q=" \
                     + loc_classes['location']
+        return
 
+    # Exception
+    if Exceptions.query \
+        .filter(func.lower(Exceptions.dest) == dest).first() is not None:
 
-    """Standard cases: """
+        if (Exceptions.query \
+            .filter(func.lower(Exceptions.dest) == dest).first().mich_link_de \
+            != "") and (switch == "German" \
+            or loc_classes['language'] == 'german'):
+
+            links_dic['michelin'] = Exceptions.query \
+            .filter(func.lower(Exceptions.dest) == dest).first().mich_link_de
+
+        elif Exceptions.query \
+            .filter(func.lower(Exceptions.dest) == dest).first().mich_link_en \
+            != "":
+
+            links_dic['michelin'] = Exceptions.query \
+                .filter(func.lower(Exceptions.dest) == dest).first().mich_link_en
+
+        else:
+            mich()
+
+    else:
+        mich()
+
 
     """Wikipedia"""
 
@@ -164,16 +185,17 @@ def links(dest, loc_classes, switch):
     if Exceptions.query \
         .filter(func.lower(Exceptions.dest) == dest).first() is not None:
 
-        if Exceptions.query \
+        if (Exceptions.query \
             .filter(func.lower(Exceptions.dest) == dest).first().lp_link_de \
-            is not None:
+            != "") and (switch == "German" \
+            or loc_classes['language'] == 'german'):
 
             links_dic['lp'] = Exceptions.query \
             .filter(func.lower(Exceptions.dest) == dest).first().lp_link_de
 
-        if Exceptions.query \
+        elif Exceptions.query \
             .filter(func.lower(Exceptions.dest) == dest).first().lp_link_en \
-            is not None:
+            != "":
 
             links_dic['lp'] = Exceptions.query \
                 .filter(func.lower(Exceptions.dest) == dest).first().lp_link_en
@@ -186,7 +208,6 @@ def links(dest, loc_classes, switch):
         lp()
 
     """Google Maps"""
-
     # https://www.google.com/maps/place/Thailand/?hl=de-DE
     # German
     if switch == "German" or loc_classes['language'] == 'german':
@@ -204,7 +225,9 @@ def links(dest, loc_classes, switch):
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['maps'] = "https://www.google.com/maps" \
                 + "/embed/v1/search?key=" \
-                + MAPS_KEY + loc_classes["city"] + "/&language=de"
+                + MAPS_KEY + loc_classes["city_loc"] + "/&language=de"
+
+            print('###', links_dic['maps'])
         # Good luck mode
         else:
             links_dic['maps'] = "https://www.google.com/maps" \
@@ -227,7 +250,7 @@ def links(dest, loc_classes, switch):
         elif loc_classes['loc_type'] == 'big_city':
             links_dic['maps'] = "https://www.google.com/maps" \
                 + "/embed/v1/search?key=" \
-                + MAPS_KEY + loc_classes["city"] + "/&language=en"
+                + MAPS_KEY + loc_classes["city_loc"] + "/&language=en"
         # Good luck mode
         else:
             links_dic['maps'] = "https://www.google.com/maps" \
