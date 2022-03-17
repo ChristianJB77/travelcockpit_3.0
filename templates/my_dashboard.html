@@ -15,7 +15,11 @@
     <h2 class='h2'>{{ loc_classes['print'] }}</h2>
 
     <div class="container">
+        {% if session.role or session.user_email %}
         <form class="form-inline" action="/home" method="post">
+        {% else %}
+        <form class="form-inline" action="/home_public" method="post">
+        {% endif %}
             <input autocomplete="off" class="form-control mb-2 mr-sm-2 col-sm-6"
                 autofocus name="destination" placeholder="Country or City"
                 type="text">

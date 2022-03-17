@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+
+{% block title %}
+   Cookie and Privacy Policy Consent
+{% endblock %}
+
+{% block main %}
+    <!-- Error message -->
+    <script type="text/javascript">
+        if ({{ number }} == 1) {
+            alert('{{message}}');
+        }
+    </script>
+
+    <h2 class="h2">Privacy Policy & Cookies Consent</h2>
+    <div class="container info_box" style="margin-top:15px">
+        <p class="blog_title">Bevor Du weiter zum Travel Cockpit gehst</p>
+        <br>
+        <p class="blog_p">
+            Auf Travel Cockpit werden Daten wie Cookies
+            gespeichert, um wichtige Funktionen der Website sowie Marketing,
+            Personalisierung und Analyse zu ermöglichen. Durch klicken auf
+            "Accept" stimmst Du diesem zu, sowie
+            der<a class="blog_p" href="/privacy">Privacy Policy</a>.
+        </p>
+        <p class="blog_title">Before you go on to the Travel Cockpit</p>
+        <p class="blog_p">
+            On Travel Cockpit data such as cookies are stored to enable
+            important functions of the website as well as marketing, enable
+            persoonalization and analysis. By clicking "Accept" you agree,
+            as well the<a class="blog_p" href="/privacy">Privacy Policy</a>.
+        </p>
+        <form action="/login" method="get">
+            <div class="form-group">
+                <button class="btn btn-primary" type="submit">Accept</button>
+            </div>
+        </form>
+        <br>
+    </div>
+
+{% endblock %}

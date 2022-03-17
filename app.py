@@ -7,6 +7,7 @@ from flask_cors import CORS
 from six.moves.urllib.parse import urlencode
 import sys
 import datetime
+from random import randrange
 from sqlalchemy import func, desc, join
 
 # Constants for Auth0 from constants.py, secret keys stores as config variables
@@ -14,7 +15,7 @@ import auth.constants as constants
 from auth.auth import AuthError, requires_auth, requires_auth_rbac, auther
 # Database model
 from database.models import setup_db, db, Month, User, UserHistory, Secret, \
-    Exceptions
+    Exceptions, IP
 # My features
 from features.input_classifier import check, loc_class
 from features.link_maker import links
@@ -54,17 +55,38 @@ def create_app(test_config=None):
 
     """Auth0 login / logout"""
 
-    # Start side to guide user to login/register
+    # Start side to guide user to consent or directly search site
     @app.route('/')
     def index():
-        # Get current month for go warm on
-        current_month = datetime.datetime.now().month
-        month_de = Month.query.filter(Month.number == current_month).one()
-        month_de_str = month_de.name_de
-        if len(month_de_str) == 0:
-            abort(404)
-        go_warm = "https://www.reise-klima.de/urlaub/" + month_de_str
-        return render_template("index.html", go_warm=go_warm)
+        # Current timestamp of user
+        timestamp = datetime.datetime.now()
+        # Current ipV4 of user
+        ip = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+        # Store in session for consent POST method
+        session[constants.IP] = ip
+        session[constants.TIMESTAMP] = timestamp
+        # Check if user session is available
+        try:
+            session['random_id']
+        except Exception:
+            session[constants.RANDOM_ID] = randrange(10000)
+
+        # If ip is within the last 12 hours in the database
+        # forward for anonymous users to /home_public
+        if IP.query.filter(IP.ip == ip).first() is not None:
+            ips = IP.query.filter(IP.ip == ip).all()
+            for ip in ips:
+                delta = ip.timestamp - timestamp
+                if (delta < datetime.timedelta(hours=12)) \
+                        and (ip.random_id == session['random_id']):
+                    return redirect("/home_public")
+
+            # Else forward to consent
+            return render_template("consent.html")
+
+        # Else forward to consent and save accepted consent
+        else:
+            return render_template("consent.html")
 
     @app.route('/login')
     def login():
@@ -137,7 +159,133 @@ def create_app(test_config=None):
     def get_privacy():
         return render_template("privacy.html")
 
-    # Get destination search and view result in dashboard view
+    # User must accept cookies and privacy consent
+    @app.route("/consent", methods=['GET', 'POST'])
+    def get_consent():
+        if request.method == 'GET':
+            return render_template("consent.html")
+
+        # POST
+        else:
+            ip = IP(
+                timestamp=session['timestamp'],
+                ip=session['ip'],
+                random_id=session['random_id']
+            )
+            ip.insert()
+
+        return redirect("/home_public")
+
+    # User must accept cookies and privacy consent
+    @app.route("/consent_register")
+    def get_consent_register():
+        return render_template("consent_register.html")
+
+    # PUBLIC USER: Get destination search and view result in dashboard view
+    @app.route('/home_public', methods=['GET', 'POST'])
+    def get_post_home_public():
+
+        if request.method == "GET":
+            # Current timestamp of user
+            timestamp = datetime.datetime.now()
+            # Current ipV4 of user
+            ip = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+            # If ip is within the last 12 hours in the database
+            # forward for anonymous users to /home_public
+            if IP.query.filter(IP.ip == ip).first() is not None:
+                ips = IP.query.filter(IP.ip == ip).all()
+                for ip in ips:
+                    delta = ip.timestamp - timestamp
+                    if (delta < datetime.timedelta(hours=12)) \
+                            and (ip.random_id == session['random_id']):
+                        # Get current month for go warm on
+                        current_month = datetime.datetime.now().month
+                        month_de = Month.query \
+                            .filter(Month.number == current_month).one()
+                        month_de_str = month_de.name_de
+                        if len(month_de_str) == 0:
+                            abort(404)
+                        go_warm = "https://www.reise-klima.de/urlaub/" \
+                            + month_de_str
+
+                        options = ["German", "English"]
+
+                        return render_template("home.html", go_warm=go_warm,
+                                                options=options)
+
+                # Else forward to consent
+                return render_template("consent.html")
+
+            # Else forward to consent and save accepted consent
+            else:
+                return render_template("consent.html")
+
+        # POST
+        else:
+            # User input check, must be text
+            # Formatting and classification with check function
+            # Input via user input or blog link button
+            destination = request.form.get("destination")
+            req = request.args.get('dest', None, type=str)
+            if destination is None:
+                destination = req
+            dest = check(destination)
+
+            if not dest:
+                return render_template(
+                            "home.html", number=1,
+                            message="Please provide TRAVEL DESTINATION")
+
+            # Get language switch value (English or German)
+            switch = request.form.get("language")
+            # Get location classified dictionary
+            loc_classes = loc_class(dest)
+            print('LOC: ', loc_classes)
+
+            # Post default language to dropdwon on my dashboard
+            if loc_classes['language'] == 'english':
+                options = ["English", "German"]
+            else:
+                options = ["German", "English"]
+
+            # Button links dictionary
+            links_dic = links(dest, loc_classes, switch)
+            # Weather widget
+            weather = weather_widget(loc_classes, switch)
+            # Covid19 widget
+            covid = covid_widget(loc_classes, switch)
+            # Info box widget
+            info = info_widget(loc_classes, switch, weather)
+            # National holidays widget
+            holidays = holiday(loc_classes, switch)
+            # Current time
+            time = datetime.datetime.now()
+
+            # Destination for search history
+            loc = loc_classes["loc_type"]
+            if loc == "country":
+                history = loc_classes["country_en"]
+            elif loc == "area":
+                history = loc_classes["area_loc"]
+            elif loc == "big_city":
+                history = loc_classes["city"]
+            else:
+                history = loc_classes["location"]
+
+            # Store user search in user_history
+            # Unkwon user, id=0
+            user_history = UserHistory(
+                destination=history,
+                timestamp=time,
+                user_id=0)
+            user_history.insert()
+
+        return render_template("my_dashboard.html", switch=switch,
+                               loc_classes=loc_classes, links_dic=links_dic,
+                               info=info, options=options, weather=weather,
+                               covid=covid, holidays=holidays)
+
+    # REGISTERED USER: Get destination search and view result in dashboard view
     @app.route('/home', methods=['GET', 'POST'])
     @requires_auth
     def get_post_home(jwt):
@@ -291,8 +439,7 @@ def create_app(test_config=None):
 
     # View blog posts USER VIEW
     @app.route("/blog/user")
-    @requires_auth
-    def get_blog_user(jwt):
+    def get_blog_user():
         blogs = Secret.query.order_by(desc(Secret.id)).all()
         try:
             userinfo = session[os.environ['PROFILE_KEY']]

@@ -259,6 +259,23 @@ class Exceptions(db.Model):
 """USERDATA"""
 
 
+class IP(db.Model):
+    __tablename__ = "ip"
+    id = db.Column(db.Integer, primary_key=True)
+    timestamp = db.Column(db.DateTime(), nullable=False)
+    ip = db.Column(db.String(20), nullable=False)
+    random_id = db.Column(db.Integer, nullable=False)
+    # Insert new model to database
+
+    def insert(self):
+        db.session.add(self)
+        db.session.commit()
+    # Debugging printout formatting
+
+    def __repr__(self):
+        return f'<IP {self.id} {self.ip}>'
+
+
 class User(db.Model):
     __tablename__ = "users"
     id = db.Column(db.Integer, primary_key=True)

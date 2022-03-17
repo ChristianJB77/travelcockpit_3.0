@@ -17,7 +17,12 @@
             </div>
             <div class="col-sm-2 blog_title">
                 {% if blog.link != None %}
+                    {% if session.role or session.user_email %}
                     <form action="/home?dest={{ blog.link }}" method="post">
+                    {% else %}
+                    <form action="/home_public?dest={{ blog.link }}"
+                    method="post">
+                    {% endif %}
                         <div class="form-group">
                             <button class="btn btn-primary" type="submit">
                               {{ blog.link }}</button>
