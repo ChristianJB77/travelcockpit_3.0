@@ -466,16 +466,39 @@ def create_app(test_config=None):
     # View blog posts USER VIEW
     @app.route("/blog/user")
     def get_blog_user():
-        blogs = Secret.query.order_by(desc(Secret.id)).all()
-        try:
-            userinfo = session[os.environ['PROFILE_KEY']]
-        except Exception:
-            userinfo = None
+        # Current timestamp of user
+        timestamp = datetime.datetime.now()
+        # Current ipV4 of user
+        ip = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+        # If ip is within the last 12 hours in the database
+        # forward for anonymous users to /home_public
+        if IP.query.filter(IP.ip == ip).first() is not None:
+            ips = IP.query.filter(IP.ip == ip).all()
+            for ip in ips:
+                delta = ip.timestamp - timestamp
+                if (delta < datetime.timedelta(hours=12)) \
+                        and (ip.random_id == session['random_id']):
 
-        return render_template(
-                                "blog_user.html", blogs=blogs,
-                                userinfo=userinfo
-                              )
+                    options = ["German", "English"]
+
+                    blogs = Secret.query.order_by(desc(Secret.id)).all()
+                    try:
+                        userinfo = session[os.environ['PROFILE_KEY']]
+                    except Exception:
+                        userinfo = None
+
+                    return render_template(
+                                            "blog_user.html", blogs=blogs,
+                                            userinfo=userinfo
+                                          )
+
+            # Else forward to consent
+            return render_template("consent.html")
+
+        # Else forward to consent and save accepted consent
+        else:
+            return render_template("consent.html")
+
 
     # View blog posts Director & Manager
 
