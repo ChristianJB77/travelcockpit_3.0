@@ -226,10 +226,14 @@ def create_app(test_config=None):
             # Formatting and classification with check function
             # Input via user input or blog link button
             destination = request.form.get("destination")
+            # Get destination from http header
             req = request.args.get('dest', None, type=str)
             if destination is None:
-                destination = req
-            dest = check(destination)
+                desti = req
+            else:
+                desti = destination
+
+            dest = check(desti)
 
             if not dest:
                 return render_template(
@@ -238,9 +242,18 @@ def create_app(test_config=None):
 
             # Get language switch value (English or German)
             switch = request.form.get("language")
+
+            # Blog link default German language
+            if destination is None:
+                switch = "German"
+
             # Get location classified dictionary
             loc_classes = loc_class(dest)
             print('LOC: ', loc_classes)
+
+            # Blog link default German language
+            if destination is None:
+                loc_classes['language'] = 'german'
 
             # Post default language to dropdwon on my dashboard
             if loc_classes['language'] == 'english':
@@ -325,10 +338,14 @@ def create_app(test_config=None):
             # Formatting and classification with check function
             # Input via user input or blog link button
             destination = request.form.get("destination")
+            # Get destination from http header
             req = request.args.get('dest', None, type=str)
             if destination is None:
-                destination = req
-            dest = check(destination)
+                desti = req
+            else:
+                desti = destination
+
+            dest = check(desti)
 
             if not dest:
                 return render_template(
@@ -337,9 +354,18 @@ def create_app(test_config=None):
 
             # Get language switch value (English or German)
             switch = request.form.get("language")
+
+            # Blog link default German language
+            if destination is None:
+                switch = "German"
+
             # Get location classified dictionary
             loc_classes = loc_class(dest)
             print('LOC: ', loc_classes)
+
+            # Blog link default German language
+            if destination is None:
+                loc_classes['language'] = 'german'
 
             # Post default language to dropdwon on my dashboard
             if loc_classes['language'] == 'english':

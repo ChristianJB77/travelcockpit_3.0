@@ -33,7 +33,7 @@ def links(dest, loc_classes, switch):
         country_iso = loc_classes['country_iso']
         # Convert country names to link compatible names
         co_en = country_en.replace(" ", "-")
-        co_de = country_de.replace(" ", "_")
+        co_de = country_de.replace(" ", "-")
         co_de = co_de.replace("ä", "ae")
         co_de = co_de.replace("ü", "ue")
         co_de = co_de.replace("ö", "oe")
