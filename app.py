@@ -1,5 +1,6 @@
 # Libraries
 import json
+import requests
 import os
 from flask import Flask, render_template, request, redirect, jsonify, \
     abort, url_for, session, _request_ctx_stack, flash
@@ -65,6 +66,19 @@ def create_app(test_config=None):
         # Store in session for consent POST method
         session[constants.IP] = ip
         session[constants.TIMESTAMP] = timestamp
+        # IP geo details
+        # URL to send the request to
+        request_url = 'https://geolocation-db.com/jsonp/' + ip
+        # Send request and decode the result
+        response = requests.get(request_url)
+        result = response.content.decode()
+        # Clean the returned string so it just contains the dictionary data
+        # for the IP address
+        result = result.split("(")[1].strip(")")
+        # Convert this data into a dictionary
+        ip_details  = json.loads(result)
+        session[constants.IP_DETAILS] = ip_details
+
         # Check if user session is available
         try:
             session['random_id']
@@ -174,6 +188,17 @@ def create_app(test_config=None):
             )
             ip.insert()
 
+            ip = session['ip']
+            ip_d = session['ip_details']
+
+            # Add ip as user (email & name), if not already excisiting
+            if user is None:
+                user = User(email=ip,
+                            name=ip_d['city'],
+                            location_iso2=ip_d['country_code']
+                        )
+                user.insert()
+
         return redirect("/home_public")
 
     # User must accept cookies and privacy consent
@@ -222,6 +247,12 @@ def create_app(test_config=None):
 
         # POST
         else:
+            # Get user_id for not logged in user by ip
+            try:
+                id = User.query.filter(User.email == session['ip']) \
+                    .first().id
+            except Exception:
+                id = 0
             # User input check, must be text
             # Formatting and classification with check function
             # Input via user input or blog link button
@@ -290,7 +321,7 @@ def create_app(test_config=None):
             user_history = UserHistory(
                 destination=history,
                 timestamp=time,
-                user_id=0)
+                user_id=id)
             user_history.insert()
 
         return render_template("my_dashboard.html", switch=switch,

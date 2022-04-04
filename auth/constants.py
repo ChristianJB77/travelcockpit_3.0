@@ -10,5 +10,6 @@ ROLE = 'role'
 """ Constants for consent management """
 
 IP = 'ip'
+IP_DETAILS = 'ip_details'
 TIMESTAMP = 'timestamp'
 RANDOM_ID = "random_id"
