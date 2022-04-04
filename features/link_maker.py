@@ -459,14 +459,16 @@ def links(dest, loc_classes, switch):
             "https://www.kayak.com/explore/FRA-anywhere?stops=0"
         links_dic['lh'] = "https://www.lufthansa.com/de/en/homepage"
 
-    """Trainline & DB"""
+    """Omio & Trainline & DB"""
     # German
     if switch == "German" or loc_classes['language'] == 'german':
+        links_dic['omio'] = "https://de.omio.com/"
         links_dic['trainline'] = "https://www.thetrainline.com/de"
         links_dic['db'] = "https://www.bahn.de/"
 
     # English
     else:
+        links_dic['omio'] = "https://omio.com/"
         links_dic['trainline'] = "https://www.thetrainline.com/"
         links_dic['db'] = "https://www.bahn.com/en"
 

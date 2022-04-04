@@ -190,6 +190,7 @@ def create_app(test_config=None):
 
             ip = session['ip']
             ip_d = session['ip_details']
+            user = User.query.filter(User.email == ip).first()
 
             # Add ip as user (email & name), if not already excisiting
             if user is None:
