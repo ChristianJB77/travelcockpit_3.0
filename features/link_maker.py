@@ -473,6 +473,9 @@ def links(dest, loc_classes, switch):
             links_dic['trainline'] = "https://www.thetrainline.com/"
             links_dic['db'] = "https://www.bahn.com/en"
 
+    if loc_classes['continent'] == 'na':
+        links_dic['wanderu'] = "https://www.wanderu.com/en-us/"
+
     """Return links dictionary"""
 
     return links_dic
