@@ -460,17 +460,18 @@ def links(dest, loc_classes, switch):
         links_dic['lh'] = "https://www.lufthansa.com/de/en/homepage"
 
     """Omio & Trainline & DB"""
-    # German
-    if switch == "German" or loc_classes['language'] == 'german':
-        links_dic['omio'] = "https://de.omio.com/"
-        links_dic['trainline'] = "https://www.thetrainline.com/de"
-        links_dic['db'] = "https://www.bahn.de/"
+    if loc_classes['continent'] == 'eu':
+        # German
+        if switch == "German" or loc_classes['language'] == 'german':
+            links_dic['omio'] = "https://de.omio.com/"
+            links_dic['trainline'] = "https://www.thetrainline.com/de"
+            links_dic['db'] = "https://www.bahn.de/"
 
-    # English
-    else:
-        links_dic['omio'] = "https://omio.com/"
-        links_dic['trainline'] = "https://www.thetrainline.com/"
-        links_dic['db'] = "https://www.bahn.com/en"
+        # English
+        else:
+            links_dic['omio'] = "https://omio.com/"
+            links_dic['trainline'] = "https://www.thetrainline.com/"
+            links_dic['db'] = "https://www.bahn.com/en"
 
     """Return links dictionary"""
 
