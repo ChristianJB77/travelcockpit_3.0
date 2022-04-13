@@ -175,6 +175,23 @@ def loc_class(dest):
         dest_dic['continent'] = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
              == country_iso).first().continent.lower()
+        # If city is in North America, check Swiss first, as population of copy
+        # cat city in US can be bigger
+        if dest_dic['continent'] == 'na':
+            if Cities41k.query \
+                .filter(and_(func.lower(Cities41k.city_ascii) == dest, \
+                func.lower(Cities41k.iso2) == 'ch')).first() is not None:
+
+                res = Cities41k.query \
+                    .filter(and_(func.lower(Cities41k.city_ascii) == dest, \
+                    func.lower(Cities41k.iso2) == 'ch')).first()
+                # Get ISO alpha2 code
+                country_iso = res.iso2.lower()
+                # Get continent for specific links, e.g. trains in Europe
+                dest_dic['continent'] = DataHubCountries.query \
+                    .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
+                     == country_iso).first().continent.lower()
+
         # If USA, then check for area first, as small cities have often same
         # name as a state
         if country_iso == 'us' and (Areas.query \
@@ -575,6 +592,7 @@ def loc_class(dest):
         dest_dic['loc_type'] = "good_luck"
         dest_dic['location'] = dest
         dest_dic['language'] = "unclear"
+        dest_dic['continent'] = "unclear"
         # Print out for html title
         dest_dic['print'] = "Good Luck Mode for: " \
             + dest_dic['location'].title()

@@ -406,7 +406,7 @@ def links(dest, loc_classes, switch):
                 "https://www.booking.com/searchresults.de.html?%&ss=" \
                 + co_de \
                 + "&group_adults=2&group_children=0&no_rooms=1" \
-                + "&order=bayesian_review_score"
+                + "&order=score&nflt=review_score%3D80"
 
             links_dic['airbnb'] = "https://www.airbnb.de/s/" \
                 + country_de + "/homes"
@@ -417,7 +417,7 @@ def links(dest, loc_classes, switch):
                 "https://www.booking.com/searchresults.de.html?%&ss=" \
                 + des \
                 + "&group_adults=2&group_children=0&no_rooms=1" \
-                + "&order=bayesian_review_score"
+                + "&order=score&nflt=review_score%3D80"
 
             links_dic['airbnb'] = "https://www.airbnb.de/s/" \
                 + dest_no_space + "/homes"
@@ -430,7 +430,7 @@ def links(dest, loc_classes, switch):
                 "https://www.booking.com/searchresults.en.html?%&ss=" \
                 + co_en \
                 + "&group_adults=2&group_children=0&no_rooms=1" \
-                + "&order=bayesian_review_score"
+                + "&order=score&nflt=review_score%3D80"
 
             links_dic['airbnb'] = "https://www.airbnb.com/s/" \
                 + co_en + "/homes"
@@ -440,7 +440,7 @@ def links(dest, loc_classes, switch):
             links_dic['booking'] = \
                 "https://www.booking.com/searchresults.en.html?%&ss=" \
                 + des + "&group_adults=2&group_children=0&no_rooms=1" \
-                + "&order=bayesian_review_score"
+                + "&order=score&nflt=review_score%3D80"
 
             links_dic['airbnb'] = "https://www.airbnb.com/s/" \
                 + dest_no_space + "/homes"
@@ -459,19 +459,17 @@ def links(dest, loc_classes, switch):
             "https://www.kayak.com/explore/FRA-anywhere?stops=0"
         links_dic['lh'] = "https://www.lufthansa.com/de/en/homepage"
 
-    """Omio & Trainline & DB"""
+    """Omio & Trainline"""
     if loc_classes['continent'] == 'eu':
         # German
         if switch == "German" or loc_classes['language'] == 'german':
             links_dic['omio'] = "https://de.omio.com/"
             links_dic['trainline'] = "https://www.thetrainline.com/de"
-            links_dic['db'] = "https://www.bahn.de/"
 
         # English
         else:
             links_dic['omio'] = "https://omio.com/"
             links_dic['trainline'] = "https://www.thetrainline.com/"
-            links_dic['db'] = "https://www.bahn.com/en"
 
     if loc_classes['continent'] == 'na':
         links_dic['wanderu'] = "https://www.wanderu.com/en-us/"
