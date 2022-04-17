@@ -56,9 +56,11 @@ def loc_class(dest):
                     func.lower(DataHubCountries.iso4217_currency_country_name)
                     == dest)).first().iso3166_1_alpha_2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to German and English
@@ -87,9 +89,11 @@ def loc_class(dest):
             .filter(func.lower(CountriesTranslate.de) == dest) \
             .first().code.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to German and English
@@ -115,9 +119,11 @@ def loc_class(dest):
             .filter(func.lower(CountriesTranslate.de) == dest) \
             .first().code.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to German and English
@@ -143,9 +149,11 @@ def loc_class(dest):
             .filter(func.upper(CountriesTranslate.de) == dest) \
             .first().code.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to English and German
@@ -172,9 +180,11 @@ def loc_class(dest):
         # Get ISO alpha2 code
         country_iso = res.iso2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        resp = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = resp.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = resp.continent.lower()
         # If city is in North America, check Swiss first, as population of copy
         # cat city in US can be bigger
         if dest_dic['continent'] == 'na':
@@ -188,9 +198,11 @@ def loc_class(dest):
                 # Get ISO alpha2 code
                 country_iso = res.iso2.lower()
                 # Get continent for specific links, e.g. trains in Europe
-                dest_dic['continent'] = DataHubCountries.query \
+                resp = DataHubCountries.query \
                     .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-                     == country_iso).first().continent.lower()
+                     == country_iso).first()
+                dest_dic['iso3'] = resp.iso316_1_alpha_3.lower()
+                dest_dic['continent'] = resp.continent.lower()
 
         # If USA, then check for area first, as small cities have often same
         # name as a state
@@ -302,9 +314,11 @@ def loc_class(dest):
         # Get ISO alpha2 code
         country_iso = r.iso2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
         # If USA, then check for area first, as small cities have often same
         # name as a state
         if country_iso == 'us' and (Areas.query \
@@ -400,9 +414,11 @@ def loc_class(dest):
             .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
             .first().iso3166_1_alpha_2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to English and German
@@ -447,10 +463,11 @@ def loc_class(dest):
             .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
             .first().iso3166_1_alpha_2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
-
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
         dest_dic['country_iso'] = country_iso
         # Translate to English and German
         dest_dic['country_de'] = CountriesTranslate.query \
@@ -494,9 +511,11 @@ def loc_class(dest):
             .filter(func.lower(CitiesAreas.city_ascii) == dest) \
             .first().iso2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Get population
@@ -538,9 +557,11 @@ def loc_class(dest):
             .filter(func.lower(DataHubCountries.iso316_1_alpha_3) == iso3) \
             .first().iso3166_1_alpha_2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to English and German
@@ -568,9 +589,11 @@ def loc_class(dest):
             .filter(DataHubCountries.country_name.ilike('%{}%'.format(dest))) \
             .first().iso3166_1_alpha_2.lower()
         # Get continent for specific links, e.g. trains in Europe
-        dest_dic['continent'] = DataHubCountries.query \
+        res = DataHubCountries.query \
             .filter(func.lower(DataHubCountries.iso3166_1_alpha_2) \
-             == country_iso).first().continent.lower()
+             == country_iso).first()
+        dest_dic['iso3'] = res.iso316_1_alpha_3.lower()
+        dest_dic['continent'] = res.continent.lower()
 
         dest_dic['country_iso'] = country_iso
         # Translate to German and English

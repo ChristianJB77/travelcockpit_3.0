@@ -35,7 +35,6 @@ def create_app(test_config=None):
     setup_db(app)
     CORS(app)
     # CORS Headers
-
     @app.after_request
     def after_request(response):
         response.headers.add('Access-Control-Allow-Headers',
@@ -49,6 +48,8 @@ def create_app(test_config=None):
     AUTH0_CALLBACK_URL = auth_dict["url"]
     AUTH0_AUDIENCE = auth_dict["audi"]
     AUTH0_CLIENT_ID = auth_dict['id']
+    # Jinja2 Autoescaping depends on decision
+    app.jinja_env.autoescape = True
 
     """Tiqets IDs list"""
     # Deactivate after update

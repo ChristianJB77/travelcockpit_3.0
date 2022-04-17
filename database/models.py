@@ -258,7 +258,7 @@ class Exceptions(db.Model):
 
 """USERDATA"""
 
-# IP and timestamp of user for accepting cookie consent and privacy policy 
+# IP and timestamp of user for accepting cookie consent and privacy policy
 class IP(db.Model):
     __tablename__ = "ip"
     id = db.Column(db.Integer, primary_key=True)

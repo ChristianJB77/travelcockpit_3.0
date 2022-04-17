@@ -375,8 +375,19 @@ def links(dest, loc_classes, switch):
                 links_dic['gov_de'] = "https://www.auswaertiges-amt.de/de" \
                     + "/aussenpolitik/laender/korearepublik-node"
             else:
-                links_dic['gov_de'] = "https://www.auswaertiges-amt.de/de" \
-                    + "/aussenpolitik/laender/" + co_de + "-node"
+                link = "https://www.auswaertiges-amt.de/de" \
+                    + "/aussenpolitik/laender/"
+                # Check successful response 200 first
+                links_dic['gov_de'] = link + co_de + "-node"
+                if requests.get(links_dic['gov_de']).status_code != 200:
+                    links_dic['gov_de'] = link + loc_classes['iso3'] + "-node"
+                if requests.get(links_dic['gov_de']).status_code != 200:
+                    links_dic['gov_de'] = link + co_de.replace("-", "") \
+                        + "-node"
+                if requests.get(links_dic['gov_de']).status_code != 200:
+                    links_dic['gov_de'] = link + des + "-node"
+
+
         # Good luck mode
         else:
             links_dic['gov_de'] = \
