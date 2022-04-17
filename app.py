@@ -34,6 +34,13 @@ def create_app(test_config=None):
     app.secret_key = os.environ['SECRET_KEY']
     setup_db(app)
     CORS(app)
+
+    # Cookies protection against cookie attack vectors
+    app.config.update(
+    SESSION_COOKIE_SECURE=True,
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SAMESITE='Lax'
+    )
     # CORS Headers
     @app.after_request
     def after_request(response):
@@ -41,7 +48,11 @@ def create_app(test_config=None):
                              'Content-Type,Authorization,true')
         response.headers.add('Access-Control-Allow-Methods',
                              'GET,PUT,POST,DELETE,OPTIONS')
+        # Send the cookies over SSL encrypted wire rather than plain text
+        response.set_cookie('key', 'value', secure=True, httponly=True, \
+            samesite='Lax')
         return response
+
     # Auth0 initalizing from auth.py
     auth_dict = auther(app)
     auth0 = auth_dict["auth0"]
