@@ -479,6 +479,9 @@ def create_app(test_config=None):
     @app.route("/history-all")
     @requires_auth_rbac('get:history-all')
     def get_history_all(jwt):
+        # Get my server ip for remote log in
+        server_ip = requests.get('https://api.ipify.org').content.decode('utf8')
+
         hist_all = UserHistory.query \
             .with_entities(UserHistory.destination,
                            func.count(UserHistory.destination)) \
@@ -503,7 +506,8 @@ def create_app(test_config=None):
                 "names": names
             })
 
-        return render_template("history_all.html", data=data)
+        return render_template("history_all.html", data=data, \
+            server_ip=server_ip)
 
     """TRAVEL SECRETS BLOG"""
 
