@@ -339,7 +339,7 @@ def create_app(test_config=None):
 
         return render_template("my_dashboard.html", switch=switch,
                                loc_classes=loc_classes, links_dic=links_dic,
-                               info=info, options=options, weather=weather,
+                             X  info=info, options=options, weather=weather,
                                covid=covid, holidays=holidays)
 
     # REGISTERED USER: Get destination search and view result in dashboard view

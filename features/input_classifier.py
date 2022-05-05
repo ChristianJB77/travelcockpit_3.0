@@ -18,6 +18,10 @@ def check(destination):
         dest = dest.replace(",", "")
         # Remove space at the end
         wrong_end = " !§$%&/()[]{}?=+*#'-_,;.:<>|@€^°`´"
+        # Check if user input is empty
+        if dest is None or dest == "":
+            return None
+
         while dest[-1] in wrong_end:
             dest = dest[:-1]
 
