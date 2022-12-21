@@ -314,12 +314,12 @@ Pages are directly html rendered with attached data (e.g. render_template("histo
 
 Hostig on own Linux server...
 
-If you encounter any errors, trying checking the following:
+### If you encounter any errors, trying checking the following:
 
-sudo less /var/log/nginx/error.log: checks the Nginx error logs.
-sudo less /var/log/nginx/access.log: checks the Nginx access logs.
-sudo journalctl -u nginx: checks the Nginx process logs.
-sudo journalctl -u myproject: checks your Flask app’s Gunicorn logs.
+- sudo less /var/log/nginx/error.log: checks the Nginx error logs.
+- sudo less /var/log/nginx/access.log: checks the Nginx access logs.
+- sudo journalctl -u nginx: checks the Nginx process logs.
+- sudo journalctl -u myproject: checks your Flask app’s Gunicorn logs.
 
 
 ## Authors
