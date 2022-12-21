@@ -3,7 +3,7 @@
 To finally be able to deploy my own web app, I took this Nanondegree. Based on my CS50 final project Flask app 'Travel Cockpit', I have rebuild the entire app to finally deploy it for desktop and mobile usage. As well added a travel suggestion blog functionality to share our personal 'travel secrets' (CRUD app).
 
 ## URL
-https://travelcockpit.herokuapp.com/
+https://travelcockpit.ddnss.ch/
 
 ## Purpose
 As passionate travelers my wife and me were continuously looking for a central
@@ -310,44 +310,9 @@ Pages are directly html rendered with attached data (e.g. render_template("histo
 ```
 
 
-## Hosting - Deploying to Heroku
+## Hosting 
 
-### Create Heroku app
-In order to create the Heroku app run:
-```bash
-heroku create travel_cockpit
-```
-The output will include a git url for your Heroku application (heroku_git_url). Copy this!
-
-Add git remote for Heroku to local repository, using the git url obtained from the last step, in terminal run: 
-```bash
-git remote add heroku heroku_git_url
-```
-
-### Add postgresql add on as app database
-Heroku has an addon for apps for a postgresql database instance. Run this code in order to create the database and connect it to the application: 
-```bash
-heroku addons:create heroku-postgresql:hobby-dev --app travel_cockpit
-```
-Run:
-```bash
-heroku config --app travel_cockpit
-```
-in order to check the configuration variables in Heroku.
-
-### Set configuration variables
-In the browser, go to your Heroku Dashboard and access your application's settings. Reveal your config variables and start adding all the required environment variables for your project, which are stored in setup.sh
-
-### Push app to deploy 
-```bash
-git push heroku master
-```
-
-### Run migrations
-Once your app is deployed, run migrations by running: heroku run:
-```bash
-python manage.py db upgrade --app travel_cockpit
-```
+Hostig on own Linux server...
 
 ## Authors
 Christian Johann Bayerle
