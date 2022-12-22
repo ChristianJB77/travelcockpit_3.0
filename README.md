@@ -313,6 +313,7 @@ Pages are directly html rendered with attached data (e.g. render_template("histo
 ## Hosting 
 
 Hostig on own Linux server...
+https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-20-04
 
 ### If you encounter any errors, trying checking the following:
 
