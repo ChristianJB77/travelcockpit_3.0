@@ -159,7 +159,7 @@ All tests are kept in that file and should be maintained as updates are made to 
 
 ### Base URL
 Local: http://localhost:5000/
-Hosted: https://travelcockpit.herokuapp.com/
+Hosted: https://travelcockpit.ddnss.ch/
 
 ### Authentication with Auth0
 Set up of Authetication defined in chapter 'Installing Dependencies'
